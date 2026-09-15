@@ -1,0 +1,1651 @@
+{
+  "characters": [
+    {
+      "id": "alucard",
+      "name": "Alucard",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "soma-cruz",
+      "name": "Soma Cruz",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "jonathan-morris",
+      "name": "Jonathan Morris",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "charlotte-aulin",
+      "name": "Charlotte Aulin",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "shanoa",
+      "name": "Shanoa",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "julius-belmont",
+      "name": "Julius Belmont",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "yoko-belnades",
+      "name": "Yoko Belnades",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "richter-belmont",
+      "name": "Richter Belmont",
+      "dlc": true,
+      "dlcPack": "Character Pack (Rondo of Blood characters)"
+    },
+    {
+      "id": "maria-renard",
+      "name": "Maria Renard",
+      "dlc": true,
+      "dlcPack": "Character Pack (Rondo of Blood characters)"
+    },
+    {
+      "id": "simon-belmont",
+      "name": "Simon Belmont",
+      "dlc": true,
+      "dlcPack": "Character Pack 2 (8-bit Simon, classic NES Castlevania)"
+    },
+    {
+      "id": "getsu-fuma",
+      "name": "Getsu Fuma",
+      "dlc": true,
+      "dlcPack": "Character Pack 2 (Getsu Fuma Den crossover, released with Chapter 11)"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch-1",
+      "number": 1,
+      "name": "Caught in the Cradle of Decay",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "name": "Lord of Unseen Strings",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "name": "The End of Chaos",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "ch-4",
+      "number": 4,
+      "name": "Esquisse of Violence",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "ch-5",
+      "number": 5,
+      "name": "Song of the Unslakable Blade",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "ch-6",
+      "number": 6,
+      "name": "Come, Sweet Hour of Death",
+      "dlc": false,
+      "dlcPack": null
+    },
+    {
+      "id": "ch-7",
+      "number": 7,
+      "name": "Beauty, Desire, Situation Dire",
+      "dlc": true,
+      "dlcPack": "Chapter/Character DLC pack (added with Julius/Yoko/Richter/Maria content)"
+    },
+    {
+      "id": "ch-8",
+      "number": 8,
+      "name": "The One Who Is Many",
+      "dlc": true,
+      "dlcPack": "Chapter DLC pack"
+    },
+    {
+      "id": "ch-9",
+      "number": 9,
+      "name": "Lord of Flies",
+      "dlc": true,
+      "dlcPack": "Chapter DLC pack"
+    },
+    {
+      "id": "ch-10",
+      "number": 10,
+      "name": "Origins",
+      "dlc": true,
+      "dlcPack": "Chapter DLC pack"
+    },
+    {
+      "id": "ch-11",
+      "number": 11,
+      "name": "The Legend of Fuma",
+      "dlc": true,
+      "dlcPack": "Character Pack 2 (released together with Getsu Fuma)"
+    }
+  ],
+  "items": [
+    {
+      "id": "armor-alucard-mail",
+      "name": "Alucard Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-ancient-armor",
+      "name": "Ancient Armor",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-aquarius",
+      "name": "Aquarius",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-army-jacket",
+      "name": "Army Jacket",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-bathrobe",
+      "name": "Bathrobe",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-berserker-mail",
+      "name": "Berserker Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-biker-s-jacket",
+      "name": "Biker's Jacket",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-breastplate",
+      "name": "Breastplate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-brilliant-mail",
+      "name": "Brilliant Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-casual-clothes",
+      "name": "Casual Clothes",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-chain-mail",
+      "name": "Chain Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-cloth-tunic",
+      "name": "Cloth Tunic",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-clown-shirt",
+      "name": "Clown Shirt",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-cocktail-dress",
+      "name": "Cocktail Dress",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-copper-plate",
+      "name": "Copper Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-cotehardie",
+      "name": "Cotehardie",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-cotton-apron",
+      "name": "Cotton Apron",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-crimson-mail",
+      "name": "Crimson Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-cuirass",
+      "name": "Cuirass",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-dalmatica",
+      "name": "Dalmatica",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-dancer-s-blouse",
+      "name": "Dancer's Blouse",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-death-s-robe",
+      "name": "Death's Robe",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-demon-s-mail",
+      "name": "Demon's Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-diamond-plate",
+      "name": "Diamond Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-dracula-s-tunic",
+      "name": "Dracula's Tunic",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-elfin-robe",
+      "name": "Elfin Robe",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-europa-s-dress",
+      "name": "Europa's Dress",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-eversing",
+      "name": "Eversing",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-feather-gear",
+      "name": "Feather Gear",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-fire-mail",
+      "name": "Fire Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-frilly-camisole",
+      "name": "Frilly Camisole",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-fury-plate",
+      "name": "Fury Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-god-s-garb",
+      "name": "God's Garb",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-gold-plate",
+      "name": "Gold Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-gym-clothes",
+      "name": "Gym Clothes",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-hauberk",
+      "name": "Hauberk",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-healing-mail",
+      "name": "Healing Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-heavy-armor",
+      "name": "Heavy Armor",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-hobo-s-clothes",
+      "name": "Hobo's Clothes",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-holy-mail",
+      "name": "Holy Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-houppelande",
+      "name": "Houppelande",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-ice-mail",
+      "name": "Ice Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-impervious-mail",
+      "name": "Impervious Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-iron-plate",
+      "name": "Iron Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-justaucorps",
+      "name": "Justaucorps",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-kalasiris",
+      "name": "Kalasiris",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-kirtle",
+      "name": "Kirtle",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-kung-fu-suit",
+      "name": "Kung Fu Suit",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-leather-plate",
+      "name": "Leather Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-lightning-mail",
+      "name": "Lightning Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-lilith-corset",
+      "name": "Lilith Corset",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-lorica",
+      "name": "Lorica",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-mage-robe",
+      "name": "Mage Robe",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-miko-dress",
+      "name": "Miko Dress",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-minerva-mail",
+      "name": "Minerva Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-mirror-cuirass",
+      "name": "Mirror Cuirass",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-mojo-mail",
+      "name": "Mojo Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-ninja-suit",
+      "name": "Ninja Suit",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-nun-s-robes",
+      "name": "Nun's Robes",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-olrox-s-suit",
+      "name": "Olrox's Suit",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-pitch-black-suit",
+      "name": "Pitch Black Suit",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-platinum-mail",
+      "name": "Platinum Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-poncho",
+      "name": "Poncho",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-princess-coat",
+      "name": "Princess Coat",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-ring-mail",
+      "name": "Ring Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-robe-decollete",
+      "name": "Robe Decollete",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-samurai-plate",
+      "name": "Samurai Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-sapphire-corset",
+      "name": "Sapphire Corset",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-scale-mail",
+      "name": "Scale Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-serenity-robe",
+      "name": "Serenity Robe",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-sequined-dress",
+      "name": "Sequined Dress",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-silk-negligee",
+      "name": "Silk Negligee",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-silk-robe",
+      "name": "Silk Robe",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-silver-plate",
+      "name": "Silver Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-simon-s-plate",
+      "name": "Simon's Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-spiked-mail",
+      "name": "Spiked Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-steel-plate",
+      "name": "Steel Plate",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-surcoat",
+      "name": "Surcoat",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-tailcoat",
+      "name": "Tailcoat",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-three-7s",
+      "name": "Three 7s",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-tuxedo-coat",
+      "name": "Tuxedo Coat",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-valkyrie-mail",
+      "name": "Valkyrie Mail",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-war-fatigues",
+      "name": "War Fatigues",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-wedding-dress",
+      "name": "Wedding Dress",
+      "slot": "armor"
+    },
+    {
+      "id": "armor-wyrm-robe",
+      "name": "Wyrm Robe",
+      "slot": "armor"
+    },
+    {
+      "id": "headGear-arachne-hennin",
+      "name": "Arachne Hennin",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-ballroom-masque",
+      "name": "Ballroom Masque",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-bandana",
+      "name": "Bandana",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-circlet",
+      "name": "Circlet",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-clover-tiara",
+      "name": "Clover Tiara",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-combat-beret",
+      "name": "Combat Beret",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-crimson-mask",
+      "name": "Crimson Mask",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-diamond-tiara",
+      "name": "Diamond Tiara",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-fedora",
+      "name": "Fedora",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-gambler-glasses",
+      "name": "Gambler Glasses",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-glasses",
+      "name": "Glasses",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-goggles",
+      "name": "Goggles",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-head-guard",
+      "name": "Head Guard",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-iron-helmet",
+      "name": "Iron Helmet",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-leather-hat",
+      "name": "Leather Hat",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-monocle",
+      "name": "Monocle",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-mourning-veil",
+      "name": "Mourning Veil",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-nun-s-habit",
+      "name": "Nun's Habit",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-open-veil",
+      "name": "Open Veil",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-pearl-tiara",
+      "name": "Pearl Tiara",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-porkpie-hat",
+      "name": "Porkpie Hat",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-princess-tiara",
+      "name": "Princess Tiara",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-royal-crown",
+      "name": "Royal Crown",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-samurai-helmet",
+      "name": "Samurai Helmet",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-shogun-helmet",
+      "name": "Shogun Helmet",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-simon-s-bandana",
+      "name": "Simon's Bandana",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-silk-hat",
+      "name": "Silk Hat",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-silver-crown",
+      "name": "Silver Crown",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-skull-mask",
+      "name": "Skull Mask",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-steel-helm",
+      "name": "Steel Helm",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-stone-mask",
+      "name": "Stone Mask",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-sunglasses",
+      "name": "Sunglasses",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-thick-glasses",
+      "name": "Thick Glasses",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-traveler-s-hat",
+      "name": "Traveler's Hat",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-uraeus",
+      "name": "Uraeus",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-velvet-hat",
+      "name": "Velvet Hat",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-velvet-ribbon",
+      "name": "Velvet Ribbon",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-viking-helmet",
+      "name": "Viking Helmet",
+      "slot": "headGear"
+    },
+    {
+      "id": "headGear-witch-s-hat",
+      "name": "Witch's Hat",
+      "slot": "headGear"
+    },
+    {
+      "id": "legProtection-artemis-shoes",
+      "name": "Artemis Shoes",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-combat-boots",
+      "name": "Combat Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-combo-boots",
+      "name": "Combo Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-crimson-greaves",
+      "name": "Crimson Greaves",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-diamond-shoes",
+      "name": "Diamond Shoes",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-enamel-pinheels",
+      "name": "Enamel Pinheels",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-engineer-boots",
+      "name": "Engineer Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-glamorous-pumps",
+      "name": "Glamorous Pumps",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-glass-shoes",
+      "name": "Glass Shoes",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-gold-leggings",
+      "name": "Gold Leggings",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-hiking-boots",
+      "name": "Hiking Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-inuit-boots",
+      "name": "Inuit Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-iron-leggings",
+      "name": "Iron Leggings",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-mercury-boots",
+      "name": "Mercury Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-minerva-greaves",
+      "name": "Minerva Greaves",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-moonwalkers",
+      "name": "Moonwalkers",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-nun-s-shoes",
+      "name": "Nun's Shoes",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-oxfords",
+      "name": "Oxfords",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-platinum-leggings",
+      "name": "Platinum Leggings",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-prima-shoes",
+      "name": "Prima Shoes",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-royal-sandals",
+      "name": "Royal Sandals",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-sabrina-shoes",
+      "name": "Sabrina Shoes",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-samurai-leggings",
+      "name": "Samurai Leggings",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-sandals",
+      "name": "Sandals",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-silent-sandals",
+      "name": "Silent Sandals",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-silver-leggings",
+      "name": "Silver Leggings",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-simon-s-sandals",
+      "name": "Simon's Sandals",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-slick-boots",
+      "name": "Slick Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-spiked-boots",
+      "name": "Spiked Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-steel-greaves",
+      "name": "Steel Greaves",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-succubus-boots",
+      "name": "Succubus Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-valkyrie-greaves",
+      "name": "Valkyrie Greaves",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-winged-boots",
+      "name": "Winged Boots",
+      "slot": "legProtection"
+    },
+    {
+      "id": "legProtection-wingtips",
+      "name": "Wingtips",
+      "slot": "legProtection"
+    },
+    {
+      "id": "cloaks-assassin-s-cape",
+      "name": "Assassin's Cape",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-black-cloak",
+      "name": "Black Cloak",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-blood-cloak",
+      "name": "Blood Cloak",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-blue-cape",
+      "name": "Blue Cape",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-cape",
+      "name": "Cape",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-cape-of-invisibility",
+      "name": "Cape of Invisibility",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-cloth-cape",
+      "name": "Cloth Cape",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-crimson-cloak",
+      "name": "Crimson Cloak",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-elven-cape",
+      "name": "Elven Cape",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-hero-s-cape",
+      "name": "Hero's Cape",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-holy-mantle",
+      "name": "Holy Mantle",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-paludamentum",
+      "name": "Paludamentum",
+      "slot": "cloaks"
+    },
+    {
+      "id": "cloaks-traveler-cape",
+      "name": "Traveler Cape",
+      "slot": "cloaks"
+    },
+    {
+      "id": "shields-alucard-shield",
+      "name": "Alucard Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-alucart-shield",
+      "name": "Alucart Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-axe-knight-shield",
+      "name": "Axe Knight Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-dark-shield",
+      "name": "Dark Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-fire-shield",
+      "name": "Fire Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-goddess-shield",
+      "name": "Goddess Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-herald-shield",
+      "name": "Herald Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-iron-shield",
+      "name": "Iron Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-knight-shield",
+      "name": "Knight Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-leather-shield",
+      "name": "Leather Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-medusa-shield",
+      "name": "Medusa Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-shaman-shield",
+      "name": "Shaman Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "shields-skull-shield",
+      "name": "Skull Shield",
+      "slot": "shields"
+    },
+    {
+      "id": "accessories-abalone-brooch",
+      "name": "Abalone Brooch",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-astral-brooch",
+      "name": "Astral Brooch",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-astral-ring",
+      "name": "Astral Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-blessed-ankh",
+      "name": "Blessed Ankh",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-blessed-ring",
+      "name": "Blessed Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-bloodstone",
+      "name": "Bloodstone",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-bloody-stud",
+      "name": "Bloody Stud",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-chaos-ring",
+      "name": "Chaos Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-charm-necklace",
+      "name": "Charm Necklace",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-crystal-necklet",
+      "name": "Crystal Necklet",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-diamond-brooch",
+      "name": "Diamond Brooch",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-forget-me-not",
+      "name": "Forget-Me-Not",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-gold-stud",
+      "name": "Gold Stud",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-heart-brooch",
+      "name": "Heart Brooch",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-hercules-ring",
+      "name": "Hercules Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-hoop-earring",
+      "name": "Hoop Earring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-immunity-ring",
+      "name": "Immunity Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-laurel-brooch",
+      "name": "Laurel Brooch",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-lucky-charm",
+      "name": "Lucky Charm",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-master-ring",
+      "name": "Master Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-megingiord",
+      "name": "Megingiord",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-miser-ring",
+      "name": "Miser Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-moon-brooch",
+      "name": "Moon Brooch",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-moonstone",
+      "name": "Moonstone",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-neck-warmer",
+      "name": "Neck Warmer",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-orchid-corsage",
+      "name": "Orchid Corsage",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-pearl-ring",
+      "name": "Pearl Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-pendant",
+      "name": "Pendant",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-platinum-chain",
+      "name": "Platinum Chain",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-platinum-stud",
+      "name": "Platinum Stud",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-power-belt",
+      "name": "Power Belt",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-red-scarf",
+      "name": "Red Scarf",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-rosary",
+      "name": "Rosary",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-rose-corsage",
+      "name": "Rose Corsage",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-sage-ring",
+      "name": "Sage Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-satans-ring",
+      "name": "Satans Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-scarf",
+      "name": "Scarf",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-silver-stud",
+      "name": "Silver Stud",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-skull-necklace",
+      "name": "Skull Necklace",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-skull-ring",
+      "name": "Skull Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-soul-eater-ring",
+      "name": "Soul Eater Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-staurolite",
+      "name": "Staurolite",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-studded-choker",
+      "name": "Studded Choker",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-sunstone",
+      "name": "Sunstone",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-tear-of-blood",
+      "name": "Tear Of Blood",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-thief-ring",
+      "name": "Thief Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-tough-ring",
+      "name": "Tough Ring",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-turquoise-stud",
+      "name": "Turquoise Stud",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-venus-brooch",
+      "name": "Venus Brooch",
+      "slot": "accessories"
+    },
+    {
+      "id": "accessories-white-corsage",
+      "name": "White Corsage",
+      "slot": "accessories"
+    },
+    {
+      "id": "swords-agni-s-flame",
+      "name": "Agni's Flame",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-alucard-sword",
+      "name": "Alucard Sword",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-alucart-sword",
+      "name": "Alucart Sword",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-badelaire",
+      "name": "Badelaire",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-bastard-sword",
+      "name": "Bastard Sword",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-bekatowa",
+      "name": "Bekatowa",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-broadsword",
+      "name": "Broadsword",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-burtgang",
+      "name": "Burtgang",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-cutlass",
+      "name": "Cutlass",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-damascus-sword",
+      "name": "Damascus Sword",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-fragarach",
+      "name": "Fragarach",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-gladius",
+      "name": "Gladius",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-gram",
+      "name": "Gram",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-harper",
+      "name": "Harper",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-holy-sword",
+      "name": "Holy Sword",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-hrunting",
+      "name": "Hrunting",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-ice-brand",
+      "name": "Ice Brand",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-indra-s-light",
+      "name": "Indra's Light",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-jagdplaute",
+      "name": "Jagdplaute",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-joyeuse",
+      "name": "Joyeuse",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-kaladbolg",
+      "name": "Kaladbolg",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-laevatain",
+      "name": "Laevatain",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-long-sword",
+      "name": "Long Sword",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-milican-s-sword",
+      "name": "Milican's Sword",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-mormegil",
+      "name": "Mormegil",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-mystletain",
+      "name": "Mystletain",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-rahab-s-frost",
+      "name": "Rahab's Frost",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-saber",
+      "name": "Saber",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-scimitar",
+      "name": "Scimitar",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-short-sword",
+      "name": "Short Sword",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-sword-of-hador",
+      "name": "Sword of Hador",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-talwar",
+      "name": "Talwar",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-tyrfing",
+      "name": "Tyrfing",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-valmanway",
+      "name": "Valmanway",
+      "slot": "swords"
+    },
+    {
+      "id": "swords-vorpal-blade",
+      "name": "Vorpal Blade",
+      "slot": "swords"
+    },
+    {
+      "id": "firearms-chakram",
+      "name": "Chakram",
+      "slot": "firearms"
+    },
+    {
+      "id": "firearms-handgun",
+      "name": "Handgun",
+      "slot": "firearms"
+    },
+    {
+      "id": "firearms-rpg",
+      "name": "RPG",
+      "slot": "firearms"
+    },
+    {
+      "id": "firearms-silver-gun",
+      "name": "Silver Gun",
+      "slot": "firearms"
+    },
+    {
+      "id": "firearms-throwing-sickle",
+      "name": "Throwing Sickle",
+      "slot": "firearms"
+    },
+    {
+      "id": "firearms-tomahawk",
+      "name": "Tomahawk",
+      "slot": "firearms"
+    },
+    {
+      "id": "otherWeapons-belnades-staff",
+      "name": "Belnades Staff",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-book-of-binding",
+      "name": "Book of Binding",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-confodere",
+      "name": "Confodere",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-doves",
+      "name": "Doves",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-garian-sword",
+      "name": "Garian Sword",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-heaven-s-sword",
+      "name": "Heaven's Sword",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-lapiste",
+      "name": "Lapiste",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-nebula",
+      "name": "Nebula",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-nunchakus",
+      "name": "Nunchakus",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-pneuma",
+      "name": "Pneuma",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-tonfa",
+      "name": "Tonfa",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-vampire-killer",
+      "name": "Vampire Killer",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "otherWeapons-whip-sword",
+      "name": "Whip Sword",
+      "slot": "otherWeapons"
+    },
+    {
+      "id": "subWeapons-axe",
+      "name": "Axe",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-bible",
+      "name": "Bible",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-boomerang",
+      "name": "Boomerang",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-cross",
+      "name": "Cross",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-grenade",
+      "name": "Grenade",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-holy-water",
+      "name": "Holy Water",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-knife",
+      "name": "Knife",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-kunai",
+      "name": "Kunai",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-paper-airplane",
+      "name": "Paper Airplane",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-ricochet-rock",
+      "name": "Ricochet Rock",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-shuriken",
+      "name": "Shuriken",
+      "slot": "subWeapons"
+    },
+    {
+      "id": "subWeapons-wrecking-ball",
+      "name": "Wrecking Ball",
+      "slot": "subWeapons"
+    }
+  ]
+}
