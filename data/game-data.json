@@ -1614,7 +1614,9 @@
       "slot": "accessories",
       "stats": "DEF +1, MND +1, HP +2, MP +2",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Abalone_Brooch_Icon.png/revision/latest/scale-to-width-down/111?cb=20150811173657"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Abalone_Brooch_Icon.png/revision/latest/scale-to-width-down/111?cb=20150811173657",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-astral-brooch",
@@ -1622,7 +1624,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Chapter 5",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d3/Astral_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811173700"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d3/Astral_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811173700",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-astral-ring",
@@ -1630,7 +1634,9 @@
       "slot": "accessories",
       "stats": "DEF +4",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e7/Astral_Ring_Icon.png/revision/latest?cb=20150811173700"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e7/Astral_Ring_Icon.png/revision/latest?cb=20150811173700",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-blessed-ankh",
@@ -1638,7 +1644,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Chapter 4",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Blessed_Ankh_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811173813"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Blessed_Ankh_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811173813",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-blessed-ring",
@@ -1646,7 +1654,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/22/Curse_Sealing_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052644"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/22/Curse_Sealing_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052644",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-bloodstone",
@@ -1654,7 +1664,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Chapter 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/12/Bloodstone_Icon.png/revision/latest/scale-to-width-down/120?cb=20150325033342"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/12/Bloodstone_Icon.png/revision/latest/scale-to-width-down/120?cb=20150325033342",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-bloody-stud",
@@ -1662,7 +1674,9 @@
       "slot": "accessories",
       "stats": "DEF +1, HP +3",
       "dropLocation": "Chapter 5, 6",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4a/Bloody_Stud_DoS_Icon.png/revision/latest?cb=20171005162458"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4a/Bloody_Stud_DoS_Icon.png/revision/latest?cb=20171005162458",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-chaos-ring",
@@ -1670,7 +1684,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Chapter 3 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/18/Magus_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174707"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/18/Magus_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174707",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-charm-necklace",
@@ -1678,7 +1694,9 @@
       "slot": "accessories",
       "stats": "HP +4, MP +4",
       "dropLocation": null,
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/15/Charm_Necklace_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811173933"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/15/Charm_Necklace_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811173933",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-crystal-necklet",
@@ -1686,7 +1704,9 @@
       "slot": "accessories",
       "stats": "DEF +2, INT +2, HP +3, MP +3",
       "dropLocation": "Chapter 6",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7a/Crystal_Necklet_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174057"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7a/Crystal_Necklet_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174057",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-diamond-brooch",
@@ -1694,7 +1714,9 @@
       "slot": "accessories",
       "stats": "DEF +2, HP +5, MP +5",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/00/Diamond_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174059"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/00/Diamond_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174059",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-forget-me-not",
@@ -1702,7 +1724,9 @@
       "slot": "accessories",
       "stats": "DEF +1, INT +1, HP +2, MP +2",
       "dropLocation": "Persephone drop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/37/Forget-Me-Not_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811174209"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/37/Forget-Me-Not_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811174209",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-gold-stud",
@@ -1710,7 +1734,9 @@
       "slot": "accessories",
       "stats": "DEF +3, HP +3",
       "dropLocation": "Chapter 6, Chapter 2 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3e/Gold_Stud_DoS_Icon.png/revision/latest?cb=20171005162922"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3e/Gold_Stud_DoS_Icon.png/revision/latest?cb=20171005162922",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-heart-brooch",
@@ -1718,7 +1744,9 @@
       "slot": "accessories",
       "stats": "DEF +3",
       "dropLocation": "Chapter 4, Persephone drop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/ed/Heart_Brooch.png/revision/latest/scale-to-width-down/76?cb=20140707232906"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/ed/Heart_Brooch.png/revision/latest/scale-to-width-down/76?cb=20140707232906",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-hercules-ring",
@@ -1726,7 +1754,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Chapter 1",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9d/Hercules_Ring_Icon.png/revision/latest?cb=20150811174324"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9d/Hercules_Ring_Icon.png/revision/latest?cb=20150811174324",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-hoop-earring",
@@ -1734,7 +1764,9 @@
       "slot": "accessories",
       "stats": "DEF +1, HP +1",
       "dropLocation": "Chapter 1-4",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/85/Hoop_Earring_Icon.png/revision/latest?cb=20171005163033"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/85/Hoop_Earring_Icon.png/revision/latest?cb=20171005163033",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-immunity-ring",
@@ -1742,7 +1774,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/46/Purity_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052648"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/46/Purity_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052648",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-laurel-brooch",
@@ -1750,7 +1784,9 @@
       "slot": "accessories",
       "stats": "DEF +1, HP +2, MP +2",
       "dropLocation": "Chapter 1",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d1/Laurel_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174556"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d1/Laurel_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174556",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-lucky-charm",
@@ -1758,7 +1794,9 @@
       "slot": "accessories",
       "stats": "LCK +1",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a1/Lucky_Charm_AoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224320"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a1/Lucky_Charm_AoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224320",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-master-ring",
@@ -1766,7 +1804,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8a/Master_Ring_OoE_Icon.png/revision/latest?cb=20150326042625"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8a/Master_Ring_OoE_Icon.png/revision/latest?cb=20150326042625",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-megingiord",
@@ -1774,7 +1814,9 @@
       "slot": "accessories",
       "stats": "DEF +3, STR +4",
       "dropLocation": "Chapter 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/32/Megingjord_Icon.png/revision/latest?cb=20171005163156"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/32/Megingjord_Icon.png/revision/latest?cb=20171005163156",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-miser-ring",
@@ -1782,7 +1824,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Chapter 7 - Astarte (Hard) drop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/19/Miser_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150822194118"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/19/Miser_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150822194118",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-moon-brooch",
@@ -1790,7 +1834,9 @@
       "slot": "accessories",
       "stats": "DEF +4, CON +3, INT +3, LCK +1, HP +5, MP +5",
       "dropLocation": "Chapter 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a4/Moon_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174711"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a4/Moon_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174711",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-moonstone",
@@ -1798,7 +1844,9 @@
       "slot": "accessories",
       "stats": "STR +2, CON +2, INT +2, MND +2, LCK +2",
       "dropLocation": "Chapter 5, 6, Chapter 5 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2f/Moonstone_Icon.png/revision/latest/scale-to-width-down/120?cb=20150325033606"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2f/Moonstone_Icon.png/revision/latest/scale-to-width-down/120?cb=20150325033606",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-neck-warmer",
@@ -1806,7 +1854,9 @@
       "slot": "accessories",
       "stats": "DEF +1",
       "dropLocation": "Chapter 1-5",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/09/Neck_Warmer_Icon.png/revision/latest?cb=20171005163200"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/09/Neck_Warmer_Icon.png/revision/latest?cb=20171005163200",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-orchid-corsage",
@@ -1814,7 +1864,9 @@
       "slot": "accessories",
       "stats": "DEF +2, INT +1, MP +4",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b3/Orchid_Corsage_Icon.png/revision/latest?cb=20150811174821"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b3/Orchid_Corsage_Icon.png/revision/latest?cb=20150811174821",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-pearl-ring",
@@ -1822,7 +1874,9 @@
       "slot": "accessories",
       "stats": "DEF +1, MP +2",
       "dropLocation": "Chapter 4-6, Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/de/Pearl_Ring_Icon.png/revision/latest?cb=20150811174823"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/de/Pearl_Ring_Icon.png/revision/latest?cb=20150811174823",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-pendant",
@@ -1830,7 +1884,9 @@
       "slot": "accessories",
       "stats": "DEF +1, HP +1, MP +1",
       "dropLocation": "Chapter 1, 2, Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/cb/Pendant_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163309"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/cb/Pendant_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163309",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-platinum-chain",
@@ -1838,7 +1894,9 @@
       "slot": "accessories",
       "stats": "DEF +3, HP +5",
       "dropLocation": "Chapter 4 - Hard, Chapter 5 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Platinum_Chain_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174930"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Platinum_Chain_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174930",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-platinum-stud",
@@ -1846,7 +1904,9 @@
       "slot": "accessories",
       "stats": "DEF +3, CON +1, HP +5",
       "dropLocation": "Chapter 1, 3, 4, 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/81/Platinum_Stud_DoS_Icon.png/revision/latest?cb=20171005163311"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/81/Platinum_Stud_DoS_Icon.png/revision/latest?cb=20171005163311",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-power-belt",
@@ -1854,7 +1914,9 @@
       "slot": "accessories",
       "stats": "DEF +3, STR +1, HP +5",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a6/Power_Belt_DoS_Icon.png/revision/latest?cb=20171005163311"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a6/Power_Belt_DoS_Icon.png/revision/latest?cb=20171005163311",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-red-scarf",
@@ -1862,7 +1924,9 @@
       "slot": "accessories",
       "stats": "DEF +3, INT +2, MND +2, HP +4, MP +4",
       "dropLocation": "Chapter 1",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Red_Scarf_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224422"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Red_Scarf_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224422",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-rosary",
@@ -1870,7 +1934,9 @@
       "slot": "accessories",
       "stats": "DEF +1, CON +5",
       "dropLocation": "Chapter 5, 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8c/Rosary_SOTN_DXC_Icon.png/revision/latest?cb=20171009200254"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8c/Rosary_SOTN_DXC_Icon.png/revision/latest?cb=20171009200254",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-rose-corsage",
@@ -1878,7 +1944,9 @@
       "slot": "accessories",
       "stats": "DEF +1, INT +1, MP +2",
       "dropLocation": "Chapter 1",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/07/Rose_Corsage_Icon.png/revision/latest?cb=20150811175046"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/07/Rose_Corsage_Icon.png/revision/latest?cb=20150811175046",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-sage-ring",
@@ -1886,7 +1954,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Chapter 6, Chapter 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Rune_Ring_DoS_Icon.png/revision/latest?cb=20171005163421"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Rune_Ring_DoS_Icon.png/revision/latest?cb=20171005163421",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-satans-ring",
@@ -1894,7 +1964,9 @@
       "slot": "accessories",
       "stats": "DEF +4, STR +3, CON +3, INT +3, MND +3",
       "dropLocation": "Chapter 6",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/54/Satan%27s_Ring_DoS_Icon.png/revision/latest?cb=20171005163422"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/54/Satan%27s_Ring_DoS_Icon.png/revision/latest?cb=20171005163422",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-scarf",
@@ -1902,7 +1974,9 @@
       "slot": "accessories",
       "stats": "DEF +1, CON +1, MND +1, HP +3",
       "dropLocation": "Chapter 1, 2, 4, 5",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/81/Scarf_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163423"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/81/Scarf_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163423",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-silver-stud",
@@ -1910,7 +1984,9 @@
       "slot": "accessories",
       "stats": "DEF +1, HP +2",
       "dropLocation": "Chapter 3-6",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c8/Silver_Stud_DoS_Icon.png/revision/latest?cb=20171005163425"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c8/Silver_Stud_DoS_Icon.png/revision/latest?cb=20171005163425",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-skull-necklace",
@@ -1918,7 +1994,9 @@
       "slot": "accessories",
       "stats": "DEF +3, LCK -1, HP +2, MP +2",
       "dropLocation": "Chapter 6, Chapter 1 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Skull_Necklace_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163425"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Skull_Necklace_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163425",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-skull-ring",
@@ -1926,7 +2004,9 @@
       "slot": "accessories",
       "stats": "DEF +6, STR +3, CON +3, INT +3, MND +3",
       "dropLocation": "Chapter 6",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a0/Skull_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811175158"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a0/Skull_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811175158",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-soul-eater-ring",
@@ -1934,7 +2014,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a3/Soul_Eater_Ring_DoS_Icon.png/revision/latest?cb=20171005163426"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a3/Soul_Eater_Ring_DoS_Icon.png/revision/latest?cb=20171005163426",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-staurolite",
@@ -1942,7 +2024,9 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Chapter 1 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5e/Staurolite_Icon.png/revision/latest?cb=20150325033610"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5e/Staurolite_Icon.png/revision/latest?cb=20150325033610",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-studded-choker",
@@ -1950,7 +2034,9 @@
       "slot": "accessories",
       "stats": "DEF +2, HP +3, MP +3",
       "dropLocation": "Chapter 6",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b2/Studded_Choker_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811175331"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b2/Studded_Choker_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811175331",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-sunstone",
@@ -1958,7 +2044,9 @@
       "slot": "accessories",
       "stats": "STR +2, CON +2",
       "dropLocation": "Chapter 5",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e9/Sunstone_Icon.png/revision/latest/scale-to-width-down/120?cb=20150325033610"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e9/Sunstone_Icon.png/revision/latest/scale-to-width-down/120?cb=20150325033610",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-tear-of-blood",
@@ -1966,7 +2054,9 @@
       "slot": "accessories",
       "stats": "DEF +4, STR +1, CON +1, INT +1, HP +4, MP +4",
       "dropLocation": "Chapter 5, 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/55/Tear_of_Blood_DoS_Icon.png/revision/latest?cb=20171005163857"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/55/Tear_of_Blood_DoS_Icon.png/revision/latest?cb=20171005163857",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-thief-ring",
@@ -1974,7 +2064,9 @@
       "slot": "accessories",
       "stats": "LCK +10",
       "dropLocation": "Chapter 2 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7d/Thief_Ring_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811175335"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7d/Thief_Ring_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811175335",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-tough-ring",
@@ -1982,7 +2074,9 @@
       "slot": "accessories",
       "stats": "CON +3",
       "dropLocation": "Chapter 1 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/90/Tough_Ring_Icon.png/revision/latest?cb=20150811175447"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/90/Tough_Ring_Icon.png/revision/latest?cb=20150811175447",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-turquoise-stud",
@@ -1990,7 +2084,9 @@
       "slot": "accessories",
       "stats": "DEF +1, HP +1",
       "dropLocation": "Chapter 3, 4, 6, Chapter 1 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/35/Turquoise_Stud_HD_Icon.png/revision/latest?cb=20191012085621"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/35/Turquoise_Stud_HD_Icon.png/revision/latest?cb=20191012085621",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-venus-brooch",
@@ -1998,7 +2094,9 @@
       "slot": "accessories",
       "stats": "DEF +5, CON +3, MND +3, LCK +3, HP +7, MP +7",
       "dropLocation": "Chapter 5 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b1/Venus_Brooch_Icon.png/revision/latest?cb=20150811175451"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b1/Venus_Brooch_Icon.png/revision/latest?cb=20150811175451",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "accessories-white-corsage",
@@ -2006,7 +2104,9 @@
       "slot": "accessories",
       "stats": "DEF +1, INT +1, MP +1",
       "dropLocation": "Chapter 1",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2d/White_Corsage_Icon.png/revision/latest?cb=20150811175530"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2d/White_Corsage_Icon.png/revision/latest?cb=20150811175530",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-agni-s-flame",
