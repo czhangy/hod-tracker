@@ -78,7 +78,7 @@ export function ItemsPanel({
           <div className="flex-1">
             <ProgressBar percent={stats.percent} />
           </div>
-          <span className="text-sm tabular-nums text-neutral-400">
+          <span className="font-display text-sm tabular-nums text-neutral-400">
             {stats.itemDone}/{stats.itemTotal} ({stats.percent}%)
           </span>
         </div>

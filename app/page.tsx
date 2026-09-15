@@ -11,7 +11,7 @@ import { ItemsPanel } from "@/components/ItemsPanel";
 type Tab = "characters" | "items";
 
 export default function Home() {
-  const { progress, toggleChapter, toggleItem } = useProgress();
+  const { progress, toggleChapter, toggleItem, toggleEquipped } = useProgress();
   const [tab, setTab] = useState<Tab>("characters");
   const [selectedCharacterId, setSelectedCharacterId] = useState(
     data.characters[0]?.id ?? ""
@@ -21,10 +21,10 @@ export default function Home() {
     <div className="mx-auto max-w-5xl space-y-6 px-4 py-8">
       <OverallHeader progress={progress} />
 
-      <div className="flex gap-2 text-sm">
+      <div className="font-display flex gap-2 text-sm">
         <button
           onClick={() => setTab("characters")}
-          className={`cursor-pointer rounded-md px-3 py-1.5 font-medium ${
+          className={`cursor-pointer rounded-md px-3 py-1.5 font-semibold tracking-wide ${
             tab === "characters"
               ? "bg-red-950/50 text-red-400"
               : "text-neutral-500 hover:text-neutral-300"
@@ -34,7 +34,7 @@ export default function Home() {
         </button>
         <button
           onClick={() => setTab("items")}
-          className={`cursor-pointer rounded-md px-3 py-1.5 font-medium ${
+          className={`cursor-pointer rounded-md px-3 py-1.5 font-semibold tracking-wide ${
             tab === "items"
               ? "bg-red-950/50 text-red-400"
               : "text-neutral-500 hover:text-neutral-300"
@@ -55,6 +55,7 @@ export default function Home() {
             characterId={selectedCharacterId}
             progress={progress}
             onToggleChapter={toggleChapter}
+            onToggleEquipped={toggleEquipped}
           />
         </div>
       ) : (

@@ -39,17 +39,33 @@ export interface GameData {
   items: Item[];
 }
 
+/** How many items a character can have equipped in a given slot at once. */
+export const MAX_EQUIPPED_PER_SLOT: Record<ItemSlot, number> = {
+  swords: 1,
+  otherWeapons: 1,
+  firearms: 1,
+  subWeapons: 1,
+  armor: 1,
+  headGear: 1,
+  legProtection: 1,
+  cloaks: 1,
+  shields: 1,
+  accessories: 2,
+};
+
 /**
  * Persisted in localStorage.
  * chapterClears: characterId -> chapterId -> cleared?
  * itemsObtained: itemId -> obtained? (HoD equipment is a shared stash, not per-character)
+ * equippedGear: characterId -> slot -> item ids currently equipped in that slot
  */
 export interface ProgressState {
   version: 1;
   chapterClears: Record<string, Record<string, boolean>>;
   itemsObtained: Record<string, boolean>;
+  equippedGear: Record<string, Partial<Record<ItemSlot, string[]>>>;
 }
 
 export function emptyProgress(): ProgressState {
-  return { version: 1, chapterClears: {}, itemsObtained: {} };
+  return { version: 1, chapterClears: {}, itemsObtained: {}, equippedGear: {} };
 }

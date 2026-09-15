@@ -1,7 +1,12 @@
-import { type ProgressState } from "@/lib/types";
+import { MAX_EQUIPPED_PER_SLOT, type ItemSlot, type ProgressState } from "@/lib/types";
 
 const STORAGE_KEY = "hod-tracker-progress";
-const EMPTY_STATE: ProgressState = { version: 1, chapterClears: {}, itemsObtained: {} };
+const EMPTY_STATE: ProgressState = {
+  version: 1,
+  chapterClears: {},
+  itemsObtained: {},
+  equippedGear: {},
+};
 
 type Listener = () => void;
 
@@ -15,7 +20,12 @@ function readFromStorage(): ProgressState {
     if (!raw) return EMPTY_STATE;
     const parsed = JSON.parse(raw);
     if (parsed?.version !== 1) return EMPTY_STATE;
-    return parsed as ProgressState;
+    return {
+      version: 1,
+      chapterClears: parsed.chapterClears ?? {},
+      itemsObtained: parsed.itemsObtained ?? {},
+      equippedGear: parsed.equippedGear ?? {},
+    };
   } catch {
     return EMPTY_STATE;
   }
@@ -71,5 +81,32 @@ export function toggleItem(itemId: string) {
   commit({
     ...state,
     itemsObtained: { ...state.itemsObtained, [itemId]: !state.itemsObtained[itemId] },
+  });
+}
+
+/** Toggles an item equipped in a slot for a character, respecting that slot's max capacity. */
+export function toggleEquipped(characterId: string, slot: ItemSlot, itemId: string) {
+  ensureInitialized();
+  const characterGear = state.equippedGear[characterId] ?? {};
+  const current = characterGear[slot] ?? [];
+  const max = MAX_EQUIPPED_PER_SLOT[slot];
+
+  let next: string[];
+  if (current.includes(itemId)) {
+    next = current.filter((id) => id !== itemId);
+  } else if (max === 1) {
+    next = [itemId];
+  } else if (current.length < max) {
+    next = [...current, itemId];
+  } else {
+    return; // slot is full
+  }
+
+  commit({
+    ...state,
+    equippedGear: {
+      ...state.equippedGear,
+      [characterId]: { ...characterGear, [slot]: next },
+    },
   });
 }

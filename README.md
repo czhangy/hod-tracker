@@ -4,8 +4,9 @@ A simple 100% completion tracker for **Castlevania: Harmony of Despair**, DLC in
 
 Tracks:
 
-- **Chapter clears** per character (all 11 characters × all 11 chapters, base game + DLC)
+- **Chapter/level clears** per character (all 11 characters × all 11 chapters, base game + DLC)
 - **Item collection** — all ~300 equippable items (weapons, armor, accessories, shields, etc), tracked as one shared checklist since HoD's equipment is a shared item stash rather than owned per character
+- **Equipped gear** per character — a separate, per-character loadout picker (one item per slot, two for accessories) so you can track what each character is currently wearing/wielding
 
 No backend — all progress is saved to your browser's `localStorage`, tied to this browser/device.
 

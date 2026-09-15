@@ -3,7 +3,14 @@
 import { useSyncExternalStore } from "react";
 import { data } from "@/lib/data";
 import type { ProgressState } from "@/lib/types";
-import { subscribe, getSnapshot, getServerSnapshot, toggleChapter, toggleItem } from "@/lib/progressStore";
+import {
+  subscribe,
+  getSnapshot,
+  getServerSnapshot,
+  toggleChapter,
+  toggleItem,
+  toggleEquipped,
+} from "@/lib/progressStore";
 
 export function useProgress() {
   const progress = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
@@ -12,6 +19,7 @@ export function useProgress() {
     progress,
     toggleChapter,
     toggleItem,
+    toggleEquipped,
   };
 }
 
