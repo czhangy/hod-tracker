@@ -73,7 +73,7 @@ function groupBySlot(items: Item[]) {
   }
   return SLOT_ORDER.filter((slot) => groups.has(slot)).map((slot) => ({
     slot,
-    items: groups.get(slot)!,
+    items: groups.get(slot)!.sort((a, b) => a.name.localeCompare(b.name)),
   }));
 }
 
@@ -144,9 +144,9 @@ export function ItemsPanel({
         <h2 className="font-display text-2xl font-bold text-neutral-50">Item Collection</h2>
         <p className="text-sm text-neutral-500">
           All collectible items in Harmony of Despair (base game + DLC), shared across your
-          whole roster. Click an item to see its stats and drop location. Souls, Spells, and
-          Dark Magic Scrolls level up as you collect duplicates — use the +/− count instead
-          of a checkbox.
+          whole roster. Click an item to see its stats and drop location. Items that level
+          up in-game (Souls, Spells, Dark Magic Scrolls, Glyphs, Sub-Weapons) use a +/−
+          count instead of a checkbox.
         </p>
         <div className="flex items-center gap-3">
           <div className="flex-1">

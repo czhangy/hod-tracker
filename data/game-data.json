@@ -2522,7 +2522,8 @@
       "slot": "subWeapons",
       "stats": "ATK +8",
       "dropLocation": "Axe Knight drop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest?cb=20150829191415"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest?cb=20150829191415",
+      "levelable": true
     },
     {
       "id": "subWeapons-bible",
@@ -2530,7 +2531,8 @@
       "slot": "subWeapons",
       "stats": "ATK +8",
       "dropLocation": "Chapter 2, Chapter 2 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/29/Bible_HD_Icon.png/revision/latest?cb=20191011205215"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/29/Bible_HD_Icon.png/revision/latest?cb=20191011205215",
+      "levelable": true
     },
     {
       "id": "subWeapons-boomerang",
@@ -2538,7 +2540,8 @@
       "slot": "subWeapons",
       "stats": "ATK +6",
       "dropLocation": "Gurkha Master drop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Boomerang_HD_Icon.png/revision/latest?cb=20191011205347"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Boomerang_HD_Icon.png/revision/latest?cb=20191011205347",
+      "levelable": true
     },
     {
       "id": "subWeapons-cross",
@@ -2546,7 +2549,8 @@
       "slot": "subWeapons",
       "stats": "ATK +10",
       "dropLocation": "Chapter 6, Chapter 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Cross_Shuriken_Icon.png/revision/latest?cb=20150829192249"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Cross_Shuriken_Icon.png/revision/latest?cb=20150829192249",
+      "levelable": true
     },
     {
       "id": "subWeapons-grenade",
@@ -2554,7 +2558,8 @@
       "slot": "subWeapons",
       "stats": "ATK +10",
       "dropLocation": "Chapter 1, Chapter 1 - Hard, Chapter 2, Chapter 2 - Hard; The Creature drop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Grenade_HD_Icon.png/revision/latest?cb=20191011205816"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Grenade_HD_Icon.png/revision/latest?cb=20191011205816",
+      "levelable": true
     },
     {
       "id": "subWeapons-holy-water",
@@ -2562,7 +2567,8 @@
       "slot": "subWeapons",
       "stats": "ATK +10",
       "dropLocation": "Chapter 4, Chapter 6",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/12/Holy_Water_PoR_Icon.png/revision/latest?cb=20150829175335"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/12/Holy_Water_PoR_Icon.png/revision/latest?cb=20150829175335",
+      "levelable": true
     },
     {
       "id": "subWeapons-knife",
@@ -2570,7 +2576,8 @@
       "slot": "subWeapons",
       "stats": "ATK +4",
       "dropLocation": "Starting equipment",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037",
+      "levelable": true
     },
     {
       "id": "subWeapons-kunai",
@@ -2578,7 +2585,8 @@
       "slot": "subWeapons",
       "stats": "ATK +5",
       "dropLocation": "Chapter 4, Chapter 4 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f9/Kunai_HD_Icon.png/revision/latest?cb=20191011205457"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f9/Kunai_HD_Icon.png/revision/latest?cb=20191011205457",
+      "levelable": true
     },
     {
       "id": "subWeapons-paper-airplane",
@@ -2586,7 +2594,8 @@
       "slot": "subWeapons",
       "stats": "ATK +4",
       "dropLocation": "Fleaman drop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4c/Paper_Airplane_HD_Icon.png/revision/latest?cb=20191011205603"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4c/Paper_Airplane_HD_Icon.png/revision/latest?cb=20191011205603",
+      "levelable": true
     },
     {
       "id": "subWeapons-ricochet-rock",
@@ -2594,7 +2603,8 @@
       "slot": "subWeapons",
       "stats": "ATK +6",
       "dropLocation": "Lerajie drop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9b/Ricochet_Rock_HD_Icon.png/revision/latest?cb=20191011204918"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9b/Ricochet_Rock_HD_Icon.png/revision/latest?cb=20191011204918",
+      "levelable": true
     },
     {
       "id": "subWeapons-shuriken",
@@ -2602,7 +2612,8 @@
       "slot": "subWeapons",
       "stats": "ATK +5",
       "dropLocation": "Chapter 5, Chapter 5 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Shuriken.png/revision/latest/scale-to-width-down/120?cb=20140912111245"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Shuriken.png/revision/latest/scale-to-width-down/120?cb=20140912111245",
+      "levelable": true
     },
     {
       "id": "subWeapons-wrecking-ball",
@@ -2610,7 +2621,8 @@
       "slot": "subWeapons",
       "stats": "ATK +9",
       "dropLocation": "Chapter 3, Chapter 3 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Wrecking_Ball_HD_Icon.png/revision/latest?cb=20191011205704"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Wrecking_Ball_HD_Icon.png/revision/latest?cb=20191011205704",
+      "levelable": true
     },
     {
       "id": "soulsBlue-bat",
@@ -3142,35 +3154,40 @@
       "name": "Fulgur",
       "slot": "glyphs",
       "stats": "ATK +5",
-      "dropLocation": "Found in Chapter: Aliorumnas"
+      "dropLocation": "Found in Chapter: Aliorumnas",
+      "levelable": true
     },
     {
       "id": "glyphs-grande",
       "name": "Grande",
       "slot": "glyphs",
       "stats": "ATK +12",
-      "dropLocation": "Found in Chapter: Aliorumnas"
+      "dropLocation": "Found in Chapter: Aliorumnas",
+      "levelable": true
     },
     {
       "id": "glyphs-ignis",
       "name": "Ignis",
       "slot": "glyphs",
       "stats": "ATK +6",
-      "dropLocation": "Found in Chapter: Aliorumnas"
+      "dropLocation": "Found in Chapter: Aliorumnas",
+      "levelable": true
     },
     {
       "id": "glyphs-magnes",
       "name": "Magnes",
       "slot": "glyphs",
       "stats": "None",
-      "dropLocation": "Start game with it"
+      "dropLocation": "Start game with it",
+      "levelable": true
     },
     {
       "id": "glyphs-nitesco",
       "name": "Nitesco",
       "slot": "glyphs",
       "stats": "ATK +8",
-      "dropLocation": "Nova Skeleton drop"
+      "dropLocation": "Nova Skeleton drop",
+      "levelable": true
     },
     {
       "id": "scrolls-acidic-bubbles",
