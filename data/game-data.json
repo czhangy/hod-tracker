@@ -2536,7 +2536,7 @@
       "slot": "subWeapons",
       "stats": "ATK +10",
       "dropLocation": "Chapter 6, Chapter 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Cross_Shuriken_Icon.png/revision/latest?cb=20150829192249",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e9/Boomerang_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829175334",
       "levelable": true,
       "maxLevel": 9
     },
@@ -2606,7 +2606,7 @@
       "slot": "subWeapons",
       "stats": "ATK +5",
       "dropLocation": "Chapter 5, Chapter 5 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Shuriken.png/revision/latest/scale-to-width-down/120?cb=20140912111245",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Cross_Shuriken_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829192249",
       "levelable": true,
       "maxLevel": 9
     },
@@ -4332,7 +4332,8 @@
       "stats": "ATK +8",
       "dropLocation": "Starts with (Getsu Fuma)",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4b/Throwing_star.png/revision/latest/scale-to-width-down/50?cb=20210504130111"
     },
     {
       "id": "subWeapons-war-drum",
@@ -4341,7 +4342,8 @@
       "stats": "ATK +11",
       "dropLocation": "Starts with (Getsu Fuma)",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e3/War_drum.png/revision/latest/scale-to-width-down/50?cb=20210504130153"
     },
     {
       "id": "headGear-fuma-s-helm",
@@ -4362,7 +4364,8 @@
       "name": "Fuma's Greaves",
       "slot": "legProtection",
       "stats": "STR +4, INT +4, DEF +8, MP +10",
-      "dropLocation": "Chapter 11 - Purple Chest (Hard)"
+      "dropLocation": "Chapter 11 - Purple Chest (Hard)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c3/Fuma%27s_Greaves_Icon.png/revision/latest/scale-to-width-down/50?cb=20210504130425"
     },
     {
       "id": "personalSkills-xuan-wu",
@@ -4370,7 +4373,8 @@
       "slot": "personalSkills",
       "stats": null,
       "dropLocation": "Starts with (Maria)",
-      "notes": "Personal Skill: summon the Black Tortoise to protect you (defense boost, like Jonathan's Guard)."
+      "notes": "Personal Skill: summon the Black Tortoise to protect you (defense boost, like Jonathan's Guard).",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/23/Genbu_SoN_Icon.png/revision/latest/scale-to-width-down/50?cb=20210413145043"
     },
     {
       "id": "subWeapons-javelin",
@@ -4379,7 +4383,8 @@
       "stats": "ATK +12",
       "dropLocation": "Chapter 8",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/dc/Javelin_HD_Icon.png/revision/latest/scale-to-width-down/50?cb=20191011205932"
     },
     {
       "id": "subWeapons-hymn",
@@ -4398,7 +4403,8 @@
       "stats": "ATK +11",
       "dropLocation": "Starts with (Maria)",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/06/Bird_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829175333"
     },
     {
       "id": "subWeapons-qing-long",
@@ -4407,7 +4413,8 @@
       "stats": "ATK +10",
       "dropLocation": "Starts with (Maria)",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a3/Dragon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829175335"
     },
     {
       "id": "subWeapons-bai-hu",
@@ -4426,7 +4433,8 @@
       "stats": "ATK +6",
       "dropLocation": "Shop ($80,000)",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c2/Dagger_NES_Icon.png/revision/latest/scale-to-width-down/50?cb=20150327041328"
     },
     {
       "id": "subWeapons-r-boomerang",
@@ -4435,7 +4443,8 @@
       "stats": "ATK +12",
       "dropLocation": "Chapter 10 (Hard) - Purple Chest / R. The Count (Dracula) drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3f/Boomerang_NES_Icon.png/revision/latest/scale-to-width-down/50?cb=20150327041328"
     },
     {
       "id": "subWeapons-r-fire-bomb",
@@ -4444,7 +4453,8 @@
       "stats": "ATK +12",
       "dropLocation": "Chapter 10 (Hard) - Purple Chest / R. The Count (Dracula) drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/dc/Fire_Bomb_Icon.png/revision/latest/scale-to-width-down/50?cb=20150327041441"
     },
     {
       "id": "subWeapons-r-axe",
@@ -4453,79 +4463,8 @@
       "stats": "ATK +10",
       "dropLocation": "Shop ($120,000)",
       "levelable": true,
-      "maxLevel": 9
-    },
-    {
-      "id": "dualCrushes-aura-blast",
-      "name": "Aura Blast",
-      "slot": "dualCrushes",
-      "stats": null,
-      "dropLocation": "Innate (co-op combo attack)",
-      "notes": "Character pairing: Soma/Alucard/Maria + self, or Maria + Soma/Alucard/Jonathan/Julius/Richter, or Simon/Fuma + anyone"
-    },
-    {
-      "id": "dualCrushes-demonic-megiddo",
-      "name": "Demonic Megiddo",
-      "slot": "dualCrushes",
-      "stats": null,
-      "dropLocation": "Innate (co-op combo attack)",
-      "notes": "Character pairing: Soma + Alucard"
-    },
-    {
-      "id": "dualCrushes-blood-cross",
-      "name": "Blood Cross",
-      "slot": "dualCrushes",
-      "stats": null,
-      "dropLocation": "Innate (co-op combo attack)",
-      "notes": "Character pairing: Soma/Alucard + Jonathan/Julius/Richter"
-    },
-    {
-      "id": "dualCrushes-cocytus",
-      "name": "Cocytus",
-      "slot": "dualCrushes",
-      "stats": null,
-      "dropLocation": "Innate (co-op combo attack)",
-      "notes": "Character pairing: Shanoa + most others, or Soma/Alucard/Maria + Shanoa"
-    },
-    {
-      "id": "dualCrushes-phlegeton",
-      "name": "Phlegeton",
-      "slot": "dualCrushes",
-      "stats": null,
-      "dropLocation": "Innate (co-op combo attack)",
-      "notes": "Character pairing: Charlotte + most others, or Soma/Alucard/Maria + Charlotte"
-    },
-    {
-      "id": "dualCrushes-thor-s-hammer",
-      "name": "Thor's Hammer",
-      "slot": "dualCrushes",
-      "stats": null,
-      "dropLocation": "Innate (co-op combo attack)",
-      "notes": "Character pairing: Yoko + most others, or Soma/Alucard/Maria + Yoko"
-    },
-    {
-      "id": "dualCrushes-holy-cross",
-      "name": "Holy Cross",
-      "slot": "dualCrushes",
-      "stats": null,
-      "dropLocation": "Innate (co-op combo attack)",
-      "notes": "Character pairing: Jonathan/Julius/Richter + each other"
-    },
-    {
-      "id": "dualCrushes-thunder-cross",
-      "name": "Thunder Cross",
-      "slot": "dualCrushes",
-      "stats": null,
-      "dropLocation": "Innate (co-op combo attack)",
-      "notes": "Character pairing: Jonathan/Julius/Richter + Shanoa/Yoko/Charlotte (except Jonathan+Charlotte)"
-    },
-    {
-      "id": "dualCrushes-1-000-blades",
-      "name": "1,000 Blades",
-      "slot": "dualCrushes",
-      "stats": null,
-      "dropLocation": "Innate (co-op combo attack)",
-      "notes": "Character pairing: Jonathan + Charlotte"
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/24/Axe_NES_Icon.png/revision/latest/scale-to-width-down/50?cb=20150327041328"
     },
     {
       "id": "cloaks-simon-s-cloak",
