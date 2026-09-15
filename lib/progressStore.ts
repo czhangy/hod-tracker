@@ -1,10 +1,11 @@
 import { data } from "@/lib/data";
-import type { ProgressState } from "@/lib/types";
+import type { Difficulty, ProgressState } from "@/lib/types";
 
 const STORAGE_KEY = "hod-tracker-progress";
 const EMPTY_STATE: ProgressState = {
   version: 1,
   chapterClears: {},
+  chapterClearsHard: {},
   itemsObtained: {},
 };
 
@@ -34,6 +35,7 @@ function readFromStorage(): ProgressState {
     return {
       version: 1,
       chapterClears: parsed.chapterClears ?? {},
+      chapterClearsHard: parsed.chapterClearsHard ?? {},
       itemsObtained: migrateItemsObtained(parsed.itemsObtained),
     };
   } catch {
@@ -76,13 +78,14 @@ export function getServerSnapshot(): ProgressState {
   return EMPTY_STATE;
 }
 
-export function toggleChapter(characterId: string, chapterId: string) {
+export function toggleChapter(characterId: string, chapterId: string, difficulty: Difficulty) {
   ensureInitialized();
-  const characterChapters = { ...(state.chapterClears[characterId] ?? {}) };
+  const key = difficulty === "hard" ? "chapterClearsHard" : "chapterClears";
+  const characterChapters = { ...(state[key][characterId] ?? {}) };
   characterChapters[chapterId] = !characterChapters[chapterId];
   commit({
     ...state,
-    chapterClears: { ...state.chapterClears, [characterId]: characterChapters },
+    [key]: { ...state[key], [characterId]: characterChapters },
   });
 }
 
