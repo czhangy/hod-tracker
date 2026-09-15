@@ -216,7 +216,9 @@ export function ItemsPanel({
                           className={`flex items-center gap-1.5 rounded-md border py-1 pr-1.5 pl-1.5 text-sm ${
                             isSelected
                               ? "border-red-600 bg-red-950/20"
-                              : "border-neutral-800 bg-neutral-900/40 hover:border-neutral-700"
+                              : obtained
+                                ? "border-green-800 bg-green-950/20 hover:border-green-700"
+                                : "border-neutral-800 bg-neutral-900/40 hover:border-neutral-700"
                           }`}
                         >
                           {item.levelable ? (
@@ -239,7 +241,11 @@ export function ItemsPanel({
                             className="flex min-w-0 flex-1 cursor-pointer items-center gap-1.5 text-left"
                           >
                             <ItemIcon item={item} size={22} />
-                            <span className="truncate text-neutral-300">{item.name}</span>
+                            <span
+                              className={`truncate ${obtained ? "text-green-400" : "text-neutral-300"}`}
+                            >
+                              {item.name}
+                            </span>
                           </button>
                         </div>
                       </li>
