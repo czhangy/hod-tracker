@@ -5,6 +5,8 @@ import { data } from "@/lib/data";
 import { itemStats } from "@/lib/useProgress";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
+import { ItemIcon } from "./ItemIcon";
+import { ItemDetailModal } from "./ItemDetailModal";
 
 const SLOT_LABELS: Record<ItemSlot, string> = {
   swords: "Swords",
@@ -54,6 +56,7 @@ export function ItemsPanel({
 }) {
   const [filter, setFilter] = useState("");
   const [hideObtained, setHideObtained] = useState(false);
+  const [selectedItem, setSelectedItem] = useState<Item | null>(null);
   const stats = itemStats(progress);
 
   const groups = useMemo(() => {
@@ -72,7 +75,7 @@ export function ItemsPanel({
         <h2 className="font-display text-2xl font-bold text-neutral-50">Item Collection</h2>
         <p className="text-sm text-neutral-500">
           All equippable items in Harmony of Despair (base game + DLC), shared across your
-          whole roster.
+          whole roster. Click an item for stats and drop location.
         </p>
         <div className="flex items-center gap-3">
           <div className="flex-1">
@@ -115,19 +118,28 @@ export function ItemsPanel({
                 </span>
               </h3>
               <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-3 md:grid-cols-4">
-                {items.map((item) => (
-                  <li key={item.id}>
-                    <label className="flex cursor-pointer items-center gap-2 rounded-md border border-neutral-800 bg-neutral-900/40 px-2.5 py-1.5 text-sm hover:border-neutral-700">
-                      <input
-                        type="checkbox"
-                        checked={Boolean(progress.itemsObtained[item.id])}
-                        onChange={() => onToggleItem(item.id)}
-                        className="size-4 shrink-0 cursor-pointer accent-red-600"
-                      />
-                      <span className="truncate text-neutral-300">{item.name}</span>
-                    </label>
-                  </li>
-                ))}
+                {items.map((item) => {
+                  const obtained = Boolean(progress.itemsObtained[item.id]);
+                  return (
+                    <li key={item.id}>
+                      <div className="flex items-center gap-1.5 rounded-md border border-neutral-800 bg-neutral-900/40 py-1 pr-1.5 pl-1.5 text-sm hover:border-neutral-700">
+                        <input
+                          type="checkbox"
+                          checked={obtained}
+                          onChange={() => onToggleItem(item.id)}
+                          className="size-4 shrink-0 cursor-pointer accent-red-600"
+                        />
+                        <button
+                          onClick={() => setSelectedItem(item)}
+                          className="flex min-w-0 flex-1 cursor-pointer items-center gap-1.5 text-left"
+                        >
+                          <ItemIcon item={item} size={22} />
+                          <span className="truncate text-neutral-300">{item.name}</span>
+                        </button>
+                      </div>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           );
@@ -136,6 +148,15 @@ export function ItemsPanel({
           <p className="text-sm text-neutral-600">No items match that filter.</p>
         )}
       </div>
+
+      {selectedItem && (
+        <ItemDetailModal
+          item={selectedItem}
+          obtained={Boolean(progress.itemsObtained[selectedItem.id])}
+          onToggleObtained={onToggleItem}
+          onClose={() => setSelectedItem(null)}
+        />
+      )}
     </div>
   );
 }

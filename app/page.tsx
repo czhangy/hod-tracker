@@ -7,8 +7,9 @@ import { OverallHeader } from "@/components/OverallHeader";
 import { Sidebar } from "@/components/Sidebar";
 import { CharacterDetail } from "@/components/CharacterDetail";
 import { ItemsPanel } from "@/components/ItemsPanel";
+import { Bestiary } from "@/components/Bestiary";
 
-type Tab = "characters" | "items";
+type Tab = "characters" | "items" | "bestiary";
 
 export default function Home() {
   const { progress, toggleChapter, toggleItem, toggleEquipped } = useProgress();
@@ -42,9 +43,19 @@ export default function Home() {
         >
           Item Collection
         </button>
+        <button
+          onClick={() => setTab("bestiary")}
+          className={`cursor-pointer rounded-md px-3 py-1.5 font-semibold tracking-wide ${
+            tab === "bestiary"
+              ? "bg-red-950/50 text-red-400"
+              : "text-neutral-500 hover:text-neutral-300"
+          }`}
+        >
+          Bestiary
+        </button>
       </div>
 
-      {tab === "characters" ? (
+      {tab === "characters" && (
         <div className="flex flex-col gap-6 md:flex-row">
           <Sidebar
             progress={progress}
@@ -58,9 +69,9 @@ export default function Home() {
             onToggleEquipped={toggleEquipped}
           />
         </div>
-      ) : (
-        <ItemsPanel progress={progress} onToggleItem={toggleItem} />
       )}
+      {tab === "items" && <ItemsPanel progress={progress} onToggleItem={toggleItem} />}
+      {tab === "bestiary" && <Bestiary />}
     </div>
   );
 }

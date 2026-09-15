@@ -15,6 +15,9 @@ export interface Item {
   name: string;
   slot: ItemSlot;
   notes?: string;
+  stats?: string | null;
+  dropLocation?: string | null;
+  iconUrl?: string | null;
 }
 
 export interface Character {
@@ -33,10 +36,22 @@ export interface Chapter {
   dlcPack?: string | null;
 }
 
+export type EnemyType = "common" | "boss";
+
+export interface Enemy {
+  id: string;
+  name: string;
+  type: EnemyType;
+  chapters: string[];
+  hp?: number | null;
+  notes?: string | null;
+}
+
 export interface GameData {
   characters: Character[];
   chapters: Chapter[];
   items: Item[];
+  enemies: Enemy[];
 }
 
 /** How many items a character can have equipped in a given slot at once. */

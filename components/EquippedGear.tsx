@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { data } from "@/lib/data";
 import { MAX_EQUIPPED_PER_SLOT, type ItemSlot } from "@/lib/types";
+import { ItemIcon } from "./ItemIcon";
 
 const SLOT_LABELS: Record<ItemSlot, string> = {
   swords: "Swords",
@@ -104,6 +105,7 @@ export function EquippedGear({
                               isFull ? "" : "cursor-pointer"
                             }`}
                           />
+                          <ItemIcon item={item} size={18} />
                           <span
                             className={isObtained ? "text-neutral-300" : "text-neutral-600"}
                           >

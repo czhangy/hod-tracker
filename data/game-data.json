@@ -150,1502 +150,3394 @@
     {
       "id": "armor-alucard-mail",
       "name": "Alucard Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +24, MP +12",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/26/Alucard_Mail_Icon.png/revision/latest?cb=20150302035052"
     },
     {
       "id": "armor-ancient-armor",
       "name": "Ancient Armor",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": null,
+      "dropLocation": "Chapter 5 - Hard, Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9e/Ancient_Armor_PoR_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811173658"
     },
     {
       "id": "armor-aquarius",
       "name": "Aquarius",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +19, MP +5",
+      "dropLocation": "Chapter 6, Chapter 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/59/Aquarius_Icon.png/revision/latest?cb=20171005162451"
     },
     {
       "id": "armor-army-jacket",
       "name": "Army Jacket",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +8",
+      "dropLocation": "Chapter 5, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ce/Army_Jacket_DoS_Icon.png/revision/latest?cb=20171005162451"
     },
     {
       "id": "armor-bathrobe",
       "name": "Bathrobe",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +10, INT +2",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d2/Bathrobe_Icon.png/revision/latest?cb=20150811173811"
     },
     {
       "id": "armor-berserker-mail",
       "name": "Berserker Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "STR +10, CON -20, MND -20, HP -20",
+      "dropLocation": "Chapter 5 - Hard, Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1a/Berserker_Mail_Icon.png/revision/latest?cb=20150811173812"
     },
     {
       "id": "armor-biker-s-jacket",
       "name": "Biker's Jacket",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +11, STR +2, INT +2, HP +3",
+      "dropLocation": "Chapter 6, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Biker%27s_Jacket_Icon.png/revision/latest?cb=20150811173812"
     },
     {
       "id": "armor-breastplate",
       "name": "Breastplate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +11",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1e/Breastplate_Icon.png/revision/latest?cb=20171005162619"
     },
     {
       "id": "armor-brilliant-mail",
       "name": "Brilliant Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +15, INT +4",
+      "dropLocation": "Chapter 2 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6c/Brilliant_Mail_Icon.png/revision/latest?cb=20150302035250"
     },
     {
       "id": "armor-casual-clothes",
       "name": "Casual Clothes",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +1",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ca/Casual_Clothes_DoS_Icon.png/revision/latest?cb=20171005162622"
     },
     {
       "id": "armor-chain-mail",
       "name": "Chain Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +12",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c3/Chain_Mail_DoS_Icon.png/revision/latest?cb=20171005162623"
     },
     {
       "id": "armor-cloth-tunic",
       "name": "Cloth Tunic",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +1",
+      "dropLocation": "Chapter 1, 2, 3, 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/41/Cloth_Tunic_DoS_Icon.png/revision/latest?cb=20171005162625"
     },
     {
       "id": "armor-clown-shirt",
       "name": "Clown Shirt",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +14, LCK +3",
+      "dropLocation": "Chapter 3-5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/fd/Clown_Shirt_Icon.png/revision/latest?cb=20150811173934"
     },
     {
       "id": "armor-cocktail-dress",
       "name": "Cocktail Dress",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +14, CON +5, HP +3",
+      "dropLocation": "Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/09/Cocktail_Dress_PoR_Icon.png/revision/latest?cb=20150811173935"
     },
     {
       "id": "armor-copper-plate",
       "name": "Copper Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +4",
+      "dropLocation": "Chapter 1, 3, 4, 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/87/Copper_Plate_PoR_Icon.png/revision/latest?cb=20150811173937"
     },
     {
       "id": "armor-cotehardie",
       "name": "Cotehardie",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +2, MP +1",
+      "dropLocation": "Chapter 1",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b3/Cotehardie_Icon.png/revision/latest?cb=20150811173937"
     },
     {
       "id": "armor-cotton-apron",
       "name": "Cotton Apron",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +3, MP +1",
+      "dropLocation": "Chapter 4, 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/44/Cotton_Apron_PoR_Icon.png/revision/latest?cb=20150811174056"
     },
     {
       "id": "armor-crimson-mail",
       "name": "Crimson Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "ATK +4, DEF +15, STR +4, HP +10, MP +5",
+      "dropLocation": "Chapter 3-6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/bc/Crimson_Mail_Icon.png/revision/latest?cb=20150326042349"
     },
     {
       "id": "armor-cuirass",
       "name": "Cuirass",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +16, HP +8",
+      "dropLocation": "Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Cuirass_Icon.png/revision/latest?cb=20171005162743"
     },
     {
       "id": "armor-dalmatica",
       "name": "Dalmatica",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +15, CON +5, MND +8",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4c/Dalmatica_PoR_Icon.png/revision/latest?cb=20150811174058"
     },
     {
       "id": "armor-dancer-s-blouse",
       "name": "Dancer's Blouse",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +8, LCK +1",
+      "dropLocation": "Chapter 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/ed/Dancer%27s_Blouse_Icon.png/revision/latest?cb=20150811174058"
     },
     {
       "id": "armor-death-s-robe",
       "name": "Death's Robe",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +26, STR +4, CON +4, INT +4, MND +4, LCK +4, MP +44",
+      "dropLocation": "Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d7/Death%27s_Robe_DoS_Icon.png/revision/latest?cb=20171005162745"
     },
     {
       "id": "armor-demon-s-mail",
       "name": "Demon's Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +29, STR +4, CON +4, HP +13",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6a/Demon%27s_Mail_DoS_Icon.png/revision/latest?cb=20171005162746"
     },
     {
       "id": "armor-diamond-plate",
       "name": "Diamond Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +30",
+      "dropLocation": "Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f6/Diamond_Plate_Icon.png/revision/latest?cb=20150302040234"
     },
     {
       "id": "armor-dracula-s-tunic",
       "name": "Dracula's Tunic",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +26, STR +6, CON +6, HP +13, MP +13",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d7/Dracula%27s_Tunic_DoS_Icon.png/revision/latest?cb=20171005162746"
     },
     {
       "id": "armor-elfin-robe",
       "name": "Elfin Robe",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +10, CON +2, INT +2, MND +2, MP +2",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/06/Elfin_Robe_DoS_Icon.png/revision/latest?cb=20171005162747"
     },
     {
       "id": "armor-europa-s-dress",
       "name": "Europa's Dress",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +21, STR +3, CON +3, INT +3, MND +3, HP +10, MP +10",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c3/Europa%27s_Dress_Icon.png/revision/latest?cb=20150811174206"
     },
     {
       "id": "armor-eversing",
       "name": "Eversing",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "ATK +3, DEF +27, HP +20",
+      "dropLocation": "Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Eversing_DoS_Icon.png/revision/latest?cb=20171005162748"
     },
     {
       "id": "armor-feather-gear",
       "name": "Feather Gear",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +23",
+      "dropLocation": "Chapter 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/aa/Feather_Gear_Icon.png/revision/latest?cb=20150811174207"
     },
     {
       "id": "armor-fire-mail",
       "name": "Fire Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +16",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/18/Fire_Mail_Icon.png/revision/latest?cb=20150302040318"
     },
     {
       "id": "armor-frilly-camisole",
       "name": "Frilly Camisole",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +14, MND +5",
+      "dropLocation": "Chapter 2-4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/42/Frilly_Camisole_Icon.png/revision/latest?cb=20150811174209"
     },
     {
       "id": "armor-fury-plate",
       "name": "Fury Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +8",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/82/Fury_Plate_Icon.png/revision/latest?cb=20150302040639"
     },
     {
       "id": "armor-god-s-garb",
       "name": "God's Garb",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +23, CON +5, MND +5, HP +10, MP +10",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/78/God%27s_Garb_Icon.png/revision/latest?cb=20150302040640"
     },
     {
       "id": "armor-gold-plate",
       "name": "Gold Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +17",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/81/Gold_Plate_Icon.png/revision/latest?cb=20150302040641"
     },
     {
       "id": "armor-gym-clothes",
       "name": "Gym Clothes",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +3, STR +1, HP +1",
+      "dropLocation": "Chapter 1, 3, 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2a/Gym_Clothes_DoS_Icon.png/revision/latest?cb=20171005162925"
     },
     {
       "id": "armor-hauberk",
       "name": "Hauberk",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +14, HP +5",
+      "dropLocation": "Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/42/Hauberk_Icon.png/revision/latest?cb=20171005162926"
     },
     {
       "id": "armor-healing-mail",
       "name": "Healing Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +12",
+      "dropLocation": "Chapter 2 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/82/Healing_Mail_PoR_Icon.png/revision/latest?cb=20150811174323"
     },
     {
       "id": "armor-heavy-armor",
       "name": "Heavy Armor",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +33, CON +5, MND +5, HP +20",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f3/Heavy_Armor_PoR_Icon.png/revision/latest?cb=20150811174324"
     },
     {
       "id": "armor-hobo-s-clothes",
       "name": "Hobo's Clothes",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +2",
+      "dropLocation": "Zombie drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/64/Hobo%27s_Clothes_Icon.png/revision/latest?cb=20150811174441"
     },
     {
       "id": "armor-holy-mail",
       "name": "Holy Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +16",
+      "dropLocation": "Chapter 5-6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e8/Holy_Mail_Icon.png/revision/latest?cb=20150302040807"
     },
     {
       "id": "armor-houppelande",
       "name": "Houppelande",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +5",
+      "dropLocation": "Chapter 1-5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/21/Houppelande_PoR_Icon.png/revision/latest?cb=20150811174442"
     },
     {
       "id": "armor-ice-mail",
       "name": "Ice Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +16",
+      "dropLocation": "Chapter 4-5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d0/Ice_Mail_Icon.png/revision/latest?cb=20150302040809"
     },
     {
       "id": "armor-impervious-mail",
       "name": "Impervious Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +15",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f4/Impervious_Mail_Icon.png/revision/latest?cb=20150811174444"
     },
     {
       "id": "armor-iron-plate",
       "name": "Iron Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +6",
+      "dropLocation": "Chapter 3-6 / Dullahan drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/69/Iron_Plate_PoR_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174445"
     },
     {
       "id": "armor-justaucorps",
       "name": "Justaucorps",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +6, HP +2",
+      "dropLocation": "Chapter 3, 5, 6, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/49/Justaucorps_Icon.png/revision/latest?cb=20250207144614"
     },
     {
       "id": "armor-kalasiris",
       "name": "Kalasiris",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +14, INT +1, MND +1, LCK +1",
+      "dropLocation": "DLC",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/cb/Kalasiris_PoR_Icon.png/revision/latest?cb=20150811174554"
     },
     {
       "id": "armor-kirtle",
       "name": "Kirtle",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +2, CON +1",
+      "dropLocation": "Chapter 1, 2, 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/06/Kirtle_PoR_Icon.png/revision/latest?cb=20150811174554"
     },
     {
       "id": "armor-kung-fu-suit",
       "name": "Kung Fu Suit",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +12, STR +1, HP +5",
+      "dropLocation": "Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Kung_Fu_Suit_Icon.png/revision/latest?cb=20171005163038"
     },
     {
       "id": "armor-leather-plate",
       "name": "Leather Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +3",
+      "dropLocation": "Chapter 2, 3, 5, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5f/Soft_Leather_Armour.png/revision/latest/scale-to-width-down/120?cb=20141004061406"
     },
     {
       "id": "armor-lightning-mail",
       "name": "Lightning Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +16",
+      "dropLocation": "Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/82/Lightning_Mail_Icon.png/revision/latest?cb=20150302040937"
     },
     {
       "id": "armor-lilith-corset",
       "name": "Lilith Corset",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +13, MP +2",
+      "dropLocation": "Chapter 1-2, 4-5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/78/Lilith_Corset_PoR_Icon.png/revision/latest?cb=20150811174557"
     },
     {
       "id": "armor-lorica",
       "name": "Lorica",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +20, STR +3, MND +5, HP +10",
+      "dropLocation": "Chapter 5-6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d3/Lorica_Icon.png/revision/latest?cb=20150811174557"
     },
     {
       "id": "armor-mage-robe",
       "name": "Mage Robe",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +9, INT +2, MND +2, MP +3",
+      "dropLocation": "Chapter 4, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/15/Mage_Robe_Icon.png/revision/latest?cb=20171005163155"
     },
     {
       "id": "armor-miko-dress",
       "name": "Miko Dress",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +15, MND +10, MP +6",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/17/Miko_Dress_Icon.png/revision/latest?cb=20150811174709"
     },
     {
       "id": "armor-minerva-mail",
       "name": "Minerva Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +26, STR +4, MND +12, HP +15, MP +15",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/15/Minerva_Mail_Icon.png/revision/latest?cb=20150326042348"
     },
     {
       "id": "armor-mirror-cuirass",
       "name": "Mirror Cuirass",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +17, HP +8",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6c/Mirror_Cuirass_OoE_Icon.png/revision/latest?cb=20150326042350"
     },
     {
       "id": "armor-mojo-mail",
       "name": "Mojo Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +18, CON +3, INT +3",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Mojo_Mail_Icon.png/revision/latest?cb=20150302041026"
     },
     {
       "id": "armor-ninja-suit",
       "name": "Ninja Suit",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +10, CON +1, MND +1, HP +2",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a3/Ninja_Suit_DoS_Icon.png/revision/latest?cb=20171005163201"
     },
     {
       "id": "armor-nun-s-robes",
       "name": "Nun's Robes",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +10, MND +3, MP +2",
+      "dropLocation": "Shop",
+      "iconUrl": null
     },
     {
       "id": "armor-olrox-s-suit",
       "name": "Olrox's Suit",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +11, CON +4, MND +4, HP +4, MP +4",
+      "dropLocation": "Chapter 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/11/Olrox%27s_Suit_Icon.png/revision/latest?cb=20171005163307"
     },
     {
       "id": "armor-pitch-black-suit",
       "name": "Pitch Black Suit",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +6, HP +1, MP +1",
+      "dropLocation": "Chapter 5, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1d/Pitch_Black_Suit_Icon.png/revision/latest?cb=20171005163310"
     },
     {
       "id": "armor-platinum-mail",
       "name": "Platinum Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +22",
+      "dropLocation": "Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e3/Platinum_Mail_Icon.png/revision/latest?cb=20150302041145"
     },
     {
       "id": "armor-poncho",
       "name": "Poncho",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +6, CON +1",
+      "dropLocation": "Chapter 3, 6, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/37/Poncho_PoR_Icon.png/revision/latest?cb=20150811174931"
     },
     {
       "id": "armor-princess-coat",
       "name": "Princess Coat",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +18, LCK +10",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9f/Princess_Coat_Icon.png/revision/latest?cb=20150811174933"
     },
     {
       "id": "armor-ring-mail",
       "name": "Ring Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +13",
+      "dropLocation": "Final Guard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Ring_Mail_Icon.png/revision/latest?cb=20171005163314"
     },
     {
       "id": "armor-robe-decollete",
       "name": "Robe Decollete",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +25, CON +8, MND +8, HP +20, MP +20",
+      "dropLocation": "DLC",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4d/Robe_Decollete_Icon.png/revision/latest?cb=20150811175046"
     },
     {
       "id": "armor-samurai-plate",
       "name": "Samurai Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +16, INT +3, MND +3, HP +12",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4d/Samurai_Plate_Icon.png/revision/latest?cb=20150811175052"
     },
     {
       "id": "armor-sapphire-corset",
       "name": "Sapphire Corset",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +10",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Sapphire_Corset_PoR_Icon.png/revision/latest?cb=20150811175052"
     },
     {
       "id": "armor-scale-mail",
       "name": "Scale Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +7",
+      "dropLocation": "Chapter 3",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8d/Scale_Mail_Icon.png/revision/latest?cb=20171005163422"
     },
     {
       "id": "armor-serenity-robe",
       "name": "Serenity Robe",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +18, CON +5, LCK +5, MP +7",
+      "dropLocation": "Chapter 5-6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9e/Serenity_Robe_Icon.png/revision/latest?cb=20171005163423"
     },
     {
       "id": "armor-sequined-dress",
       "name": "Sequined Dress",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +13, HP +5",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/00/Sequined_Dress_Icon.png/revision/latest?cb=20150811175154"
     },
     {
       "id": "armor-silk-negligee",
       "name": "Silk Negligee",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +11, INT +3, MND +3",
+      "dropLocation": "Chapter 6, Chapter 3-4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d6/Silk_Negligee_Icon.png/revision/latest?cb=20150811175157"
     },
     {
       "id": "armor-silk-robe",
       "name": "Silk Robe",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +8, CON +2, MP +1",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/60/Silk_Robe_DoS_Icon.png/revision/latest?cb=20171005163424"
     },
     {
       "id": "armor-silver-plate",
       "name": "Silver Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +12",
+      "dropLocation": "Chapter 2 - Hard, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Silver_Plate_Icon.png/revision/latest?cb=20150302041347"
     },
     {
       "id": "armor-simon-s-plate",
       "name": "Simon's Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +28, STR +5, MND +5, HP +30",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a6/Simon%27s_Plate_Icon.png/revision/latest?cb=20191012082457"
     },
     {
       "id": "armor-spiked-mail",
       "name": "Spiked Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +15",
+      "dropLocation": "Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Spiked_Mail_Icon.png/revision/latest?cb=20150811175327"
     },
     {
       "id": "armor-steel-plate",
       "name": "Steel Plate",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +12",
+      "dropLocation": "Chapter 5-6, Chapter 2 - Hard / Disc Armor drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/06/Steel_Plate_HD_Icon.png/revision/latest?cb=20191012082159"
     },
     {
       "id": "armor-surcoat",
       "name": "Surcoat",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +9, HP +3, MP +2",
+      "dropLocation": "Chapter 5, 6, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d1/Surcoat_PoR_Icon.png/revision/latest?cb=20150811175333"
     },
     {
       "id": "armor-tailcoat",
       "name": "Tailcoat",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +1",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d9/Tailcoat_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811175333"
     },
     {
       "id": "armor-three-7s",
       "name": "Three 7s",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +7, LCK +7, HP +7, MP +7",
+      "dropLocation": "Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/25/Three_7s_Icon.png/revision/latest?cb=20171005163857"
     },
     {
       "id": "armor-tuxedo-coat",
       "name": "Tuxedo Coat",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +13, LCK +2",
+      "dropLocation": "Chapter 2 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5f/Tuxedo_Coat_Icon.png/revision/latest?cb=20150811175449"
     },
     {
       "id": "armor-valkyrie-mail",
       "name": "Valkyrie Mail",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "ATK +3, DEF +18, STR +3, MND +4, HP +5, MP +10",
+      "dropLocation": "Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3e/Valkyrie_Mail_Icon.png/revision/latest?cb=20150326042349"
     },
     {
       "id": "armor-war-fatigues",
       "name": "War Fatigues",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +10, INT +2, HP +3",
+      "dropLocation": "Chapter 6, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2e/War_Fatigues_DoS_Icon.png/revision/latest?cb=20171005163901"
     },
     {
       "id": "armor-wedding-dress",
       "name": "Wedding Dress",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +15, STR +3, HP +10",
+      "dropLocation": "Chapter 3-4, 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7f/Wedding_Dress_Icon.png/revision/latest?cb=20150811175530"
     },
     {
       "id": "armor-wyrm-robe",
       "name": "Wyrm Robe",
-      "slot": "armor"
+      "slot": "armor",
+      "stats": "DEF +17, MP +15",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f0/Wyrm_Robe_Icon.png/revision/latest?cb=20171005163905"
     },
     {
       "id": "headGear-arachne-hennin",
       "name": "Arachne Hennin",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +7, CON +2, MND +2, LCK +2, MP +10",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/61/Arachne_Hennin_Icon.png/revision/latest?cb=20150811173659"
     },
     {
       "id": "headGear-ballroom-masque",
       "name": "Ballroom Masque",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, HP +2",
+      "dropLocation": "Chapters 1-6, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1c/Ballroom_Masque_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811173701"
     },
     {
       "id": "headGear-bandana",
       "name": "Bandana",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, HP +2",
+      "dropLocation": "Chapters 1, 2, 4, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2c/Bandana_Icon.png/revision/latest?cb=20150811173810"
     },
     {
       "id": "headGear-circlet",
       "name": "Circlet",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, MND +1, MP +1",
+      "dropLocation": "Chapters 4, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/57/Circlet_Icon.png/revision/latest?cb=20150325034315"
     },
     {
       "id": "headGear-clover-tiara",
       "name": "Clover Tiara",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +3, MND +2",
+      "dropLocation": "Chapters 2, 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/50/Clover_Tiara_PoR_Icon.png/revision/latest?cb=20150811173934"
     },
     {
       "id": "headGear-combat-beret",
       "name": "Combat Beret",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/dd/Combat_Beret_PoR_Icon.png/revision/latest?cb=20150811173936"
     },
     {
       "id": "headGear-crimson-mask",
       "name": "Crimson Mask",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, STR +2, HP +3, MP +3",
+      "dropLocation": "Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f3/Crimson_Mask_Icon.png/revision/latest?cb=20150326042620"
     },
     {
       "id": "headGear-diamond-tiara",
       "name": "Diamond Tiara",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +8, MP +8",
+      "dropLocation": "Chapters 4 & 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/90/Diamond_Tiara_PoR_Icon.png/revision/latest?cb=20150811174100"
     },
     {
       "id": "headGear-fedora",
       "name": "Fedora",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, HP +2",
+      "dropLocation": "Chapters 1, 3, 4, 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2c/Fedora_Icon.png/revision/latest?cb=20150811174207"
     },
     {
       "id": "headGear-gambler-glasses",
       "name": "Gambler Glasses",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": null,
+      "dropLocation": "Peeping Eye drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c2/Gambler_Glasses_PoR_Icon.png/revision/latest?cb=20150811174209"
     },
     {
       "id": "headGear-glasses",
       "name": "Glasses",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +1",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f4/Glasses_PoR_Icon.png/revision/latest?cb=20150811174211"
     },
     {
       "id": "headGear-goggles",
       "name": "Goggles",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +3",
+      "dropLocation": "Chapters 5, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/68/Goggles_Icon.png/revision/latest?cb=20150325034317"
     },
     {
       "id": "headGear-head-guard",
       "name": "Head Guard",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +4, CON +2",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e4/Head_Guard_Icon.png/revision/latest?cb=20150811174323"
     },
     {
       "id": "headGear-iron-helmet",
       "name": "Iron Helmet",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +5",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/14/Iron_Helmet_PoR_Icon.png/revision/latest?cb=20150811174444"
     },
     {
       "id": "headGear-leather-hat",
       "name": "Leather Hat",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, HP +2",
+      "dropLocation": "Chapters 1, 2, 3",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c1/Leather_Hat_Icon.png/revision/latest?cb=20150325034317"
     },
     {
       "id": "headGear-monocle",
       "name": "Monocle",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, CON +1, MND +1",
+      "dropLocation": "Chapters 3-6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9f/Monocle_PoR_Icon.png/revision/latest?cb=20150811174710"
     },
     {
       "id": "headGear-mourning-veil",
       "name": "Mourning Veil",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, CON +2, MND +2",
+      "dropLocation": "Chapters 3 & 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/fc/Mourning_Veil_PoR_Icon.png/revision/latest?cb=20150811174818"
     },
     {
       "id": "headGear-nun-s-habit",
       "name": "Nun's Habit",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +3, MP +3",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d7/Nun%27s_Habit_PoR_Icon.png/revision/latest?cb=20150811174820"
     },
     {
       "id": "headGear-open-veil",
       "name": "Open Veil",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +4, STR +3, CON +3, MP +3",
+      "dropLocation": "Chapters 4 & 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f7/Open_Veil_PoR_Icon.png/revision/latest?cb=20150811174821"
     },
     {
       "id": "headGear-pearl-tiara",
       "name": "Pearl Tiara",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +4, MP +3",
+      "dropLocation": "Chapter 2",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8f/Pearl_Tiara_PoR_Icon.png/revision/latest?cb=20150811174823"
     },
     {
       "id": "headGear-porkpie-hat",
       "name": "Porkpie Hat",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +4",
+      "dropLocation": "Chapters 5, 6, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Porkpie_Hat_PoR_Icon.png/revision/latest?cb=20150811174932"
     },
     {
       "id": "headGear-princess-tiara",
       "name": "Princess Tiara",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +5, LCK +7, MP +7",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/06/Princess_Tiara_PoR_Icon.png/revision/latest?cb=20150811174933"
     },
     {
       "id": "headGear-royal-crown",
       "name": "Royal Crown",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +10, INT +5, MND +5, LCK +5, HP +15, MP +15",
+      "dropLocation": "DLC",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d7/Royal_Crown_Icon.png/revision/latest?cb=20241223063436"
     },
     {
       "id": "headGear-samurai-helmet",
       "name": "Samurai Helmet",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +8, STR +3, CON +3, HP +3",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Samurai_Helmet_Icon.png/revision/latest?cb=20150811175051"
     },
     {
       "id": "headGear-shogun-helmet",
       "name": "Shogun Helmet",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +5, STR +3, CON -5, INT -52",
+      "dropLocation": "Chapter 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/56/Shogun_Helmet_Icon.png/revision/latest?cb=20150811175155"
     },
     {
       "id": "headGear-simon-s-bandana",
       "name": "Simon's Bandana",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +11, STR +5, MND +3, HP +10",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ca/Simon%27s_Bandana_Icon.png/revision/latest?cb=20191012081108"
     },
     {
       "id": "headGear-silk-hat",
       "name": "Silk Hat",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +4, INT +3",
+      "dropLocation": "Chapters 3 & 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/29/Silk_Hat_PoR_Icon.png/revision/latest?cb=20150811175156"
     },
     {
       "id": "headGear-silver-crown",
       "name": "Silver Crown",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +3, CON +1, INT +3, MP +5",
+      "dropLocation": "Chapters 1 & 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1f/Silver_Crown_Icon.png/revision/latest?cb=20150325034318"
     },
     {
       "id": "headGear-skull-mask",
       "name": "Skull Mask",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +6, CON -3, MND -3, LCK -3",
+      "dropLocation": "Chapters 5, 6, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9d/Skull_Mask_Icon.png/revision/latest?cb=20150811175158"
     },
     {
       "id": "headGear-steel-helm",
       "name": "Steel Helm",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +1, HP +1",
+      "dropLocation": "Chapters 1-4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f5/Steel_Helm_Icon.png/revision/latest?cb=20150325034319"
     },
     {
       "id": "headGear-stone-mask",
       "name": "Stone Mask",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, LCK +1",
+      "dropLocation": "Chapters 3-6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9f/Stone_Mask_Icon.png/revision/latest?cb=20150325034319"
     },
     {
       "id": "headGear-sunglasses",
       "name": "Sunglasses",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +3",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a1/Sunglasses_Icon.png/revision/latest?cb=20150325034319"
     },
     {
       "id": "headGear-thick-glasses",
       "name": "Thick Glasses",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +2, INT +1, MP +1",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Thick_Glasses_PoR_Icon.png/revision/latest?cb=20150811175334"
     },
     {
       "id": "headGear-traveler-s-hat",
       "name": "Traveler's Hat",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +6, CON +2, MND +3",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e5/Traveler%27s_Hat_PoR_Icon.png/revision/latest?cb=20150811175447"
     },
     {
       "id": "headGear-uraeus",
       "name": "Uraeus",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +5, LCK +5",
+      "dropLocation": "DLC",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3e/Uraeus_Icon.png/revision/latest?cb=20150811175450"
     },
     {
       "id": "headGear-velvet-hat",
       "name": "Velvet Hat",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +3, HP +2",
+      "dropLocation": "Chapters 1-5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/bb/Velvet_Hat_HD_Icon.png/revision/latest?cb=20191012081632"
     },
     {
       "id": "headGear-velvet-ribbon",
       "name": "Velvet Ribbon",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +1, MND +1",
+      "dropLocation": "Chapter 1",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/43/Velvet_Ribbon_Icon.png/revision/latest?cb=20150811175451"
     },
     {
       "id": "headGear-viking-helmet",
       "name": "Viking Helmet",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +4, STR +3, HP +5",
+      "dropLocation": "Chapters 3 & 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6a/Viking_Helmet_Icon.png/revision/latest?cb=20150811175452"
     },
     {
       "id": "headGear-witch-s-hat",
       "name": "Witch's Hat",
-      "slot": "headGear"
+      "slot": "headGear",
+      "stats": "DEF +3, CON +2, INT +2, MP +5",
+      "dropLocation": "Witch drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8a/Witch%27s_Hat_Icon.png/revision/latest?cb=20150811175531"
     },
     {
       "id": "legProtection-artemis-shoes",
       "name": "Artemis Shoes",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +9, CON +2, INT +2, MND +2, LCK +5, MP +5",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/fe/Artemis_Shoes_PoR_Icon.png/revision/latest?cb=20150811173659"
     },
     {
       "id": "legProtection-combat-boots",
       "name": "Combat Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +2, STR +1",
+      "dropLocation": "Chapters 2, 3, 4, 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/19/Combat_Boots_PoR_Icon.png/revision/latest?cb=20150811173936"
     },
     {
       "id": "legProtection-combo-boots",
       "name": "Combo Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +4",
+      "dropLocation": "Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7c/Combo_Boots_Icon.png/revision/latest?cb=20150326042214"
     },
     {
       "id": "legProtection-crimson-greaves",
       "name": "Crimson Greaves",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "ATK +2, DEF +6, STR +2, HP +1, MP +1",
+      "dropLocation": "Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/16/Crimson_Greaves_Icon.png/revision/latest?cb=20150326042054"
     },
     {
       "id": "legProtection-diamond-shoes",
       "name": "Diamond Shoes",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +9",
+      "dropLocation": "Chapters 3 & 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6c/Diamond_Shoes_Icon.png/revision/latest?cb=20150816204807"
     },
     {
       "id": "legProtection-enamel-pinheels",
       "name": "Enamel Pinheels",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3, MP +1",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0e/Enamel_Pinheels_PoR_Icon.png/revision/latest?cb=20150811174101"
     },
     {
       "id": "legProtection-engineer-boots",
       "name": "Engineer Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +2, CON +1, HP +1",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Engineer_Boots_PoR_Icon.png/revision/latest?cb=20150811174102"
     },
     {
       "id": "legProtection-glamorous-pumps",
       "name": "Glamorous Pumps",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3",
+      "dropLocation": "Chapter 3",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/44/Glamorous_Pumps_PoR_Icon.png/revision/latest?cb=20150811174210"
     },
     {
       "id": "legProtection-glass-shoes",
       "name": "Glass Shoes",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3, LCK +3",
+      "dropLocation": "Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Glass_Shoes_Icon.png/revision/latest?cb=20150811174211"
     },
     {
       "id": "legProtection-gold-leggings",
       "name": "Gold Leggings",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +8",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c8/Gold_Leggings_Icon.png/revision/latest?cb=20150811174320"
     },
     {
       "id": "legProtection-hiking-boots",
       "name": "Hiking Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +1, HP +1",
+      "dropLocation": "Chapters 1, 2, 3",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a8/Hiking_Boots_PoR_Icon.png/revision/latest?cb=20150811174441"
     },
     {
       "id": "legProtection-inuit-boots",
       "name": "Inuit Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +2",
+      "dropLocation": "Chapters 4, 5, 6, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1c/Inuit_Boots_PoR_Icon.png/revision/latest?cb=20150811174444"
     },
     {
       "id": "legProtection-iron-leggings",
       "name": "Iron Leggings",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +4",
+      "dropLocation": "Chapter 6, Chapter 1 - Hard, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/16/Iron_Leggings_Icon.png/revision/latest?cb=20150811174444"
     },
     {
       "id": "legProtection-mercury-boots",
       "name": "Mercury Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Mercury_Boots_Icon.png/revision/latest?cb=20150811174708"
     },
     {
       "id": "legProtection-minerva-greaves",
       "name": "Minerva Greaves",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +8, STR +2, MND +3, HP +5, MP +5",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4e/Minerva_Greaves_Icon.png/revision/latest?cb=20150326042054"
     },
     {
       "id": "legProtection-moonwalkers",
       "name": "Moonwalkers",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3",
+      "dropLocation": "Chapter 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/75/Moonwalkers_PoR_Icon.png/revision/latest?cb=20150811174711"
     },
     {
       "id": "legProtection-nun-s-shoes",
       "name": "Nun's Shoes",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3, MND +2, MP +2",
+      "dropLocation": "Chapters 2, 3, 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c6/Nun%27s_Shoes_PoR_Icon.png/revision/latest?cb=20150811174820"
     },
     {
       "id": "legProtection-oxfords",
       "name": "Oxfords",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3",
+      "dropLocation": "Chapters 1, 2, 3, 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ce/Oxfords_PoR_Icon.png/revision/latest?cb=20150811174821"
     },
     {
       "id": "legProtection-platinum-leggings",
       "name": "Platinum Leggings",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +9",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f2/Platinum_Leggings_Icon.png/revision/latest?cb=20150811174931"
     },
     {
       "id": "legProtection-prima-shoes",
       "name": "Prima Shoes",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3, CON +1, MND +1",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9b/Prima_Shoes_PoR_Icon.png/revision/latest?cb=20150811174932"
     },
     {
       "id": "legProtection-royal-sandals",
       "name": "Royal Sandals",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +5, MP +2",
+      "dropLocation": "Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/21/Royal_Sandals_PoR_Icon.png/revision/latest?cb=20150811175049"
     },
     {
       "id": "legProtection-sabrina-shoes",
       "name": "Sabrina Shoes",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +2",
+      "dropLocation": "Chapter 3",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4b/Sabrina_Shoes_Icon.png/revision/latest?cb=20150326042214"
     },
     {
       "id": "legProtection-samurai-leggings",
       "name": "Samurai Leggings",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +8, STR +3, HP +5",
+      "dropLocation": "Chapters 4, 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Samurai_Leggings_Icon.png/revision/latest?cb=20150811175051"
     },
     {
       "id": "legProtection-sandals",
       "name": "Sandals",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +1",
+      "dropLocation": "Chapters 1, 2, 4, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6d/Sandals_PoR_Icon.png/revision/latest?cb=20150811175052"
     },
     {
       "id": "legProtection-silent-sandals",
       "name": "Silent Sandals",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +2, MP +1",
+      "dropLocation": "Chapter 1",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a2/Silent_Sandals_PoR_Icon.png/revision/latest?cb=20150811175156"
     },
     {
       "id": "legProtection-silver-leggings",
       "name": "Silver Leggings",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +6",
+      "dropLocation": "Chapter 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c5/Silver_Leggings_PoR_Icon.png/revision/latest?cb=20150811175157"
     },
     {
       "id": "legProtection-simon-s-sandals",
       "name": "Simon's Sandals",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +9, STR +3, MND +3, HP +8",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/67/Simon%27s_Sandals_Icon.png/revision/latest?cb=20191012083234"
     },
     {
       "id": "legProtection-slick-boots",
       "name": "Slick Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3",
+      "dropLocation": "Chapter 3",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/fb/Slick_Boots_PoR_Icon.png/revision/latest?cb=20150811175158"
     },
     {
       "id": "legProtection-spiked-boots",
       "name": "Spiked Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +3",
+      "dropLocation": "Chapter 1",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b3/Spiked_Boots_PoR_Icon.png/revision/latest?cb=20150811175201"
     },
     {
       "id": "legProtection-steel-greaves",
       "name": "Steel Greaves",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +5",
+      "dropLocation": "Chapter 6, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3b/Steel_Greaves_PoR_Icon.png/revision/latest?cb=20150811175328"
     },
     {
       "id": "legProtection-succubus-boots",
       "name": "Succubus Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +4, CON +2, MND +2, HP +3",
+      "dropLocation": "Succubus drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3e/Succubus_Boots_Icon.png/revision/latest?cb=20150811175331"
     },
     {
       "id": "legProtection-valkyrie-greaves",
       "name": "Valkyrie Greaves",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +7, STR +1, MND +2, HP +3, MP +3",
+      "dropLocation": "Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/41/Valkyrie_Greaves_Icon.png/revision/latest?cb=20150326042054"
     },
     {
       "id": "legProtection-winged-boots",
       "name": "Winged Boots",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": null,
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/17/Winged_Boots_Icon.png/revision/latest?cb=20150811175531"
     },
     {
       "id": "legProtection-wingtips",
       "name": "Wingtips",
-      "slot": "legProtection"
+      "slot": "legProtection",
+      "stats": "DEF +2",
+      "dropLocation": "Chapters 3, 4, 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/57/Wingtips_Icon.png/revision/latest?cb=20150811175531"
     },
     {
       "id": "cloaks-assassin-s-cape",
       "name": "Assassin's Cape",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +4, HP +4, MP +4",
+      "dropLocation": "Chapter 6 - Hard, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Assassin%27s_Cape_PoR_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811173700"
     },
     {
       "id": "cloaks-black-cloak",
       "name": "Black Cloak",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +6, CON +2, HP +13, MP +13",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9f/Twilight_Cloak_Icon.png/revision/latest/scale-to-width-down/103?cb=20150325034423"
     },
     {
       "id": "cloaks-blood-cloak",
       "name": "Blood Cloak",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +3, HP +3, MP +3",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Bloody_Cape_LoI.png/revision/latest/scale-to-width-down/93?cb=20140607123758"
     },
     {
       "id": "cloaks-blue-cape",
       "name": "Blue Cape",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +3, INT +1, HP +3, MP +3",
+      "dropLocation": "Chapters 1, 5, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3e/Blue_Cape_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811173813"
     },
     {
       "id": "cloaks-cape",
       "name": "Cape",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +1",
+      "dropLocation": "Chapters 1, 2, 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3a/Cape_PoR_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811173932"
     },
     {
       "id": "cloaks-cape-of-invisibility",
       "name": "Cape of Invisibility",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +4, LCK +2, HP +5, MP +5",
+      "dropLocation": "Chapter 2",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/ef/Crystal_Cloak_Icon.png/revision/latest/scale-to-width-down/103?cb=20150325034421"
     },
     {
       "id": "cloaks-cloth-cape",
       "name": "Cloth Cape",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +2, CON +1, HP +1, MP +1",
+      "dropLocation": "Chapters 1, 3-6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7d/Cloth_Cape_Icon.png/revision/latest/scale-to-width-down/103?cb=20150325034421"
     },
     {
       "id": "cloaks-crimson-cloak",
       "name": "Crimson Cloak",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +5, STR +2, MND +2, HP +8, MP +8",
+      "dropLocation": "Chapters 5-6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c2/Crimson_Cloak_DoS_Icon.png/revision/latest/scale-to-width-down/103?cb=20171005162743"
     },
     {
       "id": "cloaks-elven-cape",
       "name": "Elven Cape",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +5, MND +5, HP +4, MP +6",
+      "dropLocation": "Chapter 6 - Hard, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/08/Elven_Cape_PoR_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811174100"
     },
     {
       "id": "cloaks-hero-s-cape",
       "name": "Hero's Cape",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +2, HP +2, MP +2",
+      "dropLocation": "Chapters 1, 3, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d8/Hero%27s_Cape_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811174325"
     },
     {
       "id": "cloaks-holy-mantle",
       "name": "Holy Mantle",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +3, CON +2, MND +2, HP +3, MP +8",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/Holy_Mantle_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174442"
     },
     {
       "id": "cloaks-paludamentum",
       "name": "Paludamentum",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +5, MND +3, HP +10, MP +15",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e0/Paludamentum_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174822"
     },
     {
       "id": "cloaks-traveler-cape",
       "name": "Traveler Cape",
-      "slot": "cloaks"
+      "slot": "cloaks",
+      "stats": "DEF +4, HP +5, MP +3",
+      "dropLocation": "Chapters 2, 5-6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/95/Traveler_Cape_Icon.png/revision/latest/scale-to-width-down/103?cb=20171005163859"
     },
     {
       "id": "shields-alucard-shield",
       "name": "Alucard Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "DEF +10",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/63/Alucard_Shield_Icon.png/revision/latest?cb=20150829190833"
     },
     {
       "id": "shields-alucart-shield",
       "name": "Alucart Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": null,
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/63/Alucard_Shield_Icon.png/revision/latest/scale-to-width-down/111?cb=20150829190833"
     },
     {
       "id": "shields-axe-knight-shield",
       "name": "Axe Knight Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "ATK +3",
+      "dropLocation": "Axe Knight drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest/scale-to-width-down/103?cb=20150829191415"
     },
     {
       "id": "shields-dark-shield",
       "name": "Dark Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "DEF +3",
+      "dropLocation": "Chapter 5, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/fc/Dark_Shield_Icon.png/revision/latest?cb=20150829191739"
     },
     {
       "id": "shields-fire-shield",
       "name": "Fire Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "ATK +7",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ad/Fire_Shield_Icon.png/revision/latest?cb=20150829191810"
     },
     {
       "id": "shields-goddess-shield",
       "name": "Goddess Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/95/Goddess_Shield_Icon.png/revision/latest?cb=20150829191537"
     },
     {
       "id": "shields-herald-shield",
       "name": "Herald Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "ATK +9",
+      "dropLocation": "Chapter 5 - Hard, Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/36/Herald_Shield_Icon.png/revision/latest?cb=20150829191401"
     },
     {
       "id": "shields-iron-shield",
       "name": "Iron Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "DEF +2",
+      "dropLocation": "Chapter 1, 3, 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2f/Iron_Shield_Icon.png/revision/latest?cb=20150829190816"
     },
     {
       "id": "shields-knight-shield",
       "name": "Knight Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "DEF +4",
+      "dropLocation": "Chapter 3, 4, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/18/Knight_Shield_Icon.png/revision/latest?cb=20150829190918"
     },
     {
       "id": "shields-leather-shield",
       "name": "Leather Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "DEF +1",
+      "dropLocation": "Chapter 2, 3, 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/00/Leather_Shield_Icon.png/revision/latest?cb=20150829185708"
     },
     {
       "id": "shields-medusa-shield",
       "name": "Medusa Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "ATK +3, DEF +1",
+      "dropLocation": "Medusa Head drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/05/Medusa_Shield_Icon.png/revision/latest?cb=20150829191520"
     },
     {
       "id": "shields-shaman-shield",
       "name": "Shaman Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "ATK +5",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7b/Shaman_Shield_Icon.png/revision/latest?cb=20150829191326"
     },
     {
       "id": "shields-skull-shield",
       "name": "Skull Shield",
-      "slot": "shields"
+      "slot": "shields",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/24/Skull_Shield_Icon.png/revision/latest?cb=20150829191617"
     },
     {
       "id": "accessories-abalone-brooch",
       "name": "Abalone Brooch",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, MND +1, HP +2, MP +2",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Abalone_Brooch_Icon.png/revision/latest/scale-to-width-down/111?cb=20150811173657"
     },
     {
       "id": "accessories-astral-brooch",
       "name": "Astral Brooch",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Chapter 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d3/Astral_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811173700"
     },
     {
       "id": "accessories-astral-ring",
       "name": "Astral Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +4",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e7/Astral_Ring_Icon.png/revision/latest?cb=20150811173700"
     },
     {
       "id": "accessories-blessed-ankh",
       "name": "Blessed Ankh",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Chapter 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Blessed_Ankh_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811173813"
     },
     {
       "id": "accessories-blessed-ring",
       "name": "Blessed Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/22/Curse_Sealing_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052644"
     },
     {
       "id": "accessories-bloodstone",
       "name": "Bloodstone",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/12/Bloodstone_Icon.png/revision/latest/scale-to-width-down/120?cb=20150325033342"
     },
     {
       "id": "accessories-bloody-stud",
       "name": "Bloody Stud",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, HP +3",
+      "dropLocation": "Chapter 5, 6",
+      "iconUrl": null
     },
     {
       "id": "accessories-chaos-ring",
       "name": "Chaos Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/18/Magus_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174707"
     },
     {
       "id": "accessories-charm-necklace",
       "name": "Charm Necklace",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "HP +4, MP +4",
+      "dropLocation": "DLC",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/15/Charm_Necklace_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811173933"
     },
     {
       "id": "accessories-crystal-necklet",
       "name": "Crystal Necklet",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +2, INT +2, HP +3, MP +3",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7a/Crystal_Necklet_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174057"
     },
     {
       "id": "accessories-diamond-brooch",
       "name": "Diamond Brooch",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +2, HP +5, MP +5",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/00/Diamond_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174059"
     },
     {
       "id": "accessories-forget-me-not",
       "name": "Forget-Me-Not",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, INT +1, HP +2, MP +2",
+      "dropLocation": "Persephone drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/37/Forget-Me-Not_Icon.png/revision/latest/scale-to-width-down/112?cb=20150811174209"
     },
     {
       "id": "accessories-gold-stud",
       "name": "Gold Stud",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +3, HP +3",
+      "dropLocation": "Chapter 6, Chapter 2 - Hard",
+      "iconUrl": null
     },
     {
       "id": "accessories-heart-brooch",
       "name": "Heart Brooch",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +3",
+      "dropLocation": "Chapter 4, Persephone drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/ed/Heart_Brooch.png/revision/latest/scale-to-width-down/76?cb=20140707232906"
     },
     {
       "id": "accessories-hercules-ring",
       "name": "Hercules Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Chapter 1",
+      "iconUrl": null
     },
     {
       "id": "accessories-hoop-earring",
       "name": "Hoop Earring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, HP +1",
+      "dropLocation": "Chapter 1-4",
+      "iconUrl": null
     },
     {
       "id": "accessories-immunity-ring",
       "name": "Immunity Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/46/Purity_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052648"
     },
     {
       "id": "accessories-laurel-brooch",
       "name": "Laurel Brooch",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, HP +2, MP +2",
+      "dropLocation": "Chapter 1",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d1/Laurel_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174556"
     },
     {
       "id": "accessories-lucky-charm",
       "name": "Lucky Charm",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "LCK +1",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a1/Lucky_Charm_AoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224320"
     },
     {
       "id": "accessories-master-ring",
       "name": "Master Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Shop",
+      "iconUrl": null
     },
     {
       "id": "accessories-megingiord",
       "name": "Megingiord",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +3, STR +4",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": null
     },
     {
       "id": "accessories-miser-ring",
       "name": "Miser Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "DLC",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/19/Miser_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150822194118"
     },
     {
       "id": "accessories-moon-brooch",
       "name": "Moon Brooch",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +4, CON +3, INT +3, LCK +1, HP +5, MP +5",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a4/Moon_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174711"
     },
     {
       "id": "accessories-moonstone",
       "name": "Moonstone",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "STR +2, CON +2, INT +2, MND +2, LCK +2",
+      "dropLocation": "Chapter 5, 6, Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2f/Moonstone_Icon.png/revision/latest/scale-to-width-down/120?cb=20150325033606"
     },
     {
       "id": "accessories-neck-warmer",
       "name": "Neck Warmer",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1",
+      "dropLocation": "Chapter 1-5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/09/Neck_Warmer_Icon.png/revision/latest?cb=20171005163200"
     },
     {
       "id": "accessories-orchid-corsage",
       "name": "Orchid Corsage",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +2, INT +1, MP +4",
+      "dropLocation": "Shop",
+      "iconUrl": null
     },
     {
       "id": "accessories-pearl-ring",
       "name": "Pearl Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, MP +2",
+      "dropLocation": "Chapter 4-6, Shop",
+      "iconUrl": null
     },
     {
       "id": "accessories-pendant",
       "name": "Pendant",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, HP +1, MP +1",
+      "dropLocation": "Chapter 1, 2, Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/cb/Pendant_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163309"
     },
     {
       "id": "accessories-platinum-chain",
       "name": "Platinum Chain",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +3, HP +5",
+      "dropLocation": "Chapter 4 - Hard, Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Platinum_Chain_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174930"
     },
     {
       "id": "accessories-platinum-stud",
       "name": "Platinum Stud",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +3, CON +1, HP +5",
+      "dropLocation": "Chapter 1, 3, 4, 6 - Hard",
+      "iconUrl": null
     },
     {
       "id": "accessories-power-belt",
       "name": "Power Belt",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +3, STR +1, HP +5",
+      "dropLocation": "Shop",
+      "iconUrl": null
     },
     {
       "id": "accessories-red-scarf",
       "name": "Red Scarf",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +3, INT +2, MND +2, HP +4, MP +4",
+      "dropLocation": "Chapter 1",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Red_Scarf_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224422"
     },
     {
       "id": "accessories-rosary",
       "name": "Rosary",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, CON +5",
+      "dropLocation": "Chapter 5, 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8c/Rosary_SOTN_DXC_Icon.png/revision/latest?cb=20171009200254"
     },
     {
       "id": "accessories-rose-corsage",
       "name": "Rose Corsage",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, INT +1, MP +2",
+      "dropLocation": "Chapter 1",
+      "iconUrl": null
     },
     {
       "id": "accessories-sage-ring",
       "name": "Sage Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Chapter 6, Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Rune_Ring_DoS_Icon.png/revision/latest?cb=20171005163421"
     },
     {
       "id": "accessories-satans-ring",
       "name": "Satans Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +4, STR +3, CON +3, INT +3, MND +3",
+      "dropLocation": "Chapter 6",
+      "iconUrl": null
     },
     {
       "id": "accessories-scarf",
       "name": "Scarf",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, CON +1, MND +1, HP +3",
+      "dropLocation": "Chapter 1, 2, 4, 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/81/Scarf_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163423"
     },
     {
       "id": "accessories-silver-stud",
       "name": "Silver Stud",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, HP +2",
+      "dropLocation": "Chapter 3-6",
+      "iconUrl": null
     },
     {
       "id": "accessories-skull-necklace",
       "name": "Skull Necklace",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +3, LCK -1, HP +2, MP +2",
+      "dropLocation": "Chapter 6, Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Skull_Necklace_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163425"
     },
     {
       "id": "accessories-skull-ring",
       "name": "Skull Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +6, STR +3, CON +3, INT +3, MND +3",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a0/Skull_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811175158"
     },
     {
       "id": "accessories-soul-eater-ring",
       "name": "Soul Eater Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a3/Soul_Eater_Ring_DoS_Icon.png/revision/latest?cb=20171005163426"
     },
     {
       "id": "accessories-staurolite",
       "name": "Staurolite",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": null,
+      "dropLocation": "Chapter 1 - Hard",
+      "iconUrl": null
     },
     {
       "id": "accessories-studded-choker",
       "name": "Studded Choker",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +2, HP +3, MP +3",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b2/Studded_Choker_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811175331"
     },
     {
       "id": "accessories-sunstone",
       "name": "Sunstone",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "STR +2, CON +2",
+      "dropLocation": "Chapter 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e9/Sunstone_Icon.png/revision/latest/scale-to-width-down/120?cb=20150325033610"
     },
     {
       "id": "accessories-tear-of-blood",
       "name": "Tear Of Blood",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +4, STR +1, CON +1, INT +1, HP +4, MP +4",
+      "dropLocation": "Chapter 5, 6 - Hard",
+      "iconUrl": null
     },
     {
       "id": "accessories-thief-ring",
       "name": "Thief Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "LCK +10",
+      "dropLocation": "Chapter 2 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Rare_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052648"
     },
     {
       "id": "accessories-tough-ring",
       "name": "Tough Ring",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "CON +3",
+      "dropLocation": "Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/90/Tough_Ring_Icon.png/revision/latest?cb=20150811175447"
     },
     {
       "id": "accessories-turquoise-stud",
       "name": "Turquoise Stud",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, HP +1",
+      "dropLocation": "Chapter 3, 4, 6, Chapter 1 - Hard",
+      "iconUrl": null
     },
     {
       "id": "accessories-venus-brooch",
       "name": "Venus Brooch",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +5, CON +3, MND +3, LCK +3, HP +7, MP +7",
+      "dropLocation": "Chapter 5 - Hard",
+      "iconUrl": null
     },
     {
       "id": "accessories-white-corsage",
       "name": "White Corsage",
-      "slot": "accessories"
+      "slot": "accessories",
+      "stats": "DEF +1, INT +1, MP +1",
+      "dropLocation": "Chapter 1",
+      "iconUrl": null
     },
     {
       "id": "swords-agni-s-flame",
       "name": "Agni's Flame",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +15",
+      "dropLocation": "Fire Demon drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ca/Firebrand_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184910"
     },
     {
       "id": "swords-alucard-sword",
       "name": "Alucard Sword",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +38",
+      "dropLocation": "Chapter 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/05/Alucard_Sword_Icon.png/revision/latest?cb=20150823045731"
     },
     {
       "id": "swords-alucart-sword",
       "name": "Alucart Sword",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +3",
+      "dropLocation": "Chapter 1-4, Hard/Normal",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/05/Alucard_Sword_Icon.png/revision/latest/scale-to-width-down/120?cb=20150823045731"
     },
     {
       "id": "swords-badelaire",
       "name": "Badelaire",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +30",
+      "dropLocation": "DLC",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a9/Badelaire_Icon.png/revision/latest?cb=20150829183632"
     },
     {
       "id": "swords-bastard-sword",
       "name": "Bastard Sword",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +12",
+      "dropLocation": "Chapter 3, 5, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/75/Bastard_Sword_Icon.png/revision/latest?cb=20150823044445"
     },
     {
       "id": "swords-bekatowa",
       "name": "Bekatowa",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/38/Bekatowa_Icon.png/revision/latest?cb=20150823042819"
     },
     {
       "id": "swords-broadsword",
       "name": "Broadsword",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +9",
+      "dropLocation": "Shop, Chapter 3-6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/87/Broadsword.png/revision/latest/scale-to-width-down/120?cb=20140706115440"
     },
     {
       "id": "swords-burtgang",
       "name": "Burtgang",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +30, DEF +5, CON +5",
+      "dropLocation": "Chapter 4-6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d8/Burtgang_DoS_Icon.png/revision/latest?cb=20171005162620"
     },
     {
       "id": "swords-cutlass",
       "name": "Cutlass",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 4, 5, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e8/Cutlass_Icon.png/revision/latest?cb=20150823040705"
     },
     {
       "id": "swords-damascus-sword",
       "name": "Damascus Sword",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +13",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/96/Damascus_Sword_Icon.png/revision/latest?cb=20150823043910"
     },
     {
       "id": "swords-fragarach",
       "name": "Fragarach",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +25",
+      "dropLocation": "Chapter 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9e/Luminus_Icon.png/revision/latest/scale-to-width-down/111?cb=20150823044836"
     },
     {
       "id": "swords-gladius",
       "name": "Gladius",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +16",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/20/Gladius_Icon.png/revision/latest?cb=20150823022334"
     },
     {
       "id": "swords-gram",
       "name": "Gram",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +22",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/bb/Gram_Icon.png/revision/latest?cb=20150823045152"
     },
     {
       "id": "swords-harper",
       "name": "Harper",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +18",
+      "dropLocation": "Chapter 2-6, Hard/Normal",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/61/Harper_Icon.png/revision/latest?cb=20150823044953"
     },
     {
       "id": "swords-holy-sword",
       "name": "Holy Sword",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +18",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/bc/Holy_Sword_Icon.png/revision/latest?cb=20150829185145"
     },
     {
       "id": "swords-hrunting",
       "name": "Hrunting",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +18",
+      "dropLocation": "Shop, Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/83/Terminus_Est_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829183337"
     },
     {
       "id": "swords-ice-brand",
       "name": "Ice Brand",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +21",
+      "dropLocation": "Chapter 3",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a7/Icebrand_Icon.png/revision/latest?cb=20150829182930"
     },
     {
       "id": "swords-indra-s-light",
       "name": "Indra's Light",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +5",
+      "dropLocation": "Thunder Demon drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5d/Thunderbrand_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829182836"
     },
     {
       "id": "swords-jagdplaute",
       "name": "Jagdplaute",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +11",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/ed/Hunter_Sword_Icon.png/revision/latest/scale-to-width-down/111?cb=20150823044106"
     },
     {
       "id": "swords-joyeuse",
       "name": "Joyeuse",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +30",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Joyeuse_DoS_Icon.png/revision/latest?cb=20171005163035"
     },
     {
       "id": "swords-kaladbolg",
       "name": "Kaladbolg",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +39",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f7/Kaladbolg_DoS_Icon.png/revision/latest?cb=20171005163036"
     },
     {
       "id": "swords-laevatain",
       "name": "Laevatain",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +15",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/L%C3%A6vateinn_Marsil_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184825"
     },
     {
       "id": "swords-long-sword",
       "name": "Long Sword",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +5",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f2/Long_Sword_DoS_Icon.png/revision/latest?cb=20171005163153"
     },
     {
       "id": "swords-milican-s-sword",
       "name": "Milican's Sword",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/73/Stone_Sword_Icon.png/revision/latest/scale-to-width-down/120?cb=20150817001009"
     },
     {
       "id": "swords-mormegil",
       "name": "Mormegil",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +18",
+      "dropLocation": "Chapter 2",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/78/Mormegil_Icon.png/revision/latest?cb=20150829182746"
     },
     {
       "id": "swords-mystletain",
       "name": "Mystletain",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +33",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/69/Mystletain_DoS_Icon.png/revision/latest?cb=20171005163159"
     },
     {
       "id": "swords-rahab-s-frost",
       "name": "Rahab's Frost",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +7",
+      "dropLocation": "Sea Demon drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a7/Icebrand_Icon.png/revision/latest/scale-to-width-down/111?cb=20150829182930"
     },
     {
       "id": "swords-saber",
       "name": "Saber",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 2-4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/21/Saber_Icon.png/revision/latest?cb=20150823041529"
     },
     {
       "id": "swords-scimitar",
       "name": "Scimitar",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +7",
+      "dropLocation": "Shop, Chapter 2-5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/01/Scimitar_-_Broadsword_Icon.png/revision/latest?cb=20191004200102"
     },
     {
       "id": "swords-short-sword",
       "name": "Short Sword",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +4",
+      "dropLocation": "Chapter 1-3",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/15/Short_Sword_Icon.png/revision/latest?cb=20150817000922"
     },
     {
       "id": "swords-sword-of-hador",
       "name": "Sword of Hador",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +17",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ab/Sword_of_Hador_Icon.png/revision/latest?cb=20150823044740"
     },
     {
       "id": "swords-talwar",
       "name": "Talwar",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +14",
+      "dropLocation": "Chapter 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Talwar_Icon.png/revision/latest?cb=20150823044603"
     },
     {
       "id": "swords-tyrfing",
       "name": "Tyrfing",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 2-4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8d/Tyrfing_Icon.png/revision/latest?cb=20150824231212"
     },
     {
       "id": "swords-valmanway",
       "name": "Valmanway",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/28/Valmanway_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224613"
     },
     {
       "id": "swords-vorpal-blade",
       "name": "Vorpal Blade",
-      "slot": "swords"
+      "slot": "swords",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Crissaegrim_-_Heaven_Sword_-_Vorpal_Blade_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829183743"
     },
     {
       "id": "firearms-chakram",
       "name": "Chakram",
-      "slot": "firearms"
+      "slot": "firearms",
+      "stats": "ATK +5",
+      "dropLocation": "Amalaric Sniper drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/21/Chakram_Icon.png/revision/latest?cb=20150829191940"
     },
     {
       "id": "firearms-handgun",
       "name": "Handgun",
-      "slot": "firearms"
+      "slot": "firearms",
+      "stats": "ATK +5",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/93/Handgun_Icon.png/revision/latest?cb=20171005162926"
     },
     {
       "id": "firearms-rpg",
       "name": "RPG",
-      "slot": "firearms"
+      "slot": "firearms",
+      "stats": "ATK +35",
+      "dropLocation": "Chapters 3, 4, 5, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e3/RPG_Icon.png/revision/latest?cb=20171005163421"
     },
     {
       "id": "firearms-silver-gun",
       "name": "Silver Gun",
-      "slot": "firearms"
+      "slot": "firearms",
+      "stats": "ATK +16",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d8/Silver_Gun_Icon.png/revision/latest?cb=20171005163424"
     },
     {
       "id": "firearms-throwing-sickle",
       "name": "Throwing Sickle",
-      "slot": "firearms"
+      "slot": "firearms",
+      "stats": "ATK +24",
+      "dropLocation": "Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/Throwing_Sickle_Icon.png/revision/latest?cb=20171005163858"
     },
     {
       "id": "firearms-tomahawk",
       "name": "Tomahawk",
-      "slot": "firearms"
+      "slot": "firearms",
+      "stats": "ATK +12",
+      "dropLocation": "Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Tomahawk_Icon.png/revision/latest?cb=20171005163858"
     },
     {
       "id": "otherWeapons-belnades-staff",
       "name": "Belnades Staff",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +1",
+      "dropLocation": "DLC",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/03/Belnades_Staff_HD_Icon.png/revision/latest?cb=20191011204453"
     },
     {
       "id": "otherWeapons-book-of-binding",
       "name": "Book of Binding",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +3",
+      "dropLocation": "Available at game start",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c4/Tome_of_Arms_Icon.png/revision/latest/scale-to-width-down/111?cb=20150811175445"
     },
     {
       "id": "otherWeapons-confodere",
       "name": "Confodere",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +2",
+      "dropLocation": "Available at game start",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f4/OOE_Union_Confodere.gif/revision/latest/scale-to-width-down/120?cb=20170914211405"
     },
     {
       "id": "otherWeapons-doves",
       "name": "Doves",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +1",
+      "dropLocation": "Available at game start",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/39/Dove_HD_Icon.png/revision/latest/scale-to-width-down/120?cb=20190319110346"
     },
     {
       "id": "otherWeapons-garian-sword",
       "name": "Garian Sword",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +18",
+      "dropLocation": "Chapter 1 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/42/Garian_Sword_DoS_Icon.png/revision/latest?cb=20171005162921"
     },
     {
       "id": "otherWeapons-heaven-s-sword",
       "name": "Heaven's Sword",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +11",
+      "dropLocation": "Chapter 3",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Crissaegrim_-_Heaven_Sword_-_Vorpal_Blade_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829183743"
     },
     {
       "id": "otherWeapons-lapiste",
       "name": "Lapiste",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +6",
+      "dropLocation": "Chapters 3, 4, 5, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9d/OOE_Union_Lapiste.gif/revision/latest/scale-to-width-down/120?cb=20170914211637"
     },
     {
       "id": "otherWeapons-nebula",
       "name": "Nebula",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +40",
+      "dropLocation": "Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1e/Nebula_PoR_Icon.png/revision/latest?cb=20150811174819"
     },
     {
       "id": "otherWeapons-nunchakus",
       "name": "Nunchakus",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +7",
+      "dropLocation": "Chapter 5",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/07/Nunchakus_Icon.png/revision/latest?cb=20171005163307"
     },
     {
       "id": "otherWeapons-pneuma",
       "name": "Pneuma",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +3",
+      "dropLocation": "Chapters 3, 4, 5, 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f3/OOE_Pneuma.gif/revision/latest/scale-to-width-down/120?cb=20170914211240"
     },
     {
       "id": "otherWeapons-tonfa",
       "name": "Tonfa",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +7",
+      "dropLocation": "Chapters 2, 3, 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4b/Nunchaku_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184435"
     },
     {
       "id": "otherWeapons-vampire-killer",
       "name": "Vampire Killer",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +3",
+      "dropLocation": "Available at game start",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/cf/Vampire_Killer_Icon.png/revision/latest?cb=20150811175451"
     },
     {
       "id": "otherWeapons-whip-sword",
       "name": "Whip Sword",
-      "slot": "otherWeapons"
+      "slot": "otherWeapons",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 4",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Whip_Sword_DoS_Icon.png/revision/latest?cb=20171005163904"
     },
     {
       "id": "subWeapons-axe",
       "name": "Axe",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +8",
+      "dropLocation": "Axe Knight drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest?cb=20150829191415"
     },
     {
       "id": "subWeapons-bible",
       "name": "Bible",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 2, Chapter 2 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/29/Bible_HD_Icon.png/revision/latest?cb=20191011205215"
     },
     {
       "id": "subWeapons-boomerang",
       "name": "Boomerang",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +6",
+      "dropLocation": "Gurkha Master drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Boomerang_HD_Icon.png/revision/latest?cb=20191011205347"
     },
     {
       "id": "subWeapons-cross",
       "name": "Cross",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 6, Chapter 6 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Cross_Shuriken_Icon.png/revision/latest?cb=20150829192249"
     },
     {
       "id": "subWeapons-grenade",
       "name": "Grenade",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 1, Chapter 1 - Hard, Chapter 2, Chapter 2 - Hard; The Creature drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Grenade_HD_Icon.png/revision/latest?cb=20191011205816"
     },
     {
       "id": "subWeapons-holy-water",
       "name": "Holy Water",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 4, Chapter 6",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/12/Holy_Water_PoR_Icon.png/revision/latest?cb=20150829175335"
     },
     {
       "id": "subWeapons-knife",
       "name": "Knife",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +4",
+      "dropLocation": "Starting equipment",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037"
     },
     {
       "id": "subWeapons-kunai",
       "name": "Kunai",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +5",
+      "dropLocation": "Chapter 4, Chapter 4 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f9/Kunai_HD_Icon.png/revision/latest?cb=20191011205457"
     },
     {
       "id": "subWeapons-paper-airplane",
       "name": "Paper Airplane",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +4",
+      "dropLocation": "Fleaman drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4c/Paper_Airplane_HD_Icon.png/revision/latest?cb=20191011205603"
     },
     {
       "id": "subWeapons-ricochet-rock",
       "name": "Ricochet Rock",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +6",
+      "dropLocation": "Lerajie drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9b/Ricochet_Rock_HD_Icon.png/revision/latest?cb=20191011204918"
     },
     {
       "id": "subWeapons-shuriken",
       "name": "Shuriken",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +5",
+      "dropLocation": "Chapter 5, Chapter 5 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Shuriken.png/revision/latest/scale-to-width-down/120?cb=20140912111245"
     },
     {
       "id": "subWeapons-wrecking-ball",
       "name": "Wrecking Ball",
-      "slot": "subWeapons"
+      "slot": "subWeapons",
+      "stats": "ATK +9",
+      "dropLocation": "Chapter 3, Chapter 3 - Hard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Wrecking_Ball_HD_Icon.png/revision/latest?cb=20191011205704"
+    }
+  ],
+  "enemies": [
+    {
+      "id": "gergoth",
+      "name": "Gergoth",
+      "type": "boss",
+      "chapters": [
+        "ch-1"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "puppet-master",
+      "name": "Puppet Master",
+      "type": "boss",
+      "chapters": [
+        "ch-2"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "menace",
+      "name": "Menace",
+      "type": "boss",
+      "chapters": [
+        "ch-3"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "brauner",
+      "name": "Brauner",
+      "type": "boss",
+      "chapters": [
+        "ch-4"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "death",
+      "name": "Death",
+      "type": "boss",
+      "chapters": [
+        "ch-5"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "type": "boss",
+      "chapters": [
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "astarte",
+      "name": "Astarte",
+      "type": "boss",
+      "chapters": [
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "legion",
+      "name": "Legion",
+      "type": "boss",
+      "chapters": [
+        "ch-8"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "beelzebub",
+      "name": "Beelzebub",
+      "type": "boss",
+      "chapters": [
+        "ch-9"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-the-count",
+      "name": "R. The Count",
+      "type": "boss",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-the-creature",
+      "name": "R. The Creature",
+      "type": "boss",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-grim-reaper",
+      "name": "R. Grim Reaper",
+      "type": "boss",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-mummy-man",
+      "name": "R. Mummy Man",
+      "type": "boss",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-phantom-bat",
+      "name": "R. Phantom Bat",
+      "type": "boss",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-queen-medusa",
+      "name": "R. Queen Medusa",
+      "type": "boss",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "chimyriad",
+      "name": "Chimyriad",
+      "type": "boss",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "decapiclops",
+      "name": "Decapiclops",
+      "type": "boss",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "ooxocutioner",
+      "name": "Ooxocutioner",
+      "type": "boss",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "ryukotsuki",
+      "name": "Ryukotsuki",
+      "type": "boss",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "aliorumnas",
+      "name": "Aliorumnas",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-4",
+        "ch-5",
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "amalaric-sniper",
+      "name": "Amalaric Sniper",
+      "type": "common",
+      "chapters": [
+        "ch-1"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "axe-knight",
+      "name": "Axe Knight",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-2",
+        "ch-3",
+        "ch-4",
+        "ch-5",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "bat",
+      "name": "Bat",
+      "type": "common",
+      "chapters": [
+        "ch-1"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "bone-pillar",
+      "name": "Bone Pillar",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-2",
+        "ch-3",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "buer",
+      "name": "Buer",
+      "type": "common",
+      "chapters": [
+        "ch-5",
+        "ch-6",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "cave-troll",
+      "name": "Cave Troll",
+      "type": "common",
+      "chapters": [
+        "ch-3",
+        "ch-4",
+        "ch-5"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "creature",
+      "name": "Creature",
+      "type": "common",
+      "chapters": [
+        "ch-4"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "dead-warrior",
+      "name": "Dead Warrior",
+      "type": "common",
+      "chapters": [
+        "ch-5"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "disc-armor",
+      "name": "Disc Armor",
+      "type": "common",
+      "chapters": [
+        "ch-5",
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "dullahan",
+      "name": "Dullahan",
+      "type": "common",
+      "chapters": [
+        "ch-4",
+        "ch-6",
+        "ch-9"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "ectoplasm",
+      "name": "Ectoplasm",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-6",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "final-guard",
+      "name": "Final Guard",
+      "type": "common",
+      "chapters": [
+        "ch-6",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "fire-demon",
+      "name": "Fire Demon",
+      "type": "common",
+      "chapters": [
+        "ch-3",
+        "ch-4",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "fishhead",
+      "name": "Fishhead",
+      "type": "common",
+      "chapters": [
+        "ch-8"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "fleaman",
+      "name": "Fleaman",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-3"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "frozen-shade",
+      "name": "Frozen Shade",
+      "type": "common",
+      "chapters": [
+        "ch-2"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "gaibon",
+      "name": "Gaibon",
+      "type": "common",
+      "chapters": [
+        "ch-9"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "ghost",
+      "name": "Ghost",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "glasya-labolas",
+      "name": "Glasya Labolas",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-3",
+        "ch-4",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "gurkha-master",
+      "name": "Gurkha Master",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-5",
+        "ch-6",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": "Ch.1 Hard mode only"
+    },
+    {
+      "id": "harpy",
+      "name": "Harpy",
+      "type": "common",
+      "chapters": [
+        "ch-5",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "imp",
+      "name": "Imp",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-3",
+        "ch-4",
+        "ch-5",
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "killer-fish",
+      "name": "Killer Fish",
+      "type": "common",
+      "chapters": [
+        "ch-8"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "lerajie",
+      "name": "Lerajie",
+      "type": "common",
+      "chapters": [
+        "ch-4",
+        "ch-5",
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "malachi",
+      "name": "Malachi",
+      "type": "common",
+      "chapters": [
+        "ch-5",
+        "ch-6",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "man-eating-plant",
+      "name": "Man-Eating Plant",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-9"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "medusa-head",
+      "name": "Medusa Head",
+      "type": "common",
+      "chapters": [
+        "ch-5",
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "merman",
+      "name": "Merman",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-9"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "mimic",
+      "name": "Mimic",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-2",
+        "ch-3",
+        "ch-4",
+        "ch-5",
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": "Ch.1 Hard mode only"
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-3",
+        "ch-4"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "moldy-corpse",
+      "name": "Moldy Corpse",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "mummy",
+      "name": "Mummy",
+      "type": "common",
+      "chapters": [
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "nova-skeleton",
+      "name": "Nova Skeleton",
+      "type": "common",
+      "chapters": [
+        "ch-5",
+        "ch-6",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "peeping-eye",
+      "name": "Peeping Eye",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-3",
+        "ch-5"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "persephone",
+      "name": "Persephone",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-4"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "sea-demon",
+      "name": "Sea Demon",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-5",
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": "Ch.2 Hard mode only"
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-2",
+        "ch-3",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "skeleton-gunman",
+      "name": "Skeleton Gunman",
+      "type": "common",
+      "chapters": [
+        "ch-5"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "slogra",
+      "name": "Slogra",
+      "type": "common",
+      "chapters": [
+        "ch-9"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "specter",
+      "name": "Specter",
+      "type": "common",
+      "chapters": [
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "spittle-bone",
+      "name": "Spittle Bone",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-2",
+        "ch-4",
+        "ch-5"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "succubus",
+      "name": "Succubus",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "thunder-demon",
+      "name": "Thunder Demon",
+      "type": "common",
+      "chapters": [
+        "ch-6"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "treant",
+      "name": "Treant",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-9"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "ukoback",
+      "name": "Ukoback",
+      "type": "common",
+      "chapters": [
+        "ch-8"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "une",
+      "name": "Une",
+      "type": "common",
+      "chapters": [
+        "ch-2"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "warg",
+      "name": "Warg",
+      "type": "common",
+      "chapters": [
+        "ch-9"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "white-dragon",
+      "name": "White Dragon",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-3",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "yorick",
+      "name": "Yorick",
+      "type": "common",
+      "chapters": [
+        "ch-2",
+        "ch-7"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "witch",
+      "name": "Witch",
+      "type": "common",
+      "chapters": [
+        "ch-4"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "zombie",
+      "name": "Zombie",
+      "type": "common",
+      "chapters": [
+        "ch-1",
+        "ch-9"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-axe-man",
+      "name": "R. Axe-Man",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-bat",
+      "name": "R. Bat",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-black-knight",
+      "name": "R. Black Knight",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-black-leopard",
+      "name": "R. Black Leopard",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-dragon-cannon",
+      "name": "R. Dragon Cannon",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-eagle",
+      "name": "R. Eagle",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-fish-man",
+      "name": "R. Fish Man",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-ghost",
+      "name": "R. Ghost",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-hunchback",
+      "name": "R. Hunchback",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-medusa",
+      "name": "R. Medusa",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-raven",
+      "name": "R. Raven",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-red-skeleton",
+      "name": "R. Red Skeleton",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-skele-dragon",
+      "name": "R. Skele-Dragon",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-skeleton",
+      "name": "R. Skeleton",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "r-zombie",
+      "name": "R. Zombie",
+      "type": "common",
+      "chapters": [
+        "ch-10"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "flying-flower",
+      "name": "Flying Flower",
+      "type": "common",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "gyropyre",
+      "name": "Gyropyre",
+      "type": "common",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "hellmont",
+      "name": "Hellmont",
+      "type": "common",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "kung-fugu",
+      "name": "Kung Fugu",
+      "type": "common",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "peepilliary",
+      "name": "Peepilliary",
+      "type": "common",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
+    },
+    {
+      "id": "pejora-s-mask",
+      "name": "Pejora's Mask",
+      "type": "common",
+      "chapters": [
+        "ch-11"
+      ],
+      "hp": null,
+      "notes": null
     }
   ]
 }
