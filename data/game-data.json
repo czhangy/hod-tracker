@@ -4271,6 +4271,87 @@
       "stats": null,
       "dropLocation": "Starts with (Maria)",
       "notes": "Personal Skill: summon the Black Tortoise to protect you (defense boost, like Jonathan's Guard)."
+    },
+    {
+      "id": "subWeapons-javelin",
+      "name": "Javelin",
+      "slot": "subWeapons",
+      "stats": "ATK +12",
+      "dropLocation": "Chapter 8",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-hymn",
+      "name": "Hymn",
+      "slot": "subWeapons",
+      "stats": "ATK +8",
+      "dropLocation": "Starts with (Maria)",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-zhu-que",
+      "name": "Zhu Que",
+      "slot": "subWeapons",
+      "stats": "ATK +11",
+      "dropLocation": "Starts with (Maria)",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-qing-long",
+      "name": "Qing Long",
+      "slot": "subWeapons",
+      "stats": "ATK +10",
+      "dropLocation": "Starts with (Maria)",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-bai-hu",
+      "name": "Bai Hu",
+      "slot": "subWeapons",
+      "stats": "ATK +9",
+      "dropLocation": "Starts with (Maria)",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-r-dagger",
+      "name": "R. Dagger",
+      "slot": "subWeapons",
+      "stats": "ATK +6",
+      "dropLocation": "Shop ($80,000)",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-r-boomerang",
+      "name": "R. Boomerang",
+      "slot": "subWeapons",
+      "stats": "ATK +12",
+      "dropLocation": "Chapter 10 (Hard) - Purple Chest / R. The Count (Dracula) drop",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-r-fire-bomb",
+      "name": "R. Fire Bomb",
+      "slot": "subWeapons",
+      "stats": "ATK +12",
+      "dropLocation": "Chapter 10 (Hard) - Purple Chest / R. The Count (Dracula) drop",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-r-axe",
+      "name": "R. Axe",
+      "slot": "subWeapons",
+      "stats": "ATK +10",
+      "dropLocation": "Shop ($120,000)",
+      "levelable": true,
+      "maxLevel": 9
     }
   ]
 }
