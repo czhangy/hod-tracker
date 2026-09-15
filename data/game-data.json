@@ -2501,7 +2501,8 @@
       "stats": "ATK +8",
       "dropLocation": "Axe Knight drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest?cb=20150829191415",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-bible",
@@ -2510,7 +2511,8 @@
       "stats": "ATK +8",
       "dropLocation": "Chapter 2, Chapter 2 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/29/Bible_HD_Icon.png/revision/latest?cb=20191011205215",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-boomerang",
@@ -2519,7 +2521,8 @@
       "stats": "ATK +6",
       "dropLocation": "Gurkha Master drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Boomerang_HD_Icon.png/revision/latest?cb=20191011205347",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-cross",
@@ -2528,7 +2531,8 @@
       "stats": "ATK +10",
       "dropLocation": "Chapter 6, Chapter 6 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Cross_Shuriken_Icon.png/revision/latest?cb=20150829192249",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-grenade",
@@ -2537,7 +2541,8 @@
       "stats": "ATK +10",
       "dropLocation": "Chapter 1, Chapter 1 - Hard, Chapter 2, Chapter 2 - Hard; The Creature drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Grenade_HD_Icon.png/revision/latest?cb=20191011205816",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-holy-water",
@@ -2546,7 +2551,8 @@
       "stats": "ATK +10",
       "dropLocation": "Chapter 4, Chapter 6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/12/Holy_Water_PoR_Icon.png/revision/latest?cb=20150829175335",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-knife",
@@ -2555,7 +2561,8 @@
       "stats": "ATK +4",
       "dropLocation": "Starting equipment",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-kunai",
@@ -2564,7 +2571,8 @@
       "stats": "ATK +5",
       "dropLocation": "Chapter 4, Chapter 4 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f9/Kunai_HD_Icon.png/revision/latest?cb=20191011205457",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-paper-airplane",
@@ -2573,7 +2581,8 @@
       "stats": "ATK +4",
       "dropLocation": "Fleaman drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4c/Paper_Airplane_HD_Icon.png/revision/latest?cb=20191011205603",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-ricochet-rock",
@@ -2582,7 +2591,8 @@
       "stats": "ATK +6",
       "dropLocation": "Lerajie drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9b/Ricochet_Rock_HD_Icon.png/revision/latest?cb=20191011204918",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-shuriken",
@@ -2591,7 +2601,8 @@
       "stats": "ATK +5",
       "dropLocation": "Chapter 5, Chapter 5 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Shuriken.png/revision/latest/scale-to-width-down/120?cb=20140912111245",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "subWeapons-wrecking-ball",
@@ -2600,7 +2611,8 @@
       "stats": "ATK +9",
       "dropLocation": "Chapter 3, Chapter 3 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Wrecking_Ball_HD_Icon.png/revision/latest?cb=20191011205704",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsBlue-bat",
@@ -2609,7 +2621,8 @@
       "stats": "ATK +4",
       "dropLocation": null,
       "notes": "Summon a Bat as a familiar.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsBlue-brauner",
@@ -2618,7 +2631,8 @@
       "stats": "ATK +5",
       "dropLocation": null,
       "notes": "Draw swaths in the air with cursed paint.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsBlue-buer",
@@ -2627,7 +2641,8 @@
       "stats": "ATK +4",
       "dropLocation": null,
       "notes": "Wear a cloak of tumbling fire.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsBlue-death",
@@ -2636,7 +2651,8 @@
       "stats": "ATK +6",
       "dropLocation": null,
       "notes": "Summon the Grim Reaper's scythe to attack enemies.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsBlue-final-guard",
@@ -2645,7 +2661,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Gain iron-clad defense.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsBlue-ghost",
@@ -2654,7 +2671,8 @@
       "stats": "ATK +4",
       "dropLocation": null,
       "notes": "Summon a Ghost as a familiar.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsBlue-medusa-head",
@@ -2663,7 +2681,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Gain the ability to hover in one location.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsBlue-persephone",
@@ -2672,7 +2691,8 @@
       "stats": "ATK +3",
       "dropLocation": null,
       "notes": "Enable \"Magic Vacuum\" to consume enemy HP.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsBlue-white-dragon",
@@ -2681,7 +2701,8 @@
       "stats": "ATK +6",
       "dropLocation": null,
       "notes": "Summon a White Dragon.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-amalaric-sniper",
@@ -2690,7 +2711,8 @@
       "stats": "ATK +14",
       "dropLocation": null,
       "notes": "Summon an archer to support you.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-astarte",
@@ -2699,7 +2721,8 @@
       "stats": "ATK +9",
       "dropLocation": null,
       "notes": "Create a triangular field of destruction.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-axe-knight",
@@ -2708,7 +2731,8 @@
       "stats": "ATK +8",
       "dropLocation": null,
       "notes": "Throw an axe.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-cave-troll",
@@ -2717,7 +2741,8 @@
       "stats": "ATK +9",
       "dropLocation": null,
       "notes": "Attack with a tongue lashing.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-disc-armor",
@@ -2726,7 +2751,8 @@
       "stats": "ATK +7",
       "dropLocation": null,
       "notes": "Hurl a sharp-edged circular blade.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-dracula",
@@ -2735,7 +2761,8 @@
       "stats": "ATK +12",
       "dropLocation": null,
       "notes": "Launch a torrent of magical power.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-dullahan",
@@ -2744,7 +2771,8 @@
       "stats": "ATK +12",
       "dropLocation": null,
       "notes": "Unleash a vengeful spirit.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-fire-demon",
@@ -2753,7 +2781,8 @@
       "stats": "ATK +16",
       "dropLocation": null,
       "notes": "Shoot devastating fireballs.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-fleaman",
@@ -2762,7 +2791,8 @@
       "stats": "ATK +4",
       "dropLocation": null,
       "notes": "Summon a Fleaman.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-frozen-shade",
@@ -2771,7 +2801,8 @@
       "stats": "ATK +6",
       "dropLocation": null,
       "notes": "Shoot pillars of ice.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-gergoth",
@@ -2780,7 +2811,8 @@
       "stats": "ATK +7",
       "dropLocation": null,
       "notes": "Fire devastating laser beams.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-glasya-labolas",
@@ -2789,7 +2821,8 @@
       "stats": "ATK +4",
       "dropLocation": null,
       "notes": "Generate poisonous bubbles.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-gurkha-master",
@@ -2798,7 +2831,8 @@
       "stats": "ATK +9",
       "dropLocation": null,
       "notes": "Throw Gurkha knives.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-harpy",
@@ -2807,7 +2841,8 @@
       "stats": "ATK +9",
       "dropLocation": null,
       "notes": "Shoot razor-sharp feathers.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-legion",
@@ -2816,7 +2851,8 @@
       "stats": "ATK +8",
       "dropLocation": null,
       "notes": "Fire a beam at enemies.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-lerajie",
@@ -2825,7 +2861,8 @@
       "stats": "ATK +6",
       "dropLocation": null,
       "notes": "Fire magical bullets that ricochet.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-malachi",
@@ -2834,7 +2871,8 @@
       "stats": "ATK +12",
       "dropLocation": null,
       "notes": "Summon a dark sphere that spews magical energy.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-man-eating-plant",
@@ -2843,7 +2881,8 @@
       "stats": "ATK +5",
       "dropLocation": null,
       "notes": "Send pollen flying.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-merman",
@@ -2852,7 +2891,8 @@
       "stats": "ATK +4",
       "dropLocation": null,
       "notes": "Shoot a stream of water.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-moldy-corpse",
@@ -2861,7 +2901,8 @@
       "stats": "ATK +7",
       "dropLocation": null,
       "notes": "Fling poisonous spores.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-mummy",
@@ -2870,7 +2911,8 @@
       "stats": "ATK +13",
       "dropLocation": null,
       "notes": "Extend bandage arms.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-nova-skeleton",
@@ -2879,7 +2921,8 @@
       "stats": "ATK +8",
       "dropLocation": null,
       "notes": "Fire a beam at enemies.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-puppet-master",
@@ -2888,7 +2931,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Throw a puppet and switch places with it.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-sea-demon",
@@ -2897,7 +2941,8 @@
       "stats": "ATK +16",
       "dropLocation": null,
       "notes": "Produce columns of Ice.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-skeleton",
@@ -2906,7 +2951,8 @@
       "stats": "ATK +6",
       "dropLocation": null,
       "notes": "Throw bones.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-skeleton-gunman",
@@ -2915,7 +2961,8 @@
       "stats": "ATK +9",
       "dropLocation": null,
       "notes": "Fire bullets from your finger.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-specter",
@@ -2924,7 +2971,8 @@
       "stats": "ATK +11",
       "dropLocation": null,
       "notes": "Throw lanterns.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-spittle-bone",
@@ -2933,7 +2981,8 @@
       "stats": "ATK +5",
       "dropLocation": null,
       "notes": "Spew fire while spinning around.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-thunder-demon",
@@ -2942,7 +2991,8 @@
       "stats": "ATK +8",
       "dropLocation": null,
       "notes": "Generate orbs of lightning.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-une",
@@ -2951,7 +3001,8 @@
       "stats": "ATK +4",
       "dropLocation": null,
       "notes": "Plant an Une in the ground.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-witch",
@@ -2960,7 +3011,8 @@
       "stats": "ATK +12",
       "dropLocation": null,
       "notes": "Manipulate magical energy and launch it at enemies.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsRed-yorick",
@@ -2969,7 +3021,8 @@
       "stats": "ATK +4",
       "dropLocation": null,
       "notes": "Kick a skull like a ball.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-aliorumnas",
@@ -2978,7 +3031,8 @@
       "stats": "MND +1",
       "dropLocation": null,
       "notes": "Increase MND.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-bone-pillar",
@@ -2987,7 +3041,8 @@
       "stats": "CON +1",
       "dropLocation": null,
       "notes": "Increase CON.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-the-creature",
@@ -2996,7 +3051,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Restore HP gradually.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-dead-warrior",
@@ -3005,7 +3061,8 @@
       "stats": "LCK +1",
       "dropLocation": null,
       "notes": "Raise LCK.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-ectoplasm",
@@ -3014,7 +3071,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Increase resistance to curses.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-imp",
@@ -3023,7 +3081,8 @@
       "stats": "INT +1",
       "dropLocation": null,
       "notes": "Increase INT.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-mimic",
@@ -3032,7 +3091,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Gain money when taking damage.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-minotaur",
@@ -3041,7 +3101,8 @@
       "stats": "STR +1",
       "dropLocation": null,
       "notes": "Increase STR.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-peeping-eye",
@@ -3050,7 +3111,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Identify breakable walls.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-succubus",
@@ -3059,7 +3121,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Absorb HP when attacking.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-treant",
@@ -3068,7 +3131,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Increase MP Recovery speed.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "soulsYellow-zombie",
@@ -3077,7 +3141,8 @@
       "stats": null,
       "dropLocation": null,
       "notes": "Gain resistance to poison.",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "spells-dark-metamorphosis",
@@ -3085,7 +3150,8 @@
       "slot": "spells",
       "stats": "None",
       "dropLocation": "Chapter 2 (also Chapter 2 Hard); Cave Troll drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "spells-hellfire",
@@ -3093,7 +3159,8 @@
       "slot": "spells",
       "stats": "ATK +8",
       "dropLocation": "Chapter 3, Chapter 3 Hard, Chapter 6, Chapter 6 Hard",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "spells-mist-form",
@@ -3101,7 +3168,8 @@
       "slot": "spells",
       "stats": "None",
       "dropLocation": "Start game with it",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "spells-soul-steal",
@@ -3109,7 +3177,8 @@
       "slot": "spells",
       "stats": "ATK +9",
       "dropLocation": "Chapter 5, Chapter 5 Hard, Chapter 6, Chapter 6 Hard",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "spells-summon-spirit",
@@ -3117,7 +3186,8 @@
       "slot": "spells",
       "stats": "ATK +5",
       "dropLocation": "Ectoplasm drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "spells-tetra-spirit",
@@ -3125,7 +3195,8 @@
       "slot": "spells",
       "stats": "ATK +5",
       "dropLocation": "Chapter 4, Chapter 4 Hard",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "glyphs-fulgur",
@@ -3133,7 +3204,8 @@
       "slot": "glyphs",
       "stats": "ATK +5",
       "dropLocation": "Found in Chapter: Aliorumnas",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "glyphs-grande",
@@ -3141,7 +3213,8 @@
       "slot": "glyphs",
       "stats": "ATK +12",
       "dropLocation": "Found in Chapter: Aliorumnas",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "glyphs-ignis",
@@ -3149,7 +3222,8 @@
       "slot": "glyphs",
       "stats": "ATK +6",
       "dropLocation": "Found in Chapter: Aliorumnas",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "glyphs-magnes",
@@ -3157,7 +3231,8 @@
       "slot": "glyphs",
       "stats": "None",
       "dropLocation": "Start game with it",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "glyphs-nitesco",
@@ -3165,7 +3240,8 @@
       "slot": "glyphs",
       "stats": "ATK +8",
       "dropLocation": "Nova Skeleton drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-acidic-bubbles",
@@ -3173,7 +3249,8 @@
       "slot": "scrolls",
       "stats": "ATK +4",
       "dropLocation": "Glasyla Labolas drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-blue-splash",
@@ -3181,7 +3258,8 @@
       "slot": "scrolls",
       "stats": "None",
       "dropLocation": "Starts with (Yoko)",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-dark-inferno",
@@ -3189,7 +3267,8 @@
       "slot": "scrolls",
       "stats": "ATK +12",
       "dropLocation": "Dracula drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-deathsycthe",
@@ -3197,7 +3276,8 @@
       "slot": "scrolls",
       "stats": "ATK +6",
       "dropLocation": "Death drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-delta-spark",
@@ -3205,7 +3285,8 @@
       "slot": "scrolls",
       "stats": "ATK +9",
       "dropLocation": "Astarte drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-demonseed",
@@ -3213,7 +3294,8 @@
       "slot": "scrolls",
       "stats": "ATK +5",
       "dropLocation": "Man-Eating Plant drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-energy-flow",
@@ -3221,7 +3303,8 @@
       "slot": "scrolls",
       "stats": "ATK +12",
       "dropLocation": "Witch drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-featherblades",
@@ -3229,7 +3312,8 @@
       "slot": "scrolls",
       "stats": "ATK +9",
       "dropLocation": "Harpy drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-fireball",
@@ -3237,7 +3321,8 @@
       "slot": "scrolls",
       "stats": "ATK +7",
       "dropLocation": "Bone Pillar drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-flame-shot",
@@ -3245,7 +3330,8 @@
       "slot": "scrolls",
       "stats": "ATK +16",
       "dropLocation": "Fire Demon drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-ghost-chaser",
@@ -3253,7 +3339,8 @@
       "slot": "scrolls",
       "stats": "ATK +12",
       "dropLocation": "Dracula, Dullahan drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-heal",
@@ -3261,7 +3348,8 @@
       "slot": "scrolls",
       "stats": "ATK +30",
       "dropLocation": "Witch drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-hellfire",
@@ -3269,7 +3357,8 @@
       "slot": "scrolls",
       "stats": "ATK +8",
       "dropLocation": "Dracula drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-holy-flame",
@@ -3277,7 +3366,8 @@
       "slot": "scrolls",
       "stats": "None",
       "dropLocation": "Starts with (Yoko)",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-holy-lightning",
@@ -3285,7 +3375,8 @@
       "slot": "scrolls",
       "stats": "None",
       "dropLocation": "Starts with (Yoko)",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-ice-fang",
@@ -3293,7 +3384,8 @@
       "slot": "scrolls",
       "stats": "ATK +16",
       "dropLocation": "Sea Demon drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-ice-needle",
@@ -3301,7 +3393,8 @@
       "slot": "scrolls",
       "stats": "ATK +6",
       "dropLocation": "Frozen Shade drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-nightmare",
@@ -3309,7 +3402,8 @@
       "slot": "scrolls",
       "stats": "ATK +12",
       "dropLocation": "Malachi drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-piercing-beam",
@@ -3317,7 +3411,8 @@
       "slot": "scrolls",
       "stats": "ATK +8",
       "dropLocation": "Nova Skeleton drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-poison-spores",
@@ -3325,7 +3420,8 @@
       "slot": "scrolls",
       "stats": "ATK +7",
       "dropLocation": "Moldy Corpse drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-raging-fire",
@@ -3333,7 +3429,8 @@
       "slot": "scrolls",
       "stats": "ATK +6",
       "dropLocation": "Minotaur, Spittle Bone, White Dragon drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-sickle-moon",
@@ -3341,7 +3438,8 @@
       "slot": "scrolls",
       "stats": "ATK +11",
       "dropLocation": "Imp drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-splash-needle",
@@ -3349,7 +3447,8 @@
       "slot": "scrolls",
       "stats": "ATK +4",
       "dropLocation": "Merman drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-summon-gunman",
@@ -3357,7 +3456,8 @@
       "slot": "scrolls",
       "stats": "ATK +9",
       "dropLocation": "Skeleton Gunman drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-summon-skeleton",
@@ -3365,7 +3465,8 @@
       "slot": "scrolls",
       "stats": "ATK +8",
       "dropLocation": "Skeleton drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "scrolls-thunderbolt",
@@ -3373,7 +3474,8 @@
       "slot": "scrolls",
       "stats": "ATK +8",
       "dropLocation": "Thunder Demon drop",
-      "levelable": true
+      "levelable": true,
+      "maxLevel": 9
     },
     {
       "id": "martialArts-danger-knee",
@@ -4106,6 +4208,69 @@
       "dropLocation": "Chapter 11 (The Legend of Fuma) Hard Mode boss (Ryu Kokki) chest",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Muramasa. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Muramasa_Icon.png/revision/latest?cb=20150829184203"
+    },
+    {
+      "id": "swords-pulse-blade",
+      "name": "Pulse Blade",
+      "slot": "swords",
+      "stats": "ATK +8",
+      "dropLocation": "Starts with (Getsu Fuma)"
+    },
+    {
+      "id": "subWeapons-hexplosives",
+      "name": "Hexplosives",
+      "slot": "subWeapons",
+      "stats": "ATK +12",
+      "dropLocation": "Starts with (Getsu Fuma)",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-throwing-star",
+      "name": "Throwing Star",
+      "slot": "subWeapons",
+      "stats": "ATK +8",
+      "dropLocation": "Starts with (Getsu Fuma)",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "subWeapons-war-drum",
+      "name": "War Drum",
+      "slot": "subWeapons",
+      "stats": "ATK +11",
+      "dropLocation": "Starts with (Getsu Fuma)",
+      "levelable": true,
+      "maxLevel": 9
+    },
+    {
+      "id": "headGear-fuma-s-helm",
+      "name": "Fuma's Helm",
+      "slot": "headGear",
+      "stats": "STR +6, INT +6, DEF +10",
+      "dropLocation": "Chapter 11 - Purple Chest (Hard)"
+    },
+    {
+      "id": "armor-fuma-s-armor",
+      "name": "Fuma's Armor",
+      "slot": "armor",
+      "stats": "MP +30, STR +8, INT +8, DEF +25",
+      "dropLocation": "Chapter 11 - Purple Chest (Hard)"
+    },
+    {
+      "id": "legProtection-fuma-s-greaves",
+      "name": "Fuma's Greaves",
+      "slot": "legProtection",
+      "stats": "STR +4, INT +4, DEF +8, MP +10",
+      "dropLocation": "Chapter 11 - Purple Chest (Hard)"
+    },
+    {
+      "id": "personalSkills-xuan-wu",
+      "name": "Xuan Wu",
+      "slot": "personalSkills",
+      "stats": null,
+      "dropLocation": "Starts with (Maria)",
+      "notes": "Personal Skill: summon the Black Tortoise to protect you (defense boost, like Jonathan's Guard)."
     }
   ]
 }

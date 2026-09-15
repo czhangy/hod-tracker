@@ -23,7 +23,8 @@ export type ItemSlot =
   | "spells"
   | "glyphs"
   | "scrolls"
-  | "martialArts";
+  | "martialArts"
+  | "personalSkills";
 
 export type Handedness = "1h" | "2h";
 
@@ -42,6 +43,8 @@ export interface Item {
    * which level up with duplicates) are tracked by count rather than a single checkbox.
    */
   levelable?: boolean;
+  /** Max count/level for a levelable item, if known. Undefined/null means no known cap. */
+  maxLevel?: number | null;
 }
 
 export interface Character {

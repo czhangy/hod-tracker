@@ -27,6 +27,7 @@ const SLOT_LABELS: Record<string, string> = {
   glyphs: "Glyph (Shanoa)",
   scrolls: "Dark Magic Scroll (Charlotte)",
   martialArts: "Martial Art",
+  personalSkills: "Personal Skill",
 };
 
 export function ItemDetailPanel({
@@ -88,6 +89,9 @@ export function ItemDetailPanel({
         <div className="space-y-1.5">
           <p className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
             Copies Owned (Level)
+            {typeof item.maxLevel === "number" && (
+              <span className="ml-1.5 normal-case text-neutral-600">max {item.maxLevel}</span>
+            )}
           </p>
           <div className="flex items-center justify-center gap-4 rounded-md border border-neutral-700 py-2">
             <button
@@ -97,12 +101,16 @@ export function ItemDetailPanel({
             >
               −
             </button>
-            <span className="w-8 text-center text-lg font-semibold tabular-nums text-neutral-100">
+            <span className="text-center text-lg font-semibold tabular-nums text-neutral-100">
               {count}
+              {typeof item.maxLevel === "number" && (
+                <span className="text-sm font-normal text-neutral-500">/{item.maxLevel}</span>
+              )}
             </span>
             <button
               onClick={() => onAdjustCount(item.id, 1)}
-              className="flex size-8 cursor-pointer items-center justify-center rounded-md border border-neutral-700 text-lg text-neutral-300 hover:border-red-700 hover:text-red-400"
+              disabled={typeof item.maxLevel === "number" && count >= item.maxLevel}
+              className="flex size-8 cursor-pointer items-center justify-center rounded-md border border-neutral-700 text-lg text-neutral-300 hover:border-red-700 hover:text-red-400 disabled:cursor-not-allowed disabled:opacity-30"
             >
               +
             </button>

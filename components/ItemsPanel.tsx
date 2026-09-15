@@ -34,6 +34,7 @@ const SLOT_LABELS: Record<ItemSlot, string> = {
   glyphs: "Glyphs (Shanoa)",
   scrolls: "Dark Magic Scrolls (Charlotte)",
   martialArts: "Martial Arts",
+  personalSkills: "Personal Skills",
 };
 
 const SLOT_ORDER: ItemSlot[] = [
@@ -59,6 +60,7 @@ const SLOT_ORDER: ItemSlot[] = [
   "glyphs",
   "scrolls",
   "martialArts",
+  "personalSkills",
   "soulsBlue",
   "soulsRed",
   "soulsYellow",
@@ -79,11 +81,14 @@ function groupBySlot(items: Item[]) {
 
 function ItemStepper({
   count,
+  maxLevel,
   onAdjust,
 }: {
   count: number;
+  maxLevel?: number | null;
   onAdjust: (delta: number) => void;
 }) {
+  const atMax = typeof maxLevel === "number" && count >= maxLevel;
   return (
     <span className="flex shrink-0 items-center gap-1">
       <button
@@ -96,13 +101,17 @@ function ItemStepper({
       >
         −
       </button>
-      <span className="w-4 text-center text-xs tabular-nums text-neutral-300">{count}</span>
+      <span className="w-8 text-center text-[11px] tabular-nums text-neutral-300">
+        {count}
+        {typeof maxLevel === "number" && <span className="text-neutral-600">/{maxLevel}</span>}
+      </span>
       <button
         onClick={(e) => {
           e.stopPropagation();
           onAdjust(1);
         }}
-        className="flex size-5 cursor-pointer items-center justify-center rounded border border-neutral-700 text-xs text-neutral-400 hover:border-red-700 hover:text-red-400"
+        disabled={atMax}
+        className="flex size-5 cursor-pointer items-center justify-center rounded border border-neutral-700 text-xs text-neutral-400 hover:border-red-700 hover:text-red-400 disabled:cursor-not-allowed disabled:opacity-30"
       >
         +
       </button>
@@ -207,6 +216,7 @@ export function ItemsPanel({
                           {item.levelable ? (
                             <ItemStepper
                               count={count}
+                              maxLevel={item.maxLevel}
                               onAdjust={(delta) => onAdjustItemCount(item.id, delta)}
                             />
                           ) : (

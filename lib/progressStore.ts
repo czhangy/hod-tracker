@@ -1,3 +1,4 @@
+import { data } from "@/lib/data";
 import type { ProgressState } from "@/lib/types";
 
 const STORAGE_KEY = "hod-tracker-progress";
@@ -95,11 +96,14 @@ export function toggleItem(itemId: string) {
   });
 }
 
-/** For levelable items: increases/decreases the owned count, floored at 0. */
+/** For levelable items: increases/decreases the owned count, clamped to [0, maxLevel]. */
 export function adjustItemCount(itemId: string, delta: number) {
   ensureInitialized();
   const current = state.itemsObtained[itemId] ?? 0;
-  const next = Math.max(0, current + delta);
+  const maxLevel = data.items.find((i) => i.id === itemId)?.maxLevel;
+  let next = current + delta;
+  next = Math.max(0, next);
+  if (typeof maxLevel === "number") next = Math.min(maxLevel, next);
   commit({
     ...state,
     itemsObtained: { ...state.itemsObtained, [itemId]: next },
