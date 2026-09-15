@@ -474,7 +474,7 @@
     },
     {
       "id": "armor-impervious-mail",
-      "name": "Impervious Mail",
+      "name": "Blocking Mail",
       "slot": "armor",
       "stats": "DEF +15",
       "dropLocation": "Chapter 6 - Hard",
@@ -522,7 +522,7 @@
     },
     {
       "id": "armor-leather-plate",
-      "name": "Leather Plate",
+      "name": "Leather Armor",
       "slot": "armor",
       "stats": "DEF +3",
       "dropLocation": "Chapter 2, 3, 5, Shop",
@@ -626,7 +626,7 @@
     },
     {
       "id": "armor-platinum-mail",
-      "name": "Platinum Mail",
+      "name": "Platinum Plate",
       "slot": "armor",
       "stats": "DEF +22",
       "dropLocation": "Chapter 5 - Hard",
@@ -738,7 +738,7 @@
     },
     {
       "id": "armor-spiked-mail",
-      "name": "Spiked Mail",
+      "name": "Spiked Armor",
       "slot": "armor",
       "stats": "DEF +15",
       "dropLocation": "Chapter 1 - Hard",
@@ -882,7 +882,7 @@
     },
     {
       "id": "headGear-fedora",
-      "name": "Fedora",
+      "name": "Felt Hat",
       "slot": "headGear",
       "stats": "DEF +2, HP +2",
       "dropLocation": "Chapters 1, 3, 4, 5",
@@ -1034,7 +1034,7 @@
     },
     {
       "id": "headGear-silver-crown",
-      "name": "Silver Crown",
+      "name": "Silver Tiara",
       "slot": "headGear",
       "stats": "DEF +3, CON +1, INT +3, MP +5",
       "dropLocation": "Chapters 1 & 3 - Hard",
@@ -1050,7 +1050,7 @@
     },
     {
       "id": "headGear-steel-helm",
-      "name": "Steel Helm",
+      "name": "Steel Helmet",
       "slot": "headGear",
       "stats": "DEF +1, HP +1",
       "dropLocation": "Chapters 1-4",
@@ -1818,7 +1818,7 @@
     },
     {
       "id": "accessories-megingiord",
-      "name": "Megingiord",
+      "name": "Megingjord",
       "slot": "accessories",
       "stats": "DEF +3, STR +4",
       "dropLocation": "Chapter 6 - Hard",
@@ -1958,7 +1958,7 @@
     },
     {
       "id": "accessories-sage-ring",
-      "name": "Sage Ring",
+      "name": "Rune Ring",
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Chapter 6, Chapter 6 - Hard",
@@ -1968,7 +1968,7 @@
     },
     {
       "id": "accessories-satans-ring",
-      "name": "Satans Ring",
+      "name": "Ring of Vlad",
       "slot": "accessories",
       "stats": "DEF +4, STR +3, CON +3, INT +3, MND +3",
       "dropLocation": "Chapter 6",
@@ -2058,7 +2058,7 @@
     },
     {
       "id": "accessories-tear-of-blood",
-      "name": "Tear Of Blood",
+      "name": "Tear of Blood",
       "slot": "accessories",
       "stats": "DEF +4, STR +1, CON +1, INT +1, HP +4, MP +4",
       "dropLocation": "Chapter 5, 6 - Hard",
@@ -2068,7 +2068,7 @@
     },
     {
       "id": "accessories-thief-ring",
-      "name": "Thief Ring",
+      "name": "Rare Ring",
       "slot": "accessories",
       "stats": "LCK +10",
       "dropLocation": "Chapter 2 - Hard",
@@ -5474,6 +5474,87 @@
       "stats": "MP +3, DEF +5, INT +10",
       "dropLocation": "Chapter 5 (Normal only) - Death drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f7/Holy_Veil_PoR_Icon.png/revision/latest?cb=20150811174442"
+    },
+    {
+      "id": "legProtection-slide-boots",
+      "name": "Slide Boots",
+      "slot": "legProtection",
+      "stats": "DEF +5",
+      "dropLocation": "Chapter 8 (Normal) / Legion",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/fb/Slick_Boots_PoR_Icon.png/revision/latest?cb=20150811175158"
+    },
+    {
+      "id": "legProtection-retro-boots",
+      "name": "Retro Boots",
+      "slot": "legProtection",
+      "stats": "HP +8, MP +8, DEF +8, STR +4, INT +2, LCK +3",
+      "dropLocation": "Chapter 10 (Hard) / R. The Count",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/be/Retro_Boots_Icon.png/revision/latest?cb=20191012083502"
+    },
+    {
+      "id": "legProtection-feather-boots",
+      "name": "Feather Boots",
+      "slot": "legProtection",
+      "stats": "None",
+      "dropLocation": "Chapter 10 (Normal & Hard) / R. The Count",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/75/Moonwalkers_PoR_Icon.png/revision/latest?cb=20150811174711"
+    },
+    {
+      "id": "armor-retro-armor",
+      "name": "Retro Armor",
+      "slot": "armor",
+      "stats": "HP +30, MP +30, DEF +29, STR +8, INT +4, LCK +5",
+      "dropLocation": "R. The Count (Hard)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/54/Retro_Armor_Icon.png/revision/latest?cb=20191012082906"
+    },
+    {
+      "id": "accessories-gold-ring",
+      "name": "Gold Ring",
+      "slot": "accessories",
+      "stats": "None",
+      "dropLocation": "Unknown",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3d/Gold_Ring_PoR_Icon.png/revision/latest?cb=20150811174710"
+    },
+    {
+      "id": "accessories-artemisian-ring",
+      "name": "Artemisian Ring",
+      "slot": "accessories",
+      "stats": "Day: DEF +1; Night: STR +6, DEF +5, CON +4, INT +4, MND +4",
+      "dropLocation": "Chapter 8",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Artemisian_Ring_Icon.png/revision/latest?cb=20191012085302"
+    },
+    {
+      "id": "accessories-apollonian-ring",
+      "name": "Apollonian Ring",
+      "slot": "accessories",
+      "stats": "Night: DEF +1; Day: STR +6, DEF +5, CON +4, INT +4, MND +4",
+      "dropLocation": "Chapter 8",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b9/Apollonian_Ring_Icon.png/revision/latest?cb=20191012085317"
+    },
+    {
+      "id": "accessories-flame-necklace",
+      "name": "Flame Necklace",
+      "slot": "accessories",
+      "stats": "HP +5, MP +5, DEF +2",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/73/Flame_Necklace_DoS_Icon.png/revision/latest?cb=20171005162749",
+      "notes": "Also known as Brisingamen"
+    },
+    {
+      "id": "accessories-black-belt",
+      "name": "Black Belt",
+      "slot": "accessories",
+      "stats": "DEF +3, STR +2",
+      "dropLocation": "Shop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Black_Belt_DoS_Icon.png/revision/latest?cb=20171005162457"
+    },
+    {
+      "id": "accessories-fools-tablet",
+      "name": "Fool's Tablet",
+      "slot": "accessories",
+      "stats": "STR +6, INT +6",
+      "dropLocation": "Chapter 9",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/cf/Fool%27s_Tablet_Icon.png/revision/latest?cb=20191012085727"
     }
   ]
 }
