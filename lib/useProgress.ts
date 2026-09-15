@@ -9,7 +9,7 @@ import {
   getServerSnapshot,
   toggleChapter,
   toggleItem,
-  toggleEquipped,
+  adjustItemCount,
 } from "@/lib/progressStore";
 
 export function useProgress() {
@@ -19,7 +19,7 @@ export function useProgress() {
     progress,
     toggleChapter,
     toggleItem,
-    toggleEquipped,
+    adjustItemCount,
   };
 }
 
@@ -34,7 +34,7 @@ export function characterChapterStats(progress: ProgressState, characterId: stri
 
 export function itemStats(progress: ProgressState) {
   const itemTotal = data.items.length;
-  const itemDone = Object.values(progress.itemsObtained).filter(Boolean).length;
+  const itemDone = Object.values(progress.itemsObtained).filter((count) => count > 0).length;
   const percent = itemTotal === 0 ? 0 : Math.round((itemDone / itemTotal) * 100);
   return { itemTotal, itemDone, percent };
 }

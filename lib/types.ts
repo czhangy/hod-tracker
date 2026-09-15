@@ -8,7 +8,16 @@ export type ItemSlot =
   | "swords"
   | "firearms"
   | "otherWeapons"
-  | "subWeapons";
+  | "subWeapons"
+  | "soulsBlue"
+  | "soulsRed"
+  | "soulsYellow"
+  | "spells"
+  | "glyphs"
+  | "scrolls"
+  | "martialArts";
+
+export type Handedness = "1h" | "2h";
 
 export interface Item {
   id: string;
@@ -18,6 +27,13 @@ export interface Item {
   stats?: string | null;
   dropLocation?: string | null;
   iconUrl?: string | null;
+  /** Informational only: main-weapon items (swords/otherWeapons/firearms) are 1- or 2-handed. */
+  handedness?: Handedness | null;
+  /**
+   * Items that can be collected multiple times to increase in power (e.g. Soma's Souls,
+   * which level up with duplicates) are tracked by count rather than a single checkbox.
+   */
+  levelable?: boolean;
 }
 
 export interface Character {
@@ -26,6 +42,7 @@ export interface Character {
   class?: string;
   dlc: boolean;
   dlcPack?: string | null;
+  portraitUrl?: string | null;
 }
 
 export interface Chapter {
@@ -45,6 +62,10 @@ export interface Enemy {
   chapters: string[];
   hp?: number | null;
   notes?: string | null;
+  description?: string | null;
+  weaknesses?: string | null;
+  drops?: string | null;
+  iconUrl?: string | null;
 }
 
 export interface GameData {
@@ -54,33 +75,19 @@ export interface GameData {
   enemies: Enemy[];
 }
 
-/** How many items a character can have equipped in a given slot at once. */
-export const MAX_EQUIPPED_PER_SLOT: Record<ItemSlot, number> = {
-  swords: 1,
-  otherWeapons: 1,
-  firearms: 1,
-  subWeapons: 1,
-  armor: 1,
-  headGear: 1,
-  legProtection: 1,
-  cloaks: 1,
-  shields: 1,
-  accessories: 2,
-};
-
 /**
  * Persisted in localStorage.
  * chapterClears: characterId -> chapterId -> cleared?
- * itemsObtained: itemId -> obtained? (HoD equipment is a shared stash, not per-character)
- * equippedGear: characterId -> slot -> item ids currently equipped in that slot
+ * itemsObtained: itemId -> count owned. HoD's item stash is shared, not per-character.
+ *   0/absent = not obtained. Non-levelable items only ever go to 1. Levelable items
+ *   (see Item.levelable) can go higher as duplicates are collected.
  */
 export interface ProgressState {
   version: 1;
   chapterClears: Record<string, Record<string, boolean>>;
-  itemsObtained: Record<string, boolean>;
-  equippedGear: Record<string, Partial<Record<ItemSlot, string[]>>>;
+  itemsObtained: Record<string, number>;
 }
 
 export function emptyProgress(): ProgressState {
-  return { version: 1, chapterClears: {}, itemsObtained: {}, equippedGear: {} };
+  return { version: 1, chapterClears: {}, itemsObtained: {} };
 }

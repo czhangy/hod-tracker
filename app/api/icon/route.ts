@@ -1,8 +1,18 @@
-const ALLOWED_HOST = "static.wikia.nocookie.net";
+const ALLOWED_HOSTS = new Set([
+  "static.wikia.nocookie.net",
+  "www.castlevaniacrypt.com",
+  "castlevaniacrypt.com",
+]);
+
+const REFERERS: Record<string, string> = {
+  "static.wikia.nocookie.net": "https://castlevania.fandom.com/",
+  "www.castlevaniacrypt.com": "https://www.castlevaniacrypt.com/",
+  "castlevaniacrypt.com": "https://www.castlevaniacrypt.com/",
+};
 
 /**
- * Proxies item icon images from the Castlevania Wiki's CDN.
- * The CDN blocks direct <img> hotlinking (checks Referer/Sec-Fetch-Site), so this
+ * Proxies item/enemy icon images from the Castlevania Wiki and Castlevania Crypt.
+ * The wiki's CDN blocks direct <img> hotlinking (checks Referer/Sec-Fetch-Site), so this
  * fetches server-side with a same-site referer and streams the image back from our
  * own origin instead.
  */
@@ -21,13 +31,13 @@ export async function GET(request: Request) {
     return new Response("Invalid url", { status: 400 });
   }
 
-  if (parsed.hostname !== ALLOWED_HOST) {
+  if (!ALLOWED_HOSTS.has(parsed.hostname)) {
     return new Response("Host not allowed", { status: 400 });
   }
 
   const upstream = await fetch(parsed.toString(), {
     headers: {
-      Referer: "https://castlevania.fandom.com/",
+      Referer: REFERERS[parsed.hostname],
       "User-Agent": "hod-tracker (https://github.com/czhangy/hod-tracker)",
     },
   });

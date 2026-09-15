@@ -2,21 +2,18 @@
 
 import { data } from "@/lib/data";
 import { characterChapterStats } from "@/lib/useProgress";
-import type { ItemSlot, ProgressState } from "@/lib/types";
+import type { ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
 import { CharacterAvatar } from "./CharacterAvatar";
-import { EquippedGear } from "./EquippedGear";
 
 export function CharacterDetail({
   characterId,
   progress,
   onToggleChapter,
-  onToggleEquipped,
 }: {
   characterId: string;
   progress: ProgressState;
   onToggleChapter: (characterId: string, chapterId: string) => void;
-  onToggleEquipped: (characterId: string, slot: ItemSlot, itemId: string) => void;
 }) {
   const character = data.characters.find((c) => c.id === characterId);
   const stats = characterChapterStats(progress, characterId);
@@ -24,13 +21,12 @@ export function CharacterDetail({
   if (!character) return null;
 
   const clearedChapters = progress.chapterClears[characterId] ?? {};
-  const equipped = progress.equippedGear[characterId] ?? {};
 
   return (
     <div className="flex-1 space-y-8">
       <header className="space-y-2">
         <div className="flex items-center gap-3">
-          <CharacterAvatar characterId={character.id} name={character.name} size={48} />
+          <CharacterAvatar character={character} size={48} />
           <div>
             <h2 className="font-display flex items-center gap-2 text-2xl font-bold text-neutral-50">
               {character.name}
@@ -83,19 +79,10 @@ export function CharacterDetail({
         </ul>
       </section>
 
-      <EquippedGear
-        characterId={characterId}
-        equipped={equipped}
-        itemsObtained={progress.itemsObtained}
-        onToggleEquipped={onToggleEquipped}
-      />
-
       <p className="rounded-md border border-neutral-800 bg-neutral-900/30 px-3 py-2 text-xs text-neutral-500">
-        Whether you&apos;ve ever <span className="text-neutral-400">obtained</span> an item
-        is tracked globally on the{" "}
+        Item collection is tracked globally on the{" "}
         <span className="font-medium text-neutral-400">Item Collection</span> tab, since
-        HoD&apos;s equipment is a shared stash. What&apos;s currently{" "}
-        <span className="text-neutral-400">equipped</span>, above, is tracked per character.
+        HoD&apos;s equipment is a shared stash rather than owned per character.
       </p>
     </div>
   );

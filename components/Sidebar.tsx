@@ -31,7 +31,7 @@ export function Sidebar({
                 : "border-neutral-800 bg-neutral-900/50 hover:border-neutral-700"
             }`}
           >
-            <CharacterAvatar characterId={character.id} name={character.name} size={32} />
+            <CharacterAvatar character={character} size={32} />
             <div className="min-w-0 flex-1 space-y-1.5">
               <div className="flex items-center justify-between gap-2">
                 <span className="font-display flex items-center gap-1.5 truncate text-sm font-semibold text-neutral-100">

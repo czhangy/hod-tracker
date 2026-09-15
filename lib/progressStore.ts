@@ -1,11 +1,10 @@
-import { MAX_EQUIPPED_PER_SLOT, type ItemSlot, type ProgressState } from "@/lib/types";
+import type { ProgressState } from "@/lib/types";
 
 const STORAGE_KEY = "hod-tracker-progress";
 const EMPTY_STATE: ProgressState = {
   version: 1,
   chapterClears: {},
   itemsObtained: {},
-  equippedGear: {},
 };
 
 type Listener = () => void;
@@ -13,6 +12,17 @@ type Listener = () => void;
 let state: ProgressState = EMPTY_STATE;
 let initialized = false;
 const listeners = new Set<Listener>();
+
+/** Older saves stored itemsObtained as booleans; newer ones use counts for leveling. */
+function migrateItemsObtained(raw: unknown): Record<string, number> {
+  if (!raw || typeof raw !== "object") return {};
+  const out: Record<string, number> = {};
+  for (const [itemId, value] of Object.entries(raw as Record<string, unknown>)) {
+    if (typeof value === "number") out[itemId] = value;
+    else if (value === true) out[itemId] = 1;
+  }
+  return out;
+}
 
 function readFromStorage(): ProgressState {
   try {
@@ -23,8 +33,7 @@ function readFromStorage(): ProgressState {
     return {
       version: 1,
       chapterClears: parsed.chapterClears ?? {},
-      itemsObtained: parsed.itemsObtained ?? {},
-      equippedGear: parsed.equippedGear ?? {},
+      itemsObtained: migrateItemsObtained(parsed.itemsObtained),
     };
   } catch {
     return EMPTY_STATE;
@@ -76,37 +85,23 @@ export function toggleChapter(characterId: string, chapterId: string) {
   });
 }
 
+/** For simple (non-levelable) items: toggles between 0 and 1. */
 export function toggleItem(itemId: string) {
   ensureInitialized();
+  const current = state.itemsObtained[itemId] ?? 0;
   commit({
     ...state,
-    itemsObtained: { ...state.itemsObtained, [itemId]: !state.itemsObtained[itemId] },
+    itemsObtained: { ...state.itemsObtained, [itemId]: current > 0 ? 0 : 1 },
   });
 }
 
-/** Toggles an item equipped in a slot for a character, respecting that slot's max capacity. */
-export function toggleEquipped(characterId: string, slot: ItemSlot, itemId: string) {
+/** For levelable items: increases/decreases the owned count, floored at 0. */
+export function adjustItemCount(itemId: string, delta: number) {
   ensureInitialized();
-  const characterGear = state.equippedGear[characterId] ?? {};
-  const current = characterGear[slot] ?? [];
-  const max = MAX_EQUIPPED_PER_SLOT[slot];
-
-  let next: string[];
-  if (current.includes(itemId)) {
-    next = current.filter((id) => id !== itemId);
-  } else if (max === 1) {
-    next = [itemId];
-  } else if (current.length < max) {
-    next = [...current, itemId];
-  } else {
-    return; // slot is full
-  }
-
+  const current = state.itemsObtained[itemId] ?? 0;
+  const next = Math.max(0, current + delta);
   commit({
     ...state,
-    equippedGear: {
-      ...state.equippedGear,
-      [characterId]: { ...characterGear, [slot]: next },
-    },
+    itemsObtained: { ...state.itemsObtained, [itemId]: next },
   });
 }

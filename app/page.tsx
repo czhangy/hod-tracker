@@ -12,7 +12,7 @@ import { Bestiary } from "@/components/Bestiary";
 type Tab = "characters" | "items" | "bestiary";
 
 export default function Home() {
-  const { progress, toggleChapter, toggleItem, toggleEquipped } = useProgress();
+  const { progress, toggleChapter, toggleItem, adjustItemCount } = useProgress();
   const [tab, setTab] = useState<Tab>("characters");
   const [selectedCharacterId, setSelectedCharacterId] = useState(
     data.characters[0]?.id ?? ""
@@ -66,11 +66,16 @@ export default function Home() {
             characterId={selectedCharacterId}
             progress={progress}
             onToggleChapter={toggleChapter}
-            onToggleEquipped={toggleEquipped}
           />
         </div>
       )}
-      {tab === "items" && <ItemsPanel progress={progress} onToggleItem={toggleItem} />}
+      {tab === "items" && (
+        <ItemsPanel
+          progress={progress}
+          onToggleItem={toggleItem}
+          onAdjustItemCount={adjustItemCount}
+        />
+      )}
       {tab === "bestiary" && <Bestiary />}
     </div>
   );
