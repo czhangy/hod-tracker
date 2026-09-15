@@ -191,7 +191,7 @@ export function ItemsPanel({
                     {doneInSlot}/{items.length}
                   </span>
                 </h3>
-                <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-3 md:grid-cols-4">
+                <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
                   {items.map((item) => {
                     const count = progress.itemsObtained[item.id] ?? 0;
                     const isSelected = item.id === selectedItemId;
