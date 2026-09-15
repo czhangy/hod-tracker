@@ -39,9 +39,10 @@ export function characterChapterStats(progress: ProgressState, characterId: stri
 }
 
 /**
- * Whether an item counts as "obtained" for completion purposes. Levelable items with a
- * known cap (Souls, Spells, Scrolls, Glyphs, Sub-Weapons, ...) only count once maxed out;
- * everything else just needs a count above zero.
+ * Whether an item is fully obtained (maxed out, for levelable items with a known cap).
+ * Used for the "obtained" visual state / hide-obtained filter. Individual copies below
+ * the cap still count toward completion (see itemProgressUnits) - this just says whether
+ * there's nothing left to collect for this item.
  */
 export function isItemObtained(item: Item, count: number): boolean {
   if (item.levelable && typeof item.maxLevel === "number") {
@@ -50,11 +51,26 @@ export function isItemObtained(item: Item, count: number): boolean {
   return count > 0;
 }
 
+/**
+ * How much of an item's max copies/levels have been collected, in whole units. Items
+ * with a cap > 1 (Souls, 1h weapons, Accessories, ...) contribute each copy as partial
+ * progress rather than all-or-nothing.
+ */
+export function itemProgressUnits(item: Item, count: number): { done: number; max: number } {
+  if (item.levelable && typeof item.maxLevel === "number") {
+    return { done: Math.min(count, item.maxLevel), max: item.maxLevel };
+  }
+  return { done: count > 0 ? 1 : 0, max: 1 };
+}
+
 export function itemStats(progress: ProgressState) {
-  const itemTotal = data.items.length;
-  const itemDone = data.items.filter((item) =>
-    isItemObtained(item, progress.itemsObtained[item.id] ?? 0)
-  ).length;
+  let itemTotal = 0;
+  let itemDone = 0;
+  for (const item of data.items) {
+    const { done, max } = itemProgressUnits(item, progress.itemsObtained[item.id] ?? 0);
+    itemTotal += max;
+    itemDone += done;
+  }
   const percent = itemTotal === 0 ? 0 : Math.round((itemDone / itemTotal) * 100);
   return { itemTotal, itemDone, percent };
 }

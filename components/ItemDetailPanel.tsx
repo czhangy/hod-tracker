@@ -136,7 +136,7 @@ export function ItemDetailPanel({
           </div>
           {typeof item.maxLevel === "number" && !obtained && (
             <p className="text-center text-xs text-neutral-600">
-              Counts toward 100% only once maxed at {item.maxLevel}.
+              Each copy counts toward 100% — fully maxes at {item.maxLevel}.
             </p>
           )}
         </div>

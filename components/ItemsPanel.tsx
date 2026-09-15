@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { data } from "@/lib/data";
-import { isItemObtained, itemStats } from "@/lib/useProgress";
+import { isItemObtained, itemProgressUnits, itemStats } from "@/lib/useProgress";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
 import { ItemIcon } from "./ItemIcon";
@@ -190,15 +190,19 @@ export function ItemsPanel({
       <div className="flex flex-col gap-6 lg:flex-row">
         <div className="min-w-0 flex-[3] space-y-6">
           {groups.map(({ slot, items }) => {
-            const doneInSlot = items.filter((i) =>
-              isItemObtained(i, progress.itemsObtained[i.id] ?? 0)
-            ).length;
+            let doneInSlot = 0;
+            let totalInSlot = 0;
+            for (const i of items) {
+              const { done, max } = itemProgressUnits(i, progress.itemsObtained[i.id] ?? 0);
+              doneInSlot += done;
+              totalInSlot += max;
+            }
             return (
               <div key={slot} className="space-y-1.5">
                 <h3 className="flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-neutral-500">
                   <span>{SLOT_LABELS[slot]}</span>
                   <span className="tabular-nums text-neutral-600">
-                    {doneInSlot}/{items.length}
+                    {doneInSlot}/{totalInSlot}
                   </span>
                 </h3>
                 <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
