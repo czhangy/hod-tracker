@@ -23,7 +23,7 @@ const SLOT_LABELS: Record<string, string> = {
   accessories: "Accessory",
   soulsBlue: "Guardian Soul (Soma)",
   soulsRed: "Bullet Soul (Soma)",
-  soulsYellow: "Enchantment Soul (Soma)",
+  soulsYellow: "Enchanted Soul (Soma)",
   spells: "Spell (Alucard)",
   glyphs: "Glyph (Shanoa)",
   scrolls: "Dark Magic Scroll (Charlotte)",
