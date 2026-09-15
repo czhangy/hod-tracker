@@ -5037,6 +5037,78 @@
       "levelable": true,
       "maxLevel": 9,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
+    },
+    {
+      "id": "headGear-valkyrie-mask",
+      "name": "Valkyrie Mask",
+      "slot": "headGear",
+      "stats": "HP +5, MP +5, DEF +8, STR +1, ATK +1, MND +5",
+      "dropLocation": "Chapter 6 - Dracula drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9a/Valkyrie_Mask_Icon.png/revision/latest?cb=20150326042511"
+    },
+    {
+      "id": "headGear-minerva-mask",
+      "name": "Minerva Mask",
+      "slot": "headGear",
+      "stats": "MP +5, DEF +7, CON +10",
+      "dropLocation": "Chapter 6 (Hard)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/df/Minerva_Mask_Icon.png/revision/latest?cb=20150326042511"
+    },
+    {
+      "id": "headGear-attica-helmet",
+      "name": "Attica Helmet",
+      "slot": "headGear",
+      "stats": "HP +8, DEF +7, STR +3",
+      "dropLocation": "Chapter 5 (Hard)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/ba/Attica_Helmet_Icon.png/revision/latest?cb=20150811173700"
+    },
+    {
+      "id": "headGear-dragon-helm",
+      "name": "Dragon Helm",
+      "slot": "headGear",
+      "stats": "HP +6, DEF +6",
+      "dropLocation": "Chapter 5/6 (Hard) - Death / Dracula drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/21/Dragon_Helm_Icon.png/revision/latest?cb=20150325034316"
+    },
+    {
+      "id": "headGear-impervious-helm",
+      "name": "Impervious Helm",
+      "slot": "headGear",
+      "stats": "DEF +5",
+      "dropLocation": "Chapter 8 - Purple Chest (Hard)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4e/Impervious_Helm_Icon.png/revision/latest?cb=20191012081728"
+    },
+    {
+      "id": "headGear-retro-helm",
+      "name": "Retro Helm",
+      "slot": "headGear",
+      "stats": "HP +10, MP +10, STR +6, INT +3, DEF +10, LCK +5",
+      "dropLocation": "Chapter 10",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/44/Retro_Helm_Icon.png/revision/latest?cb=20191012081850"
+    },
+    {
+      "id": "headGear-midnight-tiara",
+      "name": "Midnight Tiara",
+      "slot": "headGear",
+      "stats": "MP +5, DEF +7, CON +10",
+      "dropLocation": "Chapter 5/6 - Dracula drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/54/Midnight_Tiara_PoR_Icon.png/revision/latest?cb=20150811174708"
+    },
+    {
+      "id": "headGear-muse-s-tiara",
+      "name": "Muse's Tiara",
+      "slot": "headGear",
+      "stats": "MP +15, DEF +9, INT +7",
+      "dropLocation": "Chapter 6 (Hard)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/22/Muse%27s_Tiara_PoR_Icon.png/revision/latest?cb=20150811174819"
+    },
+    {
+      "id": "headGear-holy-veil",
+      "name": "Holy Veil",
+      "slot": "headGear",
+      "stats": "MP +3, DEF +5, INT +10",
+      "dropLocation": "Chapter 5 (Normal only) - Death drop",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f7/Holy_Veil_PoR_Icon.png/revision/latest?cb=20150811174442"
     }
   ]
 }
