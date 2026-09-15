@@ -1393,6 +1393,14 @@
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/17/Winged_Boots_Icon.png/revision/latest?cb=20150811175531"
     },
     {
+      "id": "legProtection-sonic-boots",
+      "name": "Sonic Boots",
+      "slot": "legProtection",
+      "stats": "HP +5, MP +5, STR +1, DEF +1, INT +1",
+      "dropLocation": "Chapter 9 (Hard) / Beelzebub",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/17/Winged_Boots_Icon.png/revision/latest?cb=20150811175531"
+    },
+    {
       "id": "legProtection-wingtips",
       "name": "Wingtips",
       "slot": "legProtection",
