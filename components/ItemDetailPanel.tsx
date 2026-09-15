@@ -29,7 +29,6 @@ const SLOT_LABELS: Record<string, string> = {
   scrolls: "Dark Magic Scroll (Charlotte)",
   martialArts: "Martial Art",
   personalSkills: "Personal Skill",
-  medicine: "Unique Medicine",
 };
 
 export function ItemDetailPanel({

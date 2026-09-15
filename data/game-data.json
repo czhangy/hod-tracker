@@ -1422,7 +1422,7 @@
       "slot": "cloaks",
       "stats": "DEF +3, HP +3, MP +3",
       "dropLocation": "Chapter 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Bloody_Cape_LoI.png/revision/latest/scale-to-width-down/93?cb=20140607123758"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d5/Blood_Cloak_Icon.png/revision/latest/scale-to-width-down/50?cb=20150325034421"
     },
     {
       "id": "cloaks-blue-cape",
@@ -1974,7 +1974,7 @@
       "slot": "accessories",
       "stats": "LCK +10",
       "dropLocation": "Chapter 2 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Rare_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052648"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7d/Thief_Ring_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811175335"
     },
     {
       "id": "accessories-tough-ring",
@@ -2506,7 +2506,7 @@
       "slot": "subWeapons",
       "stats": "ATK +8",
       "dropLocation": "Axe Knight drop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest?cb=20150829191415",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f3/Axe_Julius.PNG/revision/latest/scale-to-width-down/50?cb=20191006133953",
       "levelable": true,
       "maxLevel": 9
     },
@@ -3578,77 +3578,88 @@
       "name": "Danger Knee",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chest (Level 2)"
+      "dropLocation": "Chest (Level 2)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-forward-roll",
       "name": "Forward Roll",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chest (Level 3)"
+      "dropLocation": "Chest (Level 3)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-guard",
       "name": "Guard",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Starts with"
+      "dropLocation": "Starts with",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-guardian-knuckle",
       "name": "Guardian Knuckle",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chest (Level 5, Level 8, Level 9, Level 11)"
+      "dropLocation": "Chest (Level 5, Level 8, Level 9, Level 11)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-omnia-vanitas",
       "name": "Omnia Vanitas",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chest (Level 5, Level 10)"
+      "dropLocation": "Chest (Level 5, Level 10)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-slide-jump",
       "name": "Slide Jump",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chest (Level 2, Level 9)"
+      "dropLocation": "Chest (Level 2, Level 9)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-somersault",
       "name": "Somersault",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chest (Level 3)"
+      "dropLocation": "Chest (Level 3)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-sonic-strike",
       "name": "Sonic Strike",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chest (Level 6)"
+      "dropLocation": "Chest (Level 6)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-spin-kick",
       "name": "Spin Kick",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Starts with"
+      "dropLocation": "Starts with",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-tackle",
       "name": "Tackle",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chest (Level 4, Level 9)"
+      "dropLocation": "Chest (Level 4, Level 9)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "martialArts-uppercut",
       "name": "Uppercut",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chest (Level 4)"
+      "dropLocation": "Chest (Level 4)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
       "id": "axes-axe",
@@ -3765,7 +3776,7 @@
       "stats": "ATK +3",
       "dropLocation": "Chapter 4 - Hard, Chapter 6 - Hard",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1b/Knuckle_Duster.png/revision/latest/scale-to-width-down/120?cb=20140912120944"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Knuckle_Duster_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829185532"
     },
     {
       "id": "cestuses-mach-punch",
@@ -4350,14 +4361,16 @@
       "name": "Fuma's Helm",
       "slot": "headGear",
       "stats": "STR +6, INT +6, DEF +10",
-      "dropLocation": "Chapter 11 - Purple Chest (Hard)"
+      "dropLocation": "Chapter 11 - Purple Chest (Hard)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1c/Fuma%27s_Helm_Icon.png/revision/latest/scale-to-width-down/50?cb=20210504130241"
     },
     {
       "id": "armor-fuma-s-armor",
       "name": "Fuma's Armor",
       "slot": "armor",
       "stats": "MP +30, STR +8, INT +8, DEF +25",
-      "dropLocation": "Chapter 11 - Purple Chest (Hard)"
+      "dropLocation": "Chapter 11 - Purple Chest (Hard)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d3/Fuma%27s_Armor_Icon.png/revision/latest/scale-to-width-down/50?cb=20210504130307"
     },
     {
       "id": "legProtection-fuma-s-greaves",
@@ -4519,12 +4532,13 @@
       "name": "Vampire Killer (Simon)",
       "slot": "otherWeapons",
       "stats": "ATK +10",
-      "dropLocation": "Starts with (Simon)"
+      "dropLocation": "Starts with (Simon)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/cf/Vampire_Killer_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811175451"
     },
     {
       "id": "medicine-philosophers-stone",
       "name": "Philosopher's Stone",
-      "slot": "medicine",
+      "slot": "personalSkills",
       "stats": null,
       "dropLocation": "Chapter 9 - boss only",
       "notes": "Heals for 50 MP, reusable (not consumed). Used by Yoko and Maria. Effect increases by collecting up to 9.",
