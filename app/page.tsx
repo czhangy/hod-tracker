@@ -18,7 +18,7 @@ export default function Home() {
   );
 
   return (
-    <div className="mx-auto max-w-5xl space-y-6 px-4 py-8">
+    <div className="mx-auto w-full max-w-5xl space-y-6 px-4 py-8">
       <OverallHeader progress={progress} />
 
       <div className="font-display flex gap-2 text-sm">
