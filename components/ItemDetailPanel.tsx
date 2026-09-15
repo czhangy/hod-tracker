@@ -1,4 +1,5 @@
 import type { Item } from "@/lib/types";
+import { isItemObtained } from "@/lib/useProgress";
 import { ItemIcon } from "./ItemIcon";
 
 const SLOT_LABELS: Record<string, string> = {
@@ -50,6 +51,8 @@ export function ItemDetailPanel({
       </div>
     );
   }
+
+  const obtained = isItemObtained(item, count);
 
   return (
     <div className="flex-1 space-y-4 rounded-lg border border-neutral-800 bg-neutral-900/40 p-5">
@@ -103,7 +106,11 @@ export function ItemDetailPanel({
               <span className="ml-1.5 normal-case text-neutral-600">max {item.maxLevel}</span>
             )}
           </p>
-          <div className="flex items-center justify-center gap-4 rounded-md border border-neutral-700 py-2">
+          <div
+            className={`flex items-center justify-center gap-4 rounded-md border py-2 ${
+              obtained ? "border-green-800 bg-green-950/20" : "border-neutral-700"
+            }`}
+          >
             <button
               onClick={() => onAdjustCount(item.id, -1)}
               disabled={count === 0}
@@ -111,7 +118,11 @@ export function ItemDetailPanel({
             >
               −
             </button>
-            <span className="text-center text-lg font-semibold tabular-nums text-neutral-100">
+            <span
+              className={`text-center text-lg font-semibold tabular-nums ${
+                obtained ? "text-green-400" : "text-neutral-100"
+              }`}
+            >
               {count}
               {typeof item.maxLevel === "number" && (
                 <span className="text-sm font-normal text-neutral-500">/{item.maxLevel}</span>
@@ -125,17 +136,22 @@ export function ItemDetailPanel({
               +
             </button>
           </div>
+          {typeof item.maxLevel === "number" && !obtained && (
+            <p className="text-center text-xs text-neutral-600">
+              Counts toward 100% only once maxed at {item.maxLevel}.
+            </p>
+          )}
         </div>
       ) : (
         <button
           onClick={() => onToggleObtained(item.id)}
           className={`w-full cursor-pointer rounded-md border px-3 py-2 text-sm font-medium transition-colors ${
-            count > 0
+            obtained
               ? "border-green-800 bg-green-950/40 text-green-400 hover:bg-green-950/70"
               : "border-neutral-700 text-neutral-300 hover:border-red-700 hover:text-red-400"
           }`}
         >
-          {count > 0 ? "✓ Obtained" : "Mark as obtained"}
+          {obtained ? "✓ Obtained" : "Mark as obtained"}
         </button>
       )}
     </div>

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { data } from "@/lib/data";
-import { itemStats } from "@/lib/useProgress";
+import { isItemObtained, itemStats } from "@/lib/useProgress";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
 import { ItemIcon } from "./ItemIcon";
@@ -86,10 +86,12 @@ function groupBySlot(items: Item[]) {
 function ItemStepper({
   count,
   maxLevel,
+  obtained,
   onAdjust,
 }: {
   count: number;
   maxLevel?: number | null;
+  obtained: boolean;
   onAdjust: (delta: number) => void;
 }) {
   const atMax = typeof maxLevel === "number" && count >= maxLevel;
@@ -105,7 +107,11 @@ function ItemStepper({
       >
         −
       </button>
-      <span className="w-8 text-center text-[11px] tabular-nums text-neutral-300">
+      <span
+        className={`w-8 text-center text-[11px] tabular-nums ${
+          obtained ? "font-semibold text-green-500" : "text-neutral-300"
+        }`}
+      >
         {count}
         {typeof maxLevel === "number" && <span className="text-neutral-600">/{maxLevel}</span>}
       </span>
@@ -141,7 +147,8 @@ export function ItemsPanel({
     const q = filter.trim().toLowerCase();
     const filtered = data.items.filter((item) => {
       if (q && !item.name.toLowerCase().includes(q)) return false;
-      if (hideObtained && (progress.itemsObtained[item.id] ?? 0) > 0) return false;
+      if (hideObtained && isItemObtained(item, progress.itemsObtained[item.id] ?? 0))
+        return false;
       return true;
     });
     return groupBySlot(filtered);
@@ -159,7 +166,7 @@ export function ItemsPanel({
           All collectible items in Harmony of Despair (base game + DLC), shared across your
           whole roster. Click an item to see its stats and drop location. Items that level
           up in-game (Souls, Spells, Dark Magic Scrolls, Glyphs, Sub-Weapons) use a +/−
-          count instead of a checkbox.
+          count instead of a checkbox, and only count toward 100% once maxed out.
         </p>
         <div className="flex items-center gap-3">
           <div className="flex-1">
@@ -193,8 +200,8 @@ export function ItemsPanel({
       <div className="flex flex-col gap-6 lg:flex-row">
         <div className="min-w-0 flex-[3] space-y-6">
           {groups.map(({ slot, items }) => {
-            const doneInSlot = items.filter(
-              (i) => (progress.itemsObtained[i.id] ?? 0) > 0
+            const doneInSlot = items.filter((i) =>
+              isItemObtained(i, progress.itemsObtained[i.id] ?? 0)
             ).length;
             return (
               <div key={slot} className="space-y-1.5">
@@ -207,6 +214,7 @@ export function ItemsPanel({
                 <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
                   {items.map((item) => {
                     const count = progress.itemsObtained[item.id] ?? 0;
+                    const obtained = isItemObtained(item, count);
                     const isSelected = item.id === selectedItemId;
                     return (
                       <li key={item.id}>
@@ -221,12 +229,13 @@ export function ItemsPanel({
                             <ItemStepper
                               count={count}
                               maxLevel={item.maxLevel}
+                              obtained={obtained}
                               onAdjust={(delta) => onAdjustItemCount(item.id, delta)}
                             />
                           ) : (
                             <input
                               type="checkbox"
-                              checked={count > 0}
+                              checked={obtained}
                               onChange={() => onToggleItem(item.id)}
                               className="size-4 shrink-0 cursor-pointer accent-red-600"
                             />

@@ -2,7 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import { data } from "@/lib/data";
-import type { ProgressState } from "@/lib/types";
+import type { Item, ProgressState } from "@/lib/types";
 import {
   subscribe,
   getSnapshot,
@@ -32,9 +32,23 @@ export function characterChapterStats(progress: ProgressState, characterId: stri
   return { chapterTotal, chapterDone, percent };
 }
 
+/**
+ * Whether an item counts as "obtained" for completion purposes. Levelable items with a
+ * known cap (Souls, Spells, Scrolls, Glyphs, Sub-Weapons, ...) only count once maxed out;
+ * everything else just needs a count above zero.
+ */
+export function isItemObtained(item: Item, count: number): boolean {
+  if (item.levelable && typeof item.maxLevel === "number") {
+    return count >= item.maxLevel;
+  }
+  return count > 0;
+}
+
 export function itemStats(progress: ProgressState) {
   const itemTotal = data.items.length;
-  const itemDone = Object.values(progress.itemsObtained).filter((count) => count > 0).length;
+  const itemDone = data.items.filter((item) =>
+    isItemObtained(item, progress.itemsObtained[item.id] ?? 0)
+  ).length;
   const percent = itemTotal === 0 ? 0 : Math.round((itemDone / itemTotal) * 100);
   return { itemTotal, itemDone, percent };
 }
