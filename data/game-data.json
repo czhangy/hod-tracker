@@ -2622,7 +2622,8 @@
       "dropLocation": null,
       "notes": "Summon a Bat as a familiar.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
     },
     {
       "id": "soulsBlue-brauner",
@@ -2632,7 +2633,8 @@
       "dropLocation": null,
       "notes": "Draw swaths in the air with cursed paint.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
     },
     {
       "id": "soulsBlue-buer",
@@ -2642,7 +2644,8 @@
       "dropLocation": null,
       "notes": "Wear a cloak of tumbling fire.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
     },
     {
       "id": "soulsBlue-death",
@@ -2652,7 +2655,8 @@
       "dropLocation": null,
       "notes": "Summon the Grim Reaper's scythe to attack enemies.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
     },
     {
       "id": "soulsBlue-final-guard",
@@ -2662,7 +2666,8 @@
       "dropLocation": null,
       "notes": "Gain iron-clad defense.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
     },
     {
       "id": "soulsBlue-ghost",
@@ -2672,7 +2677,8 @@
       "dropLocation": null,
       "notes": "Summon a Ghost as a familiar.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
     },
     {
       "id": "soulsBlue-medusa-head",
@@ -2682,7 +2688,8 @@
       "dropLocation": null,
       "notes": "Gain the ability to hover in one location.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
     },
     {
       "id": "soulsBlue-persephone",
@@ -2692,7 +2699,8 @@
       "dropLocation": null,
       "notes": "Enable \"Magic Vacuum\" to consume enemy HP.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
     },
     {
       "id": "soulsBlue-white-dragon",
@@ -2702,7 +2710,8 @@
       "dropLocation": null,
       "notes": "Summon a White Dragon.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
     },
     {
       "id": "soulsRed-amalaric-sniper",
@@ -2712,7 +2721,8 @@
       "dropLocation": null,
       "notes": "Summon an archer to support you.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-astarte",
@@ -2722,7 +2732,8 @@
       "dropLocation": null,
       "notes": "Create a triangular field of destruction.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-axe-knight",
@@ -2732,7 +2743,8 @@
       "dropLocation": null,
       "notes": "Throw an axe.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-cave-troll",
@@ -2742,7 +2754,8 @@
       "dropLocation": null,
       "notes": "Attack with a tongue lashing.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-disc-armor",
@@ -2752,7 +2765,8 @@
       "dropLocation": null,
       "notes": "Hurl a sharp-edged circular blade.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-dracula",
@@ -2762,7 +2776,8 @@
       "dropLocation": null,
       "notes": "Launch a torrent of magical power.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-dullahan",
@@ -2772,7 +2787,8 @@
       "dropLocation": null,
       "notes": "Unleash a vengeful spirit.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-fire-demon",
@@ -2782,7 +2798,8 @@
       "dropLocation": null,
       "notes": "Shoot devastating fireballs.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-fleaman",
@@ -2792,7 +2809,8 @@
       "dropLocation": null,
       "notes": "Summon a Fleaman.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-frozen-shade",
@@ -2802,7 +2820,8 @@
       "dropLocation": null,
       "notes": "Shoot pillars of ice.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-gergoth",
@@ -2812,7 +2831,8 @@
       "dropLocation": null,
       "notes": "Fire devastating laser beams.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-glasya-labolas",
@@ -2822,7 +2842,8 @@
       "dropLocation": null,
       "notes": "Generate poisonous bubbles.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-gurkha-master",
@@ -2832,7 +2853,8 @@
       "dropLocation": null,
       "notes": "Throw Gurkha knives.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-harpy",
@@ -2842,7 +2864,8 @@
       "dropLocation": null,
       "notes": "Shoot razor-sharp feathers.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-legion",
@@ -2852,7 +2875,8 @@
       "dropLocation": null,
       "notes": "Fire a beam at enemies.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-lerajie",
@@ -2862,7 +2886,8 @@
       "dropLocation": null,
       "notes": "Fire magical bullets that ricochet.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-malachi",
@@ -2872,7 +2897,8 @@
       "dropLocation": null,
       "notes": "Summon a dark sphere that spews magical energy.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-man-eating-plant",
@@ -2882,7 +2908,8 @@
       "dropLocation": null,
       "notes": "Send pollen flying.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-merman",
@@ -2892,7 +2919,8 @@
       "dropLocation": null,
       "notes": "Shoot a stream of water.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-moldy-corpse",
@@ -2902,7 +2930,8 @@
       "dropLocation": null,
       "notes": "Fling poisonous spores.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-mummy",
@@ -2912,7 +2941,8 @@
       "dropLocation": null,
       "notes": "Extend bandage arms.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-nova-skeleton",
@@ -2922,7 +2952,8 @@
       "dropLocation": null,
       "notes": "Fire a beam at enemies.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-puppet-master",
@@ -2932,7 +2963,8 @@
       "dropLocation": null,
       "notes": "Throw a puppet and switch places with it.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-sea-demon",
@@ -2942,7 +2974,8 @@
       "dropLocation": null,
       "notes": "Produce columns of Ice.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-skeleton",
@@ -2952,7 +2985,8 @@
       "dropLocation": null,
       "notes": "Throw bones.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-skeleton-gunman",
@@ -2962,7 +2996,8 @@
       "dropLocation": null,
       "notes": "Fire bullets from your finger.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-specter",
@@ -2972,7 +3007,8 @@
       "dropLocation": null,
       "notes": "Throw lanterns.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-spittle-bone",
@@ -2982,7 +3018,8 @@
       "dropLocation": null,
       "notes": "Spew fire while spinning around.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-thunder-demon",
@@ -2992,7 +3029,8 @@
       "dropLocation": null,
       "notes": "Generate orbs of lightning.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-une",
@@ -3002,7 +3040,8 @@
       "dropLocation": null,
       "notes": "Plant an Une in the ground.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-witch",
@@ -3012,7 +3051,8 @@
       "dropLocation": null,
       "notes": "Manipulate magical energy and launch it at enemies.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsRed-yorick",
@@ -3022,7 +3062,8 @@
       "dropLocation": null,
       "notes": "Kick a skull like a ball.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
     },
     {
       "id": "soulsYellow-aliorumnas",
@@ -3032,7 +3073,8 @@
       "dropLocation": null,
       "notes": "Increase MND.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-bone-pillar",
@@ -3042,7 +3084,8 @@
       "dropLocation": null,
       "notes": "Increase CON.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-the-creature",
@@ -3052,7 +3095,8 @@
       "dropLocation": null,
       "notes": "Restore HP gradually.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-dead-warrior",
@@ -3062,7 +3106,8 @@
       "dropLocation": null,
       "notes": "Raise LCK.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-ectoplasm",
@@ -3072,7 +3117,8 @@
       "dropLocation": null,
       "notes": "Increase resistance to curses.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-imp",
@@ -3082,7 +3128,8 @@
       "dropLocation": null,
       "notes": "Increase INT.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-mimic",
@@ -3092,7 +3139,8 @@
       "dropLocation": null,
       "notes": "Gain money when taking damage.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-minotaur",
@@ -3102,7 +3150,8 @@
       "dropLocation": null,
       "notes": "Increase STR.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-peeping-eye",
@@ -3112,7 +3161,8 @@
       "dropLocation": null,
       "notes": "Identify breakable walls.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-succubus",
@@ -3122,7 +3172,8 @@
       "dropLocation": null,
       "notes": "Absorb HP when attacking.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-treant",
@@ -3132,7 +3183,8 @@
       "dropLocation": null,
       "notes": "Increase MP Recovery speed.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "soulsYellow-zombie",
@@ -3142,7 +3194,8 @@
       "dropLocation": null,
       "notes": "Gain resistance to poison.",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
     },
     {
       "id": "spells-dark-metamorphosis",
@@ -3151,7 +3204,8 @@
       "stats": "None",
       "dropLocation": "Chapter 2 (also Chapter 2 Hard); Cave Troll drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d0/Dark_Magic_HD_Icon.png/revision/latest?cb=20191012075946"
     },
     {
       "id": "spells-hellfire",
@@ -3160,7 +3214,8 @@
       "stats": "ATK +8",
       "dropLocation": "Chapter 3, Chapter 3 Hard, Chapter 6, Chapter 6 Hard",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d0/Dark_Magic_HD_Icon.png/revision/latest?cb=20191012075946"
     },
     {
       "id": "spells-mist-form",
@@ -3169,7 +3224,8 @@
       "stats": "None",
       "dropLocation": "Start game with it",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d0/Dark_Magic_HD_Icon.png/revision/latest?cb=20191012075946"
     },
     {
       "id": "spells-soul-steal",
@@ -3178,7 +3234,8 @@
       "stats": "ATK +9",
       "dropLocation": "Chapter 5, Chapter 5 Hard, Chapter 6, Chapter 6 Hard",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d0/Dark_Magic_HD_Icon.png/revision/latest?cb=20191012075946"
     },
     {
       "id": "spells-summon-spirit",
@@ -3187,7 +3244,8 @@
       "stats": "ATK +5",
       "dropLocation": "Ectoplasm drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d0/Dark_Magic_HD_Icon.png/revision/latest?cb=20191012075946"
     },
     {
       "id": "spells-tetra-spirit",
@@ -3196,7 +3254,8 @@
       "stats": "ATK +5",
       "dropLocation": "Chapter 4, Chapter 4 Hard",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d0/Dark_Magic_HD_Icon.png/revision/latest?cb=20191012075946"
     },
     {
       "id": "glyphs-fulgur",
@@ -3205,16 +3264,18 @@
       "stats": "ATK +5",
       "dropLocation": "Found in Chapter: Aliorumnas",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
     },
     {
       "id": "glyphs-grande",
-      "name": "Grande",
+      "name": "Grando",
       "slot": "glyphs",
       "stats": "ATK +12",
       "dropLocation": "Found in Chapter: Aliorumnas",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
     },
     {
       "id": "glyphs-ignis",
@@ -3223,7 +3284,8 @@
       "stats": "ATK +6",
       "dropLocation": "Found in Chapter: Aliorumnas",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
     },
     {
       "id": "glyphs-magnes",
@@ -3232,7 +3294,8 @@
       "stats": "None",
       "dropLocation": "Start game with it",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
     },
     {
       "id": "glyphs-nitesco",
@@ -3241,7 +3304,8 @@
       "stats": "ATK +8",
       "dropLocation": "Nova Skeleton drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
     },
     {
       "id": "scrolls-acidic-bubbles",
@@ -3250,7 +3314,8 @@
       "stats": "ATK +4",
       "dropLocation": "Glasyla Labolas drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-blue-splash",
@@ -3259,7 +3324,8 @@
       "stats": "None",
       "dropLocation": "Starts with (Yoko)",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-dark-inferno",
@@ -3268,16 +3334,18 @@
       "stats": "ATK +12",
       "dropLocation": "Dracula drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-deathsycthe",
-      "name": "Deathsycthe",
+      "name": "Deathscythe",
       "slot": "scrolls",
       "stats": "ATK +6",
       "dropLocation": "Death drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-delta-spark",
@@ -3286,7 +3354,8 @@
       "stats": "ATK +9",
       "dropLocation": "Astarte drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-demonseed",
@@ -3295,7 +3364,8 @@
       "stats": "ATK +5",
       "dropLocation": "Man-Eating Plant drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-energy-flow",
@@ -3304,7 +3374,8 @@
       "stats": "ATK +12",
       "dropLocation": "Witch drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-featherblades",
@@ -3313,7 +3384,8 @@
       "stats": "ATK +9",
       "dropLocation": "Harpy drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-fireball",
@@ -3322,7 +3394,8 @@
       "stats": "ATK +7",
       "dropLocation": "Bone Pillar drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-flame-shot",
@@ -3331,7 +3404,8 @@
       "stats": "ATK +16",
       "dropLocation": "Fire Demon drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-ghost-chaser",
@@ -3340,7 +3414,8 @@
       "stats": "ATK +12",
       "dropLocation": "Dracula, Dullahan drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-heal",
@@ -3349,7 +3424,8 @@
       "stats": "ATK +30",
       "dropLocation": "Witch drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-hellfire",
@@ -3358,7 +3434,8 @@
       "stats": "ATK +8",
       "dropLocation": "Dracula drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-holy-flame",
@@ -3367,7 +3444,8 @@
       "stats": "None",
       "dropLocation": "Starts with (Yoko)",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-holy-lightning",
@@ -3376,7 +3454,8 @@
       "stats": "None",
       "dropLocation": "Starts with (Yoko)",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-ice-fang",
@@ -3385,7 +3464,8 @@
       "stats": "ATK +16",
       "dropLocation": "Sea Demon drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-ice-needle",
@@ -3394,7 +3474,8 @@
       "stats": "ATK +6",
       "dropLocation": "Frozen Shade drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-nightmare",
@@ -3403,7 +3484,8 @@
       "stats": "ATK +12",
       "dropLocation": "Malachi drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-piercing-beam",
@@ -3412,7 +3494,8 @@
       "stats": "ATK +8",
       "dropLocation": "Nova Skeleton drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-poison-spores",
@@ -3421,7 +3504,8 @@
       "stats": "ATK +7",
       "dropLocation": "Moldy Corpse drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-raging-fire",
@@ -3430,7 +3514,8 @@
       "stats": "ATK +6",
       "dropLocation": "Minotaur, Spittle Bone, White Dragon drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-sickle-moon",
@@ -3439,7 +3524,8 @@
       "stats": "ATK +11",
       "dropLocation": "Imp drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-splash-needle",
@@ -3448,7 +3534,8 @@
       "stats": "ATK +4",
       "dropLocation": "Merman drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-summon-gunman",
@@ -3457,7 +3544,8 @@
       "stats": "ATK +9",
       "dropLocation": "Skeleton Gunman drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-summon-skeleton",
@@ -3466,7 +3554,8 @@
       "stats": "ATK +8",
       "dropLocation": "Skeleton drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "scrolls-thunderbolt",
@@ -3475,7 +3564,8 @@
       "stats": "ATK +8",
       "dropLocation": "Thunder Demon drop",
       "levelable": true,
-      "maxLevel": 9
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     },
     {
       "id": "martialArts-danger-knee",
@@ -4492,6 +4582,488 @@
       "levelable": true,
       "maxLevel": 9,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/60/Philosophers_stone.PNG/revision/latest?cb=20191012090126"
+    },
+    {
+      "id": "soulsBlue-gaibon",
+      "name": "Gaibon",
+      "slot": "soulsBlue",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 9 - Gaibon (3.5%) drop",
+      "notes": "Summon Gaibon as a familiar.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
+    },
+    {
+      "id": "soulsBlue-r-raven",
+      "name": "R. Raven",
+      "slot": "soulsBlue",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 10 - R. Raven (5.5%) drop",
+      "notes": "Summon an 8-bit raven as a familiar.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
+    },
+    {
+      "id": "soulsBlue-r-vampire-bat",
+      "name": "R. Vampire Bat",
+      "slot": "soulsBlue",
+      "stats": "ATK +1",
+      "dropLocation": "Chapter 10 - R. Vampire Bat (5.5%) drop",
+      "notes": "Summon an 8-bit bat as a familiar.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
+    },
+    {
+      "id": "soulsBlue-r-ghost",
+      "name": "R. Ghost",
+      "slot": "soulsBlue",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 10 - R. Ghost (5.5%) drop",
+      "notes": "Summon an 8-bit ghost as a familiar.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
+    },
+    {
+      "id": "soulsBlue-r-skele-dragon",
+      "name": "R. Skele-Dragon",
+      "slot": "soulsBlue",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 10 - R. Skele-Dragon (5.5%) drop",
+      "notes": "Summon an 8-bit skele-dragon as a familiar.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
+    },
+    {
+      "id": "soulsBlue-r-medusa",
+      "name": "R. Medusa",
+      "slot": "soulsBlue",
+      "stats": null,
+      "dropLocation": "Chapter 10 - R. Medusa (5.5%) drop",
+      "notes": "Gain the ability to hover in one location.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
+    },
+    {
+      "id": "soulsBlue-r-grim-reaper",
+      "name": "R. Grim Reaper",
+      "slot": "soulsBlue",
+      "stats": "ATK +7",
+      "dropLocation": "Chapter 10 - R. Grim Reaper (3.5%) drop",
+      "notes": "Summon the 8-bit Grim Reaper's scythe to attack enemies.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e6/Guardian_Soul_HD_Icon.png/revision/latest?cb=20191012080547"
+    },
+    {
+      "id": "soulsRed-ukoback",
+      "name": "Ukoback",
+      "slot": "soulsRed",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 8 - Ukoback (3.0%) drop",
+      "notes": "Set fires.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-fish-head",
+      "name": "Fish Head",
+      "slot": "soulsRed",
+      "stats": "ATK +11",
+      "dropLocation": "Chapter 8 - Fish Head (2.5%) drop",
+      "notes": "Throw Fish Head's head.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-killer-fish",
+      "name": "Killer Fish",
+      "slot": "soulsRed",
+      "stats": "ATK +20",
+      "dropLocation": "Chapter 8 - Killer Fish (4.5%) drop",
+      "notes": "Launch torpedoes in water.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-beelzebub",
+      "name": "Beelzebub",
+      "slot": "soulsRed",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 9 - Beelzebub (0.5%) drop",
+      "notes": "Summon flies from hell",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-slogra",
+      "name": "Slogra",
+      "slot": "soulsRed",
+      "stats": "ATK +11",
+      "dropLocation": "Chapter 9 - Slogra (3.5 %) drop",
+      "notes": "Throw spears.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-warg",
+      "name": "Warg",
+      "slot": "soulsRed",
+      "stats": "ATK +17",
+      "dropLocation": "Chapter 9 - Warg (4.5%) drop",
+      "notes": "Use fangs to tear at foes.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-axe-man",
+      "name": "R. Axe-Man",
+      "slot": "soulsRed",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 10 - R. Axe-Man (5.5%) drop",
+      "notes": "Throw axes.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-black-knight",
+      "name": "R. Black Knight",
+      "slot": "soulsRed",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 10 - R. Black Knight (5.5%) drop",
+      "notes": "Throw spears.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-skeleton",
+      "name": "R. Skeleton",
+      "slot": "soulsRed",
+      "stats": "ATK +9",
+      "dropLocation": "Chapter 10 - R. Skeleton (5.5%) drop",
+      "notes": "Throw bones.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-zombie",
+      "name": "R. Zombie",
+      "slot": "soulsRed",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 10 - R. Zombie (5.5%) drop",
+      "notes": "Summon an 8-bit zombie.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-the-count",
+      "name": "R. The Count",
+      "slot": "soulsRed",
+      "stats": "ATK +16",
+      "dropLocation": "Chapter 10 - R. The Count (0.5 %) drop",
+      "notes": "Summon an 8-bit Dracula.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-mummy-man",
+      "name": "R. Mummy Man",
+      "slot": "soulsRed",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 10 - R. Mummy Man (3.5%) drop",
+      "notes": "Summon an 8-bit Mummy Man.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-queen-medusa",
+      "name": "R. Queen Medusa",
+      "slot": "soulsRed",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 10 - R. Queen Medusa (3.5 %) drop",
+      "notes": "Summon an 8-bit Queen Medusa.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-fish-man",
+      "name": "R. Fish Man",
+      "slot": "soulsRed",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 10 - R. Fish Man (5.5%) drop",
+      "notes": "Summon an 8-bit fish man.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-phantom-bat",
+      "name": "R. Phantom Bat",
+      "slot": "soulsRed",
+      "stats": "ATK +12",
+      "dropLocation": "Chapter 10 - R. Phantom Bat (3.5%) drop",
+      "notes": "Summon an 8-bit Phantom Bat.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-eagle",
+      "name": "R. Eagle",
+      "slot": "soulsRed",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 10 - R. Eagle (5.5 %) drop",
+      "notes": "Summon an 8-bit eagle.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-black-leopard",
+      "name": "R. Black Leopard",
+      "slot": "soulsRed",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 10 - R. Black Leopard (5.5 %) drop",
+      "notes": "Summon an 8-bit black leopard.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-r-hunchback",
+      "name": "R. Hunchback",
+      "slot": "soulsRed",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 10 - R. Hunchback (5.5%) drop",
+      "notes": "Summon an 8-bit hunchback.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-kung-fugu",
+      "name": "Kung Fugu",
+      "slot": "soulsRed",
+      "stats": "ATK +9",
+      "dropLocation": "Chapter 11 - Kung Fugu (2.5%) drop",
+      "notes": "Fire a Kung Fugu's energy balls.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-flying-flower",
+      "name": "Flying Flower",
+      "slot": "soulsRed",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 11 - Flying Flower (2.5%) drop",
+      "notes": "Summon a Flying Flower.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-hellmont",
+      "name": "Hellmont",
+      "slot": "soulsRed",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 11 - Hellmont (2.5%) drop",
+      "notes": "Summon a Hellmont.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-pejora-s-mask",
+      "name": "Pejora's Mask",
+      "slot": "soulsRed",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 11 - Pejora's Mask (2.5%) drop",
+      "notes": "Summon a Pejora's Mask.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-peepilliary",
+      "name": "Peepilliary",
+      "slot": "soulsRed",
+      "stats": "ATK +9",
+      "dropLocation": "Chapter 11 - Peepilliary (2.5%) drop",
+      "notes": "Summon a Peepilliary.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-gyropyre",
+      "name": "Gyropyre",
+      "slot": "soulsRed",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 11 - Gyropyre (2.5%) drop",
+      "notes": "Summon a Gyropyre.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-decapiclops",
+      "name": "Decapiclops",
+      "slot": "soulsRed",
+      "stats": "ATK +12",
+      "dropLocation": "Chapter 11 - Decapiclops (3.5%) drop",
+      "notes": "Summon a Decapiclops.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-oxocutioner",
+      "name": "Oxocutioner",
+      "slot": "soulsRed",
+      "stats": "ATK +7",
+      "dropLocation": "Chapter 11 - Oxocutioner (3.5%) drop",
+      "notes": "Wield a Oxocutioner's swords.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-chimyriad",
+      "name": "Chimyriad",
+      "slot": "soulsRed",
+      "stats": "ATK +12",
+      "dropLocation": "Chapter 11 - Chimyriad (3.5%) drop",
+      "notes": "Summon a Chimyriad.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsRed-ryukotsuki",
+      "name": "Ryukotsuki",
+      "slot": "soulsRed",
+      "stats": "ATK +23",
+      "dropLocation": "Chapter 11 - Ryukotsuki (0.5%) drop",
+      "notes": "Strike with the arm of Ryukotsuki.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/04/Bullet_Soul_HD_Icon.png/revision/latest?cb=20191012080356"
+    },
+    {
+      "id": "soulsYellow-r-the-creature",
+      "name": "R. The Creature",
+      "slot": "soulsYellow",
+      "stats": null,
+      "dropLocation": "Chapter 10 - R. The Creature (3.5%) drop",
+      "notes": "Restore HP gradually.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
+    },
+    {
+      "id": "soulsYellow-r-dragon-cannon",
+      "name": "R. Dragon Cannon",
+      "slot": "soulsYellow",
+      "stats": "CON +2",
+      "dropLocation": "Chapter 10 - R. Dragon Cannon (5.5%) drop",
+      "notes": "Increase CON",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Enchanted_Soul_HD_Icon.png/revision/latest?cb=20191012080706"
+    },
+    {
+      "id": "glyphs-globus",
+      "name": "Globus",
+      "slot": "glyphs",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 8 (Hard) - Purple Chest / Legion drop",
+      "notes": "Unleash an energy sphere.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
+    },
+    {
+      "id": "glyphs-acerbatus",
+      "name": "Acerbatus",
+      "slot": "glyphs",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 9 (Hard) - Purple & Boss Chest / Beelzebub drop",
+      "notes": "Calls forth the power of spite.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
+    },
+    {
+      "id": "glyphs-luminatio",
+      "name": "Luminatio",
+      "slot": "glyphs",
+      "stats": "ATK +9",
+      "dropLocation": "Chapter 11 - Ryukotsuki drop (both difficulties)",
+      "notes": "Call forth a ball of light.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
+    },
+    {
+      "id": "otherWeapons-dextro-custos",
+      "name": "Dextro Custos",
+      "slot": "otherWeapons",
+      "stats": "ATK +7",
+      "dropLocation": "Chapter 10 - Purple & Boss Chest (Hard), Boss (Normal)",
+      "notes": "Attack with the right head of Cerberus.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
+    },
+    {
+      "id": "otherWeapons-sinestro-custos",
+      "name": "Sinestro Custos",
+      "slot": "otherWeapons",
+      "stats": "ATK +7",
+      "dropLocation": "Chapter 10 - Purple & Boss Chest (Hard), Boss (Normal)",
+      "notes": "Attack with the left head of Cerberus.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
+    },
+    {
+      "id": "scrolls-r-fireball",
+      "name": "R. Fireball",
+      "slot": "scrolls",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 10 - bind from R. Fish Man / R. Dragon Cannon / R. Skele-Dragon / R. Phantom Bat",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
+    },
+    {
+      "id": "scrolls-r-deathscythe",
+      "name": "R. Deathscythe",
+      "slot": "scrolls",
+      "stats": "ATK +9",
+      "dropLocation": "Chapter 10 - bind from R. Grim Reaper",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
+    },
+    {
+      "id": "scrolls-r-summon-skeleton",
+      "name": "R. Summon Skeleton",
+      "slot": "scrolls",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 10 - bind from R. Skeleton",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Spell_HD_Icon.png/revision/latest?cb=20191012080133"
     }
   ]
 }
