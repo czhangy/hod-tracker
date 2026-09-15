@@ -73,18 +73,3 @@ export function toggleItem(itemId: string) {
     itemsObtained: { ...state.itemsObtained, [itemId]: !state.itemsObtained[itemId] },
   });
 }
-
-export function resetCharacter(characterId: string) {
-  ensureInitialized();
-  const chapterClears = { ...state.chapterClears };
-  delete chapterClears[characterId];
-  commit({ ...state, chapterClears });
-}
-
-export function resetAll() {
-  commit(EMPTY_STATE);
-}
-
-export function importProgress(next: ProgressState) {
-  commit(next);
-}

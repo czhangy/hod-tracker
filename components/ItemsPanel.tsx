@@ -69,7 +69,7 @@ export function ItemsPanel({
   return (
     <div className="flex-1 space-y-6">
       <header className="space-y-2">
-        <h2 className="text-2xl font-bold text-neutral-50">Item Collection</h2>
+        <h2 className="font-display text-2xl font-bold text-neutral-50">Item Collection</h2>
         <p className="text-sm text-neutral-500">
           All equippable items in Harmony of Despair (base game + DLC), shared across your
           whole roster.
@@ -92,12 +92,12 @@ export function ItemsPanel({
           placeholder="Filter items..."
           className="w-full max-w-xs rounded-md border border-neutral-800 bg-neutral-900/50 px-3 py-1.5 text-sm text-neutral-200 placeholder:text-neutral-600 focus:border-red-700 focus:outline-none"
         />
-        <label className="flex items-center gap-1.5 text-xs text-neutral-400">
+        <label className="flex cursor-pointer items-center gap-1.5 text-xs text-neutral-400">
           <input
             type="checkbox"
             checked={hideObtained}
             onChange={(e) => setHideObtained(e.target.checked)}
-            className="size-3.5 accent-red-600"
+            className="size-3.5 cursor-pointer accent-red-600"
           />
           Hide obtained
         </label>
@@ -122,7 +122,7 @@ export function ItemsPanel({
                         type="checkbox"
                         checked={Boolean(progress.itemsObtained[item.id])}
                         onChange={() => onToggleItem(item.id)}
-                        className="size-4 shrink-0 accent-red-600"
+                        className="size-4 shrink-0 cursor-pointer accent-red-600"
                       />
                       <span className="truncate text-neutral-300">{item.name}</span>
                     </label>

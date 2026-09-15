@@ -24,7 +24,7 @@ export function Sidebar({
           <button
             key={character.id}
             onClick={() => onSelect(character.id)}
-            className={`flex flex-col gap-1.5 rounded-lg border px-3 py-2 text-left transition-colors ${
+            className={`flex cursor-pointer flex-col gap-1.5 rounded-lg border px-3 py-2 text-left transition-colors ${
               isSelected
                 ? "border-red-600 bg-red-950/30"
                 : "border-neutral-800 bg-neutral-900/50 hover:border-neutral-700"

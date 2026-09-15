@@ -9,12 +9,10 @@ export function CharacterDetail({
   characterId,
   progress,
   onToggleChapter,
-  onReset,
 }: {
   characterId: string;
   progress: ProgressState;
   onToggleChapter: (characterId: string, chapterId: string) => void;
-  onReset: (characterId: string) => void;
 }) {
   const character = data.characters.find((c) => c.id === characterId);
   const stats = characterChapterStats(progress, characterId);
@@ -26,30 +24,18 @@ export function CharacterDetail({
   return (
     <div className="flex-1 space-y-8">
       <header className="space-y-2">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div>
-            <h2 className="flex items-center gap-2 text-2xl font-bold text-neutral-50">
-              {character.name}
-              {character.dlc && (
-                <span className="rounded bg-neutral-800 px-1.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-neutral-400">
-                  DLC
-                </span>
-              )}
-            </h2>
-            {character.dlcPack && (
-              <p className="text-sm text-neutral-500">{character.dlcPack}</p>
+        <div>
+          <h2 className="font-display flex items-center gap-2 text-2xl font-bold text-neutral-50">
+            {character.name}
+            {character.dlc && (
+              <span className="rounded bg-neutral-800 px-1.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-neutral-400">
+                DLC
+              </span>
             )}
-          </div>
-          <button
-            onClick={() => {
-              if (confirm(`Reset chapter progress for ${character.name}?`)) {
-                onReset(characterId);
-              }
-            }}
-            className="rounded-md border border-neutral-800 px-3 py-1.5 text-xs text-neutral-400 hover:border-red-900 hover:text-red-500"
-          >
-            Reset character
-          </button>
+          </h2>
+          {character.dlcPack && (
+            <p className="text-sm text-neutral-500">{character.dlcPack}</p>
+          )}
         </div>
         <div className="flex items-center gap-3">
           <div className="flex-1">
@@ -73,7 +59,7 @@ export function CharacterDetail({
                   type="checkbox"
                   checked={Boolean(clearedChapters[chapter.id])}
                   onChange={() => onToggleChapter(characterId, chapter.id)}
-                  className="size-4 accent-red-600"
+                  className="size-4 cursor-pointer accent-red-600"
                 />
                 <span className="text-neutral-300">
                   {chapter.number}. {chapter.name}
