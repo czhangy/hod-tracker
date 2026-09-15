@@ -3424,1366 +3424,661 @@
       "slot": "martialArts",
       "stats": "None",
       "dropLocation": "Chapter 4 (Jonathan, Julius, Richter)"
-    }
-  ],
-  "enemies": [
-    {
-      "id": "gergoth",
-      "name": "Gergoth",
-      "type": "boss",
-      "chapters": [
-        "ch-1"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A once-gentle beast, warped by magic and driven mad by imprisonment.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/gergoth.gif"
-    },
-    {
-      "id": "puppet-master",
-      "name": "Puppet Master",
-      "type": "boss",
-      "chapters": [
-        "ch-2"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "The cursed king of dolls and master of manipulating dimensions.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/puppetmaster.gif"
-    },
-    {
-      "id": "menace",
-      "name": "Menace",
-      "type": "boss",
-      "chapters": [
-        "ch-3"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A humongous amalgamation of powerful demons.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/menace.gif"
-    },
-    {
-      "id": "brauner",
-      "name": "Brauner",
-      "type": "boss",
-      "chapters": [
-        "ch-4"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An artist who became a vampire and renounced humanity.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/brauner.gif"
-    },
-    {
-      "id": "death",
-      "name": "Death",
-      "type": "boss",
-      "chapters": [
-        "ch-5"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Dracula's confidant.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/death.gif"
-    },
-    {
-      "id": "dracula",
-      "name": "Dracula",
-      "type": "boss",
-      "chapters": [
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "The true master of the castle.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/dracula.gif"
-    },
-    {
-      "id": "astarte",
-      "name": "Astarte",
-      "type": "boss",
-      "chapters": [
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A woman of irresistible beauty. No man can defy her will.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/astarte.gif"
-    },
+    },
     {
-      "id": "legion",
-      "name": "Legion",
-      "type": "boss",
-      "chapters": [
-        "ch-8"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "The one who is many.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/legion.gif"
-    },
-    {
-      "id": "beelzebub",
-      "name": "Beelzebub",
-      "type": "boss",
-      "chapters": [
-        "ch-9"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Beelzebub, Lord of the Flies.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/beezelbub-2.gif"
-    },
-    {
-      "id": "r-the-count",
-      "name": "R. The Count",
-      "type": "boss",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "The most legendary of all vampires.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-count.gif"
-    },
-    {
-      "id": "r-the-creature",
-      "name": "R. The Creature",
-      "type": "boss",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A creature made long ago by a very foolish man.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-creature.gif"
-    },
-    {
-      "id": "r-grim-reaper",
-      "name": "R. Grim Reaper",
-      "type": "boss",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Dracula's servant for as long as any can remember.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-grimreaper.gif"
-    },
-    {
-      "id": "r-mummy-man",
-      "name": "R. Mummy Man",
-      "type": "boss",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An ancient king who sought life after death.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-mummyman.gif"
-    },
-    {
-      "id": "r-phantom-bat",
-      "name": "R. Phantom Bat",
-      "type": "boss",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A giant bat whose symbolic ties to vampires strikes fear in all.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-phantombat.gif"
-    },
-    {
-      "id": "r-queen-medusa",
-      "name": "R. Queen Medusa",
-      "type": "boss",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A legendary monster that petrifies with a single gaze.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-queenmedusa.gif"
-    },
-    {
-      "id": "chimyriad",
-      "name": "Chimyriad",
-      "type": "boss",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Three ninjas who have transformed into a half dragon, half demon.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/chimyriad.gif"
-    },
-    {
-      "id": "decapiclops",
-      "name": "Decapiclops",
-      "type": "boss",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An accursed skull with only one eye.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/decapiclops.gif"
-    },
-    {
-      "id": "ooxocutioner",
-      "name": "Ooxocutioner",
-      "type": "boss",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A bovine corpse that commands a deadly ring of spinning swords.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/oxocutioner.gif"
-    },
-    {
-      "id": "ryukotsuki",
-      "name": "Ryukotsuki",
-      "type": "boss",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A fiend who hails from the deepest pits of hell.",
-      "weaknesses": null,
-      "drops": null,
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/ryukotsuki.gif"
-    },
-    {
-      "id": "aliorumnas",
-      "name": "Aliorumnas",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-4",
-        "ch-5",
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Witches banished by the Gothic kin Filimer.",
-      "weaknesses": null,
-      "drops": "Kiwi",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/aliorumnas.gif"
-    },
-    {
-      "id": "amalaric-sniper",
-      "name": "Amalaric Sniper",
-      "type": "common",
-      "chapters": [
-        "ch-1"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A fallen angel who is now a fearsome archer.",
-      "weaknesses": null,
-      "drops": "Chakram",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/amalaricsniper.gif"
-    },
-    {
-      "id": "axe-knight",
-      "name": "Axe Knight",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-2",
-        "ch-3",
-        "ch-4",
-        "ch-5",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A zombie warrior in heavy armor, equipped with a devastating axe.",
-      "weaknesses": null,
-      "drops": "Axe Knight Shield",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/axeknight.gif"
-    },
-    {
-      "id": "bat",
-      "name": "Bat",
-      "type": "common",
-      "chapters": [
-        "ch-1"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A bloodsucking bat that lurks in the castle.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/bat.gif"
-    },
-    {
-      "id": "bone-pillar",
-      "name": "Bone Pillar",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-2",
-        "ch-3",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Stacked dinosaur skulls, animated by a demonic force.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/bonepillar.gif"
-    },
-    {
-      "id": "buer",
-      "name": "Buer",
-      "type": "common",
-      "chapters": [
-        "ch-5",
-        "ch-6",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A beast with many legs.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/buer.gif"
-    },
-    {
-      "id": "cave-troll",
-      "name": "Cave Troll",
-      "type": "common",
-      "chapters": [
-        "ch-3",
-        "ch-4",
-        "ch-5"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A blood-sucking beast that extracts the entrails of cows with its tongue.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/cavetroll.gif"
-    },
-    {
-      "id": "creature",
-      "name": "Creature",
-      "type": "common",
-      "chapters": [
-        "ch-4"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An artificial being created by a mad scientist.",
-      "weaknesses": null,
-      "drops": "Rusty Food Tin",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/creature.gif"
-    },
-    {
-      "id": "dead-warrior",
-      "name": "Dead Warrior",
-      "type": "common",
-      "chapters": [
-        "ch-5"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A dead knight whose spirit still lusts for battle.",
-      "weaknesses": null,
-      "drops": "Partisan",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/deadwarrior.gif"
-    },
-    {
-      "id": "disc-armor",
-      "name": "Disc Armor",
-      "type": "common",
-      "chapters": [
-        "ch-5",
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An armor-clad soldier that is an expert in throwing giant circular blades.",
-      "weaknesses": null,
-      "drops": "Steel Plate",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/discarmor.gif"
-    },
-    {
-      "id": "dullahan",
-      "name": "Dullahan",
-      "type": "common",
-      "chapters": [
-        "ch-4",
-        "ch-6",
-        "ch-9"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A beheaded knight who carries his own severed head.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/dullahan.gif"
-    },
-    {
-      "id": "ectoplasm",
-      "name": "Ectoplasm",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-6",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A substance created by souls who cannot rest.",
-      "weaknesses": null,
-      "drops": "Uncurse Potion",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/ectoplasm.gif"
-    },
-    {
-      "id": "final-guard",
-      "name": "Final Guard",
-      "type": "common",
-      "chapters": [
-        "ch-6",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An elite warrior chosen to guard key areas in the castle.",
-      "weaknesses": null,
-      "drops": "Ring Mail",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/finalguard.gif"
-    },
-    {
-      "id": "fire-demon",
-      "name": "Fire Demon",
-      "type": "common",
-      "chapters": [
-        "ch-3",
-        "ch-4",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "This demon is the master of all-consuming flame.",
-      "weaknesses": null,
-      "drops": "Agni's Flame",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/firedemon.gif"
-    },
-    {
-      "id": "fishhead",
-      "name": "Fishhead",
-      "type": "common",
-      "chapters": [
-        "ch-8"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "The skeletal remains of a fish animated by dark power.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/fishhead.gif"
-    },
-    {
-      "id": "fleaman",
-      "name": "Fleaman",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-3"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A sinister little man who leaps about as if he were a flea.",
-      "weaknesses": null,
-      "drops": "Paper Airplane",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/fleaman.gif"
-    },
-    {
-      "id": "frozen-shade",
-      "name": "Frozen Shade",
-      "type": "common",
-      "chapters": [
-        "ch-2"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A wraith that can freeze the air.",
-      "weaknesses": null,
-      "drops": "Pudding",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/frozenshade.gif"
-    },
-    {
-      "id": "gaibon",
-      "name": "Gaibon",
-      "type": "common",
-      "chapters": [
-        "ch-9"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A fiend that serves the Grim Reaper. It can spit fire while flying.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/gaibon.gif"
-    },
-    {
-      "id": "ghost",
-      "name": "Ghost",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A small spirit doomed to wander the castle grounds for all eternity.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/ghost.gif"
-    },
-    {
-      "id": "glasya-labolas",
-      "name": "Glasya Labolas",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-3",
-        "ch-4",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A demonic dog with large powerful wings.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/glasyalabolas.gif"
-    },
-    {
-      "id": "gurkha-master",
-      "name": "Gurkha Master",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-5",
-        "ch-6",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": "Ch.1 Hard mode only",
-      "description": "An armored warrior with a knife of the same name.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/gurkhamaster.gif"
-    },
-    {
-      "id": "harpy",
-      "name": "Harpy",
-      "type": "common",
-      "chapters": [
-        "ch-5",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A vicious bird-like creature with the head and torso of a woman.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/harpy.gif"
-    },
-    {
-      "id": "imp",
-      "name": "Imp",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-3",
-        "ch-4",
-        "ch-5",
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A tiny demon who loves mischief.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/imp.gif"
-    },
-    {
-      "id": "killer-fish",
-      "name": "Killer Fish",
-      "type": "common",
-      "chapters": [
-        "ch-8"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An ancient, man-eating fish. Rumored to be quite tasty.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/killerfish.gif"
-    },
-    {
-      "id": "lerajie",
-      "name": "Lerajie",
-      "type": "common",
-      "chapters": [
-        "ch-4",
-        "ch-5",
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An evil hunter who uses ricocheting bullets to kill from afar.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/lerajie.gif"
-    },
-    {
-      "id": "malachi",
-      "name": "Malachi",
-      "type": "common",
-      "chapters": [
-        "ch-5",
-        "ch-6",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A pagan being from ancient times who strikes fear in anyone he meets.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/malachi.gif"
-    },
-    {
-      "id": "man-eating-plant",
-      "name": "Man-Eating Plant",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-9"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A carnivorous plant that grew and developed a taste for human flesh.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/maneatingplant.gif"
-    },
-    {
-      "id": "medusa-head",
-      "name": "Medusa Head",
-      "type": "common",
-      "chapters": [
-        "ch-5",
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A monster created in great numbers from the head of Medusa.",
-      "weaknesses": null,
-      "drops": "Medusa Shield",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/medusahead-1.gif"
-    },
-    {
-      "id": "merman",
-      "name": "Merman",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-9"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Half fish, half man, and all monster. It hunts prey near the water.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/merman.gif"
-    },
-    {
-      "id": "mimic",
-      "name": "Mimic",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-2",
-        "ch-3",
-        "ch-4",
-        "ch-5",
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": "Ch.1 Hard mode only",
-      "description": "A creature that disguises itself as treasure, then awaits its prey.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/mimic.gif"
-    },
-    {
-      "id": "minotaur",
-      "name": "Minotaur",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-3",
-        "ch-4"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A creature with the head of a bull and the body of a man.",
-      "weaknesses": null,
-      "drops": "Meat Strip, Battle Axe",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/minotaur.gif"
-    },
-    {
-      "id": "moldy-corpse",
-      "name": "Moldy Corpse",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A human consumed by evil after eating a cursed mushroom.",
-      "weaknesses": null,
-      "drops": "Aminita",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/moldycorpse.gif"
-    },
-    {
-      "id": "mummy",
-      "name": "Mummy",
-      "type": "common",
-      "chapters": [
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A mummified warrior, buried in a tomb to protect his king.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/mummy.gif"
-    },
-    {
-      "id": "nova-skeleton",
-      "name": "Nova Skeleton",
-      "type": "common",
-      "chapters": [
-        "ch-5",
-        "ch-6",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Holes were drilled in his head to implant psionic powers.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/novaskeleton.gif"
-    },
-    {
-      "id": "peeping-eye",
-      "name": "Peeping Eye",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-3",
-        "ch-5"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A creature that keeps watch in the castle.",
-      "weaknesses": null,
-      "drops": "Monocle, Gambler Glasses",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/peepingeye.gif"
-    },
-    {
-      "id": "persephone",
-      "name": "Persephone",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-4"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "The count's demonic maid. She seems to have bought a new vacuum cleaner.",
-      "weaknesses": null,
-      "drops": "Forget-me-nots, Heart Brooch",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/persephone.gif"
-    },
-    {
-      "id": "sea-demon",
-      "name": "Sea Demon",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-5",
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": "Ch.2 Hard mode only",
-      "description": "An evil demon of the sea, skilled in an ice magic.",
-      "weaknesses": null,
-      "drops": "Rahab's Frost",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/seademon.gif"
-    },
-    {
-      "id": "skeleton",
-      "name": "Skeleton",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-2",
-        "ch-3",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A skeletal corpse controlled by magic.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/skeleton.gif"
-    },
-    {
-      "id": "skeleton-gunman",
-      "name": "Skeleton Gunman",
-      "type": "common",
-      "chapters": [
-        "ch-5"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A skeleton warrior armed with an old musket.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/skeletongunman.gif"
-    },
-    {
-      "id": "slogra",
-      "name": "Slogra",
-      "type": "common",
-      "chapters": [
-        "ch-9"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A fiend that serves the Grim Reaper. It fights on the ground with a spear.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/slogra.gif"
-    },
-    {
-      "id": "specter",
-      "name": "Specter",
-      "type": "common",
-      "chapters": [
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An eternally wandering spirit, consumed by hatred.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/specter.gif"
-    },
-    {
-      "id": "spittle-bone",
-      "name": "Spittle Bone",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-2",
-        "ch-4",
-        "ch-5"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A four-legged skeleton that crawls on walls.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/spittlebone.gif"
-    },
-    {
-      "id": "succubus",
-      "name": "Succubus",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A demon that assumes the form of a beautiful maiden to drain vitality.",
-      "weaknesses": null,
-      "drops": "Tiramisu, Succubus Boots",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/succubus.gif"
-    },
-    {
-      "id": "thunder-demon",
-      "name": "Thunder Demon",
-      "type": "common",
-      "chapters": [
-        "ch-6"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "This demon manifests its fury in thunderous peals.",
-      "weaknesses": null,
-      "drops": "Indra's Light",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/thunderdemon.gif"
-    },
-    {
-      "id": "treant",
-      "name": "Treant",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-9"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An ancient tree animated by a purely malevolent will.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/treant.gif"
-    },
-    {
-      "id": "ukoback",
-      "name": "Ukoback",
-      "type": "common",
-      "chapters": [
-        "ch-8"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An enraged demon whose body is engulfed in flames.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/ukoback.gif"
-    },
-    {
-      "id": "une",
-      "name": "Une",
-      "type": "common",
-      "chapters": [
-        "ch-2"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An eerie plant that feeds on blood.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/une.gif"
-    },
-    {
-      "id": "warg",
-      "name": "Warg",
-      "type": "common",
-      "chapters": [
-        "ch-9"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Wolves which guard the castle entrance.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/warg.gif"
-    },
-    {
-      "id": "white-dragon",
-      "name": "White Dragon",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-3",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "The bones of a long-necked dinosaur, animated by a demonic force.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/whitedragon.gif"
-    },
-    {
-      "id": "yorick",
-      "name": "Yorick",
-      "type": "common",
-      "chapters": [
-        "ch-2",
-        "ch-7"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A skeleton that ceaselessly chases its own skull.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/yorick.gif"
-    },
-    {
-      "id": "witch",
-      "name": "Witch",
-      "type": "common",
-      "chapters": [
-        "ch-4"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A spellcaster who rides an enchanted broomstick.",
-      "weaknesses": null,
-      "drops": "Cream Puff, Witch's Hat",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/witch.gif"
-    },
-    {
-      "id": "zombie",
-      "name": "Zombie",
-      "type": "common",
-      "chapters": [
-        "ch-1",
-        "ch-9"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An animated corpse.",
-      "weaknesses": null,
-      "drops": "Hobo Clothes",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/zombie.gif"
-    },
-    {
-      "id": "r-axe-man",
-      "name": "R. Axe-Man",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An ancient castle guardian. Wields axes.",
-      "weaknesses": null,
-      "drops": "Axe, Great Axe",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-axeman.gif"
-    },
-    {
-      "id": "r-bat",
-      "name": "R. Bat",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A old-hat bat that has taken up residence in the castle.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-bat.gif"
-    },
-    {
-      "id": "r-black-knight",
-      "name": "R. Black Knight",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An ancient castle guardian.",
-      "weaknesses": null,
-      "drops": "Geiborg",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-blackknight.gif"
-    },
-    {
-      "id": "r-black-leopard",
-      "name": "R. Black Leopard",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A dark predator that has lived in the castle for ages.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-blackleopard.gif"
-    },
-    {
-      "id": "r-dragon-cannon",
-      "name": "R. Dragon Cannon",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "The revived skulls of ancient dinosaurs.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-canondragon.gif"
-    },
-    {
-      "id": "r-eagle",
-      "name": "R. Eagle",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "First-class travel for hunchbacks in a hurry.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-eagle.gif"
-    },
-    {
-      "id": "r-fish-man",
-      "name": "R. Fish Man",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A monster that lives in the waters around the old castle.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-fishman.gif"
-    },
-    {
-      "id": "r-ghost",
-      "name": "R. Ghost",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A lost soul that has wandered the castle since ancient times.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-ghost.gif"
-    },
-    {
-      "id": "r-hunchback",
-      "name": "R. Hunchback",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A diminutive foe who perfected the art of leaping long ago.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-hunchback.gif"
-    },
-    {
-      "id": "r-medusa",
-      "name": "R. Medusa",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Monster heads created by Queen Medusa.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-medusa.gif"
-    },
-    {
-      "id": "r-raven",
-      "name": "R. Raven",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An evil raven that enjoys the taste of human flesh.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-raven.gif"
-    },
-    {
-      "id": "r-red-skeleton",
-      "name": "R. Red Skeleton",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A skeleton warrior that has absorbed blood. It can regenerate.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-redskeleton.gif"
-    },
-    {
-      "id": "r-skele-dragon",
-      "name": "R. Skele-Dragon",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A fossilized dinosaur brought to life through magic.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-skeledragon.gif"
-    },
-    {
-      "id": "r-skeleton",
-      "name": "R. Skeleton",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "An ancient skeleton brought to life by mystical forces.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-skeleton.gif"
-    },
-    {
-      "id": "r-zombie",
-      "name": "R. Zombie",
-      "type": "common",
-      "chapters": [
-        "ch-10"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "The remains of some visitor to the castle from long ago.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/r-zombie.gif"
-    },
-    {
-      "id": "flying-flower",
-      "name": "Flying Flower",
-      "type": "common",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A demon plant that leaps about in search of water.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/flyingflower.gif"
-    },
-    {
-      "id": "gyropyre",
-      "name": "Gyropyre",
-      "type": "common",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A feisty demon that carts around a wheel of fire.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/gyropyre.gif"
-    },
-    {
-      "id": "hellmont",
-      "name": "Hellmont",
-      "type": "common",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Some say this is what happened to Simon Belmont in the end.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/hellmont.gif"
-    },
-    {
-      "id": "kung-fugu",
-      "name": "Kung Fugu",
-      "type": "common",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "Tends to get all puffed up over nothing.",
-      "weaknesses": null,
-      "drops": "None",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/kungfugu.gif"
-    },
-    {
-      "id": "peepilliary",
-      "name": "Peepilliary",
-      "type": "common",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A rather unhealthy looking demon eye.",
-      "weaknesses": null,
-      "drops": "Yasutsuna",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/peepilliary.gif"
-    },
-    {
-      "id": "pejora-s-mask",
-      "name": "Pejora's Mask",
-      "type": "common",
-      "chapters": [
-        "ch-11"
-      ],
-      "hp": null,
-      "notes": null,
-      "description": "A demon whose hobbies include spinning, rotating, and turning.",
-      "weaknesses": null,
-      "drops": "Gambler Glasses",
-      "iconUrl": "https://www.castlevaniacrypt.com/wp-content/img/hd/enemies/pejorasmask.gif"
+      "id": "axes-axe",
+      "name": "Axe",
+      "slot": "axes",
+      "stats": "ATK +8",
+      "dropLocation": "Axe Knight",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest?cb=20150829191415"
+    },
+    {
+      "id": "axes-battle-axe",
+      "name": "Battle Axe",
+      "slot": "axes",
+      "stats": "ATK +16",
+      "dropLocation": "Minotaur",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3b/Battle_Axe_DoS_Icon.png/revision/latest?cb=20171005162453"
+    },
+    {
+      "id": "axes-bhuj",
+      "name": "Bhuj",
+      "slot": "axes",
+      "stats": "ATK +27",
+      "dropLocation": "Chapter 5, Chapter 1 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Bhuj_Icon.png/revision/latest?cb=20171005162456"
+    },
+    {
+      "id": "axes-death-scythe",
+      "name": "Death Scythe",
+      "slot": "axes",
+      "stats": "ATK +80",
+      "dropLocation": "Chapter 5 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Death_Scythe_Icon.png/revision/latest?cb=20171005162745"
+    },
+    {
+      "id": "axes-great-axe",
+      "name": "Great Axe",
+      "slot": "axes",
+      "stats": "ATK +35",
+      "dropLocation": "Shop",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6f/Great_Axe_Icon.png/revision/latest?cb=20171005162923"
+    },
+    {
+      "id": "axes-golden-axe",
+      "name": "Golden Axe",
+      "slot": "axes",
+      "stats": "ATK +55",
+      "dropLocation": "Chapter 4 - Hard, Chapter 6 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Golden_Axe_Icon.png/revision/latest?cb=20171005162923"
+    },
+    {
+      "id": "cestuses-blue-knuckles",
+      "name": "Blue Knuckles",
+      "slot": "cestuses",
+      "stats": "ATK +11",
+      "dropLocation": "Chapter 1",
+      "notes": "Used by: Alucard"
+    },
+    {
+      "id": "cestuses-brass-knuckles",
+      "name": "Brass Knuckles",
+      "slot": "cestuses",
+      "stats": "ATK +7",
+      "dropLocation": "Chapter 5",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Brass_Knuckles_Icon.png/revision/latest?cb=20171005162619"
+    },
+    {
+      "id": "cestuses-cestus",
+      "name": "Cestus",
+      "slot": "cestuses",
+      "stats": "ATK +11",
+      "dropLocation": "Shop, Chapter 5",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/23/Cestus_DoS_Icon.png/revision/latest?cb=20171005162622"
+    },
+    {
+      "id": "cestuses-fist-of-tulkas",
+      "name": "Fist of Tulkas",
+      "slot": "cestuses",
+      "stats": "ATK +40",
+      "dropLocation": "Chapter 6 - Hard",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9c/Fist_of_Tulkas_Icon.png/revision/latest?cb=20150829185647"
+    },
+    {
+      "id": "cestuses-jewel-knuckles",
+      "name": "Jewel Knuckles",
+      "slot": "cestuses",
+      "stats": "ATK +14",
+      "dropLocation": "Chapter 6",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/fe/Jewel_Knuckles_Icon.png/revision/latest?cb=20150829185541"
+    },
+    {
+      "id": "cestuses-kaiser-knuckle",
+      "name": "Kaiser Knuckle",
+      "slot": "cestuses",
+      "stats": "ATK +25, HP +3",
+      "dropLocation": "Chapter 2 - Hard, Chapter 3 - Hard, Chapter 4 - Hard",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/57/Kaiser_Knuckle_HD_Icon.png/revision/latest?cb=20191011203115"
+    },
+    {
+      "id": "cestuses-knuckle-dusters",
+      "name": "Knuckle Dusters",
+      "slot": "cestuses",
+      "stats": "ATK +3",
+      "dropLocation": "Chapter 4 - Hard, Chapter 6 - Hard",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1b/Knuckle_Duster.png/revision/latest/scale-to-width-down/120?cb=20140912120944"
+    },
+    {
+      "id": "cestuses-mach-punch",
+      "name": "Mach Punch",
+      "slot": "cestuses",
+      "stats": "ATK +10, HP +3",
+      "dropLocation": "Chapter 6 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6c/Mach_Punch_DoS_Icon.png/revision/latest?cb=20171005163155"
+    },
+    {
+      "id": "cestuses-whip-knuckle",
+      "name": "Whip Knuckle",
+      "slot": "cestuses",
+      "stats": "ATK +30",
+      "dropLocation": "Chapter 5 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/77/Whip_Knuckle_DoS_Icon.png/revision/latest?cb=20171005163902"
+    },
+    {
+      "id": "cudgels-holy-rod",
+      "name": "Holy Rod",
+      "slot": "cudgels",
+      "stats": "ATK +25, INT +2",
+      "dropLocation": "Chapter 2 - Hard, Chapter 4 - Hard",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0b/Holy_Rod_Icon.png/revision/latest?cb=20150829185259"
+    },
+    {
+      "id": "cudgels-mace",
+      "name": "Mace",
+      "slot": "cudgels",
+      "stats": "ATK +5",
+      "dropLocation": "Chapter 1, 2, 3, 4",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/49/Mace_Icon.png/revision/latest?cb=20150829184444"
+    },
+    {
+      "id": "cudgels-mjollnjr",
+      "name": "Mjollnjr",
+      "slot": "cudgels",
+      "stats": "ATK +18",
+      "dropLocation": "Chapter 1 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/65/Mjollnjr_Icon.png/revision/latest?cb=20171005163158"
+    },
+    {
+      "id": "cudgels-moon-rod",
+      "name": "Moon Rod",
+      "slot": "cudgels",
+      "stats": "ATK +36, INT +2",
+      "dropLocation": "Chapter 5 - Hard",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ce/Moon_Rod_Icon.png/revision/latest?cb=20150829185525"
+    },
+    {
+      "id": "cudgels-morning-star",
+      "name": "Morning Star",
+      "slot": "cudgels",
+      "stats": "ATK +15",
+      "dropLocation": "Chapter 5",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/89/Morning_Star_Icon.png/revision/latest?cb=20150829184454"
+    },
+    {
+      "id": "cudgels-star-flail",
+      "name": "Star Flail",
+      "slot": "cudgels",
+      "stats": "ATK +19",
+      "dropLocation": "Chapter 6",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/ff/Star_Flail_Icon.png/revision/latest?cb=20150829185239"
+    },
+    {
+      "id": "daggers-baselard",
+      "name": "Baselard",
+      "slot": "daggers",
+      "stats": "ATK +5",
+      "dropLocation": "Chapter 1, 2, 4",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Castlevania_SOTN-_All_Weapons_1_%28REMAKE%29/revision/latest/scale-to-width-down/120?cb=20241209002035"
+    },
+    {
+      "id": "daggers-cinquedea",
+      "name": "Cinquedea",
+      "slot": "daggers",
+      "stats": "ATK +31",
+      "dropLocation": "Chapter 1 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/dc/DOS_Cinquedia_2.gif/revision/latest/scale-to-width-down/120?cb=20181013224305"
+    },
+    {
+      "id": "daggers-combat-knife",
+      "name": "Combat Knife",
+      "slot": "daggers",
+      "stats": "ATK +8",
+      "dropLocation": "Chapter 3, 4, 5, 6",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/46/Combat_Knife_DoS_Icon.png/revision/latest?cb=20171005162626"
+    },
+    {
+      "id": "daggers-cutall",
+      "name": "Cutall",
+      "slot": "daggers",
+      "stats": "ATK +9",
+      "dropLocation": "Chapter 1 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/80/Cutall_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813223903"
+    },
+    {
+      "id": "daggers-holbein-dagger",
+      "name": "Holbein Dagger",
+      "slot": "daggers",
+      "stats": "ATK +5",
+      "dropLocation": "Chapter 2",
+      "notes": "Used by: Alucard"
+    },
+    {
+      "id": "daggers-knife",
+      "name": "Knife",
+      "slot": "daggers",
+      "stats": "ATK +3",
+      "dropLocation": "Chapter 1",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037"
+    },
+    {
+      "id": "daggers-shotel",
+      "name": "Shotel",
+      "slot": "daggers",
+      "stats": "ATK +35",
+      "dropLocation": "Chapter 5 - Hard, Chapter 6 - Hard",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Shotel_Icon.png/revision/latest?cb=20150817001214"
+    },
+    {
+      "id": "daggers-were-bane",
+      "name": "Were Bane",
+      "slot": "daggers",
+      "stats": "ATK +21",
+      "dropLocation": "Chapter 4 - Hard, Chapter 6 - Hard",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/64/Were_Bane_Icon.png/revision/latest?cb=20150817001521"
+    },
+    {
+      "id": "greatSwords-ascalon",
+      "name": "Ascalon",
+      "slot": "greatSwords",
+      "stats": "ATK +42",
+      "dropLocation": "Chapter 6 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b9/Ascalon_DoS_Icon.png/revision/latest?cb=20171005162451"
+    },
+    {
+      "id": "greatSwords-balmung",
+      "name": "Balmung",
+      "slot": "greatSwords",
+      "stats": "ATK +48",
+      "dropLocation": "Chapter 5 - Hard, Chapter 6 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6d/Balmung_DoS_Icon.png/revision/latest?cb=20171005162452"
+    },
+    {
+      "id": "greatSwords-claimh-solais",
+      "name": "Claimh Solais",
+      "slot": "greatSwords",
+      "stats": "ATK +70, INT +3",
+      "dropLocation": "Chapter 6 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Claimh_Solais_DoS_Icon.png/revision/latest?cb=20171005162624"
+    },
+    {
+      "id": "greatSwords-claymore",
+      "name": "Claymore",
+      "slot": "greatSwords",
+      "stats": "ATK +20",
+      "dropLocation": "Chapter 6 - Hard",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/87/Claymore_Icon.png/revision/latest?cb=20150829183830"
+    },
+    {
+      "id": "greatSwords-dainslef",
+      "name": "Dainslef",
+      "slot": "greatSwords",
+      "stats": "ATK +31",
+      "dropLocation": "Shop, Chapter 3 - Hard",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3b/Gurthang_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829183445"
+    },
+    {
+      "id": "greatSwords-daybreak",
+      "name": "Daybreak",
+      "slot": "greatSwords",
+      "stats": "ATK +24, MP +5",
+      "dropLocation": "Chapter 4",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/50/Sword_of_Dawn_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184007"
+    },
+    {
+      "id": "greatSwords-durandal",
+      "name": "Durandal",
+      "slot": "greatSwords",
+      "stats": "ATK +35, INT +5, HP +3",
+      "dropLocation": "Chapter 5 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/52/Durandal_DoS_Icon.png/revision/latest?cb=20171005162747"
+    },
+    {
+      "id": "greatSwords-falchion",
+      "name": "Falchion",
+      "slot": "greatSwords",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 1, 2, 3, 4",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/24/Falchion_Icon.png/revision/latest?cb=20150823042023"
+    },
+    {
+      "id": "greatSwords-final-sword",
+      "name": "Final Sword",
+      "slot": "greatSwords",
+      "stats": "ATK +38",
+      "dropLocation": "Chapter 6 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a0/Final_Sword_DS_Icon.png/revision/latest?cb=20171005162749"
+    },
+    {
+      "id": "greatSwords-flamberge",
+      "name": "Flamberge",
+      "slot": "greatSwords",
+      "stats": "ATK +12",
+      "dropLocation": "Chapter 5 - Hard",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5b/Flamberge_Icon.png/revision/latest?cb=20150829183941"
+    },
+    {
+      "id": "greatSwords-great-sword",
+      "name": "Great Sword",
+      "slot": "greatSwords",
+      "stats": "ATK +27",
+      "dropLocation": "Shop",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4e/Great_Sword_DoS_%26_PoR_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005162924"
+    },
+    {
+      "id": "greatSwords-obsidian-sword",
+      "name": "Obsidian Sword",
+      "slot": "greatSwords",
+      "stats": "ATK +22",
+      "dropLocation": "Chapter 2 - Hard",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Obsidian_Sword_Icon.png/revision/latest?cb=20150829184151"
+    },
+    {
+      "id": "greatSwords-terror-bear",
+      "name": "Terror Bear",
+      "slot": "greatSwords",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 6",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/11/Terror_Bear_Icon.png/revision/latest?cb=20171005163857"
+    },
+    {
+      "id": "greatSwords-zweihander",
+      "name": "Zweihander",
+      "slot": "greatSwords",
+      "stats": "ATK +16",
+      "dropLocation": "Chapter 6",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/84/Zwei_Hander_Icon.png/revision/latest?cb=20150829184119"
+    },
+    {
+      "id": "katanas-blunt-sword",
+      "name": "Blunt Sword",
+      "slot": "katanas",
+      "stats": "ATK +5",
+      "dropLocation": "Shop",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a1/Namakura_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184320"
+    },
+    {
+      "id": "katanas-katana",
+      "name": "Katana",
+      "slot": "katanas",
+      "stats": "ATK +10",
+      "dropLocation": "Shop",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8d/Katana_Icon.png/revision/latest?cb=20150829184330"
+    },
+    {
+      "id": "katanas-kotetsu",
+      "name": "Kotetsu",
+      "slot": "katanas",
+      "stats": "ATK +15",
+      "dropLocation": "Chapter 1 - Hard, Chapter 6",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Kotetsu_Icon.png/revision/latest?cb=20171005163038"
+    },
+    {
+      "id": "katanas-kunitsuna",
+      "name": "Kunitsuna",
+      "slot": "katanas",
+      "stats": "ATK +25",
+      "dropLocation": "Shop",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/78/Kunitsuna_DoS_Icon.png/revision/latest?cb=20171005163040"
+    },
+    {
+      "id": "katanas-masamune",
+      "name": "Masamune",
+      "slot": "katanas",
+      "stats": "ATK +20",
+      "dropLocation": "Chapter 5",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/74/Masamune_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163156"
+    },
+    {
+      "id": "katanas-muramasa",
+      "name": "Muramasa",
+      "slot": "katanas",
+      "stats": "ATK +42",
+      "dropLocation": "Shop, Chapter 2 - Hard",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Muramasa_Icon.png/revision/latest?cb=20150829184203"
+    },
+    {
+      "id": "katanas-osafune",
+      "name": "Osafune",
+      "slot": "katanas",
+      "stats": "ATK +30",
+      "dropLocation": "Chapter 3 - Hard, Chapter 4 - Hard, Chapter 5 - Hard",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Osafune_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163308"
+    },
+    {
+      "id": "katanas-takemitsu",
+      "name": "Takemitsu",
+      "slot": "katanas",
+      "stats": "ATK +3",
+      "dropLocation": "Chapter 2, 3, 4",
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/da/Takemitsu_Icon.png/revision/latest?cb=20150829184301"
+    },
+    {
+      "id": "katanas-yasutsuna",
+      "name": "Yasutsuna",
+      "slot": "katanas",
+      "stats": "ATK +36",
+      "dropLocation": "Chapter 5 - Hard, Chapter 6 - Hard",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Yasutsuna_Icon.png/revision/latest?cb=20150813224615"
+    },
+    {
+      "id": "lances-brionac",
+      "name": "Brionac",
+      "slot": "lances",
+      "stats": "ATK +30 / HP +5",
+      "dropLocation": "Chapter 5 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/67/Brionac_Icon.png/revision/latest?cb=20171005162620"
+    },
+    {
+      "id": "lances-geiborg",
+      "name": "Geiborg",
+      "slot": "lances",
+      "stats": "ATK +35, MP +10",
+      "dropLocation": "Chapter 4 - Hard, Chapter 5 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0e/Geiborg_Icon.png/revision/latest?cb=20171005162921"
+    },
+    {
+      "id": "lances-gungner",
+      "name": "Gungner",
+      "slot": "lances",
+      "stats": "ATK +22",
+      "dropLocation": "Chapter 4 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e7/Gungner_DoS_Icon.png/revision/latest?cb=20171005162924"
+    },
+    {
+      "id": "lances-halberd",
+      "name": "Halberd",
+      "slot": "lances",
+      "stats": "ATK +15",
+      "dropLocation": "Chapter 3, 4",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/00/Halberd_PoR_Icon.png/revision/latest?cb=20150811174322"
+    },
+    {
+      "id": "lances-lance",
+      "name": "Lance",
+      "slot": "lances",
+      "stats": "ATK +20",
+      "dropLocation": "Shop, Chapter 1 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f1/Lance_PoR_Icon.png/revision/latest?cb=20150811174555"
+    },
+    {
+      "id": "lances-longinus",
+      "name": "Longinus",
+      "slot": "lances",
+      "stats": "ATK +71, HP +7, MP +7",
+      "dropLocation": "Chapter 6 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2d/Longinus_Icon.png/revision/latest?cb=20171005163154"
+    },
+    {
+      "id": "lances-partisan",
+      "name": "Partisan",
+      "slot": "lances",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 5, 6, Dead Warrior",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Partisan_Icon.png/revision/latest?cb=20171005163309"
+    },
+    {
+      "id": "lances-spear",
+      "name": "Spear",
+      "slot": "lances",
+      "stats": "ATK +6",
+      "dropLocation": "Chapter 1, 5",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/df/Spear_PoR_Icon.png/revision/latest?cb=20150811175200"
+    },
+    {
+      "id": "lances-trident",
+      "name": "Trident",
+      "slot": "lances",
+      "stats": "ATK +25, MP +3",
+      "dropLocation": "Shop",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Trident_PoR_Icon.png/revision/latest?cb=20150811175448"
+    },
+    {
+      "id": "rapiers-estoc",
+      "name": "Estoc",
+      "slot": "rapiers",
+      "stats": "ATK +38",
+      "dropLocation": "Shop, Chapter 5 - Hard",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9e/Estoc_DoS_Icon.png/revision/latest?cb=20171005162748"
+    },
+    {
+      "id": "rapiers-fleuret",
+      "name": "Fleuret",
+      "slot": "rapiers",
+      "stats": "ATK +10",
+      "dropLocation": "Chapter 5, 6",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/70/Fleuret_DoS_Icon.png/revision/latest?cb=20171005162907"
+    },
+    {
+      "id": "rapiers-kris-naga",
+      "name": "Kris Naga",
+      "slot": "rapiers",
+      "stats": "ATK +45",
+      "dropLocation": "Chapter 6 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a7/Kris_Naga_DoS_Icon.png/revision/latest?cb=20171005163038"
+    },
+    {
+      "id": "rapiers-main-gauche",
+      "name": "Main Gauche",
+      "slot": "rapiers",
+      "stats": "ATK +19",
+      "dropLocation": "Chapter 3 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/49/Main_Gauche_DoS_Icon.png/revision/latest?cb=20171005163155"
+    },
+    {
+      "id": "rapiers-rapier",
+      "name": "Rapier",
+      "slot": "rapiers",
+      "stats": "ATK +5",
+      "dropLocation": "Chapter 2, 3, 4",
+      "notes": "Used by: Alucard, Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/91/Rapier_Icon.png/revision/latest?cb=20150817001448"
+    },
+    {
+      "id": "rapiers-small-sword",
+      "name": "Small Sword",
+      "slot": "rapiers",
+      "stats": "ATK +29",
+      "dropLocation": "Shop, Chapter 1 - Hard",
+      "notes": "Used by: Soma",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/44/Small_Sword_DoS_Icon.png/revision/latest?cb=20171005163425"
+    },
+    {
+      "id": "swords-valmanway-1",
+      "name": "Valmanway +1",
+      "slot": "swords",
+      "stats": "ATK +6 over base Valmanway (still hits 4 times per attack button press, same as base)",
+      "dropLocation": "Hard Mode Dracula, Gold Chest (Soma/Alucard only)",
+      "notes": "Rare Hard Mode boss gold-chest upgrade of Valmanway. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/28/Valmanway_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224613"
+    },
+    {
+      "id": "cestuses-kaiser-knuckle-1",
+      "name": "Kaiser Knuckle +1",
+      "slot": "cestuses",
+      "stats": null,
+      "dropLocation": "Chapter 9 (Lord of the Flies) Hard Mode boss (Beelzebub) chest; usable by Soma and Alucard",
+      "notes": "Rare Hard Mode boss gold-chest upgrade of Kaiser Knuckle. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/07/Kaiser_Knuckles_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174554"
+    },
+    {
+      "id": "swords-alucard-sword-1",
+      "name": "Alucard Sword +1",
+      "slot": "swords",
+      "stats": "Faster swing speed than base version; retains the same unique special attack",
+      "dropLocation": "Chapter 9 Hard Mode boss chest (Alucard-exclusive weapon)",
+      "notes": "Rare Hard Mode boss gold-chest upgrade of Alucard Sword. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Alucard_002.jpg/revision/latest/scale-to-width-down/90?cb=20240424180442"
+    },
+    {
+      "id": "greatSwords-claimh-solais-1",
+      "name": "Claimh Solais +1",
+      "slot": "greatSwords",
+      "stats": "Highest ATK of any weapon in the game (exact number not confirmed); deals Holy damage, unique to Soma",
+      "dropLocation": "Chapter 10 (Origins) Hard Mode boss chest",
+      "notes": "Rare Hard Mode boss gold-chest upgrade of Claimh Solais. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Claimh_Solais_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005162624"
+    },
+    {
+      "id": "katanas-yasutsuna-1",
+      "name": "Yasutsuna +1",
+      "slot": "katanas",
+      "stats": "ATK +2 over base Yasutsuna only (much smaller bonus than typical +1 gear, which players report is usually around +20); attack speed same as the original (non-upgraded) Yasutsuna",
+      "dropLocation": "Chapter 11 (The Legend of Fuma) Hard Mode boss (Ryu Kokki / \"Ryukotsuki\") chest",
+      "notes": "Rare Hard Mode boss gold-chest upgrade of Yasutsuna. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Yasutsuna_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224615"
+    },
+    {
+      "id": "katanas-muramasa-1",
+      "name": "Muramasa +1",
+      "slot": "katanas",
+      "stats": "Described by players as the strongest katana in the game",
+      "dropLocation": "Chapter 11 (The Legend of Fuma) Hard Mode boss (Ryu Kokki) chest",
+      "notes": "Rare Hard Mode boss gold-chest upgrade of Muramasa. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c2/Muramasa.png/revision/latest/scale-to-width-down/120?cb=20140706151557"
     }
   ]
 }

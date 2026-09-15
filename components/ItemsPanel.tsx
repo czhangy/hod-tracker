@@ -10,6 +10,14 @@ import { ItemDetailPanel } from "./ItemDetailPanel";
 
 const SLOT_LABELS: Record<ItemSlot, string> = {
   swords: "Swords",
+  katanas: "Katanas",
+  axes: "Axes",
+  cestuses: "Cestuses",
+  cudgels: "Cudgels",
+  daggers: "Daggers",
+  greatSwords: "Great Swords",
+  lances: "Lances",
+  rapiers: "Rapiers",
   otherWeapons: "Other Weapons",
   firearms: "Firearms",
   subWeapons: "Sub-Weapons",
@@ -30,6 +38,14 @@ const SLOT_LABELS: Record<ItemSlot, string> = {
 
 const SLOT_ORDER: ItemSlot[] = [
   "swords",
+  "katanas",
+  "greatSwords",
+  "rapiers",
+  "daggers",
+  "axes",
+  "lances",
+  "cestuses",
+  "cudgels",
   "otherWeapons",
   "firearms",
   "subWeapons",

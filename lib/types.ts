@@ -6,6 +6,14 @@ export type ItemSlot =
   | "shields"
   | "accessories"
   | "swords"
+  | "katanas"
+  | "axes"
+  | "cestuses"
+  | "cudgels"
+  | "daggers"
+  | "greatSwords"
+  | "lances"
+  | "rapiers"
   | "firearms"
   | "otherWeapons"
   | "subWeapons"
@@ -27,7 +35,7 @@ export interface Item {
   stats?: string | null;
   dropLocation?: string | null;
   iconUrl?: string | null;
-  /** Informational only: main-weapon items (swords/otherWeapons/firearms) are 1- or 2-handed. */
+  /** Informational only: main-weapon items are 1- or 2-handed. */
   handedness?: Handedness | null;
   /**
    * Items that can be collected multiple times to increase in power (e.g. Soma's Souls,
@@ -53,26 +61,10 @@ export interface Chapter {
   dlcPack?: string | null;
 }
 
-export type EnemyType = "common" | "boss";
-
-export interface Enemy {
-  id: string;
-  name: string;
-  type: EnemyType;
-  chapters: string[];
-  hp?: number | null;
-  notes?: string | null;
-  description?: string | null;
-  weaknesses?: string | null;
-  drops?: string | null;
-  iconUrl?: string | null;
-}
-
 export interface GameData {
   characters: Character[];
   chapters: Chapter[];
   items: Item[];
-  enemies: Enemy[];
 }
 
 /**

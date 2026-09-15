@@ -7,9 +7,8 @@ import { OverallHeader } from "@/components/OverallHeader";
 import { Sidebar } from "@/components/Sidebar";
 import { CharacterDetail } from "@/components/CharacterDetail";
 import { ItemsPanel } from "@/components/ItemsPanel";
-import { Bestiary } from "@/components/Bestiary";
 
-type Tab = "characters" | "items" | "bestiary";
+type Tab = "characters" | "items";
 
 export default function Home() {
   const { progress, toggleChapter, toggleItem, adjustItemCount } = useProgress();
@@ -43,16 +42,6 @@ export default function Home() {
         >
           Item Collection
         </button>
-        <button
-          onClick={() => setTab("bestiary")}
-          className={`cursor-pointer rounded-md px-3 py-1.5 font-semibold tracking-wide ${
-            tab === "bestiary"
-              ? "bg-red-950/50 text-red-400"
-              : "text-neutral-500 hover:text-neutral-300"
-          }`}
-        >
-          Bestiary
-        </button>
       </div>
 
       {tab === "characters" && (
@@ -76,7 +65,6 @@ export default function Home() {
           onAdjustItemCount={adjustItemCount}
         />
       )}
-      {tab === "bestiary" && <Bestiary />}
     </div>
   );
 }

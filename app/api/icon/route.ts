@@ -11,7 +11,7 @@ const REFERERS: Record<string, string> = {
 };
 
 /**
- * Proxies item/enemy icon images from the Castlevania Wiki and Castlevania Crypt.
+ * Proxies item icons and character portraits from the Castlevania Wiki and Castlevania Crypt.
  * The wiki's CDN blocks direct <img> hotlinking (checks Referer/Sec-Fetch-Site), so this
  * fetches server-side with a same-site referer and streams the image back from our
  * own origin instead.
