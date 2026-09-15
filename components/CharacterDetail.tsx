@@ -27,19 +27,14 @@ export function CharacterDetail({
       <header className="space-y-2">
         <div className="flex items-center gap-3">
           <CharacterAvatar character={character} size={48} />
-          <div>
-            <h2 className="font-display flex items-center gap-2 text-2xl font-bold text-neutral-50">
-              {character.name}
-              {character.dlc && (
-                <span className="rounded bg-neutral-800 px-1.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-neutral-400">
-                  DLC
-                </span>
-              )}
-            </h2>
-            {character.dlcPack && (
-              <p className="text-sm text-neutral-500">{character.dlcPack}</p>
+          <h2 className="font-display flex items-center gap-2 text-2xl font-bold text-neutral-50">
+            {character.name}
+            {character.dlc && (
+              <span className="rounded bg-neutral-800 px-1.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-neutral-400">
+                DLC
+              </span>
             )}
-          </div>
+          </h2>
         </div>
         <div className="flex items-center gap-3">
           <div className="flex-1">

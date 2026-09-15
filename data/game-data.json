@@ -4,77 +4,66 @@
       "id": "alucard",
       "name": "Alucard",
       "dlc": false,
-      "dlcPack": null,
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/1/18/Alucard_HD.png/revision/latest/scale-to-width-down/298?cb=20181007080406"
     },
     {
       "id": "soma-cruz",
       "name": "Soma Cruz",
       "dlc": false,
-      "dlcPack": null,
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/a/aa/Soma_HD.png/revision/latest/scale-to-width-down/240?cb=20191114220949"
     },
     {
       "id": "jonathan-morris",
       "name": "Jonathan Morris",
       "dlc": false,
-      "dlcPack": null,
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/b/ba/Jonathan_Morris_-_05.png/revision/latest/scale-to-width-down/300?cb=20190929114026"
     },
     {
       "id": "charlotte-aulin",
       "name": "Charlotte Aulin",
       "dlc": false,
-      "dlcPack": null,
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b5/Charlotte_HD.png/revision/latest/scale-to-width-down/243?cb=20190929114725"
     },
     {
       "id": "shanoa",
       "name": "Shanoa",
       "dlc": false,
-      "dlcPack": null,
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1b/Shanoa_HOD.png/revision/latest/scale-to-width-down/224?cb=20190930033559"
     },
     {
       "id": "julius-belmont",
       "name": "Julius Belmont",
       "dlc": false,
-      "dlcPack": null,
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c3/Julius_Belmont_HD.png/revision/latest/scale-to-width-down/225?cb=20240601160531"
     },
     {
       "id": "yoko-belnades",
       "name": "Yoko Belnades",
       "dlc": false,
-      "dlcPack": null,
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a3/Yoko_HD.PNG/revision/latest/scale-to-width-down/152?cb=20191001151751"
     },
     {
       "id": "richter-belmont",
       "name": "Richter Belmont",
       "dlc": true,
-      "dlcPack": "Character Pack (Rondo of Blood characters)",
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/b/bc/Richter_HOD.png/revision/latest/scale-to-width-down/300?cb=20190930033701"
     },
     {
       "id": "maria-renard",
       "name": "Maria Renard",
       "dlc": true,
-      "dlcPack": "Character Pack (Rondo of Blood characters)",
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4f/Maria_-_Harmony_of_Despair.PNG/revision/latest/scale-to-width-down/223?cb=20230727012843"
     },
     {
       "id": "simon-belmont",
       "name": "Simon Belmont",
       "dlc": true,
-      "dlcPack": "Character Pack 2 (8-bit Simon, classic NES Castlevania)",
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/2/23/Shimon-1-.jpg/revision/latest?cb=20110113040633"
     },
     {
       "id": "getsu-fuma",
       "name": "Getsu Fuma",
       "dlc": true,
-      "dlcPack": "Character Pack 2 (Getsu Fuma Den crossover, released with Chapter 11)",
       "portraitUrl": "https://static.wikia.nocookie.net/castlevania/images/3/39/Getsu_Fuma_-_01.png/revision/latest?cb=20190817220248"
     }
   ],
@@ -83,78 +72,67 @@
       "id": "ch-1",
       "number": 1,
       "name": "Caught in the Cradle of Decay",
-      "dlc": false,
-      "dlcPack": null
+      "dlc": false
     },
     {
       "id": "ch-2",
       "number": 2,
       "name": "Lord of Unseen Strings",
-      "dlc": false,
-      "dlcPack": null
+      "dlc": false
     },
     {
       "id": "ch-3",
       "number": 3,
       "name": "The End of Chaos",
-      "dlc": false,
-      "dlcPack": null
+      "dlc": false
     },
     {
       "id": "ch-4",
       "number": 4,
       "name": "Esquisse of Violence",
-      "dlc": false,
-      "dlcPack": null
+      "dlc": false
     },
     {
       "id": "ch-5",
       "number": 5,
       "name": "Song of the Unslakable Blade",
-      "dlc": false,
-      "dlcPack": null
+      "dlc": false
     },
     {
       "id": "ch-6",
       "number": 6,
       "name": "Come, Sweet Hour of Death",
-      "dlc": false,
-      "dlcPack": null
+      "dlc": false
     },
     {
       "id": "ch-7",
       "number": 7,
       "name": "Beauty, Desire, Situation Dire",
-      "dlc": true,
-      "dlcPack": "Chapter/Character DLC pack (added with Julius/Yoko/Richter/Maria content)"
+      "dlc": true
     },
     {
       "id": "ch-8",
       "number": 8,
       "name": "The One Who Is Many",
-      "dlc": true,
-      "dlcPack": "Chapter DLC pack"
+      "dlc": true
     },
     {
       "id": "ch-9",
       "number": 9,
       "name": "Lord of Flies",
-      "dlc": true,
-      "dlcPack": "Chapter DLC pack"
+      "dlc": true
     },
     {
       "id": "ch-10",
       "number": 10,
       "name": "Origins",
-      "dlc": true,
-      "dlcPack": "Chapter DLC pack"
+      "dlc": true
     },
     {
       "id": "ch-11",
       "number": 11,
       "name": "The Legend of Fuma",
-      "dlc": true,
-      "dlcPack": "Character Pack 2 (released together with Getsu Fuma)"
+      "dlc": true
     }
   ],
   "items": [
@@ -523,7 +501,7 @@
       "name": "Kalasiris",
       "slot": "armor",
       "stats": "DEF +14, INT +1, MND +1, LCK +1",
-      "dropLocation": "DLC",
+      "dropLocation": "Chapter 7",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/cb/Kalasiris_PoR_Icon.png/revision/latest?cb=20150811174554"
     },
     {
@@ -683,7 +661,7 @@
       "name": "Robe Decollete",
       "slot": "armor",
       "stats": "DEF +25, CON +8, MND +8, HP +20, MP +20",
-      "dropLocation": "DLC",
+      "dropLocation": "Chapter 7 (Hard) - Astarte drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4d/Robe_Decollete_Icon.png/revision/latest?cb=20150811175046"
     },
     {
@@ -1019,7 +997,7 @@
       "name": "Royal Crown",
       "slot": "headGear",
       "stats": "DEF +10, INT +5, MND +5, LCK +5, HP +15, MP +15",
-      "dropLocation": "DLC",
+      "dropLocation": "Chapter 7",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d7/Royal_Crown_Icon.png/revision/latest?cb=20241223063436"
     },
     {
@@ -1115,7 +1093,7 @@
       "name": "Uraeus",
       "slot": "headGear",
       "stats": "DEF +5, LCK +5",
-      "dropLocation": "DLC",
+      "dropLocation": "Chapter 7 - Purple Chest",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3e/Uraeus_Icon.png/revision/latest?cb=20150811175450"
     },
     {
@@ -1699,7 +1677,7 @@
       "name": "Charm Necklace",
       "slot": "accessories",
       "stats": "HP +4, MP +4",
-      "dropLocation": "DLC",
+      "dropLocation": null,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/15/Charm_Necklace_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811173933"
     },
     {
@@ -1803,7 +1781,7 @@
       "name": "Miser Ring",
       "slot": "accessories",
       "stats": "None",
-      "dropLocation": "DLC",
+      "dropLocation": "Chapter 7 - Astarte (Hard) drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/19/Miser_Ring_Icon.png/revision/latest/scale-to-width-down/120?cb=20150822194118"
     },
     {
@@ -2062,7 +2040,7 @@
       "name": "Badelaire",
       "slot": "swords",
       "stats": "ATK +30",
-      "dropLocation": "DLC",
+      "dropLocation": "Chapter 7 (Hard) - Astarte (Hard) drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a9/Badelaire_Icon.png/revision/latest?cb=20150829183632",
       "handedness": "1h"
     },
@@ -2404,7 +2382,7 @@
       "name": "Belnades Staff",
       "slot": "otherWeapons",
       "stats": "ATK +1",
-      "dropLocation": "DLC",
+      "dropLocation": "Starts with (Yoko)",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/03/Belnades_Staff_HD_Icon.png/revision/latest?cb=20191011204453",
       "handedness": null
     },
@@ -3202,7 +3180,7 @@
       "name": "Blue Splash",
       "slot": "scrolls",
       "stats": "None",
-      "dropLocation": "DLC",
+      "dropLocation": "Starts with (Yoko)",
       "levelable": true
     },
     {
@@ -3298,7 +3276,7 @@
       "name": "Holy Flame",
       "slot": "scrolls",
       "stats": "None",
-      "dropLocation": "DLC",
+      "dropLocation": "Starts with (Yoko)",
       "levelable": true
     },
     {
@@ -3306,7 +3284,7 @@
       "name": "Holy Lightning",
       "slot": "scrolls",
       "stats": "None",
-      "dropLocation": "DLC",
+      "dropLocation": "Starts with (Yoko)",
       "levelable": true
     },
     {
@@ -3402,77 +3380,77 @@
       "name": "Danger Knee",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chapter 2 (Jonathan)"
+      "dropLocation": "Chest (Level 2)"
     },
     {
       "id": "martialArts-forward-roll",
       "name": "Forward Roll",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chapter 3 (Jonathan)"
+      "dropLocation": "Chest (Level 3)"
     },
     {
       "id": "martialArts-guard",
       "name": "Guard",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Start game with it (Jonathan)"
+      "dropLocation": "Starts with"
     },
     {
       "id": "martialArts-guardian-knuckle",
       "name": "Guardian Knuckle",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chapter 5 (Maria)"
+      "dropLocation": "Chest (Level 5, Level 8, Level 9, Level 11)"
     },
     {
       "id": "martialArts-omnia-vanitas",
       "name": "Omnia Vanitas",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "DLC (Julius)"
+      "dropLocation": "Chest (Level 5, Level 10)"
     },
     {
       "id": "martialArts-slide-jump",
       "name": "Slide Jump",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chapter 2 (Richter)"
+      "dropLocation": "Chest (Level 2, Level 9)"
     },
     {
       "id": "martialArts-somersault",
       "name": "Somersault",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chapter 3 (Richter)"
+      "dropLocation": "Chest (Level 3)"
     },
     {
       "id": "martialArts-sonic-strike",
       "name": "Sonic Strike",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chapter 6 (Jonathan)"
+      "dropLocation": "Chest (Level 6)"
     },
     {
       "id": "martialArts-spin-kick",
       "name": "Spin Kick",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Start game with it (Richter)"
+      "dropLocation": "Starts with"
     },
     {
       "id": "martialArts-tackle",
       "name": "Tackle",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chapter 4 (Richter)"
+      "dropLocation": "Chest (Level 4, Level 9)"
     },
     {
       "id": "martialArts-uppercut",
       "name": "Uppercut",
       "slot": "martialArts",
       "stats": "None",
-      "dropLocation": "Chapter 4 (Jonathan, Julius, Richter)"
+      "dropLocation": "Chest (Level 4)"
     },
     {
       "id": "axes-axe",

@@ -49,7 +49,6 @@ export interface Character {
   name: string;
   class?: string;
   dlc: boolean;
-  dlcPack?: string | null;
   portraitUrl?: string | null;
 }
 
@@ -58,7 +57,6 @@ export interface Chapter {
   number: number;
   name: string;
   dlc: boolean;
-  dlcPack?: string | null;
 }
 
 export interface GameData {
