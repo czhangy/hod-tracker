@@ -6,7 +6,7 @@ Tracks:
 
 - **Chapter/level clears** per character (all 11 characters × all 11 chapters, base game + DLC)
 - **Item collection** — 474 collectible items across 25 categories (every weapon type — swords, katanas, axes, cestuses, cudgels, daggers, great swords, lances, rapiers, firearms, other weapons, sub-weapons — plus armor, headgear, leg protection, cloaks, shields, accessories, spells, glyphs, dark magic scrolls, martial arts, Soma's three soul colors, and a handful of rare Hard Mode "+1" weapon upgrades), tracked as one shared checklist since HoD's item stash is shared, not owned per character. Click any item for its stats, drop location, and icon.
-- **Leveling** — Soma's Souls (and any future item flagged the same way) are collected in duplicate to level up, so those are tracked by a +/− count instead of a plain checkbox.
+- **Leveling** — items that level up by collecting duplicates (Soma's Souls, Alucard's Spells, and Charlotte/Yoko's Dark Magic Scrolls) are tracked by a +/− count instead of a plain checkbox. Shanoa's Glyphs and Jonathan's Sub-Weapons also level up in-game, but via landing hits in combat rather than collecting duplicates, so they're left as plain checkboxes — there's no discrete "copy" to track for those.
 - **Character portraits** — real art per character, pulled from the Castlevania Wiki.
 
 No database — all progress is saved to your browser's `localStorage`, tied to this browser/device. There's one small server route (`/api/icon`) that proxies item icons and character portraits from the Castlevania Wiki's CDN and castlevaniacrypt.com, both of which block direct hotlinking — see Tech below for what that means for hosting.

@@ -3094,42 +3094,48 @@
       "name": "Dark Metamorphosis",
       "slot": "spells",
       "stats": "None",
-      "dropLocation": "Chapter 2 (also Chapter 2 Hard); Cave Troll drop"
+      "dropLocation": "Chapter 2 (also Chapter 2 Hard); Cave Troll drop",
+      "levelable": true
     },
     {
       "id": "spells-hellfire",
       "name": "Hellfire",
       "slot": "spells",
       "stats": "ATK +8",
-      "dropLocation": "Chapter 3, Chapter 3 Hard, Chapter 6, Chapter 6 Hard"
+      "dropLocation": "Chapter 3, Chapter 3 Hard, Chapter 6, Chapter 6 Hard",
+      "levelable": true
     },
     {
       "id": "spells-mist-form",
       "name": "Mist Form",
       "slot": "spells",
       "stats": "None",
-      "dropLocation": "Start game with it"
+      "dropLocation": "Start game with it",
+      "levelable": true
     },
     {
       "id": "spells-soul-steal",
       "name": "Soul Steal",
       "slot": "spells",
       "stats": "ATK +9",
-      "dropLocation": "Chapter 5, Chapter 5 Hard, Chapter 6, Chapter 6 Hard"
+      "dropLocation": "Chapter 5, Chapter 5 Hard, Chapter 6, Chapter 6 Hard",
+      "levelable": true
     },
     {
       "id": "spells-summon-spirit",
       "name": "Summon Spirit",
       "slot": "spells",
       "stats": "ATK +5",
-      "dropLocation": "Ectoplasm drop"
+      "dropLocation": "Ectoplasm drop",
+      "levelable": true
     },
     {
       "id": "spells-tetra-spirit",
       "name": "Tetra Spirit",
       "slot": "spells",
       "stats": "ATK +5",
-      "dropLocation": "Chapter 4, Chapter 4 Hard"
+      "dropLocation": "Chapter 4, Chapter 4 Hard",
+      "levelable": true
     },
     {
       "id": "glyphs-fulgur",
@@ -3171,182 +3177,208 @@
       "name": "Acidic Bubbles",
       "slot": "scrolls",
       "stats": "ATK +4",
-      "dropLocation": "Glasyla Labolas drop"
+      "dropLocation": "Glasyla Labolas drop",
+      "levelable": true
     },
     {
       "id": "scrolls-blue-splash",
       "name": "Blue Splash",
       "slot": "scrolls",
       "stats": "None",
-      "dropLocation": "DLC"
+      "dropLocation": "DLC",
+      "levelable": true
     },
     {
       "id": "scrolls-dark-inferno",
       "name": "Dark Inferno",
       "slot": "scrolls",
       "stats": "ATK +12",
-      "dropLocation": "Dracula drop"
+      "dropLocation": "Dracula drop",
+      "levelable": true
     },
     {
       "id": "scrolls-deathsycthe",
       "name": "Deathsycthe",
       "slot": "scrolls",
       "stats": "ATK +6",
-      "dropLocation": "Death drop"
+      "dropLocation": "Death drop",
+      "levelable": true
     },
     {
       "id": "scrolls-delta-spark",
       "name": "Delta Spark",
       "slot": "scrolls",
       "stats": "ATK +9",
-      "dropLocation": "Astarte drop"
+      "dropLocation": "Astarte drop",
+      "levelable": true
     },
     {
       "id": "scrolls-demonseed",
       "name": "Demonseed",
       "slot": "scrolls",
       "stats": "ATK +5",
-      "dropLocation": "Man-Eating Plant drop"
+      "dropLocation": "Man-Eating Plant drop",
+      "levelable": true
     },
     {
       "id": "scrolls-energy-flow",
       "name": "Energy Flow",
       "slot": "scrolls",
       "stats": "ATK +12",
-      "dropLocation": "Witch drop"
+      "dropLocation": "Witch drop",
+      "levelable": true
     },
     {
       "id": "scrolls-featherblades",
       "name": "Featherblades",
       "slot": "scrolls",
       "stats": "ATK +9",
-      "dropLocation": "Harpy drop"
+      "dropLocation": "Harpy drop",
+      "levelable": true
     },
     {
       "id": "scrolls-fireball",
       "name": "Fireball",
       "slot": "scrolls",
       "stats": "ATK +7",
-      "dropLocation": "Bone Pillar drop"
+      "dropLocation": "Bone Pillar drop",
+      "levelable": true
     },
     {
       "id": "scrolls-flame-shot",
       "name": "Flame Shot",
       "slot": "scrolls",
       "stats": "ATK +16",
-      "dropLocation": "Fire Demon drop"
+      "dropLocation": "Fire Demon drop",
+      "levelable": true
     },
     {
       "id": "scrolls-ghost-chaser",
       "name": "Ghost Chaser",
       "slot": "scrolls",
       "stats": "ATK +12",
-      "dropLocation": "Dracula, Dullahan drop"
+      "dropLocation": "Dracula, Dullahan drop",
+      "levelable": true
     },
     {
       "id": "scrolls-heal",
       "name": "Heal",
       "slot": "scrolls",
       "stats": "ATK +30",
-      "dropLocation": "Witch drop"
+      "dropLocation": "Witch drop",
+      "levelable": true
     },
     {
       "id": "scrolls-hellfire",
       "name": "Hellfire",
       "slot": "scrolls",
       "stats": "ATK +8",
-      "dropLocation": "Dracula drop"
+      "dropLocation": "Dracula drop",
+      "levelable": true
     },
     {
       "id": "scrolls-holy-flame",
       "name": "Holy Flame",
       "slot": "scrolls",
       "stats": "None",
-      "dropLocation": "DLC"
+      "dropLocation": "DLC",
+      "levelable": true
     },
     {
       "id": "scrolls-holy-lightning",
       "name": "Holy Lightning",
       "slot": "scrolls",
       "stats": "None",
-      "dropLocation": "DLC"
+      "dropLocation": "DLC",
+      "levelable": true
     },
     {
       "id": "scrolls-ice-fang",
       "name": "Ice Fang",
       "slot": "scrolls",
       "stats": "ATK +16",
-      "dropLocation": "Sea Demon drop"
+      "dropLocation": "Sea Demon drop",
+      "levelable": true
     },
     {
       "id": "scrolls-ice-needle",
       "name": "Ice Needle",
       "slot": "scrolls",
       "stats": "ATK +6",
-      "dropLocation": "Frozen Shade drop"
+      "dropLocation": "Frozen Shade drop",
+      "levelable": true
     },
     {
       "id": "scrolls-nightmare",
       "name": "Nightmare",
       "slot": "scrolls",
       "stats": "ATK +12",
-      "dropLocation": "Malachi drop"
+      "dropLocation": "Malachi drop",
+      "levelable": true
     },
     {
       "id": "scrolls-piercing-beam",
       "name": "Piercing Beam",
       "slot": "scrolls",
       "stats": "ATK +8",
-      "dropLocation": "Nova Skeleton drop"
+      "dropLocation": "Nova Skeleton drop",
+      "levelable": true
     },
     {
       "id": "scrolls-poison-spores",
       "name": "Poison Spores",
       "slot": "scrolls",
       "stats": "ATK +7",
-      "dropLocation": "Moldy Corpse drop"
+      "dropLocation": "Moldy Corpse drop",
+      "levelable": true
     },
     {
       "id": "scrolls-raging-fire",
       "name": "Raging Fire",
       "slot": "scrolls",
       "stats": "ATK +6",
-      "dropLocation": "Minotaur, Spittle Bone, White Dragon drop"
+      "dropLocation": "Minotaur, Spittle Bone, White Dragon drop",
+      "levelable": true
     },
     {
       "id": "scrolls-sickle-moon",
       "name": "Sickle Moon",
       "slot": "scrolls",
       "stats": "ATK +11",
-      "dropLocation": "Imp drop"
+      "dropLocation": "Imp drop",
+      "levelable": true
     },
     {
       "id": "scrolls-splash-needle",
       "name": "Splash Needle",
       "slot": "scrolls",
       "stats": "ATK +4",
-      "dropLocation": "Merman drop"
+      "dropLocation": "Merman drop",
+      "levelable": true
     },
     {
       "id": "scrolls-summon-gunman",
       "name": "Summon Gunman",
       "slot": "scrolls",
       "stats": "ATK +9",
-      "dropLocation": "Skeleton Gunman drop"
+      "dropLocation": "Skeleton Gunman drop",
+      "levelable": true
     },
     {
       "id": "scrolls-summon-skeleton",
       "name": "Summon Skeleton",
       "slot": "scrolls",
       "stats": "ATK +8",
-      "dropLocation": "Skeleton drop"
+      "dropLocation": "Skeleton drop",
+      "levelable": true
     },
     {
       "id": "scrolls-thunderbolt",
       "name": "Thunderbolt",
       "slot": "scrolls",
       "stats": "ATK +8",
-      "dropLocation": "Thunder Demon drop"
+      "dropLocation": "Thunder Demon drop",
+      "levelable": true
     },
     {
       "id": "martialArts-danger-knee",
@@ -3620,7 +3652,7 @@
       "stats": "ATK +5",
       "dropLocation": "Chapter 1, 2, 4",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Castlevania_SOTN-_All_Weapons_1_%28REMAKE%29/revision/latest/scale-to-width-down/120?cb=20241209002035"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/74/Baselard_Icon.png/revision/latest?cb=20150813223727"
     },
     {
       "id": "daggers-cinquedea",
@@ -4042,7 +4074,7 @@
       "stats": null,
       "dropLocation": "Chapter 9 (Lord of the Flies) Hard Mode boss (Beelzebub) chest; usable by Soma and Alucard",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Kaiser Knuckle. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/07/Kaiser_Knuckles_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174554"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/57/Kaiser_Knuckle_HD_Icon.png/revision/latest?cb=20191011203115"
     },
     {
       "id": "swords-alucard-sword-1",
@@ -4051,7 +4083,7 @@
       "stats": "Faster swing speed than base version; retains the same unique special attack",
       "dropLocation": "Chapter 9 Hard Mode boss chest (Alucard-exclusive weapon)",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Alucard Sword. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Alucard_002.jpg/revision/latest/scale-to-width-down/90?cb=20240424180442"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/05/Alucard_Sword_Icon.png/revision/latest?cb=20150823045731"
     },
     {
       "id": "greatSwords-claimh-solais-1",
@@ -4060,7 +4092,7 @@
       "stats": "Highest ATK of any weapon in the game (exact number not confirmed); deals Holy damage, unique to Soma",
       "dropLocation": "Chapter 10 (Origins) Hard Mode boss chest",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Claimh Solais. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Claimh_Solais_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005162624"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Claimh_Solais_DoS_Icon.png/revision/latest?cb=20171005162624"
     },
     {
       "id": "katanas-yasutsuna-1",
@@ -4069,7 +4101,7 @@
       "stats": "ATK +2 over base Yasutsuna only (much smaller bonus than typical +1 gear, which players report is usually around +20); attack speed same as the original (non-upgraded) Yasutsuna",
       "dropLocation": "Chapter 11 (The Legend of Fuma) Hard Mode boss (Ryu Kokki / \"Ryukotsuki\") chest",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Yasutsuna. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Yasutsuna_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224615"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Yasutsuna_Icon.png/revision/latest?cb=20150813224615"
     },
     {
       "id": "katanas-muramasa-1",
@@ -4078,7 +4110,7 @@
       "stats": "Described by players as the strongest katana in the game",
       "dropLocation": "Chapter 11 (The Legend of Fuma) Hard Mode boss (Ryu Kokki) chest",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Muramasa. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c2/Muramasa.png/revision/latest/scale-to-width-down/120?cb=20140706151557"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Muramasa_Icon.png/revision/latest?cb=20150829184203"
     }
   ]
 }
