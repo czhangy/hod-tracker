@@ -2115,7 +2115,9 @@
       "stats": "ATK +15",
       "dropLocation": "Fire Demon drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ca/Firebrand_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184910",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-alucard-sword",
@@ -2124,7 +2126,9 @@
       "stats": "ATK +38",
       "dropLocation": "Chapter 4 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/05/Alucard_Sword_Icon.png/revision/latest?cb=20150823045731",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-alucart-sword",
@@ -2133,7 +2137,9 @@
       "stats": "ATK +3",
       "dropLocation": "Chapter 1-4, Hard/Normal",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/05/Alucard_Sword_Icon.png/revision/latest/scale-to-width-down/120?cb=20150823045731",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-badelaire",
@@ -2142,7 +2148,9 @@
       "stats": "ATK +30",
       "dropLocation": "Chapter 7 (Hard) - Astarte (Hard) drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a9/Badelaire_Icon.png/revision/latest?cb=20150829183632",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-bastard-sword",
@@ -2151,7 +2159,9 @@
       "stats": "ATK +12",
       "dropLocation": "Chapter 3, 5, 6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/75/Bastard_Sword_Icon.png/revision/latest?cb=20150823044445",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-bekatowa",
@@ -2160,7 +2170,9 @@
       "stats": "ATK +8",
       "dropLocation": "Chapter 6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/38/Bekatowa_Icon.png/revision/latest?cb=20150823042819",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-broadsword",
@@ -2169,7 +2181,9 @@
       "stats": "ATK +9",
       "dropLocation": "Shop, Chapter 3-6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/87/Broadsword.png/revision/latest/scale-to-width-down/120?cb=20140706115440",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-burtgang",
@@ -2178,7 +2192,9 @@
       "stats": "ATK +30, DEF +5, CON +5",
       "dropLocation": "Chapter 4-6 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d8/Burtgang_DoS_Icon.png/revision/latest?cb=20171005162620",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-cutlass",
@@ -2187,7 +2203,9 @@
       "stats": "ATK +10",
       "dropLocation": "Chapter 4, 5, 6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e8/Cutlass_Icon.png/revision/latest?cb=20150823040705",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-damascus-sword",
@@ -2196,7 +2214,9 @@
       "stats": "ATK +13",
       "dropLocation": "Shop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/96/Damascus_Sword_Icon.png/revision/latest?cb=20150823043910",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-fragarach",
@@ -2205,7 +2225,9 @@
       "stats": "ATK +25",
       "dropLocation": "Chapter 4 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9e/Luminus_Icon.png/revision/latest/scale-to-width-down/111?cb=20150823044836",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-gladius",
@@ -2214,7 +2236,9 @@
       "stats": "ATK +16",
       "dropLocation": "Shop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/20/Gladius_Icon.png/revision/latest?cb=20150823022334",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-gram",
@@ -2223,7 +2247,9 @@
       "stats": "ATK +22",
       "dropLocation": "Shop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/bb/Gram_Icon.png/revision/latest?cb=20150823045152",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-harper",
@@ -2232,7 +2258,9 @@
       "stats": "ATK +18",
       "dropLocation": "Chapter 2-6, Hard/Normal",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/61/Harper_Icon.png/revision/latest?cb=20150823044953",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-holy-sword",
@@ -2241,7 +2269,9 @@
       "stats": "ATK +18",
       "dropLocation": "Chapter 6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/bc/Holy_Sword_Icon.png/revision/latest?cb=20150829185145",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-hrunting",
@@ -2250,7 +2280,9 @@
       "stats": "ATK +18",
       "dropLocation": "Shop, Chapter 6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/83/Terminus_Est_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829183337",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-ice-brand",
@@ -2259,7 +2291,9 @@
       "stats": "ATK +21",
       "dropLocation": "Chapter 3",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5a/Ice_Brand_DoS_Icon.png/revision/latest/scale-to-width-down/25?cb=20171005163034",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-indra-s-light",
@@ -2268,7 +2302,9 @@
       "stats": "ATK +5",
       "dropLocation": "Thunder Demon drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5d/Thunderbrand_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829182836",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-jagdplaute",
@@ -2277,7 +2313,9 @@
       "stats": "ATK +11",
       "dropLocation": "Shop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/ed/Hunter_Sword_Icon.png/revision/latest/scale-to-width-down/111?cb=20150823044106",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-joyeuse",
@@ -2286,7 +2324,9 @@
       "stats": "ATK +30",
       "dropLocation": "Shop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Joyeuse_DoS_Icon.png/revision/latest?cb=20171005163035",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-kaladbolg",
@@ -2295,7 +2335,9 @@
       "stats": "ATK +39",
       "dropLocation": "Chapter 6 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f7/Kaladbolg_DoS_Icon.png/revision/latest?cb=20171005163036",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-laevatain",
@@ -2304,7 +2346,9 @@
       "stats": "ATK +15",
       "dropLocation": "Shop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/L%C3%A6vateinn_Marsil_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184825",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-long-sword",
@@ -2313,7 +2357,9 @@
       "stats": "ATK +5",
       "dropLocation": "Shop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f2/Long_Sword_DoS_Icon.png/revision/latest?cb=20171005163153",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-milican-s-sword",
@@ -2322,7 +2368,9 @@
       "stats": "ATK +10",
       "dropLocation": "Chapter 5",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/73/Stone_Sword_Icon.png/revision/latest/scale-to-width-down/120?cb=20150817001009",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-mormegil",
@@ -2331,7 +2379,9 @@
       "stats": "ATK +18",
       "dropLocation": "Chapter 2",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/78/Mormegil_Icon.png/revision/latest?cb=20150829182746",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-mystletain",
@@ -2340,7 +2390,9 @@
       "stats": "ATK +33",
       "dropLocation": "Chapter 6 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/69/Mystletain_DoS_Icon.png/revision/latest?cb=20171005163159",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-rahab-s-frost",
@@ -2349,7 +2401,9 @@
       "stats": "ATK +7",
       "dropLocation": "Sea Demon drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a7/Icebrand_Icon.png/revision/latest/scale-to-width-down/111?cb=20150829182930",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-saber",
@@ -2358,7 +2412,9 @@
       "stats": "ATK +6",
       "dropLocation": "Chapter 2-4",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/21/Saber_Icon.png/revision/latest?cb=20150823041529",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-scimitar",
@@ -2367,7 +2423,9 @@
       "stats": "ATK +7",
       "dropLocation": "Shop, Chapter 2-5",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/01/Scimitar_-_Broadsword_Icon.png/revision/latest?cb=20191004200102",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-short-sword",
@@ -2376,7 +2434,9 @@
       "stats": "ATK +4",
       "dropLocation": "Chapter 1-3",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/15/Short_Sword_Icon.png/revision/latest?cb=20150817000922",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-sword-of-hador",
@@ -2385,7 +2445,9 @@
       "stats": "ATK +17",
       "dropLocation": "Chapter 6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ab/Sword_of_Hador_Icon.png/revision/latest?cb=20150823044740",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-talwar",
@@ -2394,7 +2456,9 @@
       "stats": "ATK +14",
       "dropLocation": "Chapter 5",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Talwar_Icon.png/revision/latest?cb=20150823044603",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-tyrfing",
@@ -2403,7 +2467,9 @@
       "stats": "ATK +6",
       "dropLocation": "Chapter 2-4",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8d/Tyrfing_Icon.png/revision/latest?cb=20150824231212",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-valmanway",
@@ -2412,7 +2478,9 @@
       "stats": "ATK +10",
       "dropLocation": "Chapter 6 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/28/Valmanway_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224613",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-vorpal-blade",
@@ -2421,7 +2489,9 @@
       "stats": "ATK +10",
       "dropLocation": "Chapter 6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Crissaegrim_-_Heaven_Sword_-_Vorpal_Blade_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829183743",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "firearms-chakram",
@@ -2430,7 +2500,9 @@
       "stats": "ATK +5",
       "dropLocation": "Amalaric Sniper drop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/21/Chakram_Icon.png/revision/latest?cb=20150829191940",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "firearms-handgun",
@@ -2439,7 +2511,9 @@
       "stats": "ATK +5",
       "dropLocation": "Shop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/93/Handgun_Icon.png/revision/latest?cb=20171005162926",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "firearms-rpg",
@@ -2448,7 +2522,9 @@
       "stats": "ATK +35",
       "dropLocation": "Chapters 3, 4, 5, 6",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e3/RPG_Icon.png/revision/latest?cb=20171005163421",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "firearms-silver-gun",
@@ -2457,7 +2533,9 @@
       "stats": "ATK +16",
       "dropLocation": "Shop",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d8/Silver_Gun_Icon.png/revision/latest?cb=20171005163424",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "firearms-throwing-sickle",
@@ -2466,7 +2544,9 @@
       "stats": "ATK +24",
       "dropLocation": "Chapter 6 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/Throwing_Sickle_Icon.png/revision/latest?cb=20171005163858",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "firearms-tomahawk",
@@ -2475,7 +2555,9 @@
       "stats": "ATK +12",
       "dropLocation": "Chapter 1 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Tomahawk_Icon.png/revision/latest?cb=20171005163858",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "otherWeapons-belnades-staff",
@@ -2522,7 +2604,9 @@
       "stats": "ATK +18",
       "dropLocation": "Chapter 1 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/42/Garian_Sword_DoS_Icon.png/revision/latest?cb=20171005162921",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "otherWeapons-heaven-s-sword",
@@ -2531,7 +2615,9 @@
       "stats": "ATK +11",
       "dropLocation": "Chapter 3",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Crissaegrim_-_Heaven_Sword_-_Vorpal_Blade_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829183743",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "otherWeapons-lapiste",
@@ -2551,7 +2637,9 @@
       "stats": "ATK +40",
       "dropLocation": "Chapter 3 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1e/Nebula_PoR_Icon.png/revision/latest?cb=20150811174819",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "otherWeapons-nunchakus",
@@ -2598,7 +2686,9 @@
       "stats": "ATK +8",
       "dropLocation": "Chapter 4",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Whip_Sword_DoS_Icon.png/revision/latest?cb=20171005163904",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "subWeapons-axe",
@@ -3768,7 +3858,8 @@
       "stats": "ATK +8",
       "dropLocation": "Axe Knight",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest?cb=20150829191415"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest?cb=20150829191415",
+      "handedness": "2h"
     },
     {
       "id": "axes-battle-axe",
@@ -3777,7 +3868,8 @@
       "stats": "ATK +16",
       "dropLocation": "Minotaur",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3b/Battle_Axe_DoS_Icon.png/revision/latest?cb=20171005162453"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3b/Battle_Axe_DoS_Icon.png/revision/latest?cb=20171005162453",
+      "handedness": "2h"
     },
     {
       "id": "axes-bhuj",
@@ -3786,7 +3878,8 @@
       "stats": "ATK +27",
       "dropLocation": "Chapter 5, Chapter 1 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Bhuj_Icon.png/revision/latest?cb=20171005162456"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Bhuj_Icon.png/revision/latest?cb=20171005162456",
+      "handedness": "2h"
     },
     {
       "id": "axes-death-scythe",
@@ -3795,7 +3888,8 @@
       "stats": "ATK +80",
       "dropLocation": "Chapter 5 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Death_Scythe_Icon.png/revision/latest?cb=20171005162745"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Death_Scythe_Icon.png/revision/latest?cb=20171005162745",
+      "handedness": "2h"
     },
     {
       "id": "axes-great-axe",
@@ -3804,7 +3898,8 @@
       "stats": "ATK +35",
       "dropLocation": "Shop",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6f/Great_Axe_Icon.png/revision/latest?cb=20171005162923"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6f/Great_Axe_Icon.png/revision/latest?cb=20171005162923",
+      "handedness": "2h"
     },
     {
       "id": "axes-golden-axe",
@@ -3813,7 +3908,8 @@
       "stats": "ATK +55",
       "dropLocation": "Chapter 4 - Hard, Chapter 6 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Golden_Axe_Icon.png/revision/latest?cb=20171005162923"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Golden_Axe_Icon.png/revision/latest?cb=20171005162923",
+      "handedness": "2h"
     },
     {
       "id": "cestuses-blue-knuckles",
@@ -3822,7 +3918,10 @@
       "stats": "ATK +11",
       "dropLocation": "Chapter 1",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Knuckle_Duster_Icon.png/revision/latest?cb=20150829185532"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Knuckle_Duster_Icon.png/revision/latest?cb=20150829185532",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-brass-knuckles",
@@ -3831,7 +3930,10 @@
       "stats": "ATK +7",
       "dropLocation": "Chapter 5",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Brass_Knuckles_Icon.png/revision/latest?cb=20171005162619"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Brass_Knuckles_Icon.png/revision/latest?cb=20171005162619",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-cestus",
@@ -3840,7 +3942,10 @@
       "stats": "ATK +11",
       "dropLocation": "Shop, Chapter 5",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/23/Cestus_DoS_Icon.png/revision/latest?cb=20171005162622"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/23/Cestus_DoS_Icon.png/revision/latest?cb=20171005162622",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-fist-of-tulkas",
@@ -3849,7 +3954,10 @@
       "stats": "ATK +40",
       "dropLocation": "Chapter 6 - Hard",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9c/Fist_of_Tulkas_Icon.png/revision/latest?cb=20150829185647"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9c/Fist_of_Tulkas_Icon.png/revision/latest?cb=20150829185647",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-jewel-knuckles",
@@ -3858,7 +3966,10 @@
       "stats": "ATK +14",
       "dropLocation": "Chapter 6",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/fe/Jewel_Knuckles_Icon.png/revision/latest?cb=20150829185541"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/fe/Jewel_Knuckles_Icon.png/revision/latest?cb=20150829185541",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-kaiser-knuckle",
@@ -3867,7 +3978,10 @@
       "stats": "ATK +25, HP +3",
       "dropLocation": "Chapter 2 - Hard, Chapter 3 - Hard, Chapter 4 - Hard",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/57/Kaiser_Knuckle_HD_Icon.png/revision/latest?cb=20191011203115"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/57/Kaiser_Knuckle_HD_Icon.png/revision/latest?cb=20191011203115",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-knuckle-dusters",
@@ -3876,7 +3990,10 @@
       "stats": "ATK +3",
       "dropLocation": "Chapter 4 - Hard, Chapter 6 - Hard",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Knuckle_Duster_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829185532"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Knuckle_Duster_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829185532",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-mach-punch",
@@ -3885,7 +4002,10 @@
       "stats": "ATK +10, HP +3",
       "dropLocation": "Chapter 6 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6c/Mach_Punch_DoS_Icon.png/revision/latest?cb=20171005163155"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6c/Mach_Punch_DoS_Icon.png/revision/latest?cb=20171005163155",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-whip-knuckle",
@@ -3894,7 +4014,10 @@
       "stats": "ATK +30",
       "dropLocation": "Chapter 5 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/77/Whip_Knuckle_DoS_Icon.png/revision/latest?cb=20171005163902"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/77/Whip_Knuckle_DoS_Icon.png/revision/latest?cb=20171005163902",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cudgels-holy-rod",
@@ -3903,7 +4026,10 @@
       "stats": "ATK +25, INT +2",
       "dropLocation": "Chapter 2 - Hard, Chapter 4 - Hard",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0b/Holy_Rod_Icon.png/revision/latest?cb=20150829185259"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0b/Holy_Rod_Icon.png/revision/latest?cb=20150829185259",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cudgels-mace",
@@ -3912,7 +4038,10 @@
       "stats": "ATK +5",
       "dropLocation": "Chapter 1, 2, 3, 4",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/49/Mace_Icon.png/revision/latest?cb=20150829184444"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/49/Mace_Icon.png/revision/latest?cb=20150829184444",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cudgels-mjollnjr",
@@ -3921,7 +4050,10 @@
       "stats": "ATK +18",
       "dropLocation": "Chapter 1 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/65/Mjollnjr_Icon.png/revision/latest?cb=20171005163158"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/65/Mjollnjr_Icon.png/revision/latest?cb=20171005163158",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cudgels-moon-rod",
@@ -3930,7 +4062,10 @@
       "stats": "ATK +36, INT +2",
       "dropLocation": "Chapter 5 - Hard",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ce/Moon_Rod_Icon.png/revision/latest?cb=20150829185525"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ce/Moon_Rod_Icon.png/revision/latest?cb=20150829185525",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cudgels-morning-star",
@@ -3939,7 +4074,10 @@
       "stats": "ATK +15",
       "dropLocation": "Chapter 5",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/89/Morning_Star_Icon.png/revision/latest?cb=20150829184454"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/89/Morning_Star_Icon.png/revision/latest?cb=20150829184454",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cudgels-star-flail",
@@ -3948,7 +4086,10 @@
       "stats": "ATK +19",
       "dropLocation": "Chapter 6",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/ff/Star_Flail_Icon.png/revision/latest?cb=20150829185239"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/ff/Star_Flail_Icon.png/revision/latest?cb=20150829185239",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "daggers-baselard",
@@ -3957,7 +4098,10 @@
       "stats": "ATK +5",
       "dropLocation": "Chapter 1, 2, 4",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/74/Baselard_Icon.png/revision/latest?cb=20150813223727"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/74/Baselard_Icon.png/revision/latest?cb=20150813223727",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "daggers-cinquedea",
@@ -3966,7 +4110,10 @@
       "stats": "ATK +31",
       "dropLocation": "Chapter 1 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/dc/Cinquedia_DoS_Icon.png/revision/latest/scale-to-width-down/50?cb=20171005162624"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/dc/Cinquedia_DoS_Icon.png/revision/latest/scale-to-width-down/50?cb=20171005162624",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "daggers-combat-knife",
@@ -3975,7 +4122,10 @@
       "stats": "ATK +8",
       "dropLocation": "Chapter 3, 4, 5, 6",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/46/Combat_Knife_DoS_Icon.png/revision/latest?cb=20171005162626"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/46/Combat_Knife_DoS_Icon.png/revision/latest?cb=20171005162626",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "daggers-cutall",
@@ -3984,7 +4134,10 @@
       "stats": "ATK +9",
       "dropLocation": "Chapter 1 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/80/Cutall_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813223903"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/80/Cutall_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813223903",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "daggers-holbein-dagger",
@@ -3993,7 +4146,10 @@
       "stats": "ATK +5",
       "dropLocation": "Chapter 2",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "daggers-knife",
@@ -4002,7 +4158,10 @@
       "stats": "ATK +3",
       "dropLocation": "Chapter 1",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "daggers-shotel",
@@ -4011,7 +4170,10 @@
       "stats": "ATK +35",
       "dropLocation": "Chapter 5 - Hard, Chapter 6 - Hard",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Shotel_Icon.png/revision/latest?cb=20150817001214"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Shotel_Icon.png/revision/latest?cb=20150817001214",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "daggers-were-bane",
@@ -4020,7 +4182,10 @@
       "stats": "ATK +21",
       "dropLocation": "Chapter 4 - Hard, Chapter 6 - Hard",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/64/Were_Bane_Icon.png/revision/latest?cb=20150817001521"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/64/Were_Bane_Icon.png/revision/latest?cb=20150817001521",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "greatSwords-ascalon",
@@ -4029,7 +4194,8 @@
       "stats": "ATK +42",
       "dropLocation": "Chapter 6 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b9/Ascalon_DoS_Icon.png/revision/latest?cb=20171005162451"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b9/Ascalon_DoS_Icon.png/revision/latest?cb=20171005162451",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-balmung",
@@ -4038,7 +4204,8 @@
       "stats": "ATK +48",
       "dropLocation": "Chapter 5 - Hard, Chapter 6 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6d/Balmung_DoS_Icon.png/revision/latest?cb=20171005162452"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6d/Balmung_DoS_Icon.png/revision/latest?cb=20171005162452",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-claimh-solais",
@@ -4047,7 +4214,8 @@
       "stats": "ATK +70, INT +3",
       "dropLocation": "Chapter 6 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Claimh_Solais_DoS_Icon.png/revision/latest?cb=20171005162624"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Claimh_Solais_DoS_Icon.png/revision/latest?cb=20171005162624",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-claymore",
@@ -4056,7 +4224,8 @@
       "stats": "ATK +20",
       "dropLocation": "Chapter 6 - Hard",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/87/Claymore_Icon.png/revision/latest?cb=20150829183830"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/87/Claymore_Icon.png/revision/latest?cb=20150829183830",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-dainslef",
@@ -4065,7 +4234,8 @@
       "stats": "ATK +31",
       "dropLocation": "Shop, Chapter 3 - Hard",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3b/Gurthang_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829183445"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3b/Gurthang_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829183445",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-daybreak",
@@ -4074,7 +4244,8 @@
       "stats": "ATK +24, MP +5",
       "dropLocation": "Chapter 4",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/50/Sword_of_Dawn_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184007"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/50/Sword_of_Dawn_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184007",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-durandal",
@@ -4083,7 +4254,8 @@
       "stats": "ATK +35, INT +5, HP +3",
       "dropLocation": "Chapter 5 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/52/Durandal_DoS_Icon.png/revision/latest?cb=20171005162747"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/52/Durandal_DoS_Icon.png/revision/latest?cb=20171005162747",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-falchion",
@@ -4092,7 +4264,8 @@
       "stats": "ATK +6",
       "dropLocation": "Chapter 1, 2, 3, 4",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/24/Falchion_Icon.png/revision/latest?cb=20150823042023"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/24/Falchion_Icon.png/revision/latest?cb=20150823042023",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-final-sword",
@@ -4101,7 +4274,8 @@
       "stats": "ATK +38",
       "dropLocation": "Chapter 6 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a0/Final_Sword_DS_Icon.png/revision/latest?cb=20171005162749"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a0/Final_Sword_DS_Icon.png/revision/latest?cb=20171005162749",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-flamberge",
@@ -4110,7 +4284,8 @@
       "stats": "ATK +12",
       "dropLocation": "Chapter 5 - Hard",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5b/Flamberge_Icon.png/revision/latest?cb=20150829183941"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/5b/Flamberge_Icon.png/revision/latest?cb=20150829183941",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-great-sword",
@@ -4119,7 +4294,8 @@
       "stats": "ATK +27",
       "dropLocation": "Shop",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4e/Great_Sword_DoS_%26_PoR_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005162924"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4e/Great_Sword_DoS_%26_PoR_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005162924",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-obsidian-sword",
@@ -4128,7 +4304,8 @@
       "stats": "ATK +22",
       "dropLocation": "Chapter 2 - Hard",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Obsidian_Sword_Icon.png/revision/latest?cb=20150829184151"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Obsidian_Sword_Icon.png/revision/latest?cb=20150829184151",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-terror-bear",
@@ -4137,7 +4314,8 @@
       "stats": "ATK +6",
       "dropLocation": "Chapter 6",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/11/Terror_Bear_Icon.png/revision/latest?cb=20171005163857"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/11/Terror_Bear_Icon.png/revision/latest?cb=20171005163857",
+      "handedness": "2h"
     },
     {
       "id": "greatSwords-zweihander",
@@ -4146,7 +4324,8 @@
       "stats": "ATK +16",
       "dropLocation": "Chapter 6",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/84/Zwei_Hander_Icon.png/revision/latest?cb=20150829184119"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/84/Zwei_Hander_Icon.png/revision/latest?cb=20150829184119",
+      "handedness": "2h"
     },
     {
       "id": "katanas-blunt-sword",
@@ -4155,7 +4334,10 @@
       "stats": "ATK +5",
       "dropLocation": "Shop",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a1/Namakura_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184320"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a1/Namakura_Icon.png/revision/latest/scale-to-width-down/120?cb=20150829184320",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "katanas-katana",
@@ -4164,7 +4346,10 @@
       "stats": "ATK +10",
       "dropLocation": "Shop",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8d/Katana_Icon.png/revision/latest?cb=20150829184330"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8d/Katana_Icon.png/revision/latest?cb=20150829184330",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "katanas-kotetsu",
@@ -4173,7 +4358,10 @@
       "stats": "ATK +15",
       "dropLocation": "Chapter 1 - Hard, Chapter 6",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Kotetsu_Icon.png/revision/latest?cb=20171005163038"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Kotetsu_Icon.png/revision/latest?cb=20171005163038",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "katanas-kunitsuna",
@@ -4182,7 +4370,10 @@
       "stats": "ATK +25",
       "dropLocation": "Shop",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/78/Kunitsuna_DoS_Icon.png/revision/latest?cb=20171005163040"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/78/Kunitsuna_DoS_Icon.png/revision/latest?cb=20171005163040",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "katanas-masamune",
@@ -4191,7 +4382,10 @@
       "stats": "ATK +20",
       "dropLocation": "Chapter 5",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/74/Masamune_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163156"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/74/Masamune_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163156",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "katanas-muramasa",
@@ -4200,7 +4394,10 @@
       "stats": "ATK +42",
       "dropLocation": "Shop, Chapter 2 - Hard",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Muramasa_Icon.png/revision/latest?cb=20150829184203"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Muramasa_Icon.png/revision/latest?cb=20150829184203",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "katanas-osafune",
@@ -4209,7 +4406,10 @@
       "stats": "ATK +30",
       "dropLocation": "Chapter 3 - Hard, Chapter 4 - Hard, Chapter 5 - Hard",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Osafune_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163308"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Osafune_DoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20171005163308",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "katanas-takemitsu",
@@ -4218,7 +4418,10 @@
       "stats": "ATK +3",
       "dropLocation": "Chapter 2, 3, 4",
       "notes": "Used by: Alucard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/da/Takemitsu_Icon.png/revision/latest?cb=20150829184301"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/da/Takemitsu_Icon.png/revision/latest?cb=20150829184301",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "katanas-yasutsuna",
@@ -4227,7 +4430,10 @@
       "stats": "ATK +36",
       "dropLocation": "Chapter 5 - Hard, Chapter 6 - Hard",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Yasutsuna_Icon.png/revision/latest?cb=20150813224615"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Yasutsuna_Icon.png/revision/latest?cb=20150813224615",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "lances-brionac",
@@ -4236,7 +4442,8 @@
       "stats": "ATK +30 / HP +5",
       "dropLocation": "Chapter 5 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/67/Brionac_Icon.png/revision/latest?cb=20171005162620"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/67/Brionac_Icon.png/revision/latest?cb=20171005162620",
+      "handedness": "2h"
     },
     {
       "id": "lances-geiborg",
@@ -4245,7 +4452,10 @@
       "stats": "ATK +35, MP +10",
       "dropLocation": "Chapter 4 - Hard, Chapter 5 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0e/Geiborg_Icon.png/revision/latest?cb=20171005162921"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0e/Geiborg_Icon.png/revision/latest?cb=20171005162921",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "lances-gungner",
@@ -4254,7 +4464,10 @@
       "stats": "ATK +22",
       "dropLocation": "Chapter 4 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e7/Gungner_DoS_Icon.png/revision/latest?cb=20171005162924"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e7/Gungner_DoS_Icon.png/revision/latest?cb=20171005162924",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "lances-halberd",
@@ -4263,7 +4476,8 @@
       "stats": "ATK +15",
       "dropLocation": "Chapter 3, 4",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/00/Halberd_PoR_Icon.png/revision/latest?cb=20150811174322"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/00/Halberd_PoR_Icon.png/revision/latest?cb=20150811174322",
+      "handedness": "2h"
     },
     {
       "id": "lances-lance",
@@ -4272,7 +4486,8 @@
       "stats": "ATK +20",
       "dropLocation": "Shop, Chapter 1 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f1/Lance_PoR_Icon.png/revision/latest?cb=20150811174555"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f1/Lance_PoR_Icon.png/revision/latest?cb=20150811174555",
+      "handedness": "2h"
     },
     {
       "id": "lances-longinus",
@@ -4281,7 +4496,10 @@
       "stats": "ATK +71, HP +7, MP +7",
       "dropLocation": "Chapter 6 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2d/Longinus_Icon.png/revision/latest?cb=20171005163154"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/2d/Longinus_Icon.png/revision/latest?cb=20171005163154",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "lances-partisan",
@@ -4290,7 +4508,8 @@
       "stats": "ATK +10",
       "dropLocation": "Chapter 5, 6, Dead Warrior",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Partisan_Icon.png/revision/latest?cb=20171005163309"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Partisan_Icon.png/revision/latest?cb=20171005163309",
+      "handedness": "2h"
     },
     {
       "id": "lances-spear",
@@ -4299,7 +4518,10 @@
       "stats": "ATK +6",
       "dropLocation": "Chapter 1, 5",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/df/Spear_PoR_Icon.png/revision/latest?cb=20150811175200"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/df/Spear_PoR_Icon.png/revision/latest?cb=20150811175200",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "lances-trident",
@@ -4308,7 +4530,8 @@
       "stats": "ATK +25, MP +3",
       "dropLocation": "Shop",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Trident_PoR_Icon.png/revision/latest?cb=20150811175448"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/99/Trident_PoR_Icon.png/revision/latest?cb=20150811175448",
+      "handedness": "2h"
     },
     {
       "id": "rapiers-estoc",
@@ -4317,7 +4540,10 @@
       "stats": "ATK +38",
       "dropLocation": "Shop, Chapter 5 - Hard",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9e/Estoc_DoS_Icon.png/revision/latest?cb=20171005162748"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9e/Estoc_DoS_Icon.png/revision/latest?cb=20171005162748",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "rapiers-fleuret",
@@ -4326,7 +4552,10 @@
       "stats": "ATK +10",
       "dropLocation": "Chapter 5, 6",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/70/Fleuret_DoS_Icon.png/revision/latest?cb=20171005162907"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/70/Fleuret_DoS_Icon.png/revision/latest?cb=20171005162907",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "rapiers-kris-naga",
@@ -4335,7 +4564,10 @@
       "stats": "ATK +45",
       "dropLocation": "Chapter 6 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a7/Kris_Naga_DoS_Icon.png/revision/latest?cb=20171005163038"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a7/Kris_Naga_DoS_Icon.png/revision/latest?cb=20171005163038",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "rapiers-main-gauche",
@@ -4344,7 +4576,10 @@
       "stats": "ATK +19",
       "dropLocation": "Chapter 3 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/49/Main_Gauche_DoS_Icon.png/revision/latest?cb=20171005163155"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/49/Main_Gauche_DoS_Icon.png/revision/latest?cb=20171005163155",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "rapiers-rapier",
@@ -4353,7 +4588,10 @@
       "stats": "ATK +5",
       "dropLocation": "Chapter 2, 3, 4",
       "notes": "Used by: Alucard, Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/91/Rapier_Icon.png/revision/latest?cb=20150817001448"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/91/Rapier_Icon.png/revision/latest?cb=20150817001448",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "rapiers-small-sword",
@@ -4362,7 +4600,10 @@
       "stats": "ATK +29",
       "dropLocation": "Shop, Chapter 1 - Hard",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/44/Small_Sword_DoS_Icon.png/revision/latest?cb=20171005163425"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/44/Small_Sword_DoS_Icon.png/revision/latest?cb=20171005163425",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-valmanway-1",
@@ -4380,7 +4621,10 @@
       "stats": null,
       "dropLocation": "Chapter 9 (Lord of the Flies) Hard Mode boss (Beelzebub) chest; usable by Soma and Alucard",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Kaiser Knuckle. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/57/Kaiser_Knuckle_HD_Icon.png/revision/latest?cb=20191011203115"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/57/Kaiser_Knuckle_HD_Icon.png/revision/latest?cb=20191011203115",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-alucard-sword-1",
@@ -4398,7 +4642,8 @@
       "stats": "Highest ATK of any weapon in the game (exact number not confirmed); deals Holy damage, unique to Soma",
       "dropLocation": "Chapter 10 (Origins) Hard Mode boss chest",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Claimh Solais. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Claimh_Solais_DoS_Icon.png/revision/latest?cb=20171005162624"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0a/Claimh_Solais_DoS_Icon.png/revision/latest?cb=20171005162624",
+      "handedness": "2h"
     },
     {
       "id": "katanas-yasutsuna-1",
@@ -4407,7 +4652,10 @@
       "stats": "ATK +2 over base Yasutsuna only (much smaller bonus than typical +1 gear, which players report is usually around +20); attack speed same as the original (non-upgraded) Yasutsuna",
       "dropLocation": "Chapter 11 (The Legend of Fuma) Hard Mode boss (Ryu Kokki / \"Ryukotsuki\") chest",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Yasutsuna. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Yasutsuna_Icon.png/revision/latest?cb=20150813224615"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Yasutsuna_Icon.png/revision/latest?cb=20150813224615",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "katanas-muramasa-1",
@@ -4416,7 +4664,10 @@
       "stats": "Described by players as the strongest katana in the game",
       "dropLocation": "Chapter 11 (The Legend of Fuma) Hard Mode boss (Ryu Kokki) chest",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Muramasa. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Muramasa_Icon.png/revision/latest?cb=20150829184203"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Muramasa_Icon.png/revision/latest?cb=20150829184203",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-pulse-blade",
