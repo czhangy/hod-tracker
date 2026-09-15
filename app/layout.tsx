@@ -14,7 +14,7 @@ const cinzel = Cinzel({
 });
 
 export const metadata: Metadata = {
-  title: "HoD Tracker",
+  title: "Castlevania HD Tracker",
   description: "Castlevania: Harmony of Despair 100% completion tracker",
 };
 

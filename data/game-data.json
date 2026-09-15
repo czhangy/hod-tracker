@@ -3858,7 +3858,7 @@
       "stats": "ATK +8",
       "dropLocation": "Axe Knight",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c7/AxeLord_Shield_Icon.png/revision/latest?cb=20150829191415",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/91/Axe_DoS_%26_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20171005162452",
       "handedness": "2h"
     },
     {
@@ -4612,7 +4612,10 @@
       "stats": "ATK +6 over base Valmanway (still hits 4 times per attack button press, same as base)",
       "dropLocation": "Hard Mode Dracula, Gold Chest (Soma/Alucard only)",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Valmanway. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/28/Valmanway_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224613"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/28/Valmanway_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224613",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-kaiser-knuckle-1",
@@ -4633,7 +4636,10 @@
       "stats": "Faster swing speed than base version; retains the same unique special attack",
       "dropLocation": "Chapter 9 Hard Mode boss chest (Alucard-exclusive weapon)",
       "notes": "Rare Hard Mode boss gold-chest upgrade of Alucard Sword. Sourced secondhand from community threads (castlevaniacrypt.com does not list +1 items) — verify in-game if possible.",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/05/Alucard_Sword_Icon.png/revision/latest?cb=20150823045731"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/05/Alucard_Sword_Icon.png/revision/latest?cb=20150823045731",
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "greatSwords-claimh-solais-1",
