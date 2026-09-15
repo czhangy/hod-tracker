@@ -4352,6 +4352,144 @@
       "dropLocation": "Shop ($120,000)",
       "levelable": true,
       "maxLevel": 9
+    },
+    {
+      "id": "dualCrushes-aura-blast",
+      "name": "Aura Blast",
+      "slot": "dualCrushes",
+      "stats": null,
+      "dropLocation": "Innate (co-op combo attack)",
+      "notes": "Character pairing: Soma/Alucard/Maria + self, or Maria + Soma/Alucard/Jonathan/Julius/Richter, or Simon/Fuma + anyone"
+    },
+    {
+      "id": "dualCrushes-demonic-megiddo",
+      "name": "Demonic Megiddo",
+      "slot": "dualCrushes",
+      "stats": null,
+      "dropLocation": "Innate (co-op combo attack)",
+      "notes": "Character pairing: Soma + Alucard"
+    },
+    {
+      "id": "dualCrushes-blood-cross",
+      "name": "Blood Cross",
+      "slot": "dualCrushes",
+      "stats": null,
+      "dropLocation": "Innate (co-op combo attack)",
+      "notes": "Character pairing: Soma/Alucard + Jonathan/Julius/Richter"
+    },
+    {
+      "id": "dualCrushes-cocytus",
+      "name": "Cocytus",
+      "slot": "dualCrushes",
+      "stats": null,
+      "dropLocation": "Innate (co-op combo attack)",
+      "notes": "Character pairing: Shanoa + most others, or Soma/Alucard/Maria + Shanoa"
+    },
+    {
+      "id": "dualCrushes-phlegeton",
+      "name": "Phlegeton",
+      "slot": "dualCrushes",
+      "stats": null,
+      "dropLocation": "Innate (co-op combo attack)",
+      "notes": "Character pairing: Charlotte + most others, or Soma/Alucard/Maria + Charlotte"
+    },
+    {
+      "id": "dualCrushes-thor-s-hammer",
+      "name": "Thor's Hammer",
+      "slot": "dualCrushes",
+      "stats": null,
+      "dropLocation": "Innate (co-op combo attack)",
+      "notes": "Character pairing: Yoko + most others, or Soma/Alucard/Maria + Yoko"
+    },
+    {
+      "id": "dualCrushes-holy-cross",
+      "name": "Holy Cross",
+      "slot": "dualCrushes",
+      "stats": null,
+      "dropLocation": "Innate (co-op combo attack)",
+      "notes": "Character pairing: Jonathan/Julius/Richter + each other"
+    },
+    {
+      "id": "dualCrushes-thunder-cross",
+      "name": "Thunder Cross",
+      "slot": "dualCrushes",
+      "stats": null,
+      "dropLocation": "Innate (co-op combo attack)",
+      "notes": "Character pairing: Jonathan/Julius/Richter + Shanoa/Yoko/Charlotte (except Jonathan+Charlotte)"
+    },
+    {
+      "id": "dualCrushes-1-000-blades",
+      "name": "1,000 Blades",
+      "slot": "dualCrushes",
+      "stats": null,
+      "dropLocation": "Innate (co-op combo attack)",
+      "notes": "Character pairing: Jonathan + Charlotte"
+    },
+    {
+      "id": "cloaks-simon-s-cloak",
+      "name": "Simon's Cloak",
+      "slot": "cloaks",
+      "stats": "HP +50, DEF +8, STR +3, MND +3",
+      "dropLocation": "Chapter 8 (Hard)",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/40/Simon%27s_Cloak_Icon.png/revision/latest?cb=20191012084208"
+    },
+    {
+      "id": "cloaks-retro-cloak",
+      "name": "Retro Cloak",
+      "slot": "cloaks",
+      "stats": "HP +12, MP +12, DEF +6, STR +3, INT +2, LCK +2",
+      "dropLocation": "Chapter 10",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7b/Retro_Cloak_Icon.png/revision/latest?cb=20191012084351"
+    },
+    {
+      "id": "cloaks-benten-raiment",
+      "name": "Benten Raiment",
+      "slot": "cloaks",
+      "stats": "MP +15, DEF +5, LCK +5",
+      "dropLocation": "Chapter 9 (Hard) - Purple Chest & Boss",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7e/Benten_Raiment_Icon.png/revision/latest?cb=20191012084506"
+    },
+    {
+      "id": "cloaks-daikoku-raiment",
+      "name": "Daikoku Raiment",
+      "slot": "cloaks",
+      "stats": "HP +15, DEF +5, LCK +5",
+      "dropLocation": "Chapter 9",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/94/Daikoku_Raiment_Icon.png/revision/latest?cb=20191012084652"
+    },
+    {
+      "id": "cloaks-bishamon-raiment",
+      "name": "Bishamon Raiment",
+      "slot": "cloaks",
+      "stats": "DEF +1, LCK +5",
+      "dropLocation": "Chapter 11 (Hard) - Purple Chest & Boss",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/0f/Bishamon_Raiment_Icon.png/revision/latest?cb=20191012084817"
+    },
+    {
+      "id": "cloaks-ebisu-raiment",
+      "name": "Ebisu Raiment",
+      "slot": "cloaks",
+      "stats": "DEF +1, LCK +5",
+      "dropLocation": "Chapter 11",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9f/Ebisu_Raiment_Icon.png/revision/latest?cb=20191012085048"
+    },
+    {
+      "id": "otherWeapons-vampire-killer-simon",
+      "name": "Vampire Killer (Simon)",
+      "slot": "otherWeapons",
+      "stats": "ATK +10",
+      "dropLocation": "Starts with (Simon)"
+    },
+    {
+      "id": "medicine-philosophers-stone",
+      "name": "Philosopher's Stone",
+      "slot": "medicine",
+      "stats": null,
+      "dropLocation": "Chapter 9 - boss only",
+      "notes": "Heals for 50 MP, reusable (not consumed). Used by Yoko and Maria. Effect increases by collecting up to 9.",
+      "levelable": true,
+      "maxLevel": 9,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/60/Philosophers_stone.PNG/revision/latest?cb=20191012090126"
     }
   ]
 }

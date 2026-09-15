@@ -24,7 +24,9 @@ export type ItemSlot =
   | "glyphs"
   | "scrolls"
   | "martialArts"
-  | "personalSkills";
+  | "personalSkills"
+  | "dualCrushes"
+  | "medicine";
 
 export type Handedness = "1h" | "2h";
 

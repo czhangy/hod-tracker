@@ -28,6 +28,8 @@ const SLOT_LABELS: Record<string, string> = {
   scrolls: "Dark Magic Scroll (Charlotte)",
   martialArts: "Martial Art",
   personalSkills: "Personal Skill",
+  dualCrushes: "Dual Crush",
+  medicine: "Unique Medicine",
 };
 
 export function ItemDetailPanel({
@@ -83,6 +85,14 @@ export function ItemDetailPanel({
             {item.dropLocation ?? <span className="text-neutral-600">Unknown</span>}
           </dd>
         </div>
+        {item.notes && (
+          <div>
+            <dt className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+              Notes
+            </dt>
+            <dd className="mt-0.5 text-neutral-300">{item.notes}</dd>
+          </div>
+        )}
       </dl>
 
       {item.levelable ? (

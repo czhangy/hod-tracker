@@ -35,6 +35,8 @@ const SLOT_LABELS: Record<ItemSlot, string> = {
   scrolls: "Dark Magic Scrolls (Charlotte)",
   martialArts: "Martial Arts",
   personalSkills: "Personal Skills",
+  dualCrushes: "Dual Crushes",
+  medicine: "Unique Medicine",
 };
 
 const SLOT_ORDER: ItemSlot[] = [
@@ -61,6 +63,8 @@ const SLOT_ORDER: ItemSlot[] = [
   "scrolls",
   "martialArts",
   "personalSkills",
+  "dualCrushes",
+  "medicine",
   "soulsBlue",
   "soulsRed",
   "soulsYellow",
