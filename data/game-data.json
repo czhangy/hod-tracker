@@ -3614,7 +3614,8 @@
       "slot": "cestuses",
       "stats": "ATK +11",
       "dropLocation": "Chapter 1",
-      "notes": "Used by: Alucard"
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b7/Knuckle_Duster_Icon.png/revision/latest?cb=20150829185532"
     },
     {
       "id": "cestuses-brass-knuckles",
@@ -3784,7 +3785,8 @@
       "slot": "daggers",
       "stats": "ATK +5",
       "dropLocation": "Chapter 2",
-      "notes": "Used by: Alucard"
+      "notes": "Used by: Alucard",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6e/Knife_DoS_Icon.png/revision/latest?cb=20171005163037"
     },
     {
       "id": "daggers-knife",
