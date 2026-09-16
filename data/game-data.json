@@ -1662,7 +1662,7 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/22/Curse_Sealing_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052644",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/02/Blessed_Ring_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811173813",
       "levelable": true,
       "maxLevel": 2
     },
@@ -1782,7 +1782,7 @@
       "slot": "accessories",
       "stats": "None",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/46/Purity_Ring.png/revision/latest/scale-to-width-down/120?cb=20141005052648",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/01/Immunity_Ring_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811174443",
       "levelable": true,
       "maxLevel": 2
     },
@@ -1942,7 +1942,7 @@
       "slot": "accessories",
       "stats": "DEF +1, CON +5",
       "dropLocation": "Chapter 5, 6 - Hard",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8c/Rosary_SOTN_DXC_Icon.png/revision/latest?cb=20171009200254",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/aa/Rosary_DoS_Icon.png/revision/latest/scale-to-width-down/50?cb=20171005163315",
       "levelable": true,
       "maxLevel": 2
     },
@@ -2188,7 +2188,7 @@
       "slot": "swords",
       "stats": "ATK +9",
       "dropLocation": "Shop, Chapter 3-6",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/87/Broadsword.png/revision/latest/scale-to-width-down/120?cb=20140706115440",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3b/Broadsword_Icon.png/revision/latest/scale-to-width-down/50?cb=20170329114627",
       "handedness": "1h",
       "levelable": true,
       "maxLevel": 2
