@@ -726,7 +726,7 @@
       "slot": "armor",
       "stats": "DEF +12",
       "dropLocation": "Chapter 2 - Hard, Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/33/Silver_Plate_Icon.png/revision/latest?cb=20150302041347"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/97/Silver_Plate_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811175157"
     },
     {
       "id": "armor-simon-s-plate",
@@ -766,7 +766,7 @@
       "slot": "armor",
       "stats": "DEF +1",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d9/Tailcoat_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811175333"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ca/Casual_Clothes_DoS_Icon.png/revision/latest/scale-to-width-down/50?cb=20171005162622"
     },
     {
       "id": "armor-three-7s",
@@ -1070,7 +1070,7 @@
       "slot": "headGear",
       "stats": "DEF +3",
       "dropLocation": "Shop",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a1/Sunglasses_Icon.png/revision/latest?cb=20150325034319"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7e/Sunglasses_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811175331"
     },
     {
       "id": "headGear-thick-glasses",
@@ -4236,7 +4236,7 @@
       "stats": "ATK +25",
       "dropLocation": "Shop",
       "notes": "Used by: Soma",
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/78/Kunitsuna_DoS_Icon.png/revision/latest?cb=20171005163040",
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8d/Katana_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829184330",
       "handedness": "1h"
     },
     {
