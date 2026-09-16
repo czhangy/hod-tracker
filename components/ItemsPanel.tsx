@@ -1,12 +1,14 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { data } from "@/lib/data";
 import { isItemObtained, itemProgressUnits, itemStats } from "@/lib/useProgress";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
 import { ItemIcon } from "./ItemIcon";
 import { ItemDetailPanel } from "./ItemDetailPanel";
+
+const HIDE_OBTAINED_KEY = "hod-tracker-hide-obtained";
 
 const SLOT_LABELS: Record<ItemSlot, string> = {
   swords: "Swords",
@@ -135,9 +137,24 @@ export function ItemsPanel({
   onAdjustItemCount: (itemId: string, delta: number) => void;
 }) {
   const [filter, setFilter] = useState("");
-  const [hideObtained, setHideObtained] = useState(false);
+  const [hideObtained, setHideObtained] = useState(() => {
+    if (typeof window === "undefined") return false;
+    try {
+      return window.localStorage.getItem(HIDE_OBTAINED_KEY) === "true";
+    } catch {
+      return false;
+    }
+  });
   const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
   const stats = itemStats(progress);
+
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(HIDE_OBTAINED_KEY, String(hideObtained));
+    } catch {
+      // localStorage unavailable - fail silently
+    }
+  }, [hideObtained]);
 
   const groups = useMemo(() => {
     const q = filter.trim().toLowerCase();
