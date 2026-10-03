@@ -2151,7 +2151,9 @@
       "slot": "swords",
       "dropLocation": "Chapter 6 - Hard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Crissaegrim_-_Heaven_Sword_-_Vorpal_Blade_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829183743",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-vorpal-blade",
@@ -3856,7 +3858,9 @@
       "slot": "swords",
       "dropLocation": "Hard Mode Dracula, Gold Chest (Soma/Alucard only)",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Crissaegrim_-_Heaven_Sword_-_Vorpal_Blade_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829183743",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "cestuses-kaiser-knuckle-1",
@@ -3864,7 +3868,9 @@
       "slot": "cestuses",
       "dropLocation": "Chapter 9 (Lord of the Flies) Hard Mode boss (Beelzebub) chest; usable by Soma and Alucard",
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/57/Kaiser_Knuckle_HD_Icon.png/revision/latest?cb=20191011203115",
-      "handedness": "1h"
+      "handedness": "1h",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "swords-alucard-sword-1",
