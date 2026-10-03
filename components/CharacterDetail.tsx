@@ -2,7 +2,7 @@
 
 import { data } from "@/lib/data";
 import { characterChapterStats } from "@/lib/useProgress";
-import type { Difficulty, ProgressState } from "@/lib/types";
+import type { ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
 import { CharacterAvatar } from "./CharacterAvatar";
 
@@ -13,15 +13,14 @@ export function CharacterDetail({
 }: {
   characterId: string;
   progress: ProgressState;
-  onToggleChapter: (characterId: string, chapterId: string, difficulty: Difficulty) => void;
+  onToggleChapter: (characterId: string, chapterId: string) => void;
 }) {
   const character = data.characters.find((c) => c.id === characterId);
   const stats = characterChapterStats(progress, characterId);
 
   if (!character) return null;
 
-  const clearedNormal = progress.chapterClears[characterId] ?? {};
-  const clearedHard = progress.chapterClearsHard[characterId] ?? {};
+  const cleared = progress.chapterClears[characterId] ?? {};
 
   return (
     <div className="flex-1 space-y-8">
@@ -48,15 +47,9 @@ export function CharacterDetail({
       </header>
 
       <section className="space-y-3">
-        <div className="flex items-center justify-between">
-          <h3 className="text-sm font-semibold uppercase tracking-wide text-neutral-400">
-            Chapter Clears
-          </h3>
-          <span className="text-xs tabular-nums text-neutral-600">
-            Normal {stats.normalDone}/{stats.chapterCount} · Hard {stats.hardDone}/
-            {stats.chapterCount}
-          </span>
-        </div>
+        <h3 className="text-sm font-semibold uppercase tracking-wide text-neutral-400">
+          Chapter Clears
+        </h3>
         <ul className="grid grid-cols-1 gap-1.5 sm:grid-cols-2">
           {data.chapters.map((chapter) => (
             <li key={chapter.id}>
@@ -69,24 +62,12 @@ export function CharacterDetail({
                     DLC
                   </span>
                 )}
-                <label className="flex shrink-0 cursor-pointer items-center gap-1 text-[11px] text-neutral-500">
-                  <input
-                    type="checkbox"
-                    checked={Boolean(clearedNormal[chapter.id])}
-                    onChange={() => onToggleChapter(characterId, chapter.id, "normal")}
-                    className="size-4 cursor-pointer"
-                  />
-                  N
-                </label>
-                <label className="flex shrink-0 cursor-pointer items-center gap-1 text-[11px] text-neutral-500">
-                  <input
-                    type="checkbox"
-                    checked={Boolean(clearedHard[chapter.id])}
-                    onChange={() => onToggleChapter(characterId, chapter.id, "hard")}
-                    className="size-4 cursor-pointer [--check-color:var(--color-amber-500)]"
-                  />
-                  H
-                </label>
+                <input
+                  type="checkbox"
+                  checked={Boolean(cleared[chapter.id])}
+                  onChange={() => onToggleChapter(characterId, chapter.id)}
+                  className="size-4 cursor-pointer"
+                />
               </div>
             </li>
           ))}

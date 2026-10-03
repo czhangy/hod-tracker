@@ -66,11 +66,10 @@ export interface GameData {
   items: Item[];
 }
 
-export type Difficulty = "normal" | "hard";
-
 /**
  * Persisted in localStorage.
- * chapterClears / chapterClearsHard: characterId -> chapterId -> cleared? (Normal / Hard Mode)
+ * chapterClears: characterId -> chapterId -> cleared? A chapter counts as cleared once it is
+ *   beaten on Hard Mode.
  * itemsObtained: itemId -> count owned. HoD's item stash is shared, not per-character.
  *   0/absent = not obtained. Non-levelable items only ever go to 1. Levelable items
  *   (see Item.levelable) can go higher as duplicates are collected.
@@ -78,10 +77,9 @@ export type Difficulty = "normal" | "hard";
 export interface ProgressState {
   version: 1;
   chapterClears: Record<string, Record<string, boolean>>;
-  chapterClearsHard: Record<string, Record<string, boolean>>;
   itemsObtained: Record<string, number>;
 }
 
 export function emptyProgress(): ProgressState {
-  return { version: 1, chapterClears: {}, chapterClearsHard: {}, itemsObtained: {} };
+  return { version: 1, chapterClears: {}, itemsObtained: {} };
 }

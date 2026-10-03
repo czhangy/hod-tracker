@@ -23,19 +23,14 @@ export function useProgress() {
   };
 }
 
-/** Each chapter counts for two slots per character: a Normal clear and a Hard Mode clear. */
+/** A chapter counts as cleared once it has been beaten on Hard Mode. */
 export function characterChapterStats(progress: ProgressState, characterId: string) {
-  const chapterCount = data.chapters.length;
-  const chapterTotal = chapterCount * 2;
-  const normalDone = Object.values(progress.chapterClears[characterId] ?? {}).filter(
+  const chapterTotal = data.chapters.length;
+  const chapterDone = Object.values(progress.chapterClears[characterId] ?? {}).filter(
     Boolean
   ).length;
-  const hardDone = Object.values(progress.chapterClearsHard[characterId] ?? {}).filter(
-    Boolean
-  ).length;
-  const chapterDone = normalDone + hardDone;
   const percent = chapterTotal === 0 ? 0 : Math.round((chapterDone / chapterTotal) * 100);
-  return { chapterTotal, chapterDone, normalDone, hardDone, chapterCount, percent };
+  return { chapterTotal, chapterDone, percent };
 }
 
 /**

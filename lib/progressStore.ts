@@ -1,11 +1,10 @@
 import { data } from "@/lib/data";
-import type { Difficulty, ProgressState } from "@/lib/types";
+import type { ProgressState } from "@/lib/types";
 
 const STORAGE_KEY = "hod-tracker-progress";
 const EMPTY_STATE: ProgressState = {
   version: 1,
   chapterClears: {},
-  chapterClearsHard: {},
   itemsObtained: {},
 };
 
@@ -34,8 +33,9 @@ function readFromStorage(): ProgressState {
     if (parsed?.version !== 1) return EMPTY_STATE;
     return {
       version: 1,
-      chapterClears: parsed.chapterClears ?? {},
-      chapterClearsHard: parsed.chapterClearsHard ?? {},
+      // Older saves tracked Normal (chapterClears) and Hard (chapterClearsHard) separately;
+      // a chapter is now cleared only when beaten on Hard, so carry the Hard clears over.
+      chapterClears: parsed.chapterClearsHard ?? parsed.chapterClears ?? {},
       itemsObtained: migrateItemsObtained(parsed.itemsObtained),
     };
   } catch {
@@ -78,14 +78,13 @@ export function getServerSnapshot(): ProgressState {
   return EMPTY_STATE;
 }
 
-export function toggleChapter(characterId: string, chapterId: string, difficulty: Difficulty) {
+export function toggleChapter(characterId: string, chapterId: string) {
   ensureInitialized();
-  const key = difficulty === "hard" ? "chapterClearsHard" : "chapterClears";
-  const characterChapters = { ...(state[key][characterId] ?? {}) };
+  const characterChapters = { ...(state.chapterClears[characterId] ?? {}) };
   characterChapters[chapterId] = !characterChapters[chapterId];
   commit({
     ...state,
-    [key]: { ...state[key], [characterId]: characterChapters },
+    chapterClears: { ...state.chapterClears, [characterId]: characterChapters },
   });
 }
 
