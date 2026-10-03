@@ -74,7 +74,7 @@ export function CharacterDetail({
                     type="checkbox"
                     checked={Boolean(clearedNormal[chapter.id])}
                     onChange={() => onToggleChapter(characterId, chapter.id, "normal")}
-                    className="size-4 cursor-pointer accent-red-600"
+                    className="size-4 cursor-pointer"
                   />
                   N
                 </label>
@@ -83,7 +83,7 @@ export function CharacterDetail({
                     type="checkbox"
                     checked={Boolean(clearedHard[chapter.id])}
                     onChange={() => onToggleChapter(characterId, chapter.id, "hard")}
-                    className="size-4 cursor-pointer accent-amber-500"
+                    className="size-4 cursor-pointer [--check-color:var(--color-amber-500)]"
                   />
                   H
                 </label>

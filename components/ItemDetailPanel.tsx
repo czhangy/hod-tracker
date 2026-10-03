@@ -83,10 +83,7 @@ export function ItemDetailPanel({
       {item.levelable ? (
         <div className="space-y-1.5">
           <p className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-            Copies Owned (Level)
-            {typeof item.maxLevel === "number" && (
-              <span className="ml-1.5 normal-case text-neutral-600">max {item.maxLevel}</span>
-            )}
+            Level
           </p>
           <div
             className={`flex items-center justify-center gap-4 rounded-md border py-2 ${
@@ -118,11 +115,6 @@ export function ItemDetailPanel({
               +
             </button>
           </div>
-          {typeof item.maxLevel === "number" && !obtained && (
-            <p className="text-center text-xs text-neutral-600">
-              Each copy counts toward 100% — fully maxes at {item.maxLevel}.
-            </p>
-          )}
         </div>
       ) : (
         <button

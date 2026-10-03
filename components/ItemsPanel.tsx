@@ -198,7 +198,7 @@ export function ItemsPanel({
             type="checkbox"
             checked={hideObtained}
             onChange={(e) => setHideObtained(e.target.checked)}
-            className="size-3.5 cursor-pointer accent-red-600"
+            className="size-3.5 cursor-pointer"
           />
           Hide obtained
         </label>
@@ -240,7 +240,7 @@ export function ItemsPanel({
                               type="checkbox"
                               checked={obtained}
                               onChange={() => onToggleItem(item.id)}
-                              className="size-4 shrink-0 cursor-pointer accent-red-600"
+                              className="size-4 shrink-0 cursor-pointer"
                             />
                           )}
                           <button
