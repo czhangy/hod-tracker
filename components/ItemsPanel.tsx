@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { data } from "@/lib/data";
-import { isItemObtained, itemProgressUnits, itemStats } from "@/lib/useProgress";
+import { isItemObtained, itemStats } from "@/lib/useProgress";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
 import { ItemIcon } from "./ItemIcon";
@@ -23,10 +23,10 @@ const SLOT_LABELS: Record<ItemSlot, string> = {
   otherWeapons: "Other Weapons",
   firearms: "Firearms",
   subWeapons: "Sub-Weapons",
-  armor: "Armor",
-  headGear: "Head Gear",
-  legProtection: "Leg Protection",
-  cloaks: "Cloaks",
+  armor: "Chest",
+  headGear: "Head",
+  legProtection: "Legs",
+  cloaks: "Back",
   shields: "Shields",
   accessories: "Accessories",
   soulsBlue: "Guardian Souls (Soma)",
@@ -49,23 +49,23 @@ const SLOT_ORDER: ItemSlot[] = [
   "lances",
   "cestuses",
   "cudgels",
-  "otherWeapons",
   "firearms",
-  "subWeapons",
-  "armor",
-  "headGear",
-  "legProtection",
-  "cloaks",
   "shields",
-  "accessories",
+  "otherWeapons",
+  "soulsBlue",
+  "soulsRed",
+  "soulsYellow",
+  "subWeapons",
   "spells",
   "glyphs",
   "scrolls",
   "martialArts",
   "personalSkills",
-  "soulsBlue",
-  "soulsRed",
-  "soulsYellow",
+  "headGear",
+  "armor",
+  "legProtection",
+  "cloaks",
+  "accessories",
 ];
 
 function groupBySlot(items: Item[]) {
@@ -207,20 +207,10 @@ export function ItemsPanel({
       <div className="flex flex-col gap-6 lg:flex-row">
         <div className="min-w-0 flex-[3] space-y-6">
           {groups.map(({ slot, items }) => {
-            let doneInSlot = 0;
-            let totalInSlot = 0;
-            for (const i of items) {
-              const { done, max } = itemProgressUnits(i, progress.itemsObtained[i.id] ?? 0);
-              doneInSlot += done;
-              totalInSlot += max;
-            }
             return (
               <div key={slot} className="space-y-1.5">
-                <h3 className="flex items-center justify-between text-xs font-semibold uppercase tracking-wide text-neutral-500">
-                  <span>{SLOT_LABELS[slot]}</span>
-                  <span className="tabular-nums text-neutral-600">
-                    {doneInSlot}/{totalInSlot}
-                  </span>
+                <h3 className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+                  {SLOT_LABELS[slot]}
                 </h3>
                 <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
                   {items.map((item) => {

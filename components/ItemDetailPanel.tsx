@@ -15,10 +15,10 @@ const SLOT_LABELS: Record<string, string> = {
   otherWeapons: "Other Weapon",
   firearms: "Firearm",
   subWeapons: "Sub-Weapon",
-  armor: "Armor",
-  headGear: "Head Gear",
-  legProtection: "Leg Protection",
-  cloaks: "Cloak",
+  armor: "Chest",
+  headGear: "Head",
+  legProtection: "Legs",
+  cloaks: "Back",
   shields: "Shield",
   accessories: "Accessory",
   soulsBlue: "Guardian Soul (Soma)",
@@ -72,28 +72,12 @@ export function ItemDetailPanel({
       <dl className="space-y-3 text-sm">
         <div>
           <dt className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-            Stats
-          </dt>
-          <dd className="mt-0.5 text-neutral-300">
-            {item.stats ?? <span className="text-neutral-600">Unknown</span>}
-          </dd>
-        </div>
-        <div>
-          <dt className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
             Drop Location
           </dt>
           <dd className="mt-0.5 text-neutral-300">
             {item.dropLocation ?? <span className="text-neutral-600">Unknown</span>}
           </dd>
         </div>
-        {item.notes && (
-          <div>
-            <dt className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-              Notes
-            </dt>
-            <dd className="mt-0.5 text-neutral-300">{item.notes}</dd>
-          </div>
-        )}
       </dl>
 
       {item.levelable ? (

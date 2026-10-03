@@ -32,8 +32,6 @@ export interface Item {
   id: string;
   name: string;
   slot: ItemSlot;
-  notes?: string;
-  stats?: string | null;
   dropLocation?: string | null;
   iconUrl?: string | null;
   /** Informational only: main-weapon items are 1- or 2-handed. */
