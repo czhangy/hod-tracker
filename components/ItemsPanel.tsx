@@ -5,6 +5,7 @@ import { data } from "@/lib/data";
 import { isItemObtained, itemStats } from "@/lib/useProgress";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
+import { CharacterAvatar } from "./CharacterAvatar";
 import { ItemIcon } from "./ItemIcon";
 import { ItemDetailPanel } from "./ItemDetailPanel";
 
@@ -141,6 +142,7 @@ export function ItemsPanel({
   onAdjustItemCount: (itemId: string, delta: number) => void;
 }) {
   const [filter, setFilter] = useState("");
+  const [characterId, setCharacterId] = useState<string | null>(null);
   const [hideObtained, setHideObtained] = useState(() => {
     if (typeof window === "undefined") return false;
     try {
@@ -164,12 +166,13 @@ export function ItemsPanel({
     const q = filter.trim().toLowerCase();
     const filtered = data.items.filter((item) => {
       if (q && !item.name.toLowerCase().includes(q)) return false;
+      if (characterId && !item.usableBy?.includes(characterId)) return false;
       if (hideObtained && isItemObtained(item, progress.itemsObtained[item.id] ?? 0))
         return false;
       return true;
     });
     return groupBySlot(filtered);
-  }, [filter, hideObtained, progress.itemsObtained]);
+  }, [filter, characterId, hideObtained, progress.itemsObtained]);
 
   const selectedItem = selectedItemId
     ? (data.items.find((i) => i.id === selectedItemId) ?? null)
@@ -206,6 +209,44 @@ export function ItemsPanel({
           />
           Hide obtained
         </label>
+      </div>
+
+      <div className="flex items-center gap-2">
+        <div className="flex flex-wrap gap-1.5" role="group" aria-label="Filter by character">
+          {data.characters.map((c) => {
+            const selected = c.id === characterId;
+            return (
+              <button
+                key={c.id}
+                type="button"
+                title={c.name}
+                aria-label={c.name}
+                aria-pressed={selected}
+                onClick={() => setCharacterId(c.id)}
+                className={`cursor-pointer rounded-md ring-2 transition-opacity ${
+                  selected
+                    ? "ring-red-600"
+                    : characterId
+                      ? "opacity-30 grayscale ring-transparent hover:opacity-70"
+                      : "ring-transparent hover:opacity-80"
+                }`}
+              >
+                <CharacterAvatar character={c} size={36} square />
+              </button>
+            );
+          })}
+        </div>
+        {characterId && (
+          <button
+            type="button"
+            onClick={() => setCharacterId(null)}
+            aria-label="Clear character filter"
+            title="Clear character filter"
+            className="flex size-7 cursor-pointer items-center justify-center rounded-md border border-neutral-700 text-sm text-neutral-400 hover:border-red-700 hover:text-red-400"
+          >
+            ×
+          </button>
+        )}
       </div>
 
       <div className="flex flex-col gap-6 lg:flex-row">
