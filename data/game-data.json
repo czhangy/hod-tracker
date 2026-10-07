@@ -140,6 +140,9 @@
       "id": "armor-alucard-mail",
       "name": "Alucard Mail",
       "slot": "armor",
+      "usableBy": [
+        "alucard"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -172,6 +175,14 @@
       "id": "armor-ancient-armor",
       "name": "Ancient Armor",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "enemyDrops": [
         "Death (Hard)"
       ],
@@ -181,6 +192,9 @@
       "id": "armor-aquarius",
       "name": "Aquarius",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -221,6 +235,14 @@
       "id": "armor-army-jacket",
       "name": "Army Jacket",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -265,6 +287,11 @@
       "id": "armor-bathrobe",
       "name": "Bathrobe",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -317,6 +344,14 @@
       "id": "armor-berserker-mail",
       "name": "Berserker Mail",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "enemyDrops": [
         "Death (Hard)",
         "R. The Creature"
@@ -327,6 +362,19 @@
       "id": "armor-biker-s-jacket",
       "name": "Biker's Jacket",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -359,6 +407,11 @@
       "id": "armor-breastplate",
       "name": "Breastplate",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -391,6 +444,11 @@
       "id": "armor-brilliant-mail",
       "name": "Brilliant Mail",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -423,6 +481,19 @@
       "id": "armor-casual-clothes",
       "name": "Casual Clothes",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "starterGear": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ca/Casual_Clothes_DoS_Icon.png/revision/latest?cb=20171005162622"
     },
@@ -430,6 +501,11 @@
       "id": "armor-chain-mail",
       "name": "Chain Mail",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -462,6 +538,19 @@
       "id": "armor-cloth-tunic",
       "name": "Cloth Tunic",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -486,6 +575,11 @@
       "id": "armor-clown-shirt",
       "name": "Clown Shirt",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -518,6 +612,11 @@
       "id": "armor-cocktail-dress",
       "name": "Cocktail Dress",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -550,6 +649,14 @@
       "id": "armor-copper-plate",
       "name": "Copper Plate",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -578,6 +685,12 @@
       "id": "armor-cotehardie",
       "name": "Cotehardie",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades",
+        "maria-renard"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -602,6 +715,11 @@
       "id": "armor-cotton-apron",
       "name": "Cotton Apron",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -630,6 +748,9 @@
       "id": "armor-crimson-mail",
       "name": "Crimson Mail",
       "slot": "armor",
+      "usableBy": [
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -650,6 +771,11 @@
       "id": "armor-cuirass",
       "name": "Cuirass",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -682,6 +808,11 @@
       "id": "armor-dalmatica",
       "name": "Dalmatica",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -722,6 +853,11 @@
       "id": "armor-dancer-s-blouse",
       "name": "Dancer's Blouse",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -766,6 +902,19 @@
       "id": "armor-death-s-robe",
       "name": "Death's Robe",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Death (Hard)",
         "R. Grim Reaper"
@@ -776,6 +925,11 @@
       "id": "armor-demon-s-mail",
       "name": "Demon's Mail",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -808,6 +962,14 @@
       "id": "armor-diamond-plate",
       "name": "Diamond Plate",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -844,6 +1006,10 @@
       "id": "armor-dracula-s-tunic",
       "name": "Dracula's Tunic",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard"
+      ],
       "enemyDrops": [
         "Dracula (Hard)"
       ],
@@ -853,6 +1019,11 @@
       "id": "armor-elfin-robe",
       "name": "Elfin Robe",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -905,6 +1076,11 @@
       "id": "armor-europa-s-dress",
       "name": "Europa's Dress",
       "slot": "armor",
+      "usableBy": [
+        "charlotte-aulin",
+        "maria-renard",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -937,6 +1113,9 @@
       "id": "armor-eversing",
       "name": "Eversing",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -957,6 +1136,19 @@
       "id": "armor-feather-gear",
       "name": "Feather Gear",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Brauner (Hard)"
       ],
@@ -966,6 +1158,14 @@
       "id": "armor-fire-mail",
       "name": "Fire Mail",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -986,6 +1186,11 @@
       "id": "armor-frilly-camisole",
       "name": "Frilly Camisole",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -1018,6 +1223,14 @@
       "id": "armor-fury-plate",
       "name": "Fury Plate",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -1050,6 +1263,19 @@
       "id": "armor-god-s-garb",
       "name": "God's Garb",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -1082,6 +1308,13 @@
       "id": "armor-gold-plate",
       "name": "Gold Plate",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -1122,6 +1355,19 @@
       "id": "armor-gym-clothes",
       "name": "Gym Clothes",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -1150,6 +1396,11 @@
       "id": "armor-hauberk",
       "name": "Hauberk",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -1182,6 +1433,12 @@
       "id": "armor-healing-mail",
       "name": "Healing Mail",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "enemyDrops": [
         "Puppet Master (Hard)",
         "Ryukotsuki (Normal)"
@@ -1192,6 +1449,14 @@
       "id": "armor-heavy-armor",
       "name": "Heavy Armor",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -1224,6 +1489,19 @@
       "id": "armor-hobo-s-clothes",
       "name": "Hobo's Clothes",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Zombie"
       ],
@@ -1233,6 +1511,14 @@
       "id": "armor-holy-mail",
       "name": "Holy Mail",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -1253,6 +1539,19 @@
       "id": "armor-houppelande",
       "name": "Houppelande",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -1281,6 +1580,14 @@
       "id": "armor-ice-mail",
       "name": "Ice Mail",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -1301,6 +1608,13 @@
       "id": "armor-impervious-mail",
       "name": "Impervious Mail",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "enemyDrops": [
         "Dracula (Hard)"
       ],
@@ -1310,6 +1624,13 @@
       "id": "armor-iron-plate",
       "name": "Iron Plate",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "enemyDrops": [
         "Dullahan"
       ],
@@ -1345,6 +1666,19 @@
       "id": "armor-justaucorps",
       "name": "Justaucorps",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -1377,6 +1711,19 @@
       "id": "armor-kalasiris",
       "name": "Kalasiris",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Astarte (Normal)"
       ],
@@ -1392,6 +1739,19 @@
       "id": "armor-kirtle",
       "name": "Kirtle",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -1420,6 +1780,11 @@
       "id": "armor-kung-fu-suit",
       "name": "Kung Fu Suit",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -1472,6 +1837,14 @@
       "id": "armor-leather-plate",
       "name": "Leather Plate",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -1500,6 +1873,14 @@
       "id": "armor-lightning-mail",
       "name": "Lightning Mail",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -1520,6 +1901,11 @@
       "id": "armor-lilith-corset",
       "name": "Lilith Corset",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -1572,6 +1958,11 @@
       "id": "armor-lorica",
       "name": "Lorica",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -1608,6 +1999,11 @@
       "id": "armor-mage-robe",
       "name": "Mage Robe",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -1660,6 +2056,12 @@
       "id": "armor-miko-dress",
       "name": "Miko Dress",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades",
+        "maria-renard"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -1700,6 +2102,9 @@
       "id": "armor-minerva-mail",
       "name": "Minerva Mail",
       "slot": "armor",
+      "usableBy": [
+        "shanoa"
+      ],
       "enemyDrops": [
         "Dracula (Hard)"
       ],
@@ -1709,6 +2114,14 @@
       "id": "armor-mirror-cuirass",
       "name": "Mirror Cuirass",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/6c/Mirror_Cuirass_OoE_Icon.png/revision/latest?cb=20150326042350"
     },
@@ -1716,6 +2129,14 @@
       "id": "armor-mojo-mail",
       "name": "Mojo Mail",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -1756,6 +2177,10 @@
       "id": "armor-ninja-suit",
       "name": "Ninja Suit",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -1800,6 +2225,11 @@
       "id": "armor-nun-s-robes",
       "name": "Nun's Robes",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/16/Nun%27s_Robe_PoR_Icon.png/revision/latest?cb=20150811174820"
     },
@@ -1807,6 +2237,10 @@
       "id": "armor-olrox-s-suit",
       "name": "Olrox's Suit",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard"
+      ],
       "enemyDrops": [
         "Brauner (Normal)"
       ],
@@ -1816,6 +2250,10 @@
       "id": "armor-pitch-black-suit",
       "name": "Pitch Black Suit",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -1860,6 +2298,14 @@
       "id": "armor-platinum-mail",
       "name": "Platinum Mail",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -1896,6 +2342,19 @@
       "id": "armor-poncho",
       "name": "Poncho",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -1928,6 +2387,12 @@
       "id": "armor-princess-coat",
       "name": "Princess Coat",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades",
+        "maria-renard"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -1964,6 +2429,12 @@
       "id": "armor-ring-mail",
       "name": "Ring Mail",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "enemyDrops": [
         "Final Guard"
       ],
@@ -2019,6 +2490,12 @@
       "id": "armor-robe-decollete",
       "name": "Robe Decollete",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades",
+        "maria-renard"
+      ],
       "enemyDrops": [
         "Astarte (Hard)"
       ],
@@ -2028,6 +2505,13 @@
       "id": "armor-samurai-plate",
       "name": "Samurai Plate",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -2068,6 +2552,11 @@
       "id": "armor-sapphire-corset",
       "name": "Sapphire Corset",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -2100,6 +2589,11 @@
       "id": "armor-scale-mail",
       "name": "Scale Mail",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -2132,6 +2626,13 @@
       "id": "armor-serenity-robe",
       "name": "Serenity Robe",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades",
+        "maria-renard"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -2168,6 +2669,11 @@
       "id": "armor-sequined-dress",
       "name": "Sequined Dress",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -2200,6 +2706,11 @@
       "id": "armor-silk-negligee",
       "name": "Silk Negligee",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -2252,6 +2763,11 @@
       "id": "armor-silk-robe",
       "name": "Silk Robe",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -2284,6 +2800,13 @@
       "id": "armor-silver-plate",
       "name": "Silver Plate",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -2336,6 +2859,12 @@
       "id": "armor-simon-s-plate",
       "name": "Simon's Plate",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "simon-belmont"
+      ],
       "enemyDrops": [
         "Dracula (Hard)",
         "Hellmont"
@@ -2346,6 +2875,11 @@
       "id": "armor-spiked-mail",
       "name": "Spiked Mail",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "enemyDrops": [
         "Gergoth (Hard)"
       ],
@@ -2355,6 +2889,13 @@
       "id": "armor-steel-plate",
       "name": "Steel Plate",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "enemyDrops": [
         "Disc Armor"
       ],
@@ -2402,6 +2943,19 @@
       "id": "armor-surcoat",
       "name": "Surcoat",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -2446,6 +3000,9 @@
       "id": "armor-tailcoat",
       "name": "Tailcoat",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/ca/Casual_Clothes_DoS_Icon.png/revision/latest/scale-to-width-down/50?cb=20171005162622"
     },
@@ -2453,6 +3010,19 @@
       "id": "armor-three-7s",
       "name": "Three 7s",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -2473,6 +3043,13 @@
       "id": "armor-tuxedo-coat",
       "name": "Tuxedo Coat",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -2505,6 +3082,9 @@
       "id": "armor-valkyrie-mail",
       "name": "Valkyrie Mail",
       "slot": "armor",
+      "usableBy": [
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -2541,6 +3121,19 @@
       "id": "armor-war-fatigues",
       "name": "War Fatigues",
       "slot": "armor",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -2573,6 +3166,12 @@
       "id": "armor-wedding-dress",
       "name": "Wedding Dress",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades",
+        "maria-renard"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -2593,6 +3192,11 @@
       "id": "armor-wyrm-robe",
       "name": "Wyrm Robe",
       "slot": "armor",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -3580,6 +4184,12 @@
       "id": "headGear-simon-s-bandana",
       "name": "Simon's Bandana",
       "slot": "headGear",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "simon-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -3708,6 +4318,19 @@
       "id": "headGear-skull-mask",
       "name": "Skull Mask",
       "slot": "headGear",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -3752,6 +4375,19 @@
       "id": "headGear-steel-helm",
       "name": "Steel Helm",
       "slot": "headGear",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -3776,6 +4412,19 @@
       "id": "headGear-stone-mask",
       "name": "Stone Mask",
       "slot": "headGear",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -3808,6 +4457,19 @@
       "id": "headGear-sunglasses",
       "name": "Sunglasses",
       "slot": "headGear",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/7e/Sunglasses_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811175331"
     },
@@ -3815,6 +4477,19 @@
       "id": "headGear-thick-glasses",
       "name": "Thick Glasses",
       "slot": "headGear",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Thick_Glasses_PoR_Icon.png/revision/latest?cb=20150811175334"
     },
@@ -3822,6 +4497,19 @@
       "id": "headGear-traveler-s-hat",
       "name": "Traveler's Hat",
       "slot": "headGear",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e5/Traveler%27s_Hat_PoR_Icon.png/revision/latest?cb=20150811175447"
     },
@@ -3829,6 +4517,19 @@
       "id": "headGear-uraeus",
       "name": "Uraeus",
       "slot": "headGear",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Astarte (Normal)"
       ],
@@ -3844,6 +4545,19 @@
       "id": "headGear-velvet-hat",
       "name": "Velvet Hat",
       "slot": "headGear",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -3872,6 +4586,12 @@
       "id": "headGear-velvet-ribbon",
       "name": "Velvet Ribbon",
       "slot": "headGear",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades",
+        "maria-renard"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -3900,6 +4620,13 @@
       "id": "headGear-viking-helmet",
       "name": "Viking Helmet",
       "slot": "headGear",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -3952,6 +4679,12 @@
       "id": "headGear-witch-s-hat",
       "name": "Witch's Hat",
       "slot": "headGear",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin",
+        "yoko-belnades",
+        "maria-renard"
+      ],
       "enemyDrops": [
         "Witch"
       ],
@@ -3961,6 +4694,10 @@
       "id": "legProtection-artemis-shoes",
       "name": "Artemis Shoes",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -3993,6 +4730,14 @@
       "id": "legProtection-combat-boots",
       "name": "Combat Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -4021,6 +4766,14 @@
       "id": "legProtection-combo-boots",
       "name": "Combo Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "enemyDrops": [
         "Gergoth (Hard)"
       ],
@@ -4030,6 +4783,9 @@
       "id": "legProtection-crimson-greaves",
       "name": "Crimson Greaves",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -4062,6 +4818,10 @@
       "id": "legProtection-diamond-shoes",
       "name": "Diamond Shoes",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -4082,6 +4842,10 @@
       "id": "legProtection-enamel-pinheels",
       "name": "Enamel Pinheels",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -4126,6 +4890,14 @@
       "id": "legProtection-engineer-boots",
       "name": "Engineer Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/af/Engineer_Boots_PoR_Icon.png/revision/latest?cb=20150811174102"
     },
@@ -4133,6 +4905,10 @@
       "id": "legProtection-glamorous-pumps",
       "name": "Glamorous Pumps",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -4165,6 +4941,10 @@
       "id": "legProtection-glass-shoes",
       "name": "Glass Shoes",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -4197,6 +4977,14 @@
       "id": "legProtection-gold-leggings",
       "name": "Gold Leggings",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -4229,6 +5017,14 @@
       "id": "legProtection-hiking-boots",
       "name": "Hiking Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -4253,6 +5049,19 @@
       "id": "legProtection-inuit-boots",
       "name": "Inuit Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -4285,6 +5094,14 @@
       "id": "legProtection-iron-leggings",
       "name": "Iron Leggings",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -4329,6 +5146,19 @@
       "id": "legProtection-mercury-boots",
       "name": "Mercury Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Dracula (Normal)",
         "Astarte (Normal)",
@@ -4341,6 +5171,9 @@
       "id": "legProtection-minerva-greaves",
       "name": "Minerva Greaves",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -4373,6 +5206,19 @@
       "id": "legProtection-moonwalkers",
       "name": "Moonwalkers",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Death (Normal)"
       ],
@@ -4382,6 +5228,10 @@
       "id": "legProtection-nun-s-shoes",
       "name": "Nun's Shoes",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -4434,6 +5284,19 @@
       "id": "legProtection-oxfords",
       "name": "Oxfords",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -4486,6 +5349,14 @@
       "id": "legProtection-platinum-leggings",
       "name": "Platinum Leggings",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -4522,6 +5393,10 @@
       "id": "legProtection-prima-shoes",
       "name": "Prima Shoes",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -4566,6 +5441,19 @@
       "id": "legProtection-royal-sandals",
       "name": "Royal Sandals",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -4586,6 +5474,10 @@
       "id": "legProtection-sabrina-shoes",
       "name": "Sabrina Shoes",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -4614,6 +5506,11 @@
       "id": "legProtection-samurai-leggings",
       "name": "Samurai Leggings",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -4654,6 +5551,19 @@
       "id": "legProtection-sandals",
       "name": "Sandals",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -4678,6 +5588,10 @@
       "id": "legProtection-silent-sandals",
       "name": "Silent Sandals",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -4702,6 +5616,14 @@
       "id": "legProtection-silver-leggings",
       "name": "Silver Leggings",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -4754,6 +5676,12 @@
       "id": "legProtection-simon-s-sandals",
       "name": "Simon's Sandals",
       "slot": "legProtection",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "simon-belmont"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -4786,6 +5714,12 @@
       "id": "legProtection-slick-boots",
       "name": "Slick Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "jonathan-morris",
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "enemyDrops": [
         "Menace (Normal)"
       ],
@@ -4795,6 +5729,14 @@
       "id": "legProtection-spiked-boots",
       "name": "Spiked Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "enemyDrops": [
         "Gergoth (Normal)"
       ],
@@ -4804,6 +5746,14 @@
       "id": "legProtection-steel-greaves",
       "name": "Steel Greaves",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -4836,6 +5786,10 @@
       "id": "legProtection-succubus-boots",
       "name": "Succubus Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "enemyDrops": [
         "Succubus"
       ],
@@ -4845,6 +5799,9 @@
       "id": "legProtection-valkyrie-greaves",
       "name": "Valkyrie Greaves",
       "slot": "legProtection",
+      "usableBy": [
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -4881,6 +5838,19 @@
       "id": "legProtection-winged-boots",
       "name": "Winged Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Dracula (Hard)",
         "Astarte (Hard)",
@@ -4892,6 +5862,19 @@
       "id": "legProtection-sonic-boots",
       "name": "Sonic Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Beelzebub (Hard)"
       ],
@@ -4901,6 +5884,14 @@
       "id": "legProtection-wingtips",
       "name": "Wingtips",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -4929,6 +5920,19 @@
       "id": "cloaks-assassin-s-cape",
       "name": "Assassin's Cape",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -4981,6 +5985,10 @@
       "id": "cloaks-black-cloak",
       "name": "Black Cloak",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -5013,6 +6021,19 @@
       "id": "cloaks-blood-cloak",
       "name": "Blood Cloak",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -5045,6 +6066,19 @@
       "id": "cloaks-blue-cape",
       "name": "Blue Cape",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -5089,6 +6123,19 @@
       "id": "cloaks-cape",
       "name": "Cape",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -5113,6 +6160,19 @@
       "id": "cloaks-cape-of-invisibility",
       "name": "Cape of Invisibility",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 2,
@@ -5133,6 +6193,19 @@
       "id": "cloaks-cloth-cape",
       "name": "Cloth Cape",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -5165,6 +6238,10 @@
       "id": "cloaks-crimson-cloak",
       "name": "Crimson Cloak",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -5201,6 +6278,20 @@
       "id": "cloaks-elven-cape",
       "name": "Elven Cape",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
+      "shop": true,
       "chestDrops": [
         {
           "chapter": 4,
@@ -5241,6 +6332,20 @@
       "id": "cloaks-hero-s-cape",
       "name": "Hero's Cape",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
+      "shop": true,
       "chestDrops": [
         {
           "chapter": 1,
@@ -5269,6 +6374,19 @@
       "id": "cloaks-holy-mantle",
       "name": "Holy Mantle",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -5289,6 +6407,19 @@
       "id": "cloaks-paludamentum",
       "name": "Paludamentum",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -5321,6 +6452,20 @@
       "id": "cloaks-traveler-cape",
       "name": "Traveler Cape",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
+      "shop": true,
       "chestDrops": [
         {
           "chapter": 6,
@@ -5757,6 +6902,10 @@
       "id": "accessories-abalone-brooch",
       "name": "Abalone Brooch",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/eb/Abalone_Brooch_Icon.png/revision/latest/scale-to-width-down/111?cb=20150811173657",
       "levelable": true,
@@ -5766,6 +6915,19 @@
       "id": "accessories-astral-brooch",
       "name": "Astral Brooch",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -5808,6 +6970,19 @@
       "id": "accessories-astral-ring",
       "name": "Astral Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -5850,6 +7025,19 @@
       "id": "accessories-blessed-ankh",
       "name": "Blessed Ankh",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -5876,6 +7064,19 @@
       "id": "accessories-blessed-ring",
       "name": "Blessed Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/02/Blessed_Ring_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811173813",
       "levelable": true,
@@ -5885,6 +7086,9 @@
       "id": "accessories-bloodstone",
       "name": "Bloodstone",
       "slot": "accessories",
+      "usableBy": [
+        "alucard"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -5923,6 +7127,19 @@
       "id": "accessories-bloody-stud",
       "name": "Bloody Stud",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -5969,6 +7186,19 @@
       "id": "accessories-chaos-ring",
       "name": "Chaos Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Menace (Hard)",
         "Ryukotsuki (Hard)"
@@ -5981,6 +7211,19 @@
       "id": "accessories-crystal-necklet",
       "name": "Crystal Necklet",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -6015,6 +7258,10 @@
       "id": "accessories-diamond-brooch",
       "name": "Diamond Brooch",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/00/Diamond_Brooch_Icon.png/revision/latest/scale-to-width-down/120?cb=20150811174059",
       "levelable": true,
@@ -6024,6 +7271,10 @@
       "id": "accessories-forget-me-not",
       "name": "Forget-Me-Not",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "enemyDrops": [
         "Persephone"
       ],
@@ -6073,6 +7324,19 @@
       "id": "accessories-gold-stud",
       "name": "Gold Stud",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -6107,6 +7371,19 @@
       "id": "accessories-heart-brooch",
       "name": "Heart Brooch",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Persephone"
       ],
@@ -6144,6 +7421,19 @@
       "id": "accessories-hercules-ring",
       "name": "Hercules Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Gergoth (Normal)"
       ],
@@ -6155,6 +7445,19 @@
       "id": "accessories-hoop-earring",
       "name": "Hoop Earring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -6181,6 +7484,19 @@
       "id": "accessories-immunity-ring",
       "name": "Immunity Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/01/Immunity_Ring_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150811174443",
       "levelable": true,
@@ -6190,6 +7506,10 @@
       "id": "accessories-laurel-brooch",
       "name": "Laurel Brooch",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -6220,6 +7540,19 @@
       "id": "accessories-lucky-charm",
       "name": "Lucky Charm",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a1/Lucky_Charm_AoS_Icon.png/revision/latest/scale-to-width-down/120?cb=20150813224320",
       "levelable": true,
@@ -6229,6 +7562,11 @@
       "id": "accessories-master-ring",
       "name": "Master Ring",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "jonathan-morris",
+        "julius-belmont"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8a/Master_Ring_OoE_Icon.png/revision/latest?cb=20150326042625",
       "levelable": true,
@@ -6238,6 +7576,19 @@
       "id": "accessories-megingiord",
       "name": "Megingiord",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -6272,6 +7623,19 @@
       "id": "accessories-miser-ring",
       "name": "Miser Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Astarte (Hard)"
       ],
@@ -6283,6 +7647,10 @@
       "id": "accessories-moon-brooch",
       "name": "Moon Brooch",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 4,
@@ -6325,6 +7693,19 @@
       "id": "accessories-moonstone",
       "name": "Moonstone",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -6367,6 +7748,19 @@
       "id": "accessories-neck-warmer",
       "name": "Neck Warmer",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -6397,6 +7791,10 @@
       "id": "accessories-orchid-corsage",
       "name": "Orchid Corsage",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b3/Orchid_Corsage_Icon.png/revision/latest?cb=20150811174821",
       "levelable": true,
@@ -6406,6 +7804,19 @@
       "id": "accessories-pearl-ring",
       "name": "Pearl Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -6440,6 +7851,19 @@
       "id": "accessories-pendant",
       "name": "Pendant",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -6466,6 +7890,19 @@
       "id": "accessories-platinum-chain",
       "name": "Platinum Chain",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -6488,6 +7925,19 @@
       "id": "accessories-platinum-stud",
       "name": "Platinum Stud",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 8,
@@ -6542,6 +7992,19 @@
       "id": "accessories-power-belt",
       "name": "Power Belt",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a6/Power_Belt_DoS_Icon.png/revision/latest?cb=20171005163311",
       "levelable": true,
@@ -6551,6 +8014,19 @@
       "id": "accessories-red-scarf",
       "name": "Red Scarf",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 9,
@@ -6585,6 +8061,11 @@
       "id": "accessories-rosary",
       "name": "Rosary",
       "slot": "accessories",
+      "usableBy": [
+        "jonathan-morris",
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -6623,6 +8104,10 @@
       "id": "accessories-rose-corsage",
       "name": "Rose Corsage",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -6653,6 +8138,19 @@
       "id": "accessories-sage-ring",
       "name": "Sage Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -6675,6 +8173,9 @@
       "id": "accessories-satans-ring",
       "name": "Satans Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz"
+      ],
       "enemyDrops": [
         "Dracula (Normal)",
         "R. The Count"
@@ -6687,6 +8188,19 @@
       "id": "accessories-scarf",
       "name": "Scarf",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -6717,6 +8231,19 @@
       "id": "accessories-silver-stud",
       "name": "Silver Stud",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -6751,6 +8278,19 @@
       "id": "accessories-skull-necklace",
       "name": "Skull Necklace",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -6797,6 +8337,19 @@
       "id": "accessories-skull-ring",
       "name": "Skull Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -6831,6 +8384,9 @@
       "id": "accessories-soul-eater-ring",
       "name": "Soul Eater Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a3/Soul_Eater_Ring_DoS_Icon.png/revision/latest?cb=20171005163426",
       "levelable": true,
@@ -6840,6 +8396,13 @@
       "id": "accessories-staurolite",
       "name": "Staurolite",
       "slot": "accessories",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -6858,6 +8421,19 @@
       "id": "accessories-studded-choker",
       "name": "Studded Choker",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -6904,6 +8480,19 @@
       "id": "accessories-sunstone",
       "name": "Sunstone",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -6946,6 +8535,9 @@
       "id": "accessories-tear-of-blood",
       "name": "Tear Of Blood",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -6984,6 +8576,19 @@
       "id": "accessories-thief-ring",
       "name": "Thief Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Puppet Master (Hard)",
         "Ryukotsuki (Normal)"
@@ -6996,6 +8601,19 @@
       "id": "accessories-tough-ring",
       "name": "Tough Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Gergoth (Hard)"
       ],
@@ -7007,6 +8625,19 @@
       "id": "accessories-turquoise-stud",
       "name": "Turquoise Stud",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "chestDrops": [
         {
           "chapter": 3,
@@ -7041,6 +8672,10 @@
       "id": "accessories-venus-brooch",
       "name": "Venus Brooch",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 6,
@@ -7075,6 +8710,10 @@
       "id": "accessories-white-corsage",
       "name": "White Corsage",
       "slot": "accessories",
+      "usableBy": [
+        "shanoa",
+        "charlotte-aulin"
+      ],
       "chestDrops": [
         {
           "chapter": 1,
@@ -8487,6 +10126,9 @@
       "id": "subWeapons-boomerang",
       "name": "Boomerang",
       "slot": "subWeapons",
+      "usableBy": [
+        "jonathan-morris"
+      ],
       "enemyDrops": [
         "Gurkha Master"
       ],
@@ -8991,7 +10633,8 @@
         "soma-cruz"
       ],
       "enemyDrops": [
-        "Dracula"
+        "Dracula",
+        "R. The Count"
       ],
       "levelable": true,
       "maxLevel": 9,
@@ -12692,6 +14335,13 @@
       "id": "armor-fuma-s-armor",
       "name": "Fuma's Armor",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Ryukotsuki (Hard)"
       ],
@@ -12707,6 +14357,9 @@
       "id": "legProtection-fuma-s-greaves",
       "name": "Fuma's Greaves",
       "slot": "legProtection",
+      "usableBy": [
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Ryukotsuki (Hard)"
       ],
@@ -12883,6 +14536,12 @@
       "id": "cloaks-simon-s-cloak",
       "name": "Simon's Cloak",
       "slot": "cloaks",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "simon-belmont"
+      ],
       "enemyDrops": [
         "Legion (Hard)"
       ],
@@ -12892,6 +14551,12 @@
       "id": "cloaks-retro-cloak",
       "name": "Retro Cloak",
       "slot": "cloaks",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "simon-belmont"
+      ],
       "enemyDrops": [
         "R. The Count (Normal)"
       ],
@@ -12901,6 +14566,19 @@
       "id": "cloaks-benten-raiment",
       "name": "Benten Raiment",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Beelzebub (Hard)"
       ],
@@ -12916,6 +14594,19 @@
       "id": "cloaks-daikoku-raiment",
       "name": "Daikoku Raiment",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Beelzebub (Normal)"
       ],
@@ -12925,6 +14616,19 @@
       "id": "cloaks-bishamon-raiment",
       "name": "Bishamon Raiment",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Ryukotsuki (Hard)"
       ],
@@ -12940,6 +14644,19 @@
       "id": "cloaks-ebisu-raiment",
       "name": "Ebisu Raiment",
       "slot": "cloaks",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Ryukotsuki (Normal)"
       ],
@@ -13629,6 +15346,9 @@
       "id": "headGear-valkyrie-mask",
       "name": "Valkyrie Mask",
       "slot": "headGear",
+      "usableBy": [
+        "shanoa"
+      ],
       "chestDrops": [
         {
           "chapter": 5,
@@ -13920,6 +15640,19 @@
       "id": "legProtection-slide-boots",
       "name": "Slide Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Legion (Normal)"
       ],
@@ -13929,6 +15662,12 @@
       "id": "legProtection-retro-boots",
       "name": "Retro Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "simon-belmont"
+      ],
       "enemyDrops": [
         "R. The Count (Hard)"
       ],
@@ -13938,6 +15677,19 @@
       "id": "legProtection-feather-boots",
       "name": "Feather Boots",
       "slot": "legProtection",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "R. The Count (Hard)"
       ],
@@ -13947,6 +15699,12 @@
       "id": "armor-retro-armor",
       "name": "Retro Armor",
       "slot": "armor",
+      "usableBy": [
+        "jonathan-morris",
+        "julius-belmont",
+        "richter-belmont",
+        "simon-belmont"
+      ],
       "enemyDrops": [
         "R. The Count (Hard)"
       ],
@@ -13956,6 +15714,19 @@
       "id": "accessories-gold-ring",
       "name": "Gold Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Brauner (Normal)"
       ],
@@ -13967,6 +15738,19 @@
       "id": "accessories-artemisian-ring",
       "name": "Artemisian Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Legion (Normal)"
       ],
@@ -13984,6 +15768,19 @@
       "id": "accessories-apollonian-ring",
       "name": "Apollonian Ring",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Legion (Normal)"
       ],
@@ -14001,6 +15798,19 @@
       "id": "accessories-flame-necklace",
       "name": "Flame Necklace",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/7/73/Flame_Necklace_DoS_Icon.png/revision/latest?cb=20171005162749",
       "levelable": true,
@@ -14010,6 +15820,19 @@
       "id": "accessories-black-belt",
       "name": "Black Belt",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "shop": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/86/Black_Belt_DoS_Icon.png/revision/latest?cb=20171005162457",
       "levelable": true,
@@ -14019,6 +15842,19 @@
       "id": "accessories-fools-tablet",
       "name": "Fool's Tablet",
       "slot": "accessories",
+      "usableBy": [
+        "soma-cruz",
+        "alucard",
+        "jonathan-morris",
+        "charlotte-aulin",
+        "shanoa",
+        "julius-belmont",
+        "yoko-belnades",
+        "richter-belmont",
+        "maria-renard",
+        "simon-belmont",
+        "getsu-fuma"
+      ],
       "enemyDrops": [
         "Beelzebub (Normal)"
       ],
