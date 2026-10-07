@@ -22,17 +22,39 @@ export type ItemSlot =
   | "soulsYellow"
   | "spells"
   | "glyphs"
-  | "scrolls"
+  | "boundSpells"
+  | "yokoSpells"
   | "martialArts"
   | "personalSkills";
 
 export type Handedness = "1h" | "2h";
 
+export const DIFFICULTIES = ["Normal", "Hard"] as const;
+export type Difficulty = (typeof DIFFICULTIES)[number];
+
+/** A chest that can drop an item: which chapter and difficulty it's in. */
+export interface ChestDrop {
+  chapter: number;
+  /** Unset when not known (or when the chest appears on every difficulty). */
+  difficulty?: Difficulty | null;
+}
+
 export interface Item {
   id: string;
   name: string;
   slot: ItemSlot;
-  dropLocation?: string | null;
+  /** Sorts this item ahead of the rest of its section (still alphabetical among pinned items). */
+  listFirst?: boolean;
+  /** Ids of the characters that can use this item. Unset/empty means none are known yet. */
+  usableBy?: string[] | null;
+  /** True for items the player starts with. */
+  starterGear?: boolean;
+  /** True for items that can be bought in the shop. */
+  shop?: boolean;
+  /** Enemy drops: the names of the enemies that drop this item. */
+  enemyDrops?: string[] | null;
+  /** Chest drops: every chest (chapter, difficulty, chest type) this item can come from. */
+  chestDrops?: ChestDrop[] | null;
   iconUrl?: string | null;
   /** Informational only: main-weapon items are 1- or 2-handed. */
   handedness?: Handedness | null;

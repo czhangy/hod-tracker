@@ -1,5 +1,7 @@
-import type { Item } from "@/lib/types";
+import { DIFFICULTIES, type ChestDrop, type Difficulty, type Item } from "@/lib/types";
 import { isItemObtained } from "@/lib/useProgress";
+import { data } from "@/lib/data";
+import { CharacterAvatar } from "./CharacterAvatar";
 import { ItemIcon } from "./ItemIcon";
 
 const SLOT_LABELS: Record<string, string> = {
@@ -26,7 +28,8 @@ const SLOT_LABELS: Record<string, string> = {
   soulsYellow: "Enchanted Soul (Soma)",
   spells: "Spell (Alucard)",
   glyphs: "Glyph (Shanoa)",
-  scrolls: "Dark Magic Scroll (Charlotte)",
+  boundSpells: "Bound Spell (Charlotte)",
+  yokoSpells: "Spell (Yoko)",
   martialArts: "Martial Art",
   personalSkills: "Personal Skill",
 };
@@ -52,6 +55,8 @@ export function ItemDetailPanel({
 
   const obtained = isItemObtained(item, count);
 
+  const chestLines = formatChestDrops(item.chestDrops ?? []);
+
   return (
     <div className="flex-1 space-y-4 rounded-lg border border-neutral-800 bg-neutral-900/40 p-5">
       <div className="flex items-start gap-3">
@@ -69,16 +74,42 @@ export function ItemDetailPanel({
         </div>
       </div>
 
-      <dl className="space-y-3 text-sm">
-        <div>
-          <dt className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-            Drop Location
-          </dt>
-          <dd className="mt-0.5 text-neutral-300">
-            {item.dropLocation ?? <span className="text-neutral-600">Unknown</span>}
-          </dd>
+      {(item.starterGear || item.shop || chestLines.length > 0 || item.enemyDrops?.length) && (
+        <dl className="space-y-3 text-sm">
+          {item.starterGear && (
+            <dt className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+              Starter Gear
+            </dt>
+          )}
+          {item.shop && (
+            <dt className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+              Shop
+            </dt>
+          )}
+          <DropField label="Enemy Drop" values={item.enemyDrops} />
+          <DropField label="Chapter" values={chestLines} />
+        </dl>
+      )}
+
+      <div className="space-y-1.5">
+        <p className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+          Usable By
+        </p>
+        <div className="flex flex-wrap gap-1.5">
+          {data.characters.map((c) => {
+            const usable = item.usableBy?.includes(c.id) ?? false;
+            return (
+              <div
+                key={c.id}
+                title={c.name}
+                className={usable ? "" : "opacity-30 grayscale"}
+              >
+                <CharacterAvatar character={c} size={36} square />
+              </div>
+            );
+          })}
         </div>
-      </dl>
+      </div>
 
       {item.levelable ? (
         <div className="space-y-1.5">
@@ -130,4 +161,33 @@ export function ItemDetailPanel({
       )}
     </div>
   );
+}
+
+function DropField({ label, values }: { label: string; values?: string[] | null }) {
+  if (!values?.length) return null;
+  return (
+    <div>
+      <dt className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
+        {label}
+      </dt>
+      <dd className="mt-0.5 text-neutral-300">
+        {values.map((v) => (
+          <div key={v}>{v}</div>
+        ))}
+      </dd>
+    </div>
+  );
+}
+
+/** One line per difficulty, e.g. "Normal: 3, 4" and "Hard: 4, 6". */
+function formatChestDrops(drops: ChestDrop[]): string[] {
+  const groups: (Difficulty | null)[] = [...DIFFICULTIES, null];
+  return groups.flatMap((difficulty) => {
+    const chapters = drops
+      .filter((d) => (d.difficulty ?? null) === difficulty)
+      .sort((a, b) => a.chapter - b.chapter)
+      .map((d) => `${d.chapter}`);
+    if (chapters.length === 0) return [];
+    return [`${difficulty ? `${difficulty}: ` : ""}${chapters.join(", ")}`];
+  });
 }

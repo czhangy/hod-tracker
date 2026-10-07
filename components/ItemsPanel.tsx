@@ -34,7 +34,8 @@ const SLOT_LABELS: Record<ItemSlot, string> = {
   soulsYellow: "Enchanted Souls (Soma)",
   spells: "Spells (Alucard)",
   glyphs: "Glyphs (Shanoa)",
-  scrolls: "Dark Magic Scrolls (Charlotte)",
+  boundSpells: "Bound Spells (Charlotte)",
+  yokoSpells: "Spells (Yoko)",
   martialArts: "Martial Arts",
   personalSkills: "Personal Skills",
 };
@@ -58,7 +59,8 @@ const SLOT_ORDER: ItemSlot[] = [
   "subWeapons",
   "spells",
   "glyphs",
-  "scrolls",
+  "boundSpells",
+  "yokoSpells",
   "martialArts",
   "personalSkills",
   "headGear",
@@ -77,7 +79,9 @@ function groupBySlot(items: Item[]) {
   }
   return SLOT_ORDER.filter((slot) => groups.has(slot)).map((slot) => ({
     slot,
-    items: groups.get(slot)!.sort((a, b) => a.name.localeCompare(b.name)),
+    items: groups
+      .get(slot)!
+      .sort((a, b) => Number(!!b.listFirst) - Number(!!a.listFirst) || a.name.localeCompare(b.name)),
   }));
 }
 
