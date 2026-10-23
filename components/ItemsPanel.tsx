@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { data } from "@/lib/data";
+import { usePersistedState } from "@/lib/usePersistedState";
 import { isItemObtained, itemStats } from "@/lib/useProgress";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
@@ -141,26 +142,20 @@ export function ItemsPanel({
   onToggleItem: (itemId: string) => void;
   onAdjustItemCount: (itemId: string, delta: number) => void;
 }) {
-  const [filter, setFilter] = useState("");
-  const [characterId, setCharacterId] = useState<string | null>(null);
-  const [hideObtained, setHideObtained] = useState(() => {
-    if (typeof window === "undefined") return false;
-    try {
-      return window.localStorage.getItem(HIDE_OBTAINED_KEY) === "true";
-    } catch {
-      return false;
-    }
-  });
+  const [filter, setFilter] = usePersistedState("hod-tracker-item-filter", "");
+  // "" means no character filter.
+  const [characterId, setCharacterId] = usePersistedState<string>(
+    "hod-tracker-item-character",
+    "",
+    (v) => data.characters.some((c) => c.id === v)
+  );
+  const [hideObtainedValue, setHideObtainedValue] = usePersistedState<string>(
+    HIDE_OBTAINED_KEY,
+    "false"
+  );
+  const hideObtained = hideObtainedValue === "true";
   const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
   const stats = itemStats(progress);
-
-  useEffect(() => {
-    try {
-      window.localStorage.setItem(HIDE_OBTAINED_KEY, String(hideObtained));
-    } catch {
-      // localStorage unavailable - fail silently
-    }
-  }, [hideObtained]);
 
   const groups = useMemo(() => {
     const q = filter.trim().toLowerCase();
@@ -204,7 +199,7 @@ export function ItemsPanel({
           <input
             type="checkbox"
             checked={hideObtained}
-            onChange={(e) => setHideObtained(e.target.checked)}
+            onChange={(e) => setHideObtainedValue(String(e.target.checked))}
             className="size-3.5 cursor-pointer"
           />
           Hide obtained
@@ -239,7 +234,7 @@ export function ItemsPanel({
         {characterId && (
           <button
             type="button"
-            onClick={() => setCharacterId(null)}
+            onClick={() => setCharacterId("")}
             aria-label="Clear character filter"
             title="Clear character filter"
             className="flex size-7 cursor-pointer items-center justify-center rounded-md border border-neutral-700 text-sm text-neutral-400 hover:border-red-700 hover:text-red-400"

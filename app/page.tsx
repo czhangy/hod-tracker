@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import { data } from "@/lib/data";
 import { useProgress } from "@/lib/useProgress";
+import { usePersistedState } from "@/lib/usePersistedState";
 import { OverallHeader } from "@/components/OverallHeader";
 import { Sidebar } from "@/components/Sidebar";
 import { CharacterDetail } from "@/components/CharacterDetail";
@@ -12,9 +12,15 @@ type Tab = "characters" | "items";
 
 export default function Home() {
   const { progress, toggleChapter, toggleItem, adjustItemCount } = useProgress();
-  const [tab, setTab] = useState<Tab>("characters");
-  const [selectedCharacterId, setSelectedCharacterId] = useState(
-    data.characters[0]?.id ?? ""
+  const [tab, setTab] = usePersistedState<Tab>(
+    "hod-tracker-tab",
+    "characters",
+    (v) => v === "characters" || v === "items"
+  );
+  const [selectedCharacterId, setSelectedCharacterId] = usePersistedState<string>(
+    "hod-tracker-character",
+    data.characters[0]?.id ?? "",
+    (v) => data.characters.some((c) => c.id === v)
   );
 
   return (
