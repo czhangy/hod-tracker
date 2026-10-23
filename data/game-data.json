@@ -9854,7 +9854,9 @@
       ],
       "starterGear": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
-      "handedness": null
+      "handedness": null,
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "otherWeapons-doves",
@@ -9931,7 +9933,9 @@
         "Astarte (Normal)"
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
-      "handedness": null
+      "handedness": null,
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "otherWeapons-nebula",
@@ -9994,7 +9998,9 @@
         "Astarte (Normal)"
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
-      "handedness": null
+      "handedness": null,
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "otherWeapons-tonfa",
@@ -11395,7 +11401,9 @@
         "shanoa"
       ],
       "starterGear": true,
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "glyphs-nitesco",
@@ -15334,7 +15342,9 @@
           "difficulty": "Hard"
         }
       ],
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "otherWeapons-sinestro-custos",
@@ -15353,7 +15363,9 @@
           "difficulty": "Hard"
         }
       ],
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
+      "levelable": true,
+      "maxLevel": 2
     },
     {
       "id": "scrolls-r-fireball",
