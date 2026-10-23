@@ -7,15 +7,16 @@ import { OverallHeader } from "@/components/OverallHeader";
 import { Sidebar } from "@/components/Sidebar";
 import { CharacterDetail } from "@/components/CharacterDetail";
 import { ItemsPanel } from "@/components/ItemsPanel";
+import { LevelingPanel } from "@/components/LevelingPanel";
 
-type Tab = "characters" | "items";
+type Tab = "characters" | "items" | "leveling";
 
 export default function Home() {
-  const { progress, toggleChapter, toggleItem, adjustItemCount } = useProgress();
+  const { progress, toggleChapter, toggleItem, adjustItemCount, adjustItemLevel } = useProgress();
   const [tab, setTab] = usePersistedState<Tab>(
     "hod-tracker-tab",
     "characters",
-    (v) => v === "characters" || v === "items"
+    (v) => v === "characters" || v === "items" || v === "leveling"
   );
   const [selectedCharacterId, setSelectedCharacterId] = usePersistedState<string>(
     "hod-tracker-character",
@@ -46,7 +47,17 @@ export default function Home() {
               : "text-neutral-500 hover:text-neutral-300"
           }`}
         >
-          Item Collection
+          Items
+        </button>
+        <button
+          onClick={() => setTab("leveling")}
+          className={`cursor-pointer rounded-md px-3 py-1.5 font-semibold tracking-wide ${
+            tab === "leveling"
+              ? "bg-red-950/50 text-red-400"
+              : "text-neutral-500 hover:text-neutral-300"
+          }`}
+        >
+          Leveling
         </button>
       </div>
 
@@ -70,6 +81,9 @@ export default function Home() {
           onToggleItem={toggleItem}
           onAdjustItemCount={adjustItemCount}
         />
+      )}
+      {tab === "leveling" && (
+        <LevelingPanel progress={progress} onAdjustItemLevel={adjustItemLevel} />
       )}
     </div>
   );

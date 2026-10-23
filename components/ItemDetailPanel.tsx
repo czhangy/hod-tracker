@@ -114,7 +114,7 @@ export function ItemDetailPanel({
       {item.levelable ? (
         <div className="space-y-1.5">
           <p className="text-xs font-semibold uppercase tracking-wide text-neutral-500">
-            Level
+            Copies
           </p>
           <div
             className={`flex items-center justify-center gap-4 rounded-md border py-2 ${

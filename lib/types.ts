@@ -65,6 +65,13 @@ export interface Item {
   levelable?: boolean;
   /** Max count/level for a levelable item, if known. Undefined/null means no known cap. */
   maxLevel?: number | null;
+  /**
+   * Set on items whose power can be leveled up, separately from how many copies are owned.
+   * The value is the highest level; the item shows up in the Leveling tab.
+   */
+  levelCap?: number | null;
+  /** Each character that can use this item levels it separately (e.g. sub-weapons). */
+  levelPerCharacter?: boolean;
 }
 
 export interface Character {
@@ -95,13 +102,16 @@ export interface GameData {
  * itemsObtained: itemId -> count owned. HoD's item stash is shared, not per-character.
  *   0/absent = not obtained. Non-levelable items only ever go to 1. Levelable items
  *   (see Item.levelable) can go higher as duplicates are collected.
+ * itemLevels: level key -> current level, for items with a levelCap. Absent = level 1. The
+ *   key is the item id, or "itemId:characterId" for levelPerCharacter items (see levelKey).
  */
 export interface ProgressState {
   version: 1;
   chapterClears: Record<string, Record<string, boolean>>;
   itemsObtained: Record<string, number>;
+  itemLevels: Record<string, number>;
 }
 
 export function emptyProgress(): ProgressState {
-  return { version: 1, chapterClears: {}, itemsObtained: {} };
+  return { version: 1, chapterClears: {}, itemsObtained: {}, itemLevels: {} };
 }

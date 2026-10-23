@@ -10,6 +10,7 @@ import {
   toggleChapter,
   toggleItem,
   adjustItemCount,
+  adjustItemLevel,
 } from "@/lib/progressStore";
 
 export function useProgress() {
@@ -20,6 +21,7 @@ export function useProgress() {
     toggleChapter,
     toggleItem,
     adjustItemCount,
+    adjustItemLevel,
   };
 }
 
@@ -44,6 +46,36 @@ export function isItemObtained(item: Item, count: number): boolean {
     return count >= item.maxLevel;
   }
   return count > 0;
+}
+
+/** One thing that has its own level: an item, or an item for one specific character. */
+export interface LevelEntry {
+  key: string;
+  item: Item;
+  /** Set for levelPerCharacter items. */
+  characterId: string | null;
+}
+
+/** Items that can be leveled up, tracked on the Leveling tab. */
+export const levelEntries: LevelEntry[] = data.items.flatMap((item): LevelEntry[] => {
+  if (typeof item.levelCap !== "number") return [];
+  if (!item.levelPerCharacter) return [{ key: item.id, item, characterId: null }];
+  return data.characters
+    .filter((c) => item.usableBy?.includes(c.id))
+    .map((c) => ({ key: `${item.id}:${c.id}`, item, characterId: c.id }));
+});
+
+/** Level progress counts from level 1, so a fresh item is 0% and a maxed one is 100%. */
+export function levelingStats(progress: ProgressState) {
+  let levelTotal = 0;
+  let levelDone = 0;
+  for (const { key, item } of levelEntries) {
+    const cap = item.levelCap as number;
+    levelTotal += cap - 1;
+    levelDone += Math.min(cap, progress.itemLevels[key] ?? 1) - 1;
+  }
+  const percent = levelTotal === 0 ? 0 : Math.round((levelDone / levelTotal) * 100);
+  return { levelTotal, levelDone, percent };
 }
 
 /**
@@ -79,8 +111,9 @@ export function overallStats(progress: ProgressState) {
     chapterDone += stats.chapterDone;
   }
   const items = itemStats(progress);
-  const total = chapterCells + items.itemTotal;
-  const done = chapterDone + items.itemDone;
+  const levels = levelingStats(progress);
+  const total = chapterCells + items.itemTotal + levels.levelTotal;
+  const done = chapterDone + items.itemDone + levels.levelDone;
   const percent = total === 0 ? 0 : Math.round((done / total) * 100);
-  return { total, done, percent, chapterCells, chapterDone, items };
+  return { total, done, percent, chapterCells, chapterDone, items, levels };
 }

@@ -6,6 +6,7 @@ const EMPTY_STATE: ProgressState = {
   version: 1,
   chapterClears: {},
   itemsObtained: {},
+  itemLevels: {},
 };
 
 type Listener = () => void;
@@ -19,7 +20,10 @@ function migrateItemsObtained(raw: unknown): Record<string, number> {
   if (!raw || typeof raw !== "object") return {};
   const out: Record<string, number> = {};
   for (const [itemId, value] of Object.entries(raw as Record<string, unknown>)) {
-    if (typeof value === "number") out[itemId] = value;
+    // Clamp in case a cap was lowered after the count was saved.
+    const maxLevel = data.items.find((i) => i.id === itemId)?.maxLevel;
+    const cap = typeof maxLevel === "number" ? maxLevel : Infinity;
+    if (typeof value === "number") out[itemId] = Math.min(value, cap);
     else if (value === true) out[itemId] = 1;
   }
   return out;
@@ -37,6 +41,7 @@ function readFromStorage(): ProgressState {
       // a chapter is now cleared only when beaten on Hard, so carry the Hard clears over.
       chapterClears: parsed.chapterClearsHard ?? parsed.chapterClears ?? {},
       itemsObtained: migrateItemsObtained(parsed.itemsObtained),
+      itemLevels: parsed.itemLevels && typeof parsed.itemLevels === "object" ? parsed.itemLevels : {},
     };
   } catch {
     return EMPTY_STATE;
@@ -109,5 +114,19 @@ export function adjustItemCount(itemId: string, delta: number) {
   commit({
     ...state,
     itemsObtained: { ...state.itemsObtained, [itemId]: next },
+  });
+}
+
+/** For items with a levelCap: raises/lowers the level, clamped to [1, levelCap]. */
+export function adjustItemLevel(key: string, delta: number) {
+  ensureInitialized();
+  const itemId = key.split(":")[0];
+  const cap = data.items.find((i) => i.id === itemId)?.levelCap;
+  if (typeof cap !== "number") return;
+  const current = state.itemLevels[key] ?? 1;
+  const next = Math.min(cap, Math.max(1, current + delta));
+  commit({
+    ...state,
+    itemLevels: { ...state.itemLevels, [key]: next },
   });
 }

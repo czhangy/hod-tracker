@@ -6,13 +6,13 @@ import { usePersistedState } from "@/lib/usePersistedState";
 import { isItemObtained, itemStats } from "@/lib/useProgress";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
 import { ProgressBar } from "./ProgressBar";
-import { CharacterAvatar } from "./CharacterAvatar";
+import { CharacterFilter } from "./CharacterFilter";
 import { ItemIcon } from "./ItemIcon";
 import { ItemDetailPanel } from "./ItemDetailPanel";
 
 const HIDE_OBTAINED_KEY = "hod-tracker-hide-obtained";
 
-const SLOT_LABELS: Record<ItemSlot, string> = {
+export const SLOT_LABELS: Record<ItemSlot, string> = {
   swords: "Swords",
   katanas: "Katanas",
   axes: "Axes",
@@ -72,28 +72,39 @@ const SLOT_ORDER: ItemSlot[] = [
   "accessories",
 ];
 
-function groupBySlot(items: Item[]) {
-  const groups = new Map<ItemSlot, Item[]>();
-  for (const item of items) {
-    const list = groups.get(item.slot) ?? [];
-    list.push(item);
-    groups.set(item.slot, list);
+export function groupBySlot<T = Item>(
+  entries: T[],
+  getItem: (entry: T) => Item = (entry) => entry as Item
+) {
+  const groups = new Map<ItemSlot, T[]>();
+  for (const entry of entries) {
+    const slot = getItem(entry).slot;
+    const list = groups.get(slot) ?? [];
+    list.push(entry);
+    groups.set(slot, list);
   }
   return SLOT_ORDER.filter((slot) => groups.has(slot)).map((slot) => ({
     slot,
     items: groups
       .get(slot)!
-      .sort((a, b) => Number(!!b.listFirst) - Number(!!a.listFirst) || a.name.localeCompare(b.name)),
+      .sort(
+        (a, b) =>
+          Number(!!getItem(b).listFirst) - Number(!!getItem(a).listFirst) ||
+          getItem(a).name.localeCompare(getItem(b).name)
+      ),
   }));
 }
 
-function ItemStepper({
+export function ItemStepper({
   count,
+  min = 0,
   maxLevel,
   obtained,
   onAdjust,
 }: {
   count: number;
+  /** Lowest value the stepper can go down to. */
+  min?: number;
   maxLevel?: number | null;
   obtained: boolean;
   onAdjust: (delta: number) => void;
@@ -106,7 +117,7 @@ function ItemStepper({
           e.stopPropagation();
           onAdjust(-1);
         }}
-        disabled={count === 0}
+        disabled={count <= min}
         className="flex size-5 cursor-pointer items-center justify-center rounded border border-neutral-700 text-xs text-neutral-400 hover:border-red-700 hover:text-red-400 disabled:cursor-not-allowed disabled:opacity-30"
       >
         −
@@ -176,7 +187,7 @@ export function ItemsPanel({
   return (
     <div className="flex-1 space-y-6">
       <header className="space-y-2">
-        <h2 className="font-display text-2xl font-bold text-neutral-50">Item Collection</h2>
+        <h2 className="font-display text-2xl font-bold text-neutral-50">Items</h2>
         <div className="flex items-center gap-3">
           <div className="flex-1">
             <ProgressBar percent={stats.percent} />
@@ -206,43 +217,7 @@ export function ItemsPanel({
         </label>
       </div>
 
-      <div className="flex items-center gap-2">
-        <div className="flex flex-wrap gap-1.5" role="group" aria-label="Filter by character">
-          {data.characters.map((c) => {
-            const selected = c.id === characterId;
-            return (
-              <button
-                key={c.id}
-                type="button"
-                title={c.name}
-                aria-label={c.name}
-                aria-pressed={selected}
-                onClick={() => setCharacterId(c.id)}
-                className={`cursor-pointer rounded-md ring-2 transition-opacity ${
-                  selected
-                    ? "ring-red-600"
-                    : characterId
-                      ? "opacity-30 grayscale ring-transparent hover:opacity-70"
-                      : "ring-transparent hover:opacity-80"
-                }`}
-              >
-                <CharacterAvatar character={c} size={36} square />
-              </button>
-            );
-          })}
-        </div>
-        {characterId && (
-          <button
-            type="button"
-            onClick={() => setCharacterId("")}
-            aria-label="Clear character filter"
-            title="Clear character filter"
-            className="flex size-7 cursor-pointer items-center justify-center rounded-md border border-neutral-700 text-sm text-neutral-400 hover:border-red-700 hover:text-red-400"
-          >
-            ×
-          </button>
-        )}
-      </div>
+      <CharacterFilter characterId={characterId} onChange={setCharacterId} />
 
       <div className="flex flex-col gap-6 lg:flex-row">
         <div className="min-w-0 flex-[3] space-y-6">
