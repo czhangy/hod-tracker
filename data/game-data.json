@@ -11401,9 +11401,7 @@
         "shanoa"
       ],
       "starterGear": true,
-      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
-      "levelable": true,
-      "maxLevel": 2
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125"
     },
     {
       "id": "glyphs-nitesco",
