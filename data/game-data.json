@@ -10098,7 +10098,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f3/Axe_Julius.PNG/revision/latest/scale-to-width-down/50?cb=20191006133953",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10128,7 +10128,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/29/Bible_HD_Icon.png/revision/latest?cb=20191011205215",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10158,7 +10158,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/5/58/Boomerang_HD_Icon.png/revision/latest?cb=20191011205347",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10197,7 +10197,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e9/Boomerang_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829175334",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10231,7 +10231,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e1/Grenade_HD_Icon.png/revision/latest?cb=20191011205816",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10269,7 +10269,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/12/Holy_Water_PoR_Icon.png/revision/latest?cb=20150829175335",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10286,7 +10286,7 @@
       "starterGear": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/80/Dagger_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829175334",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10317,7 +10317,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/f/f9/Kunai_HD_Icon.png/revision/latest?cb=20191011205457",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10351,7 +10351,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4c/Paper_Airplane_HD_Icon.png/revision/latest?cb=20191011205603",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10369,7 +10369,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9b/Ricochet_Rock_HD_Icon.png/revision/latest?cb=20191011204918",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10416,7 +10416,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/27/Cross_Shuriken_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829192249",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -10455,7 +10455,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/ac/Wrecking_Ball_HD_Icon.png/revision/latest?cb=20191011205704",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9,
       "levelPerCharacter": true
     },
@@ -11358,7 +11358,7 @@
         "Aliorumnas"
       ],
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
       "levelCap": 9
     },
@@ -11373,7 +11373,7 @@
         "Aliorumnas"
       ],
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
       "levelCap": 9
     },
@@ -11388,7 +11388,7 @@
         "Aliorumnas"
       ],
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
       "levelCap": 9
     },
@@ -11414,7 +11414,7 @@
         "Nova Skeleton"
       ],
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
       "levelCap": 9
     },
@@ -11441,7 +11441,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e2/Bluesplash.PNG/revision/latest/scale-to-width-down/50?cb=20191006134524",
       "levelCap": 9
     },
@@ -11609,7 +11609,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/68/Holyflame.PNG/revision/latest/scale-to-width-down/50?cb=20191006134415",
       "levelCap": 9
     },
@@ -11622,7 +11622,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/8/8e/Holylightning.PNG/revision/latest/scale-to-width-down/50?cb=20191006134626",
       "levelCap": 9
     },
@@ -14319,7 +14319,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/1/18/Hexplosives.png/revision/latest/scale-to-width-down/50?cb=20210504130026",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14333,7 +14333,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4b/Throwing_star.png/revision/latest/scale-to-width-down/50?cb=20210504130111",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14347,7 +14347,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/e/e3/War_drum.png/revision/latest/scale-to-width-down/50?cb=20210504130153",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14448,7 +14448,7 @@
         }
       ],
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/dc/Javelin_HD_Icon.png/revision/latest/scale-to-width-down/50?cb=20191011205932",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14462,7 +14462,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/d3/Hymn_HD_Icon.png/revision/latest/scale-to-width-down/50?cb=20191011210040",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14476,7 +14476,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/06/Bird_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829175333",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14490,7 +14490,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a3/Dragon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829175335",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14504,7 +14504,7 @@
       ],
       "starterGear": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/9/9e/Cat_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829175334",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14521,7 +14521,7 @@
       ],
       "shop": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c2/Dagger_NES_Icon.png/revision/latest/scale-to-width-down/50?cb=20150327041328",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14546,7 +14546,7 @@
         }
       ],
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/3f/Boomerang_NES_Icon.png/revision/latest/scale-to-width-down/50?cb=20150327041328",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14571,7 +14571,7 @@
         }
       ],
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/d/dc/Fire_Bomb_Icon.png/revision/latest/scale-to-width-down/50?cb=20150327041441",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -14588,7 +14588,7 @@
       ],
       "shop": true,
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/2/24/Axe_NES_Icon.png/revision/latest/scale-to-width-down/50?cb=20150327041328",
       "levelCap": 9,
       "levelPerCharacter": true
@@ -15284,7 +15284,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9
     },
     {
@@ -15305,7 +15305,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9
     },
     {
@@ -15320,7 +15320,7 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
       "levelable": true,
-      "maxLevel": 4,
+      "maxLevel": 2,
       "levelCap": 9
     },
     {
