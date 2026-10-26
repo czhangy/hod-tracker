@@ -5,17 +5,7 @@ import { CharacterAvatar } from "./CharacterAvatar";
 import { ItemIcon } from "./ItemIcon";
 
 const SLOT_LABELS: Record<string, string> = {
-  swords: "Sword",
-  katanas: "Katana",
-  axes: "Axe",
-  cestuses: "Cestus",
-  cudgels: "Cudgel",
-  daggers: "Dagger",
-  greatSwords: "Great Sword",
-  lances: "Lance",
-  rapiers: "Rapier",
-  otherWeapons: "Other Weapon",
-  firearms: "Firearm",
+  weapons: "Weapon",
   subWeapons: "Sub-Weapon",
   armor: "Chest",
   headGear: "Head",

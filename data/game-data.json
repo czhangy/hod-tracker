@@ -8739,7 +8739,7 @@
     {
       "id": "swords-agni-s-flame",
       "name": "Agni's Flame",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -8752,7 +8752,7 @@
     {
       "id": "swords-alucard-sword",
       "name": "Alucard Sword",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -8765,7 +8765,7 @@
     {
       "id": "swords-alucart-sword",
       "name": "Alucart Sword",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -8794,7 +8794,7 @@
     {
       "id": "swords-badelaire",
       "name": "Badelaire",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -8807,7 +8807,7 @@
     {
       "id": "swords-bastard-sword",
       "name": "Bastard Sword",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -8844,7 +8844,7 @@
     {
       "id": "swords-bekatowa",
       "name": "Bekatowa",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -8880,7 +8880,7 @@
     {
       "id": "swords-broadsword",
       "name": "Broadsword",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -8917,7 +8917,7 @@
     {
       "id": "swords-burtgang",
       "name": "Burtgang",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -8941,7 +8941,7 @@
     {
       "id": "swords-cutlass",
       "name": "Cutlass",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -8978,7 +8978,7 @@
     {
       "id": "swords-damascus-sword",
       "name": "Damascus Sword",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -8990,7 +8990,7 @@
     {
       "id": "swords-fragarach",
       "name": "Fragarach",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9026,7 +9026,7 @@
     {
       "id": "swords-gladius",
       "name": "Gladius",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -9038,7 +9038,7 @@
     {
       "id": "swords-gram",
       "name": "Gram",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9049,7 +9049,7 @@
     {
       "id": "swords-harper",
       "name": "Harper",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9085,7 +9085,7 @@
     {
       "id": "swords-holy-sword",
       "name": "Holy Sword",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9121,7 +9121,7 @@
     {
       "id": "swords-hrunting",
       "name": "Hrunting",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -9159,7 +9159,7 @@
     {
       "id": "swords-ice-brand",
       "name": "Ice Brand",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9218,7 +9218,7 @@
     {
       "id": "swords-indra-s-light",
       "name": "Indra's Light",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9231,7 +9231,7 @@
     {
       "id": "swords-jagdplaute",
       "name": "Jagdplaute",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9242,7 +9242,7 @@
     {
       "id": "swords-joyeuse",
       "name": "Joyeuse",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9253,7 +9253,7 @@
     {
       "id": "swords-kaladbolg",
       "name": "Kaladbolg",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9293,7 +9293,7 @@
     {
       "id": "swords-laevatain",
       "name": "Laevatain",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -9308,7 +9308,7 @@
     {
       "id": "swords-long-sword",
       "name": "Long Sword",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9319,7 +9319,7 @@
     {
       "id": "swords-milican-s-sword",
       "name": "Milican's Sword",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -9333,7 +9333,7 @@
     {
       "id": "swords-mormegil",
       "name": "Mormegil",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9369,7 +9369,7 @@
     {
       "id": "swords-mystletain",
       "name": "Mystletain",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9413,7 +9413,7 @@
     {
       "id": "swords-rahab-s-frost",
       "name": "Rahab's Frost",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9426,7 +9426,7 @@
     {
       "id": "swords-saber",
       "name": "Saber",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9459,7 +9459,7 @@
     {
       "id": "swords-scimitar",
       "name": "Scimitar",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9492,7 +9492,7 @@
     {
       "id": "swords-short-sword",
       "name": "Short Sword",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -9521,7 +9521,7 @@
     {
       "id": "swords-sword-of-hador",
       "name": "Sword of Hador",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9569,7 +9569,7 @@
     {
       "id": "swords-talwar",
       "name": "Talwar",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9617,7 +9617,7 @@
     {
       "id": "swords-tyrfing",
       "name": "Tyrfing",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9645,7 +9645,7 @@
     {
       "id": "swords-valmanway",
       "name": "Valmanway",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -9663,7 +9663,7 @@
     {
       "id": "swords-vorpal-blade",
       "name": "Vorpal Blade",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9677,7 +9677,7 @@
     {
       "id": "firearms-chakram",
       "name": "Chakram",
-      "slot": "firearms",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9712,7 +9712,7 @@
     {
       "id": "firearms-handgun",
       "name": "Handgun",
-      "slot": "firearms",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9723,7 +9723,7 @@
     {
       "id": "firearms-rpg",
       "name": "RPG",
-      "slot": "firearms",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9734,7 +9734,7 @@
     {
       "id": "firearms-silver-gun",
       "name": "Silver Gun",
-      "slot": "firearms",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9745,7 +9745,7 @@
     {
       "id": "firearms-throwing-sickle",
       "name": "Throwing Sickle",
-      "slot": "firearms",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9789,7 +9789,7 @@
     {
       "id": "firearms-tomahawk",
       "name": "Tomahawk",
-      "slot": "firearms",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9825,7 +9825,7 @@
     {
       "id": "otherWeapons-belnades-staff",
       "name": "Belnades Staff",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "yoko-belnades"
       ],
@@ -9836,7 +9836,7 @@
     {
       "id": "otherWeapons-book-of-binding",
       "name": "Book of Binding",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "charlotte-aulin"
       ],
@@ -9861,7 +9861,7 @@
     {
       "id": "otherWeapons-doves",
       "name": "Doves",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "maria-renard"
       ],
@@ -9872,7 +9872,7 @@
     {
       "id": "otherWeapons-garian-sword",
       "name": "Garian Sword",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9908,7 +9908,7 @@
     {
       "id": "otherWeapons-heaven-s-sword",
       "name": "Heaven's Sword",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -9940,7 +9940,7 @@
     {
       "id": "otherWeapons-nebula",
       "name": "Nebula",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -9954,7 +9954,7 @@
     {
       "id": "otherWeapons-nunchakus",
       "name": "Nunchakus",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -10005,7 +10005,7 @@
     {
       "id": "otherWeapons-tonfa",
       "name": "Tonfa",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -10037,7 +10037,7 @@
     {
       "id": "otherWeapons-vampire-killer",
       "name": "Vampire Killer",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "jonathan-morris",
         "julius-belmont",
@@ -10050,7 +10050,7 @@
     {
       "id": "otherWeapons-whip-sword",
       "name": "Whip Sword",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12086,7 +12086,7 @@
     {
       "id": "axes-axe",
       "name": "Axe",
-      "slot": "axes",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12101,7 +12101,7 @@
     {
       "id": "axes-battle-axe",
       "name": "Battle Axe",
-      "slot": "axes",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12114,7 +12114,7 @@
     {
       "id": "axes-bhuj",
       "name": "Bhuj",
-      "slot": "axes",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12162,7 +12162,7 @@
     {
       "id": "axes-death-scythe",
       "name": "Death Scythe",
-      "slot": "axes",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12175,7 +12175,7 @@
     {
       "id": "axes-great-axe",
       "name": "Great Axe",
-      "slot": "axes",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12189,7 +12189,7 @@
     {
       "id": "axes-golden-axe",
       "name": "Golden Axe",
-      "slot": "axes",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12213,7 +12213,7 @@
     {
       "id": "cestuses-blue-knuckles",
       "name": "Blue Knuckles",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -12226,7 +12226,7 @@
     {
       "id": "cestuses-brass-knuckles",
       "name": "Brass Knuckles",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12258,7 +12258,7 @@
     {
       "id": "cestuses-cestus",
       "name": "Cestus",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12295,7 +12295,7 @@
     {
       "id": "cestuses-fist-of-tulkas",
       "name": "Fist of Tulkas",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -12331,7 +12331,7 @@
     {
       "id": "cestuses-jewel-knuckles",
       "name": "Jewel Knuckles",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -12379,7 +12379,7 @@
     {
       "id": "cestuses-kaiser-knuckle",
       "name": "Kaiser Knuckle",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -12416,7 +12416,7 @@
     {
       "id": "cestuses-knuckle-dusters",
       "name": "Knuckle Dusters",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -12444,7 +12444,7 @@
     {
       "id": "cestuses-mach-punch",
       "name": "Mach Punch",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12500,7 +12500,7 @@
     {
       "id": "cestuses-whip-knuckle",
       "name": "Whip Knuckle",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12524,7 +12524,7 @@
     {
       "id": "cudgels-holy-rod",
       "name": "Holy Rod",
-      "slot": "cudgels",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -12560,7 +12560,7 @@
     {
       "id": "cudgels-mace",
       "name": "Mace",
-      "slot": "cudgels",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -12593,7 +12593,7 @@
     {
       "id": "cudgels-mjollnjr",
       "name": "Mjollnjr",
-      "slot": "cudgels",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12606,7 +12606,7 @@
     {
       "id": "cudgels-moon-rod",
       "name": "Moon Rod",
-      "slot": "cudgels",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -12649,7 +12649,7 @@
     {
       "id": "cudgels-morning-star",
       "name": "Morning Star",
-      "slot": "cudgels",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -12698,7 +12698,7 @@
     {
       "id": "cudgels-star-flail",
       "name": "Star Flail",
-      "slot": "cudgels",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12734,7 +12734,7 @@
     {
       "id": "daggers-baselard",
       "name": "Baselard",
-      "slot": "daggers",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -12767,7 +12767,7 @@
     {
       "id": "daggers-cinquedea",
       "name": "Cinquedea",
-      "slot": "daggers",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12811,7 +12811,7 @@
     {
       "id": "daggers-combat-knife",
       "name": "Combat Knife",
-      "slot": "daggers",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -12848,7 +12848,7 @@
     {
       "id": "daggers-cutall",
       "name": "Cutall",
-      "slot": "daggers",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12884,7 +12884,7 @@
     {
       "id": "daggers-holbein-dagger",
       "name": "Holbein Dagger",
-      "slot": "daggers",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -12897,7 +12897,7 @@
     {
       "id": "daggers-knife",
       "name": "Knife",
-      "slot": "daggers",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -12925,7 +12925,7 @@
     {
       "id": "daggers-shotel",
       "name": "Shotel",
-      "slot": "daggers",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -12965,7 +12965,7 @@
     {
       "id": "daggers-were-bane",
       "name": "Were Bane",
-      "slot": "daggers",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -12989,7 +12989,7 @@
     {
       "id": "greatSwords-ascalon",
       "name": "Ascalon",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13033,7 +13033,7 @@
     {
       "id": "greatSwords-balmung",
       "name": "Balmung",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13073,7 +13073,7 @@
     {
       "id": "greatSwords-claimh-solais",
       "name": "Claimh Solais",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13086,7 +13086,7 @@
     {
       "id": "greatSwords-claymore",
       "name": "Claymore",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13124,7 +13124,7 @@
     {
       "id": "greatSwords-dainslef",
       "name": "Dainslef",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13162,7 +13162,7 @@
     {
       "id": "greatSwords-daybreak",
       "name": "Daybreak",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -13175,7 +13175,7 @@
     {
       "id": "greatSwords-durandal",
       "name": "Durandal",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13199,7 +13199,7 @@
     {
       "id": "greatSwords-falchion",
       "name": "Falchion",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13228,7 +13228,7 @@
     {
       "id": "greatSwords-final-sword",
       "name": "Final Sword",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13264,7 +13264,7 @@
     {
       "id": "greatSwords-flamberge",
       "name": "Flamberge",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -13300,7 +13300,7 @@
     {
       "id": "greatSwords-great-sword",
       "name": "Great Sword",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13312,7 +13312,7 @@
     {
       "id": "greatSwords-obsidian-sword",
       "name": "Obsidian Sword",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -13368,7 +13368,7 @@
     {
       "id": "greatSwords-terror-bear",
       "name": "Terror Bear",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13416,7 +13416,7 @@
     {
       "id": "greatSwords-zweihander",
       "name": "Zweihander",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -13464,7 +13464,7 @@
     {
       "id": "katanas-blunt-sword",
       "name": "Blunt Sword",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13476,7 +13476,7 @@
     {
       "id": "katanas-katana",
       "name": "Katana",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13488,7 +13488,7 @@
     {
       "id": "katanas-kotetsu",
       "name": "Kotetsu",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13536,7 +13536,7 @@
     {
       "id": "katanas-kunitsuna",
       "name": "Kunitsuna",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13547,7 +13547,7 @@
     {
       "id": "katanas-masamune",
       "name": "Masamune",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13561,7 +13561,7 @@
     {
       "id": "katanas-muramasa",
       "name": "Muramasa",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13576,7 +13576,7 @@
     {
       "id": "katanas-osafune",
       "name": "Osafune",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13601,7 +13601,7 @@
     {
       "id": "katanas-takemitsu",
       "name": "Takemitsu",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -13629,7 +13629,7 @@
     {
       "id": "katanas-yasutsuna",
       "name": "Yasutsuna",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -13673,7 +13673,7 @@
     {
       "id": "lances-brionac",
       "name": "Brionac",
-      "slot": "lances",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13712,7 +13712,7 @@
     {
       "id": "lances-geiborg",
       "name": "Geiborg",
-      "slot": "lances",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13739,7 +13739,7 @@
     {
       "id": "lances-gungner",
       "name": "Gungner",
-      "slot": "lances",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13752,7 +13752,7 @@
     {
       "id": "lances-halberd",
       "name": "Halberd",
-      "slot": "lances",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13800,7 +13800,7 @@
     {
       "id": "lances-lance",
       "name": "Lance",
-      "slot": "lances",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13837,7 +13837,7 @@
     {
       "id": "lances-longinus",
       "name": "Longinus",
-      "slot": "lances",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13881,7 +13881,7 @@
     {
       "id": "lances-partisan",
       "name": "Partisan",
-      "slot": "lances",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13920,7 +13920,7 @@
     {
       "id": "lances-spear",
       "name": "Spear",
-      "slot": "lances",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -13952,7 +13952,7 @@
     {
       "id": "lances-trident",
       "name": "Trident",
-      "slot": "lances",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -14009,7 +14009,7 @@
     {
       "id": "rapiers-estoc",
       "name": "Estoc",
-      "slot": "rapiers",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -14051,7 +14051,7 @@
     {
       "id": "rapiers-fleuret",
       "name": "Fleuret",
-      "slot": "rapiers",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -14087,7 +14087,7 @@
     {
       "id": "rapiers-kris-naga",
       "name": "Kris Naga",
-      "slot": "rapiers",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -14123,7 +14123,7 @@
     {
       "id": "rapiers-main-gauche",
       "name": "Main Gauche",
-      "slot": "rapiers",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -14159,7 +14159,7 @@
     {
       "id": "rapiers-rapier",
       "name": "Rapier",
-      "slot": "rapiers",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -14192,7 +14192,7 @@
     {
       "id": "rapiers-small-sword",
       "name": "Small Sword",
-      "slot": "rapiers",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -14217,7 +14217,7 @@
     {
       "id": "swords-valmanway-1",
       "name": "Valmanway +1",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -14233,7 +14233,7 @@
     {
       "id": "cestuses-kaiser-knuckle-1",
       "name": "Kaiser Knuckle +1",
-      "slot": "cestuses",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -14249,7 +14249,7 @@
     {
       "id": "swords-alucard-sword-1",
       "name": "Alucard Sword +1",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "alucard"
       ],
@@ -14262,7 +14262,7 @@
     {
       "id": "greatSwords-claimh-solais-1",
       "name": "Claimh Solais +1",
-      "slot": "greatSwords",
+      "slot": "weapons",
       "usableBy": [
         "soma-cruz"
       ],
@@ -14275,7 +14275,7 @@
     {
       "id": "katanas-yasutsuna-1",
       "name": "Yasutsuna +1",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -14289,7 +14289,7 @@
     {
       "id": "katanas-muramasa-1",
       "name": "Muramasa +1",
-      "slot": "katanas",
+      "slot": "weapons",
       "usableBy": [
         "alucard",
         "soma-cruz"
@@ -14303,7 +14303,7 @@
     {
       "id": "swords-pulse-blade",
       "name": "Pulse Blade",
-      "slot": "swords",
+      "slot": "weapons",
       "usableBy": [
         "getsu-fuma"
       ],
@@ -14726,7 +14726,7 @@
     {
       "id": "otherWeapons-vampire-killer-simon",
       "name": "Vampire Killer (Simon)",
-      "slot": "otherWeapons",
+      "slot": "weapons",
       "usableBy": [
         "simon-belmont"
       ],

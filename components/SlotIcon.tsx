@@ -23,28 +23,13 @@ export function SlotIcon({
   };
 
   switch (slot) {
-    case "swords":
+    case "weapons":
       return (
         <svg {...common}>
           <path d="M6 18 17 7" />
           <path d="M14 4l6 0 0 6" />
           <path d="M4 20l3-3" />
           <path d="M12 12l-2.5 -2.5" />
-        </svg>
-      );
-    case "otherWeapons":
-      return (
-        <svg {...common}>
-          <path d="M5 19l6-14" />
-          <path d="M9 5l6 1-4 5" />
-          <circle cx="17" cy="17" r="2.5" />
-        </svg>
-      );
-    case "firearms":
-      return (
-        <svg {...common}>
-          <path d="M3 14h10l3-3h5v3h-2v3h-5l-2-2H5" />
-          <path d="M8 14v3" />
         </svg>
       );
     case "subWeapons":

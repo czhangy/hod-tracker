@@ -13,17 +13,7 @@ import { ItemDetailPanel } from "./ItemDetailPanel";
 const HIDE_OBTAINED_KEY = "hod-tracker-hide-obtained";
 
 export const SLOT_LABELS: Record<ItemSlot, string> = {
-  swords: "Swords",
-  katanas: "Katanas",
-  axes: "Axes",
-  cestuses: "Cestuses",
-  cudgels: "Cudgels",
-  daggers: "Daggers",
-  greatSwords: "Great Swords",
-  lances: "Lances",
-  rapiers: "Rapiers",
-  otherWeapons: "Other Weapons",
-  firearms: "Firearms",
+  weapons: "Weapons",
   subWeapons: "Sub-Weapons",
   armor: "Chest",
   headGear: "Head",
@@ -43,18 +33,8 @@ export const SLOT_LABELS: Record<ItemSlot, string> = {
 };
 
 const SLOT_ORDER: ItemSlot[] = [
-  "swords",
-  "katanas",
-  "greatSwords",
-  "rapiers",
-  "daggers",
-  "axes",
-  "lances",
-  "cestuses",
-  "cudgels",
-  "firearms",
+  "weapons",
   "shields",
-  "otherWeapons",
   "soulsBlue",
   "soulsRed",
   "soulsYellow",
