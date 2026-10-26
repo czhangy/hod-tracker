@@ -9428,6 +9428,7 @@
       "name": "Saber",
       "slot": "weapons",
       "usableBy": [
+        "soma-cruz",
         "alucard"
       ],
       "shop": true,
