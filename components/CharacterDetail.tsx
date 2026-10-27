@@ -41,7 +41,7 @@ export function CharacterDetail({
             <ProgressBar percent={stats.percent} />
           </div>
           <span className="font-display text-sm tabular-nums text-neutral-400">
-            {stats.chapterDone}/{stats.chapterTotal} chapters ({stats.percent}%)
+            {stats.chapterDone}/{stats.chapterTotal} ({stats.percent}%)
           </span>
         </div>
       </header>
@@ -51,10 +51,22 @@ export function CharacterDetail({
           Chapter Clears
         </h3>
         <ul className="grid grid-cols-1 gap-1.5 sm:grid-cols-2">
-          {data.chapters.map((chapter) => (
+          {data.chapters.map((chapter) => {
+            const isCleared = Boolean(cleared[chapter.id]);
+            return (
             <li key={chapter.id}>
-              <div className="flex items-center gap-2 rounded-md border border-neutral-800 bg-neutral-900/40 px-3 py-2 text-sm">
-                <span className="min-w-0 flex-1 truncate text-neutral-300">
+              <div
+                className={`flex items-center gap-2 rounded-md border px-3 py-2 text-sm ${
+                  isCleared
+                    ? "border-green-800 bg-green-900/30 hover:border-green-700"
+                    : "border-neutral-800 bg-neutral-900/40 hover:border-neutral-700"
+                }`}
+              >
+                <span
+                  className={`min-w-0 flex-1 truncate ${
+                    isCleared ? "text-green-400" : "text-neutral-300"
+                  }`}
+                >
                   {chapter.number}. {chapter.name}
                 </span>
                 {chapter.dlc && (
@@ -64,13 +76,14 @@ export function CharacterDetail({
                 )}
                 <input
                   type="checkbox"
-                  checked={Boolean(cleared[chapter.id])}
+                  checked={isCleared}
                   onChange={() => onToggleChapter(characterId, chapter.id)}
                   className="size-4 cursor-pointer"
                 />
               </div>
             </li>
-          ))}
+            );
+          })}
         </ul>
       </section>
     </div>

@@ -12,8 +12,10 @@ import {
   type BuildSlot,
 } from "@/lib/builds";
 import { usePersistedState } from "@/lib/usePersistedState";
+import { characterLevelingStats } from "@/lib/useProgress";
 import type { ProgressState } from "@/lib/types";
 import { CharacterAvatar } from "./CharacterAvatar";
+import { ProgressBar } from "./ProgressBar";
 import { ItemIcon } from "./ItemIcon";
 
 const slotsByKey = (keys: string[]) =>
@@ -54,6 +56,7 @@ export function BuildsPanel({
   );
   const character = getCharacter(characterId);
   const build = effectiveBuild(progress, characterId);
+  const leveling = characterLevelingStats(progress, characterId);
 
   // Personal skill / enchanted soul only exist for characters that have something for them.
   const extraSlots = EXTRA_SLOTS.filter(
@@ -181,6 +184,17 @@ export function BuildsPanel({
           );
         })}
       </div>
+
+      {character && leveling.levelTotal > 0 && (
+        <div className="flex items-center gap-3">
+          <div className="flex-1">
+            <ProgressBar percent={leveling.percent} />
+          </div>
+          <span className="font-display text-sm tabular-nums text-neutral-400">
+            {leveling.levelDone}/{leveling.levelTotal} ({leveling.percent}%)
+          </span>
+        </div>
+      )}
 
       {character && (
         <div className="space-y-2">

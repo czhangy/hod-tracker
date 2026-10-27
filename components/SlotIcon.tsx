@@ -66,13 +66,6 @@ export function SlotIcon({
           <path d="M12 3c-2 1.5-2 3-2 3H8L4 20h16L16 6h-2s0-1.5-2-3Z" />
         </svg>
       );
-    case "shields":
-      return (
-        <svg {...common}>
-          <path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z" />
-          <path d="M9 11l2 2 4-4" />
-        </svg>
-      );
     case "accessories":
       return (
         <svg {...common}>

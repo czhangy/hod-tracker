@@ -3,7 +3,6 @@ export type ItemSlot =
   | "headGear"
   | "legProtection"
   | "cloaks"
-  | "shields"
   | "accessories"
   | "weapons"
   | "subWeapons"
@@ -13,7 +12,6 @@ export type ItemSlot =
   | "spells"
   | "glyphs"
   | "boundSpells"
-  | "yokoSpells"
   | "martialArts"
   | "personalSkills";
 
@@ -37,6 +35,8 @@ export interface Item {
   listFirst?: boolean;
   /** Ids of the characters that can use this item. Unset/empty means none are known yet. */
   usableBy?: string[] | null;
+  /** Weapon-category items that only fit the off hand (shields). */
+  offHandOnly?: boolean;
   /** True for items the player starts with. */
   starterGear?: boolean;
   /** True for items that can be bought in the shop. */
@@ -62,6 +62,11 @@ export interface Item {
   levelCap?: number | null;
   /** Each character that can use this item levels it separately (e.g. sub-weapons). */
   levelPerCharacter?: boolean;
+  /**
+   * The item's level is its copy count (Soma's souls, Charlotte's spells): it appears in the
+   * Leveling tab, but the two views edit the same number.
+   */
+  levelFromCount?: boolean;
 }
 
 export interface Character {

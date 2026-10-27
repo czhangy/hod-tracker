@@ -63,6 +63,17 @@ export function levelKey(item: Item, characterId: string) {
   return item.levelPerCharacter ? `${item.id}:${characterId}` : item.id;
 }
 
+/**
+ * Current level of an item (for a character, if the item levels per character). Items you
+ * don't own are level 0; owned ones start at level 1.
+ */
+export function itemLevel(progress: ProgressState, item: Item, characterId: string | null) {
+  const owned = progress.itemsObtained[item.id] ?? 0;
+  if (owned <= 0) return 0;
+  if (item.levelFromCount) return owned;
+  return progress.itemLevels[levelKey(item, characterId ?? "")] ?? 1;
+}
+
 /** Items that can be leveled up, tracked on the Leveling tab. */
 export const levelEntries: LevelEntry[] = data.items.flatMap((item): LevelEntry[] => {
   if (typeof item.levelCap !== "number") return [];
@@ -72,14 +83,36 @@ export const levelEntries: LevelEntry[] = data.items.flatMap((item): LevelEntry[
     .map((c) => ({ key: levelKey(item, c.id), item, characterId: c.id }));
 });
 
-/** Level progress counts from level 1, so a fresh item is 0% and a maxed one is 100%. */
+/**
+ * Level progress is the level itself out of the cap (unowned items are level 0), so a maxed item
+ * is 100%. Items whose level is their copy count are left out: the Items progress already
+ * counts those copies.
+ */
 export function levelingStats(progress: ProgressState) {
   let levelTotal = 0;
   let levelDone = 0;
-  for (const { key, item } of levelEntries) {
+  for (const { item, characterId } of levelEntries) {
+    if (item.levelFromCount) continue;
     const cap = item.levelCap as number;
-    levelTotal += cap - 1;
-    levelDone += Math.min(cap, progress.itemLevels[key] ?? 1) - 1;
+    levelTotal += cap;
+    levelDone += Math.min(cap, itemLevel(progress, item, characterId));
+  }
+  const percent = levelTotal === 0 ? 0 : Math.round((levelDone / levelTotal) * 100);
+  return { levelTotal, levelDone, percent };
+}
+
+/**
+ * Level progress across everything one character can level, copy-count levels included.
+ */
+export function characterLevelingStats(progress: ProgressState, characterId: string) {
+  let levelTotal = 0;
+  let levelDone = 0;
+  for (const { item, characterId: entryCharacter } of levelEntries) {
+    if (entryCharacter ? entryCharacter !== characterId : !item.usableBy?.includes(characterId))
+      continue;
+    const cap = item.levelCap as number;
+    levelTotal += cap;
+    levelDone += Math.min(cap, itemLevel(progress, item, entryCharacter));
   }
   const percent = levelTotal === 0 ? 0 : Math.round((levelDone / levelTotal) * 100);
   return { levelTotal, levelDone, percent };

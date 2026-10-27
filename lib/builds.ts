@@ -1,6 +1,6 @@
 import { data, getCharacter } from "@/lib/data";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
-import { levelKey } from "@/lib/useProgress";
+import { itemLevel } from "@/lib/useProgress";
 
 export interface BuildSlot {
   key: string;
@@ -13,20 +13,9 @@ export interface BuildSlot {
 
 const inSlots = (...slots: ItemSlot[]) => (item: Item) => slots.includes(item.slot);
 
-/**
- * Personal skills: the dedicated personal skills, plus the signature skill of characters who
- * don't have one of those - Soma's Guardian Souls, Alucard's Mist Form, Shanoa's Magnes, Jonathan's Guard,
- * Richter's Spin Kick, Julius's Swing Whip.
- */
-const PERSONAL_SKILL_IDS = new Set([
-  "spells-mist-form",
-  "glyphs-magnes",
-  "martialArts-guard",
-  "martialArts-spin-kick",
-  "martialArts-swing-whip",
-]);
+/** Personal skills are their own category, plus Soma's Guardian Souls. */
 const isPersonalSkill = (item: Item) =>
-  item.slot === "personalSkills" || item.slot === "soulsBlue" || PERSONAL_SKILL_IDS.has(item.id);
+  item.slot === "personalSkills" || item.slot === "soulsBlue";
 
 /** Skills that go in the four "hunter skill" slots: everything a character casts or throws. */
 const inHunterSkillSlots = inSlots(
@@ -35,13 +24,15 @@ const inHunterSkillSlots = inSlots(
   "spells",
   "glyphs",
   "boundSpells",
-  "yokoSpells",
 );
-const isHunterSkill = (item: Item) => inHunterSkillSlots(item) && !isPersonalSkill(item);
 
 export const BUILD_SLOTS: BuildSlot[] = [
-  { key: "mainHand", label: "Main Hand", accepts: inSlots("weapons") },
-  { key: "offHand", label: "Off-Hand", accepts: inSlots("weapons", "shields") },
+  {
+    key: "mainHand",
+    label: "Main Hand",
+    accepts: (item) => item.slot === "weapons" && !item.offHandOnly,
+  },
+  { key: "offHand", label: "Off-Hand", accepts: inSlots("weapons") },
   {
     key: "personalSkill",
     label: "Personal Skill",
@@ -57,7 +48,7 @@ export const BUILD_SLOTS: BuildSlot[] = [
   ...[1, 2, 3, 4].map((n) => ({
     key: `hunterSkill${n}`,
     label: `Hunter Skill ${n}`,
-    accepts: isHunterSkill,
+    accepts: inHunterSkillSlots,
   })),
   { key: "head", label: "Head", accepts: inSlots("headGear") },
   { key: "chest", label: "Chest", accepts: inSlots("armor") },
@@ -164,9 +155,7 @@ export function isSlotComplete(
   }
   if ((progress.itemsObtained[item.id] ?? 0) <= copiesBefore) return false;
   if (typeof item.levelCap === "number") {
-    return (
-      (progress.itemLevels[levelKey(item, characterId)] ?? 1) >= item.levelCap
-    );
+    return itemLevel(progress, item, characterId) >= item.levelCap;
   }
   return true;
 }

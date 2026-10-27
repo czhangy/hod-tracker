@@ -11,15 +11,13 @@ const SLOT_LABELS: Record<string, string> = {
   headGear: "Head",
   legProtection: "Legs",
   cloaks: "Back",
-  shields: "Shield",
   accessories: "Accessory",
   soulsBlue: "Guardian Soul (Soma)",
   soulsRed: "Bullet Soul (Soma)",
   soulsYellow: "Enchanted Soul (Soma)",
-  spells: "Spell (Alucard)",
+  spells: "Dark Magic (Alucard)",
   glyphs: "Glyph (Shanoa)",
   boundSpells: "Bound Spell (Charlotte)",
-  yokoSpells: "Spell (Yoko)",
   martialArts: "Martial Art",
   personalSkills: "Personal Skill",
 };
@@ -50,7 +48,7 @@ export function ItemDetailPanel({
   return (
     <div className="flex-1 space-y-4 rounded-lg border border-neutral-800 bg-neutral-900/40 p-5">
       <div className="flex items-start gap-3">
-        <ItemIcon item={item} size={48} />
+        <ItemIcon item={item} size={48} background={false} />
         <div className="min-w-0 flex-1">
           <h3 className="font-display text-lg font-bold text-neutral-50">{item.name}</h3>
           <p className="text-xs uppercase tracking-wide text-neutral-500">

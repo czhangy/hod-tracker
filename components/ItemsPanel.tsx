@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { data } from "@/lib/data";
+import { sectionOwner, sortByCharacter } from "@/lib/characterOrder";
 import { usePersistedState } from "@/lib/usePersistedState";
 import { isItemObtained, itemStats } from "@/lib/useProgress";
 import type { Item, ItemSlot, ProgressState } from "@/lib/types";
@@ -19,30 +20,26 @@ export const SLOT_LABELS: Record<ItemSlot, string> = {
   headGear: "Head",
   legProtection: "Legs",
   cloaks: "Back",
-  shields: "Shields",
   accessories: "Accessories",
   soulsBlue: "Guardian Souls (Soma)",
   soulsRed: "Bullet Souls (Soma)",
   soulsYellow: "Enchanted Souls (Soma)",
-  spells: "Spells (Alucard)",
+  spells: "Dark Magic (Alucard)",
   glyphs: "Glyphs (Shanoa)",
   boundSpells: "Bound Spells (Charlotte)",
-  yokoSpells: "Spells (Yoko)",
   martialArts: "Martial Arts",
   personalSkills: "Personal Skills",
 };
 
 const SLOT_ORDER: ItemSlot[] = [
   "weapons",
-  "shields",
-  "soulsBlue",
   "soulsRed",
+  "soulsBlue",
   "soulsYellow",
   "subWeapons",
   "spells",
   "glyphs",
   "boundSpells",
-  "yokoSpells",
   "martialArts",
   "personalSkills",
   "headGear",
@@ -78,6 +75,7 @@ export function groupBySlot<T = Item>(
 export function ItemStepper({
   count,
   min = 0,
+  locked = false,
   maxLevel,
   obtained,
   onAdjust,
@@ -85,6 +83,8 @@ export function ItemStepper({
   count: number;
   /** Lowest value the stepper can go down to. */
   min?: number;
+  /** Disables both buttons. */
+  locked?: boolean;
   maxLevel?: number | null;
   obtained: boolean;
   onAdjust: (delta: number) => void;
@@ -97,7 +97,7 @@ export function ItemStepper({
           e.stopPropagation();
           onAdjust(-1);
         }}
-        disabled={count <= min}
+        disabled={locked || count <= min}
         className="flex size-5 cursor-pointer items-center justify-center rounded border border-neutral-700 text-xs text-neutral-400 hover:border-red-700 hover:text-red-400 disabled:cursor-not-allowed disabled:opacity-30"
       >
         −
@@ -115,7 +115,7 @@ export function ItemStepper({
           e.stopPropagation();
           onAdjust(1);
         }}
-        disabled={atMax}
+        disabled={locked || atMax}
         className="flex size-5 cursor-pointer items-center justify-center rounded border border-neutral-700 text-xs text-neutral-400 hover:border-red-700 hover:text-red-400 disabled:cursor-not-allowed disabled:opacity-30"
       >
         +
@@ -157,7 +157,9 @@ export function ItemsPanel({
         return false;
       return true;
     });
-    return groupBySlot(filtered);
+    return sortByCharacter(groupBySlot(filtered), ({ slot, items }) =>
+      sectionOwner(slot, items)
+    );
   }, [filter, characterId, hideObtained, progress.itemsObtained]);
 
   const selectedItem = selectedItemId
@@ -191,7 +193,7 @@ export function ItemsPanel({
             type="checkbox"
             checked={hideObtained}
             onChange={(e) => setHideObtainedValue(String(e.target.checked))}
-            className="size-3.5 cursor-pointer"
+            className="size-3.5 cursor-pointer [--check-color:var(--color-red-600)]"
           />
           Hide obtained
         </label>
@@ -242,7 +244,7 @@ export function ItemsPanel({
                             onClick={() => setSelectedItemId(item.id)}
                             className="flex min-w-0 flex-1 cursor-pointer items-center gap-1.5 text-left"
                           >
-                            <ItemIcon item={item} size={22} />
+                            <ItemIcon item={item} size={22} background={false} />
                             <span
                               className={`truncate ${obtained ? "text-green-400" : "text-neutral-300"}`}
                             >

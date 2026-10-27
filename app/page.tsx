@@ -94,7 +94,11 @@ export default function Home() {
         />
       )}
       {tab === "leveling" && (
-        <LevelingPanel progress={progress} onAdjustItemLevel={adjustItemLevel} />
+        <LevelingPanel
+          progress={progress}
+          onAdjustItemLevel={adjustItemLevel}
+          onAdjustItemCount={adjustItemCount}
+        />
       )}
       {tab === "builds" && <BuildsPanel progress={progress} onSetBuildSlot={setBuildSlot} />}
     </div>
