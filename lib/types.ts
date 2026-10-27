@@ -70,6 +70,12 @@ export interface Character {
   class?: string;
   dlc: boolean;
   portraitUrl?: string | null;
+  /** Large character art, shown on the Builds tab. */
+  artUrl?: string | null;
+  /** Build slot keys (see lib/builds.ts) this character has no use for, e.g. "offHand". */
+  disabledBuildSlots?: string[];
+  /** Per-character titles for build slots, by slot key, e.g. { hunterSkill1: "Bullet Soul 1" }. */
+  buildSlotLabels?: Record<string, string>;
 }
 
 export interface Chapter {
@@ -92,6 +98,7 @@ export interface GameData {
  * itemsObtained: itemId -> count owned. HoD's item stash is shared, not per-character.
  *   0/absent = not obtained. Non-levelable items only ever go to 1. Levelable items
  *   (see Item.levelable) can go higher as duplicates are collected.
+ * builds: characterId -> build slot key (see lib/builds.ts) -> equipped item id. Absent = empty.
  * itemLevels: level key -> current level, for items with a levelCap. Absent = level 1. The
  *   key is the item id, or "itemId:characterId" for levelPerCharacter items (see levelKey).
  */
@@ -100,8 +107,9 @@ export interface ProgressState {
   chapterClears: Record<string, Record<string, boolean>>;
   itemsObtained: Record<string, number>;
   itemLevels: Record<string, number>;
+  builds: Record<string, Record<string, string>>;
 }
 
 export function emptyProgress(): ProgressState {
-  return { version: 1, chapterClears: {}, itemsObtained: {}, itemLevels: {} };
+  return { version: 1, chapterClears: {}, itemsObtained: {}, itemLevels: {}, builds: {} };
 }

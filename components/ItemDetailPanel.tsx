@@ -108,7 +108,7 @@ export function ItemDetailPanel({
           </p>
           <div
             className={`flex items-center justify-center gap-4 rounded-md border py-2 ${
-              obtained ? "border-green-800 bg-green-950/20" : "border-neutral-700"
+              obtained ? "border-green-800 bg-green-900/30" : "border-neutral-700"
             }`}
           >
             <button

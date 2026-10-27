@@ -219,7 +219,7 @@ export function ItemsPanel({
                             isSelected
                               ? "border-red-600 bg-red-950/20"
                               : obtained
-                                ? "border-green-800 bg-green-950/20 hover:border-green-700"
+                                ? "border-green-800 bg-green-900/30 hover:border-green-700"
                                 : "border-neutral-800 bg-neutral-900/40 hover:border-neutral-700"
                           }`}
                         >

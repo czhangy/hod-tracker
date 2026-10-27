@@ -97,7 +97,7 @@ export function LevelingPanel({
                     <div
                       className={`flex items-center gap-1.5 rounded-md border py-1 pr-1.5 pl-1.5 text-sm ${
                         maxed
-                          ? "border-green-800 bg-green-950/20 hover:border-green-700"
+                          ? "border-green-800 bg-green-900/30 hover:border-green-700"
                           : "border-neutral-800 bg-neutral-900/40 hover:border-neutral-700"
                       }`}
                     >

@@ -11,6 +11,7 @@ import {
   toggleItem,
   adjustItemCount,
   adjustItemLevel,
+  setBuildSlot,
 } from "@/lib/progressStore";
 
 export function useProgress() {
@@ -22,6 +23,7 @@ export function useProgress() {
     toggleItem,
     adjustItemCount,
     adjustItemLevel,
+    setBuildSlot,
   };
 }
 
@@ -56,13 +58,18 @@ export interface LevelEntry {
   characterId: string | null;
 }
 
+/** Key into ProgressState.itemLevels: per character for levelPerCharacter items. */
+export function levelKey(item: Item, characterId: string) {
+  return item.levelPerCharacter ? `${item.id}:${characterId}` : item.id;
+}
+
 /** Items that can be leveled up, tracked on the Leveling tab. */
 export const levelEntries: LevelEntry[] = data.items.flatMap((item): LevelEntry[] => {
   if (typeof item.levelCap !== "number") return [];
   if (!item.levelPerCharacter) return [{ key: item.id, item, characterId: null }];
   return data.characters
     .filter((c) => item.usableBy?.includes(c.id))
-    .map((c) => ({ key: `${item.id}:${c.id}`, item, characterId: c.id }));
+    .map((c) => ({ key: levelKey(item, c.id), item, characterId: c.id }));
 });
 
 /** Level progress counts from level 1, so a fresh item is 0% and a maxed one is 100%. */

@@ -4,67 +4,151 @@
       "id": "soma-cruz",
       "name": "Soma Cruz",
       "dlc": false,
-      "portraitUrl": "/images/characters/soma-cruz.webp"
+      "portraitUrl": "/images/characters/soma-cruz.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/a/aa/Soma_HD.png/revision/latest?cb=20191114220949",
+      "buildSlotLabels": {
+        "hunterSkill1": "Bullet Soul 1",
+        "hunterSkill2": "Bullet Soul 2",
+        "hunterSkill3": "Bullet Soul 3",
+        "hunterSkill4": "Bullet Soul 4",
+        "personalSkill": "Guardian Soul"
+      }
     },
     {
       "id": "alucard",
       "name": "Alucard",
       "dlc": false,
-      "portraitUrl": "/images/characters/alucard.webp"
+      "portraitUrl": "/images/characters/alucard.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/1/18/Alucard_HD.png/revision/latest?cb=20181007080406",
+      "buildSlotLabels": {
+        "hunterSkill1": "Dark Magic 1",
+        "hunterSkill2": "Dark Magic 2",
+        "hunterSkill3": "Dark Magic 3",
+        "hunterSkill4": "Dark Magic 4"
+      }
     },
     {
       "id": "jonathan-morris",
       "name": "Jonathan Morris",
       "dlc": false,
-      "portraitUrl": "/images/characters/jonathan-morris.webp"
+      "portraitUrl": "/images/characters/jonathan-morris.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/b/ba/Jonathan_Morris_-_05.png/revision/latest?cb=20190929114026",
+      "disabledBuildSlots": [
+        "offHand"
+      ],
+      "buildSlotLabels": {
+        "hunterSkill1": "Sub-Weapon 1",
+        "hunterSkill2": "Sub-Weapon 2",
+        "hunterSkill3": "Sub-Weapon 3",
+        "hunterSkill4": "Sub-Weapon 4"
+      }
     },
     {
       "id": "charlotte-aulin",
       "name": "Charlotte Aulin",
       "dlc": false,
-      "portraitUrl": "/images/characters/charlotte-aulin.webp"
+      "portraitUrl": "/images/characters/charlotte-aulin.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/b/b5/Charlotte_HD.png/revision/latest?cb=20190929114725",
+      "disabledBuildSlots": [
+        "offHand"
+      ],
+      "buildSlotLabels": {
+        "hunterSkill1": "Bound Spell 1",
+        "hunterSkill2": "Bound Spell 2",
+        "hunterSkill3": "Bound Spell 3",
+        "hunterSkill4": "Bound Spell 4"
+      }
     },
     {
       "id": "shanoa",
       "name": "Shanoa",
       "dlc": false,
-      "portraitUrl": "/images/characters/shanoa.webp"
+      "portraitUrl": "/images/characters/shanoa.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/1/1b/Shanoa_HOD.png/revision/latest?cb=20190930033559",
+      "buildSlotLabels": {
+        "hunterSkill1": "Glyph 1",
+        "hunterSkill2": "Glyph 2",
+        "hunterSkill3": "Glyph 3",
+        "hunterSkill4": "Glyph 4"
+      }
     },
     {
       "id": "julius-belmont",
       "name": "Julius Belmont",
       "dlc": true,
-      "portraitUrl": "/images/characters/julius-belmont.webp"
+      "portraitUrl": "/images/characters/julius-belmont.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c3/Julius_Belmont_HD.png/revision/latest?cb=20240601160531",
+      "disabledBuildSlots": [
+        "offHand"
+      ],
+      "buildSlotLabels": {
+        "hunterSkill1": "Sub-Weapon 1",
+        "hunterSkill2": "Sub-Weapon 2",
+        "hunterSkill3": "Sub-Weapon 3",
+        "hunterSkill4": "Sub-Weapon 4"
+      }
     },
     {
       "id": "yoko-belnades",
       "name": "Yoko Belnades",
       "dlc": true,
-      "portraitUrl": "/images/characters/yoko-belnades.webp"
+      "portraitUrl": "/images/characters/yoko-belnades.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/a/a3/Yoko_HD.PNG/revision/latest?cb=20191001151751",
+      "disabledBuildSlots": [
+        "offHand"
+      ]
     },
     {
       "id": "richter-belmont",
       "name": "Richter Belmont",
       "dlc": true,
-      "portraitUrl": "/images/characters/richter-belmont.webp"
+      "portraitUrl": "/images/characters/richter-belmont.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/b/bc/Richter_HOD.png/revision/latest?cb=20190930033701",
+      "disabledBuildSlots": [
+        "offHand"
+      ],
+      "buildSlotLabels": {
+        "hunterSkill1": "Sub-Weapon 1",
+        "hunterSkill2": "Sub-Weapon 2",
+        "hunterSkill3": "Sub-Weapon 3",
+        "hunterSkill4": "Sub-Weapon 4"
+      }
     },
     {
       "id": "maria-renard",
       "name": "Maria Renard",
       "dlc": true,
-      "portraitUrl": "/images/characters/maria-renard.webp"
+      "portraitUrl": "/images/characters/maria-renard.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/4/4f/Maria_-_Harmony_of_Despair.PNG/revision/latest?cb=20230727012843",
+      "disabledBuildSlots": [
+        "offHand"
+      ]
     },
     {
       "id": "simon-belmont",
       "name": "Simon Belmont",
       "dlc": true,
-      "portraitUrl": "/images/characters/simon-belmont.webp"
+      "portraitUrl": "/images/characters/simon-belmont.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/5/52/Simon_Belmont_-_Grimoire_of_Souls_-_02.png/revision/latest?cb=20191001062239",
+      "disabledBuildSlots": [
+        "offHand"
+      ],
+      "buildSlotLabels": {
+        "hunterSkill1": "Sub-Weapon 1",
+        "hunterSkill2": "Sub-Weapon 2",
+        "hunterSkill3": "Sub-Weapon 3",
+        "hunterSkill4": "Sub-Weapon 4"
+      }
     },
     {
       "id": "getsu-fuma",
       "name": "Getsu Fuma",
       "dlc": true,
-      "portraitUrl": "/images/characters/getsu-fuma.webp"
+      "portraitUrl": "/images/characters/getsu-fuma.webp",
+      "artUrl": "https://static.wikia.nocookie.net/castlevania/images/3/39/Getsu_Fuma_-_01.png/revision/latest/thumbnail/width/360/height/360?cb=20190817220248",
+      "disabledBuildSlots": [
+        "offHand"
+      ]
     }
   ],
   "chapters": [
@@ -9832,7 +9916,7 @@
       ],
       "starterGear": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/0/03/Belnades_Staff_HD_Icon.png/revision/latest?cb=20191011204453",
-      "handedness": null
+      "handedness": "1h"
     },
     {
       "id": "otherWeapons-book-of-binding",
@@ -9848,14 +9932,14 @@
     {
       "id": "otherWeapons-confodere",
       "name": "Confodere",
-      "slot": "glyphs",
+      "slot": "weapons",
       "listFirst": true,
       "usableBy": [
         "shanoa"
       ],
       "starterGear": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
-      "handedness": null,
+      "handedness": "1h",
       "levelable": true,
       "maxLevel": 2
     },
@@ -9922,7 +10006,7 @@
     {
       "id": "otherWeapons-lapiste",
       "name": "Lapiste",
-      "slot": "glyphs",
+      "slot": "weapons",
       "listFirst": true,
       "usableBy": [
         "shanoa"
@@ -9934,7 +10018,7 @@
         "Astarte (Normal)"
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
-      "handedness": null,
+      "handedness": "1h",
       "levelable": true,
       "maxLevel": 2
     },
@@ -9987,7 +10071,7 @@
     {
       "id": "otherWeapons-pneuma",
       "name": "Pneuma",
-      "slot": "glyphs",
+      "slot": "weapons",
       "listFirst": true,
       "usableBy": [
         "shanoa"
@@ -9999,7 +10083,7 @@
         "Astarte (Normal)"
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
-      "handedness": null,
+      "handedness": "1h",
       "levelable": true,
       "maxLevel": 2
     },
@@ -12082,6 +12166,16 @@
           "difficulty": "Hard"
         }
       ],
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
+    },
+    {
+      "id": "martialArts-swing-whip",
+      "name": "Swing Whip",
+      "slot": "martialArts",
+      "usableBy": [
+        "julius-belmont"
+      ],
+      "starterGear": true,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/3/31/Subweapon_PoR_Icon.png/revision/latest/scale-to-width-down/50?cb=20150829015104"
     },
     {
@@ -14739,8 +14833,7 @@
       "name": "Philosopher's Stone",
       "slot": "personalSkills",
       "usableBy": [
-        "yoko-belnades",
-        "maria-renard"
+        "yoko-belnades"
       ],
       "enemyDrops": [
         "Beelzebub"
@@ -14748,6 +14841,16 @@
       "levelable": true,
       "maxLevel": 9,
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/6/60/Philosophers_stone.PNG/revision/latest?cb=20191012090126"
+    },
+    {
+      "id": "personalSkills-bound-spells",
+      "name": "Bound Spells",
+      "slot": "personalSkills",
+      "usableBy": [
+        "charlotte-aulin"
+      ],
+      "starterGear": true,
+      "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/c/c4/Tome_of_Arms_Icon.png/revision/latest/scale-to-width-down/111?cb=20150811175445"
     },
     {
       "id": "soulsBlue-gaibon",
@@ -15327,7 +15430,7 @@
     {
       "id": "otherWeapons-dextro-custos",
       "name": "Dextro Custos",
-      "slot": "glyphs",
+      "slot": "weapons",
       "listFirst": true,
       "usableBy": [
         "shanoa"
@@ -15343,12 +15446,13 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
       "levelable": true,
-      "maxLevel": 2
+      "maxLevel": 2,
+      "handedness": "1h"
     },
     {
       "id": "otherWeapons-sinestro-custos",
       "name": "Sinestro Custos",
-      "slot": "glyphs",
+      "slot": "weapons",
       "listFirst": true,
       "usableBy": [
         "shanoa"
@@ -15364,7 +15468,8 @@
       ],
       "iconUrl": "https://static.wikia.nocookie.net/castlevania/images/4/45/Glyphspell_HD_Icon.png/revision/latest?cb=20191011204125",
       "levelable": true,
-      "maxLevel": 2
+      "maxLevel": 2,
+      "handedness": "1h"
     },
     {
       "id": "scrolls-r-fireball",

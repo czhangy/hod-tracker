@@ -28,7 +28,9 @@ export function Sidebar({
             className={`flex cursor-pointer items-center gap-3 rounded-lg border px-3 py-2 text-left transition-colors ${
               isSelected
                 ? "border-red-600 bg-red-950/30"
-                : "border-neutral-800 bg-neutral-900/50 hover:border-neutral-700"
+                : isComplete
+                  ? "border-green-800 bg-green-900/30 hover:border-green-700"
+                  : "border-neutral-800 bg-neutral-900/50 hover:border-neutral-700"
             }`}
           >
             <CharacterAvatar character={character} size={32} />

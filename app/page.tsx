@@ -8,15 +8,16 @@ import { Sidebar } from "@/components/Sidebar";
 import { CharacterDetail } from "@/components/CharacterDetail";
 import { ItemsPanel } from "@/components/ItemsPanel";
 import { LevelingPanel } from "@/components/LevelingPanel";
+import { BuildsPanel } from "@/components/BuildsPanel";
 
-type Tab = "characters" | "items" | "leveling";
+type Tab = "characters" | "items" | "leveling" | "builds";
 
 export default function Home() {
-  const { progress, toggleChapter, toggleItem, adjustItemCount, adjustItemLevel } = useProgress();
+  const { progress, toggleChapter, toggleItem, adjustItemCount, adjustItemLevel, setBuildSlot } = useProgress();
   const [tab, setTab] = usePersistedState<Tab>(
     "hod-tracker-tab",
     "characters",
-    (v) => v === "characters" || v === "items" || v === "leveling"
+    (v) => v === "characters" || v === "items" || v === "leveling" || v === "builds"
   );
   const [selectedCharacterId, setSelectedCharacterId] = usePersistedState<string>(
     "hod-tracker-character",
@@ -59,6 +60,16 @@ export default function Home() {
         >
           Leveling
         </button>
+        <button
+          onClick={() => setTab("builds")}
+          className={`cursor-pointer rounded-md px-3 py-1.5 font-semibold tracking-wide ${
+            tab === "builds"
+              ? "bg-red-950/50 text-red-400"
+              : "text-neutral-500 hover:text-neutral-300"
+          }`}
+        >
+          Builds
+        </button>
       </div>
 
       {tab === "characters" && (
@@ -85,6 +96,7 @@ export default function Home() {
       {tab === "leveling" && (
         <LevelingPanel progress={progress} onAdjustItemLevel={adjustItemLevel} />
       )}
+      {tab === "builds" && <BuildsPanel progress={progress} onSetBuildSlot={setBuildSlot} />}
     </div>
   );
 }

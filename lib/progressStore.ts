@@ -7,6 +7,7 @@ const EMPTY_STATE: ProgressState = {
   chapterClears: {},
   itemsObtained: {},
   itemLevels: {},
+  builds: {},
 };
 
 type Listener = () => void;
@@ -42,6 +43,7 @@ function readFromStorage(): ProgressState {
       chapterClears: parsed.chapterClearsHard ?? parsed.chapterClears ?? {},
       itemsObtained: migrateItemsObtained(parsed.itemsObtained),
       itemLevels: parsed.itemLevels && typeof parsed.itemLevels === "object" ? parsed.itemLevels : {},
+      builds: parsed.builds && typeof parsed.builds === "object" ? parsed.builds : {},
     };
   } catch {
     return EMPTY_STATE;
@@ -129,4 +131,17 @@ export function adjustItemLevel(key: string, delta: number) {
     ...state,
     itemLevels: { ...state.itemLevels, [key]: next },
   });
+}
+
+/** Equips an item in a build slot, or empties the slot when itemId is null. */
+export function setBuildSlot(characterId: string, slotKey: string, itemId: string | null) {
+  ensureInitialized();
+  const build = { ...(state.builds[characterId] ?? {}) };
+  if (itemId) build[slotKey] = itemId;
+  else delete build[slotKey];
+  // A two-handed main hand leaves no room for an off-hand item.
+  if (slotKey === "mainHand" && itemId) {
+    if (data.items.find((i) => i.id === itemId)?.handedness === "2h") delete build.offHand;
+  }
+  commit({ ...state, builds: { ...state.builds, [characterId]: build } });
 }
